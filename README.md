@@ -73,6 +73,10 @@ If you already have access to ubuntu instance, you can skip this section.
 1. The data set used in this example is a random sample of about 2000 emails (emlx) from
 <a href="https://www.kaggle.com/datasets/konradb/hunter-biden-emails">Kaggle</a>
 2. Copy these emails to emails folder and run createindex.py to create the vector index for query.
+```bash     
+    cd api        
+    python createindex.py
+```
 
 #### Bring up the website and api service
 ```bash
