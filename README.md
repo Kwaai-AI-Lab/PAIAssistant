@@ -19,7 +19,7 @@ PAIAssistant is a AI tool designed for users interact with emails via natural la
 The best way to support TruLens is to give us a ⭐ on [GitHub](https://github.com/KWAAI-ai-lab/paiassistant) and join our [slack community](https://kwaaiailab.slack.com)!
 
 ### Demo clip
-![](doc/DemoPA.mp4) 
+![](doc/DemoPA.gif) 
 
 ### Installation and Setup
 The steps below can be used to setup the enviroment for this demo to run on Ubuntu 20.04.6 LTS.
