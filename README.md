@@ -70,14 +70,19 @@ If you already have access to ubuntu instance, you can skip this section.
 3. Change directory to api. Update config.ini to update host/port parameters if needed.
 
 ### Data set and index
-1. The data set used in this example is a random sample of about 2000 emails (emlx) from
+Current version has 250 random emails in email folder ready for indexing. Basic and sentence indexes are also provided so you can start playing with demo without further indexing work. If you need to index with your own custom data follow these steps.
+
+1. You can use your own email data in plain text format or use the data set used in this example and random sample from
 <a href="https://www.kaggle.com/datasets/konradb/hunter-biden-emails">Kaggle</a>
-2. Copy these emails to emails folder and run createindex.py to create the vector index for query.
+2. Copy these emails to emails folder and run createindex.py to create the vector index (basic/sentence/automerge) for query.
 ```bash     
     cd api    
     export OPENAI_API_KEY=<YOUR OPENAI API KEY>    
     python createindex.py
 ```
+
+#### Choose index to query
+Choose which version of index to query by updating the config.ini in api folder [api] section.
 
 #### Bring up the website and api service
 ```bash
