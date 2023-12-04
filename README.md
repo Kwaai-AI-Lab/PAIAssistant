@@ -88,5 +88,5 @@ If you already have access to ubuntu instance, you can skip this section.
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/license/mit/) licensed.
+This project is [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) licensed.
 
