@@ -1,0 +1,646 @@
+36247     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs377130wev; Mon, 4 Jan 2010
+ 18:45:25 -0800 (PST)
+Received: by 10.150.25.30 with SMTP id 30mr19354599yby.83.1262659524423; Mon,
+ 04 Jan 2010 18:45:24 -0800 (PST)
+Return-Path: <virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 28si31222453iwn.115.2010.01.04.18.45.22; Mon,
+ 04 Jan 2010 18:45:23 -0800 (PST)
+Received-SPF: fail (google.com: domain of
+ virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com
+ does not designate 72.32.253.68 as permitted sender) client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of
+ virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com
+ does not designate 72.32.253.68 as permitted sender)
+ smtp.mail=virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com;
+ dkim=pass header.i=info@fly.virginamerica.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: virginamerica_eac1607db688af8db6a181274ebf84db@guestcare.virginamerica.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-30/SG:5 1/4/2010 8:44:45 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=0.7775 p=-0.870968 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 92591513
+ for hbiden@rosemontseneca.com; Mon, 04 Jan 2010 20:45:26 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Mon, 4 Jan 2010 20:45:22 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 266440155
+ for hbiden@senecaga.com; Mon, 04 Jan 2010 20:45:26 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-30/SG:5 1/4/2010 8:44:18 PM
+X-GBUdb-Analysis: 0, 74.203.57.69, Ugly c=0.200527 p=-1 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Warn: OPTOUT
+X-Note: Spam Tests Failed: OPTOUT
+X-Country-Path: ->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 74.203.57.69
+X-Note-Reverse-DNS: va01.wc09.net
+X-Note-WHTLIST: EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G198 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from va01.wc09.net ([74.203.57.69] verified) by inbound.appriver.com
+ (CommuniGate Pro SMTP 5.2.16) with ESMTP id 17366846 for hbiden@senecaga.com;
+ Mon, 04 Jan 2010 20:45:19 -0600
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1;
+ d=fly.virginamerica.com;
+ h=From:To:Subject:Date:Reply-To:Message-ID:MIME-version:Content-type;
+ i=info@fly.virginamerica.com; bh=GPykFaiQE1qmUUT5sIbkEozvLU0=;
+ b=CCJFNoTVh28iJ7vPBtDH7x0YfSPX6/eOgeEjzufFk5i3Gu+vdWWbTuBJlxCOeR9sddUC/8Qr6CAy
+ socRSshRKA==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1;
+ d=fly.virginamerica.com;
+ b=XPDDtq0W6sh9jBxNGEABP582sgISOQlniB29T/DRttIqgGeiaXFrv6BWJVBjFzXCCQggZwJUSxRv
+ I/fEr96zwQ==;
+Received: from fly.virginamerica.com (172.16.5.23) by va01.wc09.net
+ (PowerMTA(TM) v3.5r15) id h8ajv80kup8c for <hbiden@senecaga.com>; Mon, 4 Jan
+ 2010 18:45:12 -0800 (envelope-from
+ <virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com>)
+From: "Virgin America" <info@fly.virginamerica.com>
+To: hbiden@senecaga.com
+Subject: ON SALE NOW! Bubbly Low Fares
+Date: 04 Jan 2010 18:44:21 -0800
+Reply-To: "Virgin America"
+ <virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com>
+ENVID: WC-1262659461454-1DF
+Message-ID: <EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com>
+X-TokenInfo-NoToken: 
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="======1262659452446======"
+X-Mailer: WhatCounts
+Return-Path: virginamerica_EAC1607DB688AF8DB6A181274EBF84DB@guestcare.virginamerica.com
+X-OriginalArrivalTime: 05 Jan 2010 02:45:22.0345 (UTC)
+ FILETIME=[2042B190:01CA8DB1]
+
+
+--======1262659452446======
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=iso-8859-1
+
+Having trouble viewing this message? No problem, just click
+here:=0D=0Ahttp://clicks.virginamerica.com/dm?id=3DEAC1607DB688AF8DB6A181274EBF84DB=0D=0A=0D=0A=0D=0AON
+SALE NOW!=0D=0ABubbly Low Fares for a Happy New Year=0D=0ASpecial
+Fares. Book by 01.11.10=0D=0A=0D=0ARobert,=0D=0A=0D=0AA new year
+is here, and so is the Virgin America fare sale. Make a
+resolution to fly in style with WiFi, movies on demand, food and
+drinks, and more - at a fabulously low fare. The countdown has
+already begun, so break out the bubbly and book your ticket now
+before it's too late. 3...2...1...Happy Low
+Fares!=0D=0A=0D=0ABook by January 11 and fly January 7 through
+March 10. Low fares also available through June
+20.=0D=0A=0D=0AGrab a seat at
+http://fly.virginamerica.com/t?ctl=3D2E36:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0A=0D=0A=0D=0AFrom
+$39* each way=0D=0ASan Francisco - San Diego=0D=0ASan Francisco -
+Los Angeles=0D=0ASan Francisco - Las Vegas=0D=0ASan Francisco -
+Orange County 	 =0D=0A=0D=0AFrom $59* each way=0D=0ASeattle - San
+Francisco=0D=0A=0D=0AFrom $79* each way=0D=0ASeattle - Los
+Angeles=0D=0A=0D=0AFrom $99* each way=0D=0ABoston - San
+Francisco=0D=0ABoston - Los Angeles =0D=0AWashington, D.C.
+(Dulles) - San Francisco=0D=0AWashington, D.C. (Dulles) - Los
+Angeles =0D=0A=0D=0AFrom $109* each way=0D=0AFort Lauderdale -
+San Francisco=0D=0AFort Lauderdale - Los Angeles=0D=0ANew York
+(JFK) - Las Vegas=0D=0ANew York (JFK) - Los Angeles=0D=0ANew York
+(JFK) - San Francisco=0D=0A=0D=0A=0D=0ASTAY
+CONNECTED=0D=0AExplore our Community at
+http://fly.virginamerica.com/t?ctl=3D2E37:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0AFind
+Us at Facebook at
+http://fly.virginamerica.com/t?ctl=3D2E38:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0AFind
+Us at Twitter at
+http://fly.virginamerica.com/t?ctl=3D2E39:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0AFind
+Us at YouTube at
+http://fly.virginamerica.com/t?ctl=3D2E3A:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0A=0D=0AFLY
+FREE FASTER=0D=0A=0D=0ATo learn more about the Absurdly Simple
+Airline Rewards Card, please visit
+http://fly.virginamerica.com/t?ctl=3D2E3B:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0A=0D=0AThe
+fly way to buy (TM).=0D=0A=0D=0A=0D=0ATERMS AND
+CONDITIONS:=0D=0A* All Main Cabin fares are one-way and require
+3-day advance purchase. Tickets are non-refundable and
+non-transferable. Tickets must be purchased by 11:59pm 1.11.10.
+Travel must occur between 01.07.10 and 03.10.10. Blackout dates
+are 02.12.10 and 02.15.10. Higher fares are available for travel
+between 03.11.10 and 06.20.10. Blackout dates are 05.28.10 and
+05.31.10. Seats are limited, subject to availability, and may not
+be available on all flights. Flight may not operate daily during
+off-peak periods. Changes or cancellations can be made for a $75
+fee if changes are made on Virgin America's website at
+http://fly.virginamerica.com/t?ctl=3D2E3C:EAC1607DB688AF8DB6A181274EBF84DB&
+or a $100 fee through all other channels, including the call
+center and at the airport, plus any increase in fare, if
+applicable. Guests who no-show without a change or cancel prior
+to the scheduled departure time will forfeit the amount of this
+fare. In addition, any future flights booked in the same
+reservation will also be canceled and the fare will be forfeited.
+Tickets purchased from Virgin America through our reservation
+call center will cost an additional $15 per guest per itinerary.
+Any added cost associated with purchasing tickets from Virgin
+America through our reservation call center will be
+non-refundable. Fares do not include Passenger Facility Charges
+of up to $9 each way, September 11th Security Fees of up to $5
+each way and a Federal Segment Tax of $3.70 per domestic segment.
+A segment is a takeoff and landing. Fares will not be honored
+retroactively or in exchange for any wholly or partially used
+ticket. Fares, routes, fees and schedules are subject to change
+without notice. Virgin America will accept one (1) piece of
+checked baggage up to 70 pounds for $20 for each ticketed guest.
+The fee per guest for each additional checked bag up to 50 pounds
+from the second (2) to the tenth (10) is $20. Additional fees
+apply to baggage exceeding these weight limitations, and other
+baggage restrictions may apply.=0D=0A=0D=0A=0D=0AThis message is
+from:=0D=0AVirgin America Inc. 555 Airport Blvd, Suite #450,
+Burlingame, CA 94010=0D=0A=0D=0AThis is an automated message from
+Virgin America; please do not reply to this
+message.=0D=0A=0D=0AUnsubscribe at
+http://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1320&email=3Dhbiden@senecaga.com.
+=0D=0ASo many e-mails, so little time. If you'd like to stop
+receiving Elevate email updates and promotions from Virgin
+America, please follow this link:
+http://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1321&email=3Dhbiden@senecaga.com
+and simply enter and confirm your email address, or contact us
+via post at Attn: Guest Care Virgin America P.O.Box 4271,
+Burlingame, CA 94010. =0D=0A=0D=0AYour Privacy is important to
+us. You can read more about Virgin America's Unsubscribe &
+Privacy Policies at
+http://fly.virginamerica.com/t?ctl=3D2E3D:EAC1607DB688AF8DB6A181274EBF84DB&=0D=0A=0D=0A(C)
+2009 Virgin America=0D=0A 
+--======1262659452446======
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=iso-8859-1
+
+<font style=3D"font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px; color:#666666">Having trouble viewing this
+message? No problem, just <a
+href=3D"http://fly.virginamerica.com/dm?id=3DEAC1607DB688AF8DB6A181274EBF84DB"><font
+color=3D"#d10103">click here</font></a></font>=0D=0A<table
+width=3D"594" cellpadding=3D"15" cellspacing=3D"0" border=3D"0"
+bgcolor=3D"#c6c7c8"
+style=3D"background-color:#c6c7c8;">=0D=0A<tr>=0D=0A<td>=0D=0A<table
+width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+bgcolor=3D"#c6c7c8">=0D=0A <tr>=0D=0A <td colspan=3D"2"
+style=3D"font-size:1px; color:#c6c7c8">ON SALE NOW! Bubbly Low
+Fares from $39* <a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E3E:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#c6c7c8">Grab A
+Seat</font></a></td>=0D=0A </tr>=0D=0A <!--header-->=0D=0A
+<tr>=0D=0A <td colspan=3D"2"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E3F:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20100105_fare_sale/VX_JanFS_Email_Masthead_01.jpg"
+alt=3D"ON SALE NOW! BUBBLY LOW FARES FOR A HAPPY NEW YEAR SPECIAL
+FARES. BOOK BY 01.11.10" title=3D"ON SALE NOW! BUBBLY LOW FARES
+FOR A HAPPY NEW YEAR SPECIAL FARES. BOOK BY 01.11.10"
+width=3D"564" height=3D"149" border=3D"0" /></a></td>=0D=0A
+</tr>=0D=0A<tr>=0D=0A <td colspan=3D"2"><img
+src=3D"http://static.virginamerica.com/images/spacer.gif"
+height=3D"8" width=3D"0" alt=3D"" /></td>=0D=0A </tr>=0D=0A
+<tr>=0D=0A <td width=3D"564" colspan=3D"2">=0D=0A <table
+width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+bgcolor=3D"#c6c7c8">=0D=0A <tr>=0D=0A <td><img
+src=3D"http://static.virginamerica.com/images/email/022808/box_top.gif"
+alt=3D"" /></td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td>=0D=0A <table
+width=3D"564" cellpadding=3D"0" cellspacing=3D"0"
+bgcolor=3D"#ffffff">=0D=0A <tr>=0D=0A <td style=3D"padding:20px
+10px 0 20px; font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px; color:#666666" valign=3D"top">Robert,<br
+/>=0D=0A<br />=0D=0AA new year is here, and so is the Virgin
+America fare sale. Make a resolution to fly in style with WiFi,
+movies on demand, food and drinks, and more &#8212; at a
+fabulously low fare. The countdown has already begun, so break
+out the bubbly and book your ticket now before it&rsquo;s too
+late. 3...2...1... Happy Low Fares!<br /><br />=0D=0A=0D=0ABook
+by January 11 and fly January 7 through March 10. Low fares also
+available through June
+20.=0D=0A</td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td style=3D"padding:00"
+colspan=3D"2">=0D=0A<table width=3D"100%" border=3D"0"
+cellspacing=3D"0" cellpadding=3D"0">=0D=0A <tr>=0D=0A <td
+style=3D"padding:14px 0 0 26px; font-family:Verdana, Arial,
+Helvetica, sans-serif; font-size:12px; color:#666666;"
+width=3D"130"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E40:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20090723_elevate_update/grab_a_seat_btn.gif"
+border=3D"0" alt=3D"Grab a seat" title=3D"Grab a seat"
+/></a></td>=0D=0A <td style=3D"padding:22px 15px 6px 15px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px; color:#666666;" align=3D"left" width=3D"434"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E41:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://wifi.virginamerica.com/tweet_this_btn.gif"
+border=3D"0" alt=3D"Tweet This" /></a></td>=0D=0A
+</tr>=0D=0A</table>=0D=0A</td>=0D=0A</tr>=0D=0A<tr>=0D=0A <td
+valign=3D"top" colspan=3D"2" bgcolor=3D"#ffffff">=0D=0A <table
+width=3D"564" cellpadding=3D"0" cellspacing=3D"0"
+bgcolor=3D"#ffffff">=0D=0A <tr>=0D=0A<td style=3D"padding:20px
+0px 11px 20px" bgcolor=3D"#ffffff" align=3D"center"
+valign=3D"top" width=3D"564">=0D=0A<table border=3D"0"
+cellspacing=3D"0" cellpadding=3D"0">=0D=0A <tr>=0D=0A 	 <td
+style=3D"padding-top:15px; border-bottom: solid 1px #a09f9f;
+">=0D=0A 	 <table cellpadding=3D"0" cellspacing=3D"0"
+width=3D"238">=0D=0A <tr>=0D=0A <td style=3D"padding:12px 0 7px
+0;" align=3D"center" valign=3D"top" width=3D"226">=0D=0A <table
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D=0A
+<tr>=0D=0A <td style=3D"font-family:Verdana, Arial, Helvetica,
+sans-serif; font-size:12px; font-weight: bold; color:#d10103;
+padding:5px 26px 0 0;" valign=3D"top" align=3D"right">Book
+by:</td>=0D=0A <td style=3D"font-family:Verdana, Arial,
+Helvetica, sans-serif; font-size:12px; color:#d10103; padding:5px
+0 0 5px;" valign=3D"top">January 11</td>=0D=0A </tr>=0D=0A
+</table>=0D=0A </td>=0D=0A </tr>=0D=0A </table>=0D=0A </td>=0D=0A
+<th style=3D"padding:0;" valign=3D"bottom" align=3D"left"
+scope=3D"col" width=3D"191"><img
+src=3D"http://static.virginamerica.com/images/email/20100105_fare_sale/fare_sale_table_header_v2.gif"
+width=3D"191" height=3D"45" alt=3D"Fly with 3-day advanced
+purchase through March 10, 2010" title=3D"Fly with 3-day advanced
+purchase through March 10, 2010" /></th>=0D=0A </tr>=0D=0A
+<tr>=0D=0A <td style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px #a09f9f"
+width=3D"254"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">San Francisco - Las
+Vegas</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px 75px;
+color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px #a09f9f;"
+width=3D"113">$39*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">San Francisco - Los
+Angeles</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$39*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">San Francisco - Orange
+County</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$39*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">San Francisco - San
+Diego</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px 75px;
+color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$39*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Seattle - San
+Francisco</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$59*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Seattle - Los
+Angeles</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$79*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Boston - San
+Francisco</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$99*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Boston - Los
+Angeles</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$99*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Washington, D.C.
+(Dulles) - San Francisco</font></a></td>=0D=0A <td
+style=3D"padding: 5px 0 5px 75px; color:#d10103;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px #a09f9f;
+border-right: solid 1px #a09f9f;">$99*</td>=0D=0A </tr>=0D=0A
+<tr>=0D=0A <td style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Washington, D.C.
+(Dulles) - Los Angeles</font></a></td>=0D=0A <td
+style=3D"padding: 5px 0 5px 75px; color:#d10103;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px #a09f9f;
+border-right: solid 1px #a09f9f;">$99*</td>=0D=0A </tr>=0D=0A
+<tr>=0D=0A <td style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Fort Lauderdale - San
+Francisco</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$109*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Fort Lauderdale - Los
+Angeles</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$109*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">New York (JFK) - Las
+Vegas</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px 75px;
+color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$109*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">New York (JFK) - Los
+Angeles</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$109*</td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding: 5px 0 5px 10px; color:#333333;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+border-left: solid 1px #a09f9f; border-bottom: solid 1px
+#a09f9f"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E42:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">New York (JFK) - San
+Francisco</font></a></td>=0D=0A <td style=3D"padding: 5px 0 5px
+75px; color:#d10103; font-family:Verdana, Geneva, sans-serif;
+font-size:11px; border-left: solid 1px #a09f9f; border-bottom:
+solid 1px #a09f9f; border-right: solid 1px
+#a09f9f;">$109*</td>=0D=0A </tr>=0D=0A
+</table>=0D=0A</td>=0D=0A</tr>=0D=0A </table></td>=0D=0A
+</tr>=0D=0A </table></td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td><img
+src=3D"http://static.virginamerica.com/images/email/022808/box_bottom.gif"
+alt=3D"" width=3D"564" height=3D"9" /></td>=0D=0A </tr>=0D=0A
+</table></td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td colspan=3D"2"><img
+src=3D"http://static.virginamerica.com/images/spacer.gif"
+height=3D"8" width=3D"0" alt=3D"" /></td>=0D=0A </tr>=0D=0A
+<tr>=0D=0A <td width=3D"380" valign=3D"top"><table width=3D"380"
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+bgcolor=3D"#c6c7c8">=0D=0A <tr>=0D=0A <td width=3D"380"><img
+src=3D"http://static.virginamerica.com/images/email/20100105_fare_sale/box_top_black_stay_connected.gif"
+alt=3D"Stay Connected" title=3D"Stay Connected" /></td>=0D=0A
+</tr>=0D=0A <tr>=0D=0A <td width=3D"380"><table width=3D"380"
+cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff">=0D=0A
+<tr>=0D=0A <td width=3D"380" style=3D"padding-top:23px;
+padding-bottom:3px"><table width=3D"380">=0D=0A <tr>=0D=0A
+<td style=3D"padding:15px 10px 10px 10px;"
+bgcolor=3D"#ffffff" width=3D"33%" align=3D"center"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E43:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSale/Thisishowtofly_logo.jpg"
+alt=3D"Explore our Community" title=3D"Explore our Community"
+width=3D"179" height=3D"30" border=3D"0" /></a></td>=0D=0A <td
+style=3D"padding:15px 10px 10px 10px;" bgcolor=3D"#ffffff"
+width=3D"33%" align=3D"center"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E38:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSale/facebook_88x27.jpg"
+alt=3D"Find Us at Facebook" title=3D"Find Us at Facebook"
+width=3D"88" height=3D"27" border=3D"0" /></a></td>=0D=0A
+</tr>=0D=0A <tr>=0D=0A 	 	 	 	 	 <td style=3D"padding:15px 10px
+10px 10px;" bgcolor=3D"#ffffff" width=3D"33%" align=3D"center"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E39:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSale/twitter_129x27.jpg"
+alt=3D"Find Us at Twitter" title=3D"Find Us at Twitter"
+width=3D"129" height=3D"27" border=3D"0" /></a></td>=0D=0A <td
+style=3D"padding:15px 10px 10px 10px;" bgcolor=3D"#ffffff"
+width=3D"33%" align=3D"center"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E3A:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSale/youtube-logo_74x27.jpg"
+alt=3D"Find Us at YouTube" title=3D"Find Us at YouTube"
+width=3D"74" height=3D"27" border=3D"0" /></a></td>=0D=0A
+</tr>=0D=0A </table></td>=0D=0A =0D=0A </tr>=0D=0A
+</table></td>=0D=0A =0D=0A </tr>=0D=0A <tr>=0D=0A <td><img
+src=3D"http://static.virginamerica.com/images/email/20090120/box_bottom_white_380.gif"
+width=3D"380" height=3D"8" /></td>=0D=0A =0D=0A=0D=0A </tr>=0D=0A
+</table></td>=0D=0A <td width=3D"184" align=3D"right"
+valign=3D"top" bgcolor=3D"#C6C7C8">=0D=0A <table width=3D"175"
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D=0A
+<tr>=0D=0A <td><img
+src=3D"http://static.virginamerica.com/images/email/20100105_fare_sale/box_top_black_fly_free_faster.gif"
+alt=3D"Fly Free Faster" title=3D"Fly Free Faster" width=3D"175"
+height=3D"38" /></td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td
+style=3D"padding-top:10px" bgcolor=3D"#ffffff" valign=3D"middle"
+align=3D"center"><a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E44:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><img
+src=3D"http://static.virginamerica.com/images/email/20090120/credit_card.jpg"
+alt=3D"Absurdly Simple Airline Rewards Card. The fly way to buy
+(TM)." title=3D"Absurdly Simple Airline Rewards Card. The fly way
+to buy (TM)." width=3D"145" height=3D"130" border=3D"0"
+/></a></td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td><img
+src=3D"http://static.virginamerica.com/images/email/20090120/box_bottom_white_175.gif"
+width=3D"175" height=3D"8" /></td>=0D=0A
+</tr>=0D=0A</table>=0D=0A</td>=0D=0A </tr>=0D=0A 	 <tr>=0D=0A
+<td colspan=3D"2"><img
+src=3D"http://static.virginamerica.com/images/spacer.gif"
+height=3D"8" width=3D"0" alt=3D"" /></td>=0D=0A 	 </tr>=0D=0A
+<tr>=0D=0A 	 <td colspan=3D"2">=0D=0A 	 <table width=3D"564"
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+bgcolor=3D"#ffffff">=0D=0A 	 <tr>=0D=0A 	 <td colspan=3D"4"><img
+src=3D"http://static.virginamerica.com/images/email/022808/box_top.gif"
+alt=3D""></td>=0D=0A 	 	 	 	 	 	 	 </tr>=0D=0A <tr>=0D=0A
+<td>=0D=0A 	 <table width=3D"100%" cellpadding=3D"10"
+cellspacing=3D"0" bgcolor=3D"#ffffff">=0D=0A 	 <tr> =0D=0A 	 <td
+width=3D"564" bgcolor=3D"#f8f8f8" align=3D"center" valign=3D"top"
+style=3D"padding:0">=0D=0A 	 <font style=3D"font: 11px Verdana,
+Arial; color:#666666;">=0D=0A 	 <a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E45:EAC1607DB688AF8DB6A181274EBF84DB&"
+style=3D"color:#666666; text-decoration:none;"
+target=3D"_blank"><b>Book
+Flights</b></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E46:EAC1607DB688AF8DB6A181274EBF84DB&"
+style=3D"color:#666666; text-decoration:none;"
+target=3D"_blank"><b>Travel
+Tools</b></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E47:EAC1607DB688AF8DB6A181274EBF84DB&"
+style=3D"color:#666666; text-decoration:none;"
+target=3D"_blank"><b>Information
+Desk</b></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E48:EAC1607DB688AF8DB6A181274EBF84DB&"
+style=3D"color:#666666; text-decoration:none;"
+target=3D"_blank"><b>Elevate</b></a>=0D=0A 	 </font>=0D=0A
+</td>=0D=0A </tr>=0D=0A 	 	 	 	 	 	 	 	 	 </table>=0D=0A
+</td>=0D=0A 	 	 	 	 	 	 	 </tr>=0D=0A <tr>=0D=0A 	 <td
+colspan=3D"4"><img
+src=3D"http://static.virginamerica.com/images/email/022808/box_bottom.gif"
+alt=3D""></td>=0D=0A 	 	 	 	 	 	 	 </tr>=0D=0A
+</table>=0D=0A </td>=0D=0A </tr>=0D=0A <tr>=0D=0A 	 <td
+colspan=3D"2"><img
+src=3D"http://static.virginamerica.com/images/spacer.gif"
+height=3D"8" width=3D"0" alt=3D"" /></td>=0D=0A 	 </tr>=0D=0A
+<tr>=0D=0A <td colspan=3D"2"><table width=3D"564" border=3D"0"
+cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#c6c7c8">=0D=0A
+<tr>=0D=0A <td><img
+src=3D"http://static.virginamerica.com/images/email/022808/box_top.gif"
+alt=3D"" /></td>=0D=0A </tr>=0D=0A <tr>=0D=0A <td><table
+width=3D"100%" cellspacing=3D"0" bgcolor=3D"#ffffff">=0D=0A
+<tr>=0D=0A <td><table width=3D"100%" cellspacing=3D"0"
+bgcolor=3D"#ffffff">=0D=0A <tr>=0D=0A <td
+valign=3D"top"><table>=0D=0A <tr>=0D=0A <td colspan=3D"4"
+bgcolor=3D"#ffffff" style=3D"padding:0px 15px 0px 15px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px; color:#666666"><strong>Terms and
+Conditions:</strong><br>=0D=0A* All Main Cabin fares are one-way
+and require 3-day advance purchase. Tickets are non-refundable
+and non-transferable. Tickets must be purchased by 11:59pm
+1.11.10. Travel must occur between 01.07.10 and 03.10.10.
+Blackout dates are 02.12.10 and 02.15.10. Higher fares are
+available for travel between 03.11.10 and 06.20.10. Blackout
+dates are 05.28.10 and 05.31.10. Seats are limited, subject to
+availability, and may not be available on all flights. Flight may
+not operate daily during off-peak periods. Changes or
+cancellations can be made for a $75 fee if changes are made on
+Virgin America&rsquo;s website (<a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E49:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font
+color=3D"#d10103">www.virginamerica.com</font></a>) or a $100 fee
+through all other channels, including the call center and at the
+airport, plus any increase in fare, if applicable. Guests who
+no-show without a change or cancel prior to the scheduled
+departure time will forfeit the amount of this fare. In addition,
+any future flights booked in the same reservation will also be
+canceled and the fare will be forfeited. Tickets purchased from
+Virgin America through our reservation call center will cost an
+additional $15 per guest per itinerary. Any added cost associated
+with purchasing tickets from Virgin America through our
+reservation call center will be non-refundable. Fares do not
+include Passenger Facility Charges of up to $9 each way,
+September 11th Security Fees of up to $5 each way and a Federal
+Segment Tax of $3.70 per domestic segment. A segment is a takeoff
+and landing. Fares will not be honored retroactively or in
+exchange for any wholly or partially used ticket. Fares, routes,
+fees and schedules are subject to change without notice. Virgin
+America will accept one (1) piece of checked baggage up to 70
+pounds for $20 for each ticketed guest. The fee per guest for
+each additional checked bag up to 50 pounds from the second (2)
+to the tenth (10) is $20. Additional fees apply to baggage
+exceeding these weight limitations, and other baggage
+restrictions may apply.<br /><br />=0D=0A=0D=0A <strong>This
+message is from:</strong><br />=0D=0A Virgin America Inc. 555
+Airport Blvd, Suite #450, Burlingame, CA 94010<br />=0D=0A <br
+/>=0D=0A This is an automated message from Virgin America; please
+do not reply to this message.<br />=0D=0A <br />=0D=0A <a
+href=3D"http://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1314&email=3Dhbiden@senecaga.com"
+target=3D"_blank"><font
+color=3D"#D10103"><strong>Unsubscribe</strong></font></a><br
+/>=0D=0ASo many e-mails, so little time. If you&rsquo;d like to
+stop receiving Elevate email updates and promotions from Virgin
+America, you can <a
+href=3D"http://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1315&email=3Dhbiden@senecaga.com"
+target=3D"_blank"><font color=3D"#D10103">unsubscribe</font></a>
+by simply entering and confirming your email address, or
+contacting us via post at Attn: Guest Care Virgin America P.O.Box
+4271, Burlingame, CA 94010.<br />=0D=0A<br />=0D=0A<a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E4A:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103"><strong>Privacy &
+Unsubscribe Policy</strong></font></a><br />=0D=0AYour privacy is
+important to us. You can read more about Virgin America&rsquo;s
+<a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E4B:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Unsubscribe and Privacy
+Policies</font></a> on the Virgin America website.<br />=0D=0A<br
+/>=0D=0A&copy; 2009 <a
+href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D479&l=3D320&ctl=3D2E4C:EAC1607DB688AF8DB6A181274EBF84DB&"
+target=3D"_blank"><font color=3D"#D10103">Virgin
+America</font></a></td>=0D=0A </tr>=0D=0A </table></td>=0D=0A
+</tr>=0D=0A </table></td>=0D=0A </tr>=0D=0A </table></td>=0D=0A
+</tr>=0D=0A <tr>=0D=0A <td colspan=3D"2"><img
+src=3D"http://static.virginamerica.com/images/email/022808/box_bottom.gif"
+alt=3D"" /></td>=0D=0A </tr>=0D=0A </table></td>=0D=0A
+</tr>=0D=0A</table></td>=0D=0A</tr>=0D=0A</table>=0D=0A=0D=0A<img
+src=3D"http://fly.virginamerica.com/t?c=3D479&r=3D2025&l=3D320&t=3D10&e=3DEAC1607DB688AF8DB6A181274EBF84DB"
+width=3D1 height=3D1 border=3D0>=0D=0A=0D=0A<img
+src=3D"http://fly.virginamerica.com/sf?r=3D2025&l=3D320&sid=3DEAC1607DB688AF8DB6A181274EBF84DB&f=3D2"
+width=3D1 height=3D1 border=3D0>=0D=0A 
+--======1262659452446======--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114598</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1262659523</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>2218</string>
+</dict>
+</plist>

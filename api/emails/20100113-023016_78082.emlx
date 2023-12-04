@@ -1,0 +1,50 @@
+1815      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs79321wev;
+        Tue, 12 Jan 2010 21:30:05 -0800 (PST)
+Received: by 10.224.101.141 with SMTP id c13mr3962363qao.21.1263360604946;
+        Tue, 12 Jan 2010 21:30:04 -0800 (PST)
+Return-Path: <SRS0=nM9O/d=I6=aquasciences.com=abe@srs.bis.na.blackberry.com>
+Received: from smtp02.bis.na.blackberry.com (smtp02.bis.na.blackberry.com [216.9.248.49])
+        by mx.google.com with ESMTP id 26si48827334qyk.38.2010.01.12.21.30.04;
+        Tue, 12 Jan 2010 21:30:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of SRS0=nM9O/d=I6=aquasciences.com=abe@srs.bis.na.blackberry.com designates 216.9.248.49 as permitted sender) client-ip=216.9.248.49;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of SRS0=nM9O/d=I6=aquasciences.com=abe@srs.bis.na.blackberry.com designates 216.9.248.49 as permitted sender) smtp.mail=SRS0=nM9O/d=I6=aquasciences.com=abe@srs.bis.na.blackberry.com
+Received: from bda517.bisx.prod.on.blackberry (bda517.bisx.prod.on.blackberry [172.20.218.62])
+	by srs.bis.na.blackberry.com (8.13.7 TEAMON/8.13.7) with ESMTP id o0D53gal029068
+	for hbiden@rosemontseneca.com; Wed, 13 Jan 2010 05:29:57 GMT
+X-rim-org-msg-ref-id: 2125913860
+Message-ID: <2125913860-1263360604-cardhu_decombobulator_blackberry.rim.net-1648379956-@bda517.bisx.prod.on.blackberry>
+Reply-To: abe@aquasciences.com
+X-Priority: Normal
+Sensitivity: Normal
+Importance: Normal
+Subject: Condolences
+To: hbiden@rosemontseneca.com
+From: abe@aquasciences.com
+Date: Wed, 13 Jan 2010 05:30:16 +0000
+Content-Type: text/plain
+MIME-Version: 1.0
+
+Hunter,
+
+My sympathy and condolences to you and your family for the loss of your Grandmother. I am certain that she lives on in the hearts and minds of her family.  
+
+Abe
+Sent via BlackBerry Device
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114621</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263360604</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>2703</string>
+</dict>
+</plist>

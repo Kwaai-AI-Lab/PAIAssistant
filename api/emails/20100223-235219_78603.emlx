@@ -1,0 +1,306 @@
+11797     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs188228weh; Tue, 23 Feb 2010
+ 18:52:26 -0800 (PST)
+Received: by 10.101.208.24 with SMTP id k24mr1683318anq.147.1266979942601;
+ Tue, 23 Feb 2010 18:52:22 -0800 (PST)
+Return-Path: <20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com>
+Received: from server514.appriver.com (server514c.exghost.com [72.32.253.76])
+ by mx.google.com with ESMTP id 25si15979466gxk.7.2010.02.23.18.52.21; Tue, 23
+ Feb 2010 18:52:21 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning
+ 20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com does not
+ designate 72.32.253.76 as permitted sender) client-ip=72.32.253.76;
+DomainKey-Status: good
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of
+ transitioning
+ 20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com does not
+ designate 72.32.253.76 as permitted sender)
+ smtp.mail=20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com;
+ domainkeys=pass header.From=marketplace-messages@amazon.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: 20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-80/SG:5 2/23/2010 8:51:55 PM
+X-GBUdb-Analysis: 0, 72.32.253.153, Ugly c=1 p=-0.987114 Source White
+X-Signature-Violations: 0-0-0-12724-c
+X-Warn: CYRILLIC
+X-Note: Spam Tests Failed: CYRILLIC
+X-Country-Path: UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.153
+X-Note-Reverse-DNS: fe04.exg4.exghost.com
+X-Note-WHTLIST: 224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.153] (HELO fe04.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 102201961
+ for hbiden@rosemontseneca.com; Tue, 23 Feb 2010 20:52:21 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe04.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Tue, 23 Feb 2010 20:52:20 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 295849917
+ for hbiden@senecaga.com; Tue, 23 Feb 2010 20:52:21 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-90/SG:5 2/23/2010 8:50:59 PM
+X-GBUdb-Analysis: 0, 72.21.209.62, Ugly c=0.372106 p=-0.351351 Source Normal
+X-Signature-Violations: 0-0-0-11209-c
+X-Note: SCH-CT/SI:1-1271/SG:1 2/23/2010 8:52:19 PM
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.21.209.62
+X-Note-Reverse-DNS: mm-notify-out-209-62.amazon.com
+X-Note-WHTLIST: 224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mm-notify-out-209-62.amazon.com ([72.21.209.62] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 34809017 for
+ hbiden@senecaga.com; Tue, 23 Feb 2010 20:52:19 -0600
+DomainKey-Signature: s=rte02; d=amazon.com; c=nofws; q=dns;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:
+ Content-Type:X-AMAZON-CLIENT-HOST:Bounces-to:
+ X-AMAZON-CLIENT-SENDTIME:X-AMAZON-MAIL-RELAY-TYPE: X-AMAZON-RTE-VERSION;
+ b=ksoBrf2E+30mCNfqKjXyn1U/BnLpXxTqvVDkWuj1uQ9Q59TBU/0V7Uxf
+ rgQNRW/btmnbESvEmeQBERjwjqL4pw==;
+Date: Wed, 24 Feb 2010 02:52:19 +0000 (UTC)
+From: Amazon Marketplace <marketplace-messages@amazon.com>
+To: R Hunter Biden <hbiden@senecaga.com>
+Message-ID: <12547207.73600891266979939239.JavaMail.correios@na-mm-relay.amazon.com>
+Subject: R Hunter Biden, will you rate your transaction on February 1, 2010 at
+ Amazon.com?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_5568532_3952735.1266979939239"
+X-AMAZON-CLIENT-HOST: batch-st-feedback-1001.vdc.amazon.com
+Bounces-to: 20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com
+X-AMAZON-CLIENT-SENDTIME: Wed Feb 24 02:52:18 UTC 2010
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+Return-Path: 20100224025218fa6882c073964178b03fad89a50f0adc@bounces.amazon.com
+X-OriginalArrivalTime: 24 Feb 2010 02:52:20.0630 (UTC)
+ FILETIME=[623B6B60:01CAB4FC]
+
+
+------=_Part_5568532_3952735.1266979939239
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN;
+	charset=UTF-8
+
+
+Dear R Hunter Biden,
+
+Will you share your experience? Help the Amazon Marketplace community by rating your transaction from February 1, 2010 here:
+
+http://www.amazon.com/gp/feedback/leave-customer-feedback.html
+
+It's easy--just click the "Leave seller feedback" link, pick a rating, and add any helpful comments. Your input will help Amazon.com and our sellers continually improve the customer experience.
+
+Your rating will apply to this seller:
+
+- thebookgrove
+
+If you have questions regarding a transaction, we advise you to check with your seller for details. To view your latest transactions, go to Your Account.
+www.amazon.com/your-account
+
+Thank you for purchasing from the Amazon Marketplace.
+
+-------------------------------------------------------
+Please note: This e-mail was sent from a notification-only address that cannot accept incoming e-mail. Please do not reply to this message.
+-------------------------------------------------------
+We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from Amazon.com, please visit the opt-out link below.
+http://www.amazon.com//gp/gss/o/1Gzuy1V48l5FL4nsBROPmpkbmiY6wzkfU9a.gDaXsRhw
+-------------------------------------------------------
+
+
+------=_Part_5568532_3952735.1266979939239
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/HTML;
+	charset=UTF-8
+
+
+<html><body bgcolor"#FFFFFF" link="#0066CC">
+
+
+<table width="584" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr><td valign="middle"><img src="http://g-ecx.images-amazon.com/images/G/01/x-locale/misc/amazon-logo-table-top._V249681576_.gif" width="584" alt="Amazon.com" height="48" border="0" /></td></tr>
+</table>
+
+
+<center>
+<table width="584" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccc99">
+  <tr valign="top">
+	<td style="border-bottom: 2px #cccc99 solid;">
+      <table width="580" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccc99" height="100%" align="center">
+        <tr bgcolor="#FFFFFF" valign="top">
+       	  <td>
+            <table width="98%" border="0" cellspacing="0" cellpadding="0" height="100%" align="center">
+              <tr valign="top">
+              	<td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="8">
+                    <tr>
+        		      <td valign="top">
+
+
+<b><font face=verdana,arial,helvetica color=#CC6600>
+R Hunter Biden, will you share your experience?
+</font></b>
+<br>
+<font face=verdana,arial,helvetica size=-1>
+<br>
+
+
+Help the Amazon Marketplace community by rating your recent transaction. It's easy--just click the "Leave seller feedback" link below.
+<br><br>
+
+
+<table id="orders_shipped" align="center" bgcolor="#ddddcc" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#ddddcc">
+<td bgcolor="#ddddcc" valign="top">
+<table align="center" bgcolor="#ddddcc" border="0" cellpadding="0" cellspacing="3" width="100%">
+<tr>
+<td bgcolor="#ffffff" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#ffffff">
+<td bgcolor="#ffffff" valign="top">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="3" width="100%">
+<tr bgcolor="#ffffff" valign="top">
+<td colspan="2" valign="top">
+
+
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+  <tr valign="top">
+    <td width="100%">
+      <table border="0" cellpadding="2" cellspacing="0" width="100%">
+        <tr bgcolor="#ffffff">
+           <td valign="top" width="33%">
+             <div>
+               <div style="text-align:left; display:block; float:left;">
+                 <FONT face=verdana,arial,helvetica size=-1>
+                   <b>Order #:</b>
+                   104-2305793-5861039
+                 </FONT>
+               </div>
+               <div style="text-align:right; display:block; float:right;">
+                 <a href="http://www.amazon.com/gp/feedback/leave-customer-feedback.html/ref=fb_rys_em_htm2/?order=104-2305793-5861039&customer=A1505AP5HMQ6QA&token=4367964E2373DFB3510789DF59E92C0D386B6220">
+                   <FONT face=verdana,arial,helvetica size=-1>
+                     <b>Leave seller feedback</b>
+                   </FONT>
+                 </a>
+               </div>
+             </div>
+             <FONT face=verdana,arial,helvetica size=-1>
+               <br>
+               <b>Seller:</b>
+               thebookgrove
+             </FONT>
+             <FONT face=verdana,arial,helvetica size=-2>
+               <A href="http://www.amazon.com/gp/help/contact/contact.html/?orderID=104-2305793-5861039&sellerID=A1505AP5HMQ6QA">(contact this seller)</A>
+             </FONT>
+             <FONT face=verdana,arial,helvetica size=-1>
+             <br>
+             <b>Items:</b>
+             <ul>
+               <FONT face=verdana,arial,helvetica size=-1>
+                 <li>1 of: The Wire: The Complete Series <b>DVD</b> ~ Dominic West  [DVD] </li>
+               </FONT>
+             </ul>
+        </table>
+      </td>
+    </tr>
+</table>
+
+
+
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+<br>
+
+
+<FONT face=verdana,arial,helvetica size=-1>
+  <A href="http://www.amazon.com/gp/feedback/leave-customer-feedback.html/ref=fb_rys_em_htma"><b>See all orders awaiting your feedback</b></A>
+</FONT>
+
+
+<FONT face=verdana,arial,helvetica size=-2>
+  <a href="http://www.amazon.com/Leaving-Feedback-Using-Account-Help/b?ie=UTF8&amp;node=537774">(Need help?)</a>
+</FONT>
+
+
+<BR><BR>
+<FONT face=verdana,arial,helvetica size=-1>
+<B>Need help?</B>
+<BR>
+If you have trouble with the links above, you can rate your transactions by completing these steps:
+<OL>
+  <LI>Go to <A href=http://www.amazon.com/feedback>www.amazon.com/feedback</A>.</LI>
+  <LI>You'll be prompted for a log-in.</LI>
+  <LI>After logging in, you'll see a list of all of the orders that need feedback.</LI>
+  <LI>Find the order on the list and click the "Leave seller feedback" button on the right.</LI>
+</OL>
+
+
+<HR width="100%" noShade SIZE=1>
+If you have questions regarding a transaction, we advise you to check with your seller for details.
+To view your latest transactions, go to <A href=http://www.amazon.com/your-account>Your Account</A>.
+
+
+</FONT></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+
+
+<P>
+<TABLE width=584 border=0>
+  <TR>
+    <TD align=middle>
+      <FONT face=verdana,arial,helvetica size=-1>
+      Copyright  Amazon.com, Inc. All rights reserved.
+      <P>
+      We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from Amazon.com, please visit the opt-out link below.
+      <BR>
+      <a href="http://www.amazon.com//gp/gss/o/1Gzuy1V48l5FL4nsBROPmpkbmiY6wzkfU9a.gDaXsRhw">http://www.amazon.com//gp/gss/o/1Gzuy1V48l5FL4nsBROPmpkbmiY6wzkfU9a.gDaXsRhw</a>
+      </P>
+      </FONT>
+    </TD>
+  </TR>
+</TABLE>
+</P>
+
+</CENTER>
+
+</body></html>
+
+------=_Part_5568532_3952735.1266979939239--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114722</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266979941</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>5341</string>
+</dict>
+</plist>

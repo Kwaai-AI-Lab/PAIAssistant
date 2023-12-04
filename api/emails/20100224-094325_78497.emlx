@@ -1,0 +1,104 @@
+3952      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs207273weh;
+        Wed, 24 Feb 2010 04:43:28 -0800 (PST)
+Received: by 10.150.48.10 with SMTP id v10mr979898ybv.169.1267015408154;
+        Wed, 24 Feb 2010 04:43:28 -0800 (PST)
+Return-Path: <smacklera@gmail.com>
+Received: from mail-ww0-f54.google.com (mail-ww0-f54.google.com [74.125.82.54])
+        by mx.google.com with ESMTP id 16si1927470ywh.9.2010.02.24.04.43.26;
+        Wed, 24 Feb 2010 04:43:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of smacklera@gmail.com designates 74.125.82.54 as permitted sender) client-ip=74.125.82.54;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of smacklera@gmail.com designates 74.125.82.54 as permitted sender) smtp.mail=smacklera@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by wwb22 with SMTP id 22so1361631wwb.13
+        for <multiple recipients>; Wed, 24 Feb 2010 04:43:25 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:received:date:message-id:subject
+         :from:to:content-type;
+        bh=DFsUEa1KFIVJsua6UON/wan8C5llYz4PtJaS545IKIk=;
+        b=AsYbleDbqmOmCHbyN/sygQiY2IlZYXZ9KJemciBiaPb4MNdi3e4w3iZEA+k/9tQ21f
+         6z/Pf9hKd6GlbObkkhtDrbcGOtKHI+aKSTh3Kw6MXjPCOII5mRHDWZWhyMyWTsYJ/A8+
+         ps8VK1T1xTDldm+q9hSEtJB5fQsNgs6a3TK18=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=uyBa4Z3qqexdrxbqw2QWzhX7SvtOgfN1dUGkmc9a5jHuhMolq92d4yRQBTKB1mhz2h
+         5GXq9Bl0ZIaYVuUOedBA3/2SAi/RD3l3Pb2BvDNh4m1i0NYzbEU/dlTa4L+ZzsCuFCKx
+         cyi9c3BkSfY/zPk9jINmEi5rY2ICxEM2toiMQ=
+MIME-Version: 1.0
+Received: by 10.216.170.213 with SMTP id p63mr1725082wel.33.1267015405405; 
+	Wed, 24 Feb 2010 04:43:25 -0800 (PST)
+Date: Wed, 24 Feb 2010 07:43:25 -0500
+Message-ID: <645f33081002240443x1d692174r6802c5e6d7aaaea2@mail.gmail.com>
+Subject: Beau on CNN around 945am
+From: Alexander Snyder-Mackler <smacklera@gmail.com>
+To: Missy Owens <missy.owens@gmail.com>, Valerie Biden Owens <valerie@jswco.com>, 
+	Hunter Biden <hbiden@rosemontseneca.com>, Eric Schwerin <eschwerin@rosemontseneca.com>, 
+	Casey Owens <catherine.e.owens@gmail.com>, Hallie Biden <halliebiden@gmail.com>, 
+	kathleenbiden@hotmail.com
+Content-Type: multipart/alternative; boundary=0016363ba6662a092004805803fc
+
+--0016363ba6662a092004805803fc
+Content-Type: text/plain; charset=ISO-8859-1
+
+this morning. regular cnn, not hln
+
+On Tue, Feb 23, 2010 at 4:34 PM, Alexander Snyder-Mackler <
+smacklera@gmail.com> wrote:
+
+> I think; day has been sort of crazy. Here is MSNBC interview:
+>
+> http://clips.shadowtv.net/media/stv/18226/12/2010/054/12/18226_12_20100223_121740_400.wmv
+>
+>
+> --
+>
+> Alexander Snyder-Mackler
+> (302) 598-8678
+>
+
+
+
+-- 
+
+Alexander Snyder-Mackler
+(302) 598-8678
+
+--0016363ba6662a092004805803fc
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+this morning. regular cnn, not hln<br><br><div class=3D"gmail_quote">On Tue=
+, Feb 23, 2010 at 4:34 PM, Alexander Snyder-Mackler <span dir=3D"ltr">&lt;<=
+a href=3D"mailto:smacklera@gmail.com">smacklera@gmail.com</a>&gt;</span> wr=
+ote:<br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">I think; day has =
+been sort of crazy. Here is MSNBC interview:<br><a href=3D"http://clips.sha=
+dowtv.net/media/stv/18226/12/2010/054/12/18226_12_20100223_121740_400.wmv" =
+target=3D"_blank">http://clips.shadowtv.net/media/stv/18226/12/2010/054/12/=
+18226_12_20100223_121740_400.wmv</a><br>
+<font color=3D"#888888">
+<br clear=3D"all"><br>-- <br><br>Alexander Snyder-Mackler<br>(302) 598-8678=
+<br>
+</font></blockquote></div><br><br clear=3D"all"><br>-- <br><br>Alexander Sn=
+yder-Mackler<br>(302) 598-8678<br>
+
+--0016363ba6662a092004805803fc--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114725</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1267015407</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>5355</string>
+</dict>
+</plist>

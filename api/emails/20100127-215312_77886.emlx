@@ -1,0 +1,81 @@
+3703      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.10.143 with SMTP id p15cs223779ebp;
+        Wed, 27 Jan 2010 16:53:08 -0800 (PST)
+Received: by 10.150.29.35 with SMTP id c35mr2546268ybc.289.1264639987932;
+        Wed, 27 Jan 2010 16:53:07 -0800 (PST)
+Return-Path: <avra.siegel@gmail.com>
+Received: from mail-yx0-f198.google.com (mail-yx0-f198.google.com [209.85.210.198])
+        by mx.google.com with ESMTP id 8si771934ywh.110.2010.01.27.16.53.06;
+        Wed, 27 Jan 2010 16:53:06 -0800 (PST)
+Received-SPF: pass (google.com: domain of avra.siegel@gmail.com designates 209.85.210.198 as permitted sender) client-ip=209.85.210.198;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of avra.siegel@gmail.com designates 209.85.210.198 as permitted sender) smtp.mail=avra.siegel@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by yxe36 with SMTP id 36so152895yxe.11
+        for <hbiden@rosemontseneca.com>; Wed, 27 Jan 2010 16:53:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:x-rim-org-msg-ref-id
+         :return-receipt-to:message-id:content-transfer-encoding:reply-to
+         :x-priority:sensitivity:importance:to:subject:from:date:content-type
+         :mime-version;
+        bh=/gll1MjEZ719WdOWhVRtM8m2faPMLCBhy3Xu0/jao8c=;
+        b=N96JtgWhYrNCFv9NPLs1xGxxtxklW9JUFXwoo3+JIT2pkDfAoYgXRMS5G10EJ8GdOz
+         ONJyp332p7qgq5rmq7Ykg5fESkyJHRpxD6Ur4SIW6TqwXM6PQLsAuZQdcsKK5aC450/t
+         f0XXxPUMXoDdaf8rHNVi7uaTlZM/fOW4W9EvE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=x-rim-org-msg-ref-id:return-receipt-to:message-id
+         :content-transfer-encoding:reply-to:x-priority:sensitivity
+         :importance:to:subject:from:date:content-type:mime-version;
+        b=uMFNmJkOsfJaT4ydEs+VbaSMF3G0h+xwdJKCVGuJz+gcZD+Ns/XlmYPiWTkxWmRkh0
+         uEPFjsjHan2v+QzKdFXa6/FvcZF31zG3gzNm0xNmGqcLdX87nAxmYFgLM1aGFM0zc1BO
+         b0e+UgenpGl2Q3/s/t1slDA282Fdbyu3bZ8Kg=
+Received: by 10.90.21.11 with SMTP id 11mr2168777agu.97.1264639986339;
+        Wed, 27 Jan 2010 16:53:06 -0800 (PST)
+Return-Path: <avra.siegel@gmail.com>
+Received: from bda2283.bisx.prod.on.blackberry (bda-67-223-87-93.bise.na.blackberry.com [67.223.87.93])
+        by mx.google.com with ESMTPS id 9sm155789yxf.5.2010.01.27.16.53.05
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 27 Jan 2010 16:53:05 -0800 (PST)
+X-rim-org-msg-ref-id:269309015
+Return-Receipt-To:avra.siegel@gmail.com
+Message-ID:<269309015-1264639984-cardhu_decombobulator_blackberry.rim.net-1817036672-@bda754.bisx.prod.on.blackberry>
+Content-Transfer-Encoding: base64
+Reply-To: avra.siegel@gmail.com
+X-Priority: Normal
+Sensitivity: Normal
+Importance: Normal
+To: hbiden@rosemontseneca.com
+Subject: Re:
+From: avra.siegel@gmail.com
+Date: Thu, 28 Jan 2010 00:53:12 +0000
+Content-Type: text/plain; charset="Windows-1252"
+MIME-Version: 1.0
+
+SGFoYSAtIGZvciBzdXJlISEhDQoNCi0tLS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0tLS0NCkZyb206
+IGhiaWRlbkByb3NlbW9udHNlbmVjYS5jb20NClRvOiBBdnJhIFNpZWdlbA0KUmVwbHlUbzogaGJp
+ZGVuQHJvc2Vtb250c2VuZWNhLmNvbQ0KU3ViamVjdDogUmU6DQpTZW50OiBKYW4gMjcsIDIwMTAg
+Nzo0NCBQTQ0KDQpIZSB0YWtlcyBhZnRlciBtZS4NCi0tLS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0t
+LS0NCkZyb206IGF2cmEuc2llZ2VsQGdtYWlsLmNvbQ0KVG86IEh1bnRlciBCaWRlbg0KUmVwbHlU
+bzogYXZyYS5zaWVnZWxAZ21haWwuY29tDQpTdWJqZWN0OiANClNlbnQ6IEphbiAyNywgMjAxMCA2
+OjQzIFBNDQoNCllvdXIgZGFkIGlzIHNvIG5pY2UgLSBoZSBib3VnaHQgbXVuY2hpZXMgZm9yIHRo
+ZSB3ZXN0IHdpbmcgZm9sa3MgdG8gZWF0IHdoaWxlIHdhdGNoaW5nIHRoZSBzdGF0ZSBvZiB0aGUg
+dW5pb24gaGVyZS4gU28gdGhvdWdodGZ1bCBvZiBoaW0hDQoNCg0KDQpTZW50IG9uIHRoZSBTcHJp
+bnSuIE5vdyBOZXR3b3JrIGZyb20gbXkgQmxhY2tCZXJyea4NCg==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114873</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1264639986</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>3872</string>
+</dict>
+</plist>

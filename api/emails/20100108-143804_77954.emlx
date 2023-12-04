@@ -1,0 +1,513 @@
+38261     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs196387wev; Fri, 8 Jan 2010
+ 09:38:13 -0800 (PST)
+Received: by 10.90.41.39 with SMTP id o39mr141577ago.46.1262972292455; Fri, 08
+ Jan 2010 09:38:12 -0800 (PST)
+Return-Path: <Unitedpreflight@unitedpreflight.p0.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 10si54457360gxk.52.2010.01.08.09.38.10; Fri,
+ 08 Jan 2010 09:38:11 -0800 (PST)
+Received-SPF: fail (google.com: domain of
+ Unitedpreflight@unitedpreflight.p0.com does not designate 72.32.253.69 as
+ permitted sender) client-ip=72.32.253.69;
+DomainKey-Status: good (test mode)
+Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of
+ Unitedpreflight@unitedpreflight.p0.com does not designate 72.32.253.69 as
+ permitted sender) smtp.mail=Unitedpreflight@unitedpreflight.p0.com;
+ domainkeys=pass (test mode)
+ header.From=Unitedpreflight@unitedpreflight.p0.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: unitedpreflight@unitedpreflight.p0.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-54/SG:2 1/8/2010 11:37:57 AM
+X-GBUdb-Analysis: 0, 72.32.253.141, Ugly c=1 p=-0.641169 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.141
+X-Note-Reverse-DNS: fe02.exg4.exghost.com
+X-Note-WHTLIST: Unitedpreflight@unitedpreflight.p0.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.141] (HELO FE02.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 84382697
+ for hbiden@rosemontseneca.com; Fri, 08 Jan 2010 11:38:17 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE02.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Fri, 8 Jan 2010 11:38:10 -0600
+Received: from [10.242.229.36] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 268821588
+ for hbiden@senecaga.com; Fri, 08 Jan 2010 11:38:13 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-54/SG:2 1/8/2010 11:36:53 AM
+X-GBUdb-Analysis: 0, 206.165.246.112, Ugly c=0.327499 p=-0.333333 Source
+ Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Warn: WEBBUG
+X-Warn: RETURNPATH Domain unitedpreflight.p0.com has no A or MX records.
+X-Warn: WEIGHT10
+X-Note: Spam Tests Failed: WEBBUG, RETURNPATH, WEIGHT10
+X-Country-Path: UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 206.165.246.112
+X-Note-Reverse-DNS: ip-112.email.united.com
+X-Note-WHTLIST: Unitedpreflight@unitedpreflight.p0.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G204 G213 G214 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from ip-112.email.united.com ([206.165.246.112] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 18701411 for
+ hbiden@senecaga.com; Fri, 08 Jan 2010 11:38:02 -0600
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws; s=yesmail1;
+ d=unitedpreflight.p0.com;
+ h=Date:From:Subject:To:Message-ID:X-Vitals:List-Unsubscribe:X-Header-Versions:Reply-To:X-Header-CompanyDBUserName:X-Header-MasterId:MIME-Version:Content-Type:Content-Transfer-Encoding;
+ b=d7SXIN1wr+qvJuh//2qI10Wek+T4CCG+wRvqfD9nqVwPBugNCJk7oMfPFOAKjW8F
+ Pi8kDSVLRBpqZC/p+KXMO0t4Sc5KGCJ3Ku0EEue0vu8VJ2xZ7WpxoZLbS5CAPZtD
+Date: Fri, 08 Jan 2010 09:38:04 PST
+From: "United PreFlight Notification" <Unitedpreflight@unitedpreflight.p0.com>
+Subject: Prepare for your upcoming United flight on Fri, Jan 15
+To: "Robert H Biden" <hbiden@senecaga.com>
+Message-ID: <UnitedPreFlightNotification.6l6v1rl4y.d3cb@unitedpreflight.p0.com>
+X-Vitals: 1.90144.14143880.947719.9.6676
+List-Unsubscribe: <mailto:Unitedeco6l6v1rl4y.6d3cb@unitedpreflight.p0.com?subject=unsubscribe>
+X-Header-Versions: UnitedPreFlightNotification.6l6v1rl4y.d3cb@unitedpreflight.p0.com
+Reply-To: UnitedPreFlightNotification.6l6v1rl4y.d3cb@unitedpreflight.p0.com
+X-Header-CompanyDBUserName: Unitedeco
+X-Header-MasterId: 947719
+MIME-Version: 1.0
+Content-Type: text/html;charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Return-Path: Unitedpreflight@unitedpreflight.p0.com
+X-OriginalArrivalTime: 08 Jan 2010 17:38:10.0069 (UTC)
+ FILETIME=[5859F450:01CA9089]
+
+
+<html>
+<head><title>unitedeco</title>
+</head>
+<body link=3D"#0038A5" vlink=3D"#6699CC"><img src=3D"http://link.p0.com/1x1.dyn?04EG3UFlh1BpZMU9Bh-q4W=3D0" width=3D1 height=3D1  width=3D"1" height=3D"1" border=3D"0" style=3D"display:block">
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff">
+<tr>
+<td style=3D"line-height:17px;" width=3D"14" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"14" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"63" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"63" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"62" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"62" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"120" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"120" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"82" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"82" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"76" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"76" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"22" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"22" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"147" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"147" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"14" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"14" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" width=3D"600" height=3D"10" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/top_curve.gif" width=3D"600" height=3D"10" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr bgcolor=3D"#d5dcec">
+<td align=3D"left"></td>
+<td style=3D"line-height:17px;" colspan=3D"4" height=3D"39" valign=3D"top" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/logo_united.gif" width=3D"134" height=3D"22" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" colspan=3D"3" align=3D"right" valign=3D"bottom"><font face=3D"Arial, Helvetica, sans-serif" size=3D"1"><a href=3D"http://link.p0.com/u.d?JHrBRKqgNt6_SUFN=3D1"><font color=3D"#0038a5">Customer service</font></a></font><br><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"14" height=3D"5" border=3D"0" style=3D"display:block"></td>
+<td align=3D"left"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"100" height=3D"14" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"></td>
+<td style=3D"line-height:17px;" colspan=3D"8" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">
+Robert H Biden<br>
+Confirmation number: <strong>
+<!-- dynamic item ... confirmation number -->
+MQFPCX
+<!-- end dynamic item ... confirmation number -->
+</strong><br>
+Mileage Plus&#174; number:
+
+03056143423</font>
+
+</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" width=3D"600" height=3D"21" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"></td>
+<td style=3D"line-height:17px;" colspan=3D"7" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">Dear
+Robert H Biden,<br><br>
+Thank you for choosing United for your upcoming travel plans. You will find many helpful links in this email, which can assist you in managing your reservation and preparing for your trip.<br><br>
+<font color=3D"#FF0000"><strong>New:</strong></font> TSA Secure Flight program<br>
+The Transportation Security Administration (TSA) Secure Flight program requires airlines to collect Secure Flight information from all passengers prior to travel. Please be sure to provide this information at least 72 hours prior to scheduled departure.<a href=3D"http://link.p0.com/u.d?PnrBRKqgNt6_SUFfT=3D371"> Learn more</a><br><br>
+You can also visit our <a href=3D"http://link.p0.com/u.d?DHrBRKqgNt6_SUFH=3D21"><font color=3D"#0038a5">Traveler guide</font></a> page, for additional information including:<br>
+&nbsp;&nbsp;&#149;&nbsp;Airport terminal locations<br>
+&nbsp;&nbsp;&#149;&nbsp;Recommended check-in times<br>
+&nbsp;&nbsp;&#149;&nbsp;Baggage policies<br>
+&nbsp;&nbsp;&#149;&nbsp;ID and documentation information<br>
+&nbsp;&nbsp;&#149;&nbsp;In-flight services<br><br>
+</font></td>
+<td align=3D"left"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/itin_top_curve.gif" width=3D"600" height=3D"6" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" valign=3D"top" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" height=3D"23" colspan=3D"4" bgcolor=3D"#c2d6fd" align=3D"left"><strong><font color=3D"#003366" size=3D"2" face=3D"arial, helvetica, sans-serif">Your itinerary </font></strong></td>
+<td style=3D"line-height:17px;" colspan=3D"2" align=3D"right" valign=3D"top" bgcolor=3D"#c2d6fd">&nbsp;</td>
+<td style=3D"line-height:17px;" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;&nbsp;</td>
+<td style=3D"line-height:17px;" valign=3D"top" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;</td>
+</tr>
+
+
+<tr>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"9" valign=3D"bottom" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" bgcolor=3D"#dbe7f0" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" height=3D"26" colspan=3D"7" bgcolor=3D"#dbe7f0" align=3D"left"><strong><font size=3D"2" face=3D"arial, helvetica, sans-serif">
+Fri, Jan 15, 2010 &ndash; Washington National (DCA) to O'Hare International (ORD)</font></strong></td>
+<td style=3D"line-height:17px;" bgcolor=3D"#dbe7f0" align=3D"left">&nbsp;</td>
+</tr>
+<tr valign=3D"top">
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"62" align=3D"left"></td>
+<td style=3D"line-height:17px;" colspan=3D"8" width=3D"586" align=3D"left">
+<table width=3D"586" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tr>
+<td style=3D"line-height:17px;" width=3D"117" height=3D"62" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong>Flight</strong><br>
+United 0607
+</font></td>
+<td style=3D"line-height:17px;" width=3D"1" bgcolor=3D"#cccccc" valign=3D"top" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"1" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"30" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" width=3D"207" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong>Departs</strong><br>
+Washington National (DCA)<br>
+08:40 AM</font></td>
+<td style=3D"line-height:17px;" width=3D"1" bgcolor=3D"#cccccc" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"1" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"30" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" width=3D"200" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong>Arrives</strong><br>
+O'Hare International (ORD)<br>
+09:49 AM</font></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"9" valign=3D"bottom" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" bgcolor=3D"#dbe7f0" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" height=3D"26" colspan=3D"7" bgcolor=3D"#dbe7f0" align=3D"left"><strong><font size=3D"2" face=3D"arial, helvetica, sans-serif">
+Fri, Jan 15, 2010 &ndash; O'Hare International (ORD) to Washington National (DCA)</font></strong></td>
+<td style=3D"line-height:17px;" bgcolor=3D"#dbe7f0" align=3D"left">&nbsp;</td>
+</tr>
+<tr valign=3D"top">
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"62" align=3D"left"></td>
+<td style=3D"line-height:17px;" colspan=3D"8" width=3D"586" align=3D"left">
+<table width=3D"586" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tr>
+<td style=3D"line-height:17px;" width=3D"117" height=3D"62" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong>Flight</strong><br>
+United 0624
+</font></td>
+<td style=3D"line-height:17px;" width=3D"1" bgcolor=3D"#cccccc" valign=3D"top" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"1" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"30" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" width=3D"207" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong>Departs</strong><br>
+O'Hare International (ORD)<br>
+06:05 PM</font></td>
+<td style=3D"line-height:17px;" width=3D"1" bgcolor=3D"#cccccc" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"1" height=3D"1" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"30" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" width=3D"200" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong>Arrives</strong><br>
+Washington National (DCA)<br>
+08:55 PM</font></td>
+</tr>
+</table></td>
+</tr>
+
+
+<tr>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"9" valign=3D"bottom" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"26" rowspan=3D"2" bgcolor=3D"#f1f5f9" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" height=3D"42" colspan=3D"7" bgcolor=3D"#f1f5f9" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">If you would like to view your itinerary or make any changes, you can go to the <a href=3D"http://link.p0.com/u.d?TnrBRKqgNt6_SUFd-=3D41&s=3DMQFPCX&lastName=3DBiden&sourceId=3DPFMAIL"><font color=3D"#0038a5">View or change itinerary</font></a> page. From there you will be able to:</font></td>
+<td style=3D"line-height:17px;" rowspan=3D"2" bgcolor=3D"#f1f5f9" align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" bgcolor=3D"#f1f5f9" colspan=3D"7" align=3D"left"><table width=3D"568" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"6" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"100" height=3D"6" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"20" height=3D"18" align=3D"center" valign=3D"top">&bull;</td>
+<td style=3D"line-height:17px;" width=3D"223" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">View current and past itineraries<br>
+</font></td>
+<td style=3D"line-height:17px;" width=3D"20" align=3D"center" valign=3D"top">&bull;</td>
+<td style=3D"line-height:17px;" width=3D"183" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">Request upgrades</font></td>
+<td style=3D"line-height:17px;" width=3D"20" align=3D"center" valign=3D"top">&bull;<br></td>
+<td style=3D"line-height:17px;" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">Select seats</font></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"18" align=3D"center" valign=3D"top">&bull;</td>
+<td style=3D"line-height:17px;" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">Request an E-ticket refund</font></td>
+<td style=3D"line-height:17px;" width=3D"20" align=3D"center" valign=3D"top">&bull;</td>
+<td style=3D"line-height:17px;" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">Change or cancel flights</font></td>
+<td style=3D"line-height:17px;" width=3D"20" align=3D"center" valign=3D"top">&bull;<br></td>
+<td style=3D"line-height:17px;" valign=3D"top" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif">Print itinerary
+</font></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"6" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"100" height=3D"12" border=3D"0" style=3D"display:block"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"1" colspan=3D"9" valign=3D"top" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"10" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/itin_bottom_curve.gif" width=3D"600" height=3D"10" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"></td>
+<td style=3D"line-height:17px;" colspan=3D"7" align=3D"left"><br></td>
+<td align=3D"left"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"1" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"26" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" colspan=3D"7" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><a href=3D"http://link.p0.com/u.d?HHrBRKqgNt6_SUFdz=3D51"><font color=3D"#0038a5">Mobile services</font></a>&nbsp;&nbsp;<font color=3D"#999999">|&nbsp;&nbsp;</font><a href=3D"http://link.p0.com/u.d?WHrBRKqgNt6_SUFd0=3D61"><font color=3D"#0038a5">EasyUpdate&#174; flight notification</font></a></font></td>
+<td align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"1" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/dashed_line.gif" width=3D"600" height=3D"1" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/itin_top_curve.gif" width=3D"600" height=3D"6" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" valign=3D"top" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" height=3D"23" colspan=3D"7" bgcolor=3D"#c2d6fd" align=3D"left"><strong><font color=3D"#003366" size=3D"2" face=3D"arial, helvetica, sans-serif">Travel Options by United<small><sup>SM</sup></small></font></strong></td>
+<td style=3D"line-height:17px;" valign=3D"top" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left">
+<!-- dynamic item ... Additional Offer 1 ... Economy Plus -->
+
+
+
+<!-- end Additional Offer 1 -->
+
+<!-- dynamic item ... Additional Offer 1.1 ... Premier Line -->
+
+
+
+<!-- end Additional Offer 1.1 -->
+
+<!-- dynamic item ... Additional Offer 1.5 ... Door-to-Door Baggage -->
+
+
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr><td style=3D"line-height:17px;" colspan=3D"5" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif"  height=3D"4" border=3D"0" style=3D"display:block"></td></tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/t.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tr.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/l.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"60" height=3D"40" align=3D"center"><a href=3D"http://link.p0.com/u.d?AHrBRKqgNt6_SUFdd=3D111"><img src=3D"http://images.postdirect.com/master/9/947719/icon_doortodoor_sm_new.gif" width=3D"51" height=3D"49" border=3D"0" style=3D"display:block"></a></td>
+<td style=3D"line-height:17px;" width=3D"415" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong><font color=3D"#003366">Door-to-Door Baggage</font></strong><br>
+Stop lugging your luggage around. Instead, have it delivered directly to your destination, overnight, via FedEx Express=AE. Try Door-to-Door Baggage service this month for as low as $79.</font></td>
+<td style=3D"line-height:17px;" width=3D"117" align=3D"right" valign=3D"bottom"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><a href=3D"http://link.p0.com/u.d?THrBRKqgNt6_SUFdW=3D121&s=3D1P"><img src=3D"http://images.postdirect.com/master/9/947719/btn_learnmore.gif" alt=3D"Learn more" width=3D"95" height=3D"18" hspace=3D"6" vspace=3D"6" border=3D"0" style=3D"display:block"></a></font></td>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/r.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/bl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/b.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/br.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+</table>
+
+
+<!-- end Additional Offer 1.5 -->
+
+<!-- dynamic item ... Additional Offer 2 ... Award Accelerator -->
+
+
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr><td style=3D"line-height:17px;" colspan=3D"5" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif"  height=3D"4" border=3D"0" style=3D"display:block"></td></tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/t.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tr.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/l.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"60" height=3D"40" align=3D"center"><a href=3D"http://link.p0.com/u.d?FHrBRKqgNt6_SUFcr=3D131"><img src=3D"http://images.postdirect.com/master/9/947719/icon_awardaccel_sm_new.gif" width=3D"26" height=3D"35" border=3D"0" style=3D"display:block"></a></td>
+<td style=3D"line-height:17px;" width=3D"415" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong><font color=3D"#003366">Award Accelerator<small><sup>SM</sup></small></font></strong><br>
+Multiply the Mileage Plus&reg; miles you earn each time you fly, helping you redeem travel awards more quickly.
+</font></td>
+<td style=3D"line-height:17px;" width=3D"117" align=3D"right" valign=3D"bottom"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><a href=3D"http://link.p0.com/u.d?YHrBRKqgNt6_SUFcs=3D141&s=3D1P"><img src=3D"http://images.postdirect.com/master/9/947719/btn_learnmore.gif" alt=3D"Learn more" width=3D"95" height=3D"18" hspace=3D"6" vspace=3D"6" border=3D"0" style=3D"display:block"></a></font></td>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/r.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/bl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/b.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/br.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+</table>
+
+
+<!-- end Additional Offer 2 -->
+
+<!-- dynamic item ... Additional Offer 3 ... Red Carpet Club -->
+
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr><td style=3D"line-height:17px;" colspan=3D"5" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif"  height=3D"4" border=3D"0" style=3D"display:block"></td></tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/t.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tr.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/l.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"60" height=3D"40" align=3D"center"><a href=3D"http://link.p0.com/u.d?anrBRKqgNt6_SUFch=3D151"><img src=3D"http://images.postdirect.com/master/9/947719/icon_redcarpet_sm_new.gif" width=3D"47" height=3D"36" border=3D"0" style=3D"display:block"></a></td>
+<td style=3D"line-height:17px;" width=3D"415" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong><font color=3D"#003366">Red Carpet Club&reg; one-time pass</font></strong><br>
+Treat yourself or someone else to a relaxing travel experience with a Red Carpet Club&reg; one-time pass.
+</font></td>
+<td style=3D"line-height:17px;" width=3D"117" align=3D"right" valign=3D"bottom"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><a href=3D"http://link.p0.com/u.d?THrBRKqgNt6_SUFc6=3D161&s=3D1P"><img src=3D"http://images.postdirect.com/master/9/947719/btn_learnmore.gif" alt=3D"Learn more" width=3D"95" height=3D"18" hspace=3D"6" vspace=3D"6" border=3D"0" style=3D"display:block"></a></font></td>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/r.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/bl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/b.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/br.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+</table>
+
+<!-- end Additional Offer 3 -->
+
+<!-- dynamic item ... Additional Offer 4 ... Trip Insurance -->
+
+
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr><td style=3D"line-height:17px;" colspan=3D"5" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif"  height=3D"4" border=3D"0" style=3D"display:block"></td></tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/t.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/tr.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/l.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"60" height=3D"40" align=3D"center"><a href=3D"http://link.p0.com/u.d?bHrBRKqgNt6_SUFc_=3D171"><img src=3D"http://images.postdirect.com/master/9/947719/icon_tripinsurance_sm_new.gif" width=3D"41" height=3D"39" border=3D"0" style=3D"display:block"></a></td>
+<td style=3D"line-height:17px;" width=3D"415" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><strong><font color=3D"#003366">Trip Insurance</font></strong><br>
+Enjoy peace of mind wherever your travels take you.
+</font></td>
+<td style=3D"line-height:17px;" width=3D"117" align=3D"right" valign=3D"bottom"><font size=3D"2" face=3D"arial, helvetica, sans-serif"><a href=3D"http://link.p0.com/u.d?LHrBRKqgNt6_SUFcw=3D181&s=3D1P"><img src=3D"http://images.postdirect.com/master/9/947719/btn_learnmore.gif" alt=3D"Learn more" width=3D"95" height=3D"18" hspace=3D"6" vspace=3D"6" border=3D"0" style=3D"display:block"></a></font></td>
+<td align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/r.gif" width=3D"4" height=3D"60" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/bl.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"3" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/b.gif" width=3D"592" height=3D"4" border=3D"0" style=3D"display:block"></td>
+<td style=3D"line-height:17px;" width=3D"4" height=3D"4" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/br.gif" width=3D"4" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+</table>
+
+
+<!-- end Additional Offer 4 -->
+
+<!-- dynamic item ... Additional Offer 5 ... Foreign Exchange -->
+
+
+
+<!-- end Additional Offer 5 -->
+
+</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"36" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" colspan=3D"7" align=3D"left"><font size=3D"2" face=3D"arial, helvetica, sans-serif" color=3D"#0038a5"><a href=3D"http://link.p0.com/t.d?xnrBRKqgNt6=3Dhttps://www.united.com/traveloptions&memberlevel=3D1P"><font color=3D"#0038a5">View all Travel Options by United</font></a><small><sup>SM<br>
+<br>
+</sup></small></font></td>
+<td align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/itin_top_curve.gif" width=3D"600" height=3D"6" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" valign=3D"top" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" height=3D"23" colspan=3D"7" bgcolor=3D"#c2d6fd" align=3D"left"><strong><font color=3D"#003366" size=3D"2" face=3D"arial, helvetica, sans-serif">Hotel and car</font></strong></td>
+<td style=3D"line-height:17px;" valign=3D"top" bgcolor=3D"#c2d6fd" align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"4" colspan=3D"9" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/clr.gif" width=3D"600" height=3D"4" border=3D"0" style=3D"display:block"></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left"><table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"115" height=3D"95" rowspan=3D"2" align=3D"left"><img src=3D"http://content.4at5.net/email_domains/ueco/53116/udc_pf_hotel_1.gif" width=3D"115" height=3D"85" style=3D"display:block"></td>
+<td width=3D"12" rowspan=3D"2" align=3D"left"><img src=3D"http://content.4at5.net/email_domains/ueco/53116/clr.gif" width=3D"12" height=3D"12" style=3D"display:block"></td>
+<td width=3D"161" align=3D"left"><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"><b><font color=3D"#003399">Book your hotel</font></b><br>
+Get great deals at thousands of hotels and earn miles. <a href=3D"http://link.p0.com/u.d?QHrBRKqgNt6_SUFfU=3D381">Learn More</font><br></td>
+<td width=3D"12" rowspan=3D"2" align=3D"left"><img src=3D"http://content.4at5.net/email_domains/ueco/53116/clr.gif" alt=3D"" width=3D"12" height=3D"12" style=3D"display:block"></td>
+<td width=3D"120" rowspan=3D"2" bgcolor=3D"#f6f8fb" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/hertzlogo2.png" alt=3D"Featured partner : Hertz" width=3D"100" height=3D"39" style=3D"display:block"></td>
+<td width=3D"8" valign=3D"top" bgcolor=3D"#f6f8fb" align=3D"left"><img src=3D"http://content.4at5.net/email_domains/ueco/53116/clr.gif" alt=3D"" width=3D"4" height=3D"4" style=3D"display:block"><br>
+<b><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">&#149;<br><br>
+&#149;</font></b></td>
+<td width=3D"160" valign=3D"top" bgcolor=3D"#f6f8fb" align=3D"left"><img src=3D"http://content.4at5.net/email_domains/ueco/53116/clr.gif" alt=3D"" width=3D"4" height=3D"4" style=3D"display:block"><br><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">Up to 20% off and <b>triple miles</b><br>
+Plus, earn a <b>1,000-mile</b> online booking bonus
+</font></td>
+<td width=3D"12" rowspan=3D"2" bgcolor=3D"#f6f8fb" align=3D"left"><img src=3D"http://content.4at5.net/email_domains/ueco/53116/clr.gif" alt=3D"" width=3D"12" height=3D"12" style=3D"display:block"></td>
+</tr>
+<tr>
+<td align=3D"right"><a href=3D"http://link.p0.com/u.d?THrBRKqgNt6_SUFep=3D391"><font color=3D"#0038a5" size=3D"2" face=3D"Arial, Helvetica, sans-serif">Book now &gt;&gt;</font></a></td>
+<td width=3D"168" colspan=3D"2" align=3D"right" bgcolor=3D"#f6f8fb"><a href=3D"http://link.p0.com/u.d?SnrBRKqgNt6_SUFfK=3D321"><font color=3D"#0038a5" size=3D"2" face=3D"Arial, Helvetica, sans-serif">Learn more &gt;&gt;</font></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" height=3D"21" valign=3D"bottom" bgcolor=3D"#d5dcec" align=3D"left">&nbsp;</td>
+<td style=3D"line-height:17px;" colspan=3D"3" valign=3D"bottom" bgcolor=3D"#d5dcec" align=3D"left"><font size=3D"1" face=3D"arial, helvetica, sans-serif">&copy; 2009 United Air Lines, Inc. All rights reserved.</font></td>
+<td style=3D"line-height:17px;" colspan=3D"4" align=3D"right" valign=3D"bottom" bgcolor=3D"#d5dcec"><font size=3D"1" face=3D"arial, helvetica, sans-serif" style=3D"font-size: 9px; line-height: 11px; letter-spacing:.2px;"><a href=3D"http://link.p0.com/u.d?NnrBRKqgNt6_SUFfo=3D261"><font color=3D"#0038a5">Terms and conditions</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"http://unitedeco.p0.com/unsubscribe_pr.jsp?s=3DYbNm&i=3D7975958038"><font color=3D"#0038a5">Unsubscribe</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"http://link.p0.com/u.d?cHrBRKqgNt6_SUFfm=3D281"><font color=3D"#0038a5">Privacy policy</font></a> </font></td>
+<td style=3D"line-height:17px;" valign=3D"bottom" bgcolor=3D"#d5dcec" align=3D"left">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:17px;" colspan=3D"9" valign=3D"bottom" bgcolor=3D"#D5DCEC" align=3D"left"><img src=3D"http://images.postdirect.com/master/9/947719/bottom_curve.gif" width=3D"600" height=3D"14" border=3D"0" style=3D"display:block"></td>
+</tr>
+</table>
+</body>
+</html>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114609</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1262972291</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>2496</string>
+</dict>
+</plist>

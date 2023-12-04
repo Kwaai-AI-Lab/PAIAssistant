@@ -1,0 +1,105 @@
+4183      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs127482wey; Wed, 20 Jan 2010 05:00:52
+ -0800 (PST)
+Received: by 10.142.55.20 with SMTP id d20mr6190857wfa.37.1263992450905; Wed,
+ 20 Jan 2010 05:00:50 -0800 (PST)
+Return-Path: <hoghurley@gmail.com>
+Received: from mail-pw0-f60.google.com (mail-pw0-f60.google.com
+ [209.85.160.60]) by mx.google.com with ESMTP id
+ 20si25016248pwi.3.2010.01.20.05.00.49; Wed, 20 Jan 2010 05:00:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of hoghurley@gmail.com designates
+ 209.85.160.60 as permitted sender) client-ip=209.85.160.60;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of
+ hoghurley@gmail.com designates 209.85.160.60 as permitted sender)
+ smtp.mail=hoghurley@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by pwj17 with SMTP id 17so1696131pwj.19 for
+ <hbiden@rosemontseneca.com>; Wed, 20 Jan 2010 05:00:49 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+ h=domainkey-signature:mime-version:received:date:message-id:subject
+ :from:to:content-type; bh=m+LQXMPzrgJgHhzj9ZFpsVEAFr0rFRtnpcGuYST79jg=;
+ b=fwCOeXgzoeyQYoiZYvbzCQn284jTlOp6BmGjVJ1AFqrDuFmU7fmbXkGjhiOE9lPP86
+ hTDXDyXpVA1H2zkLSQ77gG+oeGKTn4+rGHYTGD1Qv4Vei2yfRZH2pHqePC1waSNaYNg0
+ OmyBUvDPjplUL2uP2FEPVoIFhj484bgOinzsk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+ h=mime-version:date:message-id:subject:from:to:content-type;
+ b=W337NrO3or+gftW4mzSZ07pzOw90FYP0osLtKVlbbsQnvW19/+fDHl6/dCb0Vo7+Pk
+ ZOHSQfvbOFVLFZ5jyOtdpOT3GeHNgAKEkvN0wFUa+u6g6O5k3jAkPEi6dOre54jyqJgQ
+ KGfdvxvXW0tbRgN7Cnp9jYSjx2LMlDO+mZXwM=
+MIME-Version: 1.0
+Received: by 10.142.118.2 with SMTP id q2mr3025170wfc.292.1263992448891; Wed,
+ 20 Jan 2010 05:00:48 -0800 (PST)
+Date: Wed, 20 Jan 2010 07:00:48 -0600
+Message-ID: <47cab76c1001200500p47bf66e9q999e9ca71a5272c4@mail.gmail.com>
+Subject: your grandmother
+From: Edward Hurley <hoghurley@gmail.com>
+To: hbiden@rosemontseneca.com
+Content-Type: multipart/alternative; boundary=001636e0b928ea3b6c047d982c0f
+
+
+--001636e0b928ea3b6c047d982c0f
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN;
+	charset=ISO-8859-1
+
+ Hunter,
+    Sorry this is late.  I asked Rob for your email address.
+    I just wanted to drop you a note with regards to your grandmother's
+passing.  ABC News ran a wonderful story on the 5:30 world news that night.
+Your father's speech at the convention spoke incredible volumes of her
+character.
+    I was incredibly close to my mother's mother.  We actually lived with
+her twice as a child.  I always say you can learn more from your
+grandparents than your own parents most of the time.  Obviously I never met
+your grandmother; but from what is told, they just don't make them like that
+anymore.
+    You are a very lucky fellow to have had her so late in your life.  Your
+children got to also enjoy and learn from such a fine lady as well.
+     Hope all is well.  Sure sorry for you loss,
+
+Sincerely, Edward Hurley
+
+--001636e0b928ea3b6c047d982c0f
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=ISO-8859-1
+
+<div class=3D"gmail_quote">
+<div>Hunter,</div>
+<div>=A0=A0=A0 Sorry this is late.=A0 I asked Rob for your email address.</=
+div>
+<div>=A0=A0=A0=A0I just wanted to drop you a note with regards to your gran=
+dmother&#39;s passing.=A0 ABC News ran a wonderful story on the 5:30 world =
+news that night.=A0 Your father&#39;s speech at the convention spoke incred=
+ible volumes of her character.</div>
+
+<div>=A0=A0=A0=A0I was incredibly close to my mother&#39;s mother.=A0 We ac=
+tually lived with her twice as a child.=A0 I always say you can learn more =
+from your grandparents than your own parents most of the time.=A0 Obviously=
+ I never met your grandmother; but from what is told, they just don&#39;t m=
+ake them like that anymore.</div>
+
+<div>=A0=A0=A0 You are a very lucky fellow to have had her so late in your =
+life.=A0 Your children got to also enjoy and learn from such a fine lady as=
+ well.</div>
+<div>=A0=A0=A0=A0 Hope all is well.=A0 Sure sorry for you loss,</div>
+<div>=A0</div>
+<div>Sincerely, Edward Hurley</div></div><br>
+
+--001636e0b928ea3b6c047d982c0f--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114639</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263992449</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3344</string>
+</dict>
+</plist>

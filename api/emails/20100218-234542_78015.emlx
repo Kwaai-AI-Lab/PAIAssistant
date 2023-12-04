@@ -1,0 +1,249 @@
+11145     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs87982weh; Thu, 18 Feb 2010 18:45:39
+ -0800 (PST)
+Received: by 10.101.190.21 with SMTP id s21mr7643963anp.12.1266547538320; Thu,
+ 18 Feb 2010 18:45:38 -0800 (PST)
+Return-Path: <ebrit@prodigy.net>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 9si8521440gxk.41.2010.02.18.18.45.36; Thu, 18
+ Feb 2010 18:45:37 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.69 is neither permitted nor
+ denied by best guess record for domain of ebrit@prodigy.net)
+ client-ip=72.32.253.69;
+DomainKey-Status: good (test mode)
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.69
+ is neither permitted nor denied by best guess record for domain of
+ ebrit@prodigy.net) smtp.mail=ebrit@prodigy.net; domainkeys=pass (test mode)
+ header.From=ebrit@prodigy.net
+Received: by server514.appriver.com (CommuniGate Pro PIPE 5.3.2) with PIPE id
+ 91224884; Thu, 18 Feb 2010 20:45:46 -0600
+Received: from [72.32.253.140] (HELO FE01.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 91224883
+ for hbiden@rosemontseneca.com; Thu, 18 Feb 2010 20:45:44 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE01.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Thu, 18 Feb 2010 20:45:35 -0600
+Received: from [10.242.229.2] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 293011498
+ for hbiden@senecaga.com; Thu, 18 Feb 2010 20:45:44 -0600
+Received: by inbound.appriver.com (CommuniGate Pro PIPE 5.2.16) with PIPE id
+ 32658582; Thu, 18 Feb 2010 20:45:33 -0600
+Received: from smtp102.sbc.mail.re3.yahoo.com ([66.196.96.85] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with SMTP id 32658578 for
+ hbiden@senecaga.com; Thu, 18 Feb 2010 20:45:32 -0600
+Received: (qmail 49957 invoked from network); 19 Feb 2010 02:45:33 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=prodigy.net;
+ h=Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Message-ID:From:To:Cc:Subject:Date:MIME-Version:Content-Type:X-Priority:X-MSMail-Priority:X-Mailer:X-MimeOLE;
+ b=y03KB4fjeE/DUiIHIUzJX6RNY2aYXphGSwbGkavF+dAOz+nvDJwyk+4Catb8lNdN6ZUGr4t1g/Ir3DBukcwWVb/e+2zDNhKoeY1VmN0Dv0MYZtgiekl1uywbFu1ePaPmVKt8Zj9zNkG9bPY/5yoYmJATxyPDZ0a0KTHWEuJjgQ0=
+  ;
+Received: from ownere996d83d4 (ebrit@98.233.39.60 with login) by
+ smtp102.sbc.mail.re3.yahoo.com with SMTP; 18 Feb 2010 18:45:32 -0800 PST
+X-Yahoo-SMTP: LvrO3ASswBCUg_PCoL2kiyH.ct1jYIFW78MT.3Ac
+X-YMail-OSG: .l1cRzoVM1kdHCk89_O4crSTNkhYQfDDXiU7CkrxylOqK4sNx1c.uYv..Y3OGBK_lQrNPmxYC2fSuDGtfIMw2FX0Abc7RrboVkqadd4xczZZISYKhf7l7v8a3u80W29Q9LjjS.7qY0i9x_ak6jIsNCRR5nsBMyb.tBRucnW85RP16zgMn9PjNhKnPa6INbgmAKxuEipHrUG7rrvG9rNvC.dJyvOD9k9V7gVKDeLaDVUjNRhDzXPqzl2sguEYw2cS5HzMNrAwNI8hc7mkeU6v5HhyzuRVj8UtDKHaSIKQijEhOhrh7XC99iSKeHu7UL12UkBW7ouyJwQAY2h1uU.o6W9qakTmRXDJP.IJFSvjZl10OSgxjf5AwKbVAjw7.UIgXRkcqcGvEtUrw4wtPu.evJuQV1axHfI-
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <2FF2DBB724514FE1902C4D1954481C3E@ownere996d83d4>
+From: "Elizabeth Britton" <ebrit@prodigy.net>
+To: <kathleenbiden@mac.com>, <hbiden@senecaga.com>, <psbomstein@comcast.net>,
+ <terriekolodziej@hotmail.com>, "Agnes Tabah" <agnestabah@gmail.com>,
+ <olwen.pongrace@gmail.com>, <dpongrace@akingump.com>,
+ <debbie.harmon@harmonco.com>, <rseder@mail.nih.gov>, <mwagner@icfi.com>,
+ <clewisphd@aol.com>, <jwills@howard.edu>, <otrl2001@aol.com>,
+ <mcyim@cox.net>, <ayime@locus.co.th>, <egray@willkie.com>, "Burr Gray"
+ <Burrgray@aol.com>, <jfeldmann810@comcast.net>, <Feldmann_Jeff@emc.com>,
+ <jbryant@phrma.org>, <biFriedland@verizon.net>, <cunninghamr@sidwell.edu>,
+ <pjgaylor2nd@verizon.net>, <cedunbar@erols.com>, <ccerf@starpower.net>,
+ <cmichaelosborne@mac.com>, <mchimes@gmail.com>, <lisafuentes@gmail.com>,
+ "Cohen-Fuentes family" <cohent@cua.edu>,
+ <fernando.laguarda@post.harvard.edu>, <kate.laguarda@gmail.com>,
+ <calliopevision@aol.com>, <carolinespringer@aol.com>,
+ <sspringer@mlaglobal.com>, <siglover@gibsondunn.com>,
+ <glover.Beata@gmail.com>, <ikfong@mindspring.com>, "Sharon Fong"
+ <stfong@mindspring.com>, <mickalakai@yahoo.com>, <Ajoshighani@worldbank.org>,
+ <pchone@cabinetchone.com>, <kkerr@cgsh.com>,
+ <alan.rosenfeld@capitallighting.com>, <mrradr@aol.com>,
+ <janetwhitmore@verizon.net>, <haroldw@milesrealty.com>, <wgkgs@aol.com>,
+ <CharmaineLescott@rcn.com>, <Philson_Lescott@fanniemae.com>,
+ <DianaWatts2@aol.com>
+Cc: "Nancy White" <ntwjmb@aol.com>, "Brooke Kennedy" <bkennedy2@yahoo.com>,
+ <ted.bristol@bakerd.com>
+Subject: Race Schedule and waiver information
+Date: Thu, 18 Feb 2010 21:45:42 -0500
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="----=_NextPart_000_004A_01CAB0E3.B850AC80"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5843
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note: VCH-CT/SI:0-952/SG:1 2/18/2010 8:45:26 PM
+X-Virus-Scan: V-X0M0
+X-Note: ICH-CT/SI:0-410/SG:1 2/18/2010 8:45:26 PM
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-32/SG:8 2/18/2010 8:45:25 PM
+X-GBUdb-Analysis: 0, 66.196.96.85, Ugly c=0.484386 p=-0.4 Source Normal
+X-Signature-Violations: 0-0-0-29262-c
+X-Note: SCH-CT/SI:1-1272/SG:1 2/18/2010 8:45:06 PM
+X-Warn: SPAMDOMAINS smtp102.sbc.mail.re3.yahoo.com not valid for Sender.
+X-Note: Spam Tests Failed: SPAMDOMAINS
+X-Country-Path: ->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 66.196.96.85
+X-Note-Reverse-DNS: smtp102.sbc.mail.re3.yahoo.com
+X-Note-WHTLIST: ebrit@prodigy.net
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G270 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+Return-Path: ebrit@prodigy.net
+X-OriginalArrivalTime: 19 Feb 2010 02:45:35.0421 (UTC)
+ FILETIME=[9CA4AED0:01CAB10D]
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: ebrit@prodigy.net
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note: VCH-CT/SI:0-952/SG:1 2/18/2010 8:45:02 PM
+X-Virus-Scan: V-X0M0
+X-Note: ICH-CT/SI:0-410/SG:1 2/18/2010 8:45:02 PM
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-40/SG:8 2/18/2010 8:45:02 PM
+X-GBUdb-Analysis: 0, 72.32.253.140, Ugly c=1 p=-0.784097 Source Normal
+X-Signature-Violations: 0-0-0-30976-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->->UNITED STATES->->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.140
+X-Note-Reverse-DNS: fe01.exg4.exghost.com
+X-Note-WHTLIST: ebrit@prodigy.net
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+
+
+------=_NextPart_000_004A_01CAB0E3.B850AC80
+Content-Type: multipart/ALTERNATIVE;
+	boundary="----=_NextPart_001_004B_01CAB0E3.B850AC80"
+
+
+------=_NextPart_001_004B_01CAB0E3.B850AC80
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=iso-8859-1
+
+Hello again,
+
+Attached is a copy of the 2010 regatta schedule.  Brooke and Ted will =
+discuss this in greater detail at our pre-season meeting on Monday =
+evening.
+
+Parents are required to sign waivers for our rowers before they can =
+participate in any of the races on the schedule.  Two waivers that we =
+need to have on file can be accessed at http://www.signyourwaiver.com/
+
+This website is fairly straightforward, but here are a few tips to make =
+it even easier:
+1. Once you click on "Athletes", select "Junior Female"
+2. For the rower's e-mail address I used my daughter's Sidwell e-mail.
+3. Select "Sidwell Friends School" from the drop down menu under =
+"Affiliation.".
+4. Use Brooke's e-mail address: bkennedy2@yahoo.com
+for the coach's contact information
+4.  The information that you proved will automatically be entered into =
+two waivers, a universal waiver and the US Rowing waiver.  Both of these =
+waivers can be printed out at the very end of the process.  Please print =
+out both and bring them to Monday's meeting so that we can keep them on =
+file.
+
+Good luck! =20
+
+Liz Britton
+------=_NextPart_001_004B_01CAB0E3.B850AC80
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.6000.16981" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2>Hello again,</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Attached is a copy of the 2010 regatta=20
+schedule.&nbsp; Brooke and Ted will discuss this in greater detail at =
+our=20
+pre-season meeting on Monday evening.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Parents&nbsp;are required to sign =
+waivers for our=20
+rowers before they can participate in any of the races on the =
+schedule.&nbsp;=20
+Two waivers that we need to have on file can be accessed at <A=20
+href=3D"http://www.signyourwaiver.com/">http://www.signyourwaiver.com/</A=
+></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>This website is fairly straightforward, =
+but here=20
+are a few tips to make it even easier:</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>1.&nbsp;Once you click on=20
+"<STRONG>Athletes</STRONG>", select "<STRONG>Junior=20
+Female</STRONG>"</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>2. For the rower's e-mail address I =
+used my=20
+daughter's Sidwell e-mail.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>3. Select "<STRONG>Sidwell Friends =
+School</STRONG>"=20
+from the drop down menu under =
+"<STRONG>Affiliation</STRONG>."</FONT><FONT=20
+face=3DArial size=3D2>.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>4.&nbsp;Use Brooke's e-mail address: <A =
+
+href=3D"mailto:bkennedy2@yahoo.com">bkennedy2@yahoo.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>for the coach's contact =
+information</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>4.&nbsp; The information that =
+you&nbsp;proved will=20
+automatically&nbsp;be entered into two waivers, a <STRONG>universal=20
+waiver</STRONG> and the <STRONG>US Rowing waiver</STRONG>.&nbsp; Both of =
+these=20
+waivers can be printed out at the very end of the process.&nbsp; Please =
+print=20
+out both and bring them to Monday's meeting so that we can keep them on=20
+file.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Good luck!&nbsp; </FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Liz Britton</FONT></DIV></BODY></HTML>
+
+------=_NextPart_001_004B_01CAB0E3.B850AC80--
+
+------=_NextPart_000_004A_01CAB0E3.B850AC80
+Content-Transfer-Encoding: BASE64
+Content-Disposition: ATTACHMENT;
+	filename="Sidwell_race schedule_2010.xlsx"
+Content-Type: APPLICATION/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET;
+	name="Sidwell_race schedule_2010.xlsx"
+X-Apple-Content-Length: 15946
+
+
+------=_NextPart_000_004A_01CAB0E3.B850AC80--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114693</integer>
+	<key>date-last-viewed</key>
+	<integer>1635313969</integer>
+	<key>date-received</key>
+	<integer>1266547537</integer>
+	<key>flags</key>
+	<integer>25803555841</integer>
+	<key>remote-id</key>
+	<string>5092</string>
+</dict>
+</plist>

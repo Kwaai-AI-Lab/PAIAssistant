@@ -1,0 +1,158 @@
+5756      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.10.143 with SMTP id p15cs343868ebp; Tue, 2 Feb 2010
+ 09:14:58 -0800 (PST)
+Received: by 10.90.19.39 with SMTP id 39mr5653012ags.27.1265130896282; Tue, 02
+ Feb 2010 09:14:56 -0800 (PST)
+Return-Path: <mxl@tlcorplaw.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 4si14170469gxk.72.2010.02.02.09.14.54; Tue, 02
+ Feb 2010 09:14:56 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by best guess record for domain of mxl@tlcorplaw.com)
+ client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by best guess record for domain of
+ mxl@tlcorplaw.com) smtp.mail=mxl@tlcorplaw.com
+Received: by server514.appriver.com (CommuniGate Pro PIPE 5.3c2) with PIPE id
+ 97757187; Tue, 02 Feb 2010 11:14:46 -0600
+Received: from [72.32.253.164] (HELO fe10.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 97757052
+ for hbiden@rosemontseneca.com; Tue, 02 Feb 2010 11:14:36 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe10.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Tue, 2 Feb 2010 11:14:44 -0600
+Received: from [10.242.228.214] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 282644084
+ for hbiden@senecaga.com; Tue, 02 Feb 2010 11:14:36 -0600
+Received: by inbound.appriver.com (CommuniGate Pro PIPE 5.2.16) with PIPE id
+ 26965381; Tue, 02 Feb 2010 11:14:37 -0600
+Received: from cl36.gs01.gridserver.com ([64.13.192.45] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 26965337
+ for hbiden@senecaga.com; Tue, 02 Feb 2010 11:14:32 -0600
+Received: from h-67-101-77-67.nycmny83.static.covad.net ([67.101.77.67]:60091
+ helo=D5J9MV51) by cl36.gs01.gridserver.com with esmtpa (Exim 4.63)
+ (envelope-from <mxl@tlcorplaw.com>) id 1NcMKV-0001TM-Sc; Tue, 02 Feb 2010
+ 09:14:35 -0800
+From: "Marc X. LoPresti" <mxl@tlcorplaw.com>
+To: <delmagew@sec.gov>
+Cc: "'Arthur Laby'" <arthurlaby@verizon.net>, "'Markus Karr'"
+ <Mk@Paradigm-ny.com>
+Subject: PGA WFB Loan Update
+Date: Tue, 2 Feb 2010 12:14:22 -0500
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="----=_NextPart_000_0000_01CAA401.4261F900"
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: AcqkKyk8+JoBm7BQS+yMvBvEb+/xFw==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+Message-Id: <E1NcMKV-0001TM-Sc@cl36.gs01.gridserver.com>
+X-Authenticated-User: 45072 mxl@tlcorplaw.com
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note: VCH-CT/SI:0-891/SG:1 2/2/2010 11:14:09 AM
+X-Virus-Scan: V-X0M0
+X-Note: ICH-CT/SI:0-374/SG:1 2/2/2010 11:14:09 AM
+X-Note: TCH-CT/SI:0-225/SG:5 2/2/2010 11:14:09 AM
+X-GBUdb-Analysis: 0, 64.13.192.45, Ugly c=0 p=0 Source New
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: SCH-CT/SI:2-1272/SG:1 2/2/2010 11:14:29 AM
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 64.13.192.45
+X-Note-Reverse-DNS: cl36.gs01.gridserver.com
+X-Note-WHTLIST: mxl@tlcorplaw.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G169 G170 G171 G172 G176 G177 G275 G281
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+Return-Path: mxl@tlcorplaw.com
+X-OriginalArrivalTime: 02 Feb 2010 17:14:44.0982 (UTC)
+ FILETIME=[372E7160:01CAA42B]
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: mxl@tlcorplaw.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note: VCH-CT/SI:0-891/SG:1 2/2/2010 11:14:30 AM
+X-Virus-Scan: V-X0M0
+X-Note: ICH-CT/SI:0-374/SG:1 2/2/2010 11:14:30 AM
+X-Note: TCH-CT/SI:0-225/SG:5 2/2/2010 11:14:30 AM
+X-GBUdb-Analysis: 0, 72.32.253.164, Ugly c=0.987617 p=-0.986371 Source White
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.164
+X-Note-Reverse-DNS: fe10.exg4.exghost.com
+X-Note-WHTLIST: mxl@tlcorplaw.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G169 G170 G171 G172 G176 G177 G275 G281
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+
+
+------=_NextPart_000_0000_01CAA401.4261F900
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Bill:
+
+As promised, see attached confirming the satisfaction of PGA's loan from
+Washington First Bank.
+
+Best regards,
+
+Marc X. LoPresti, Esq.
+
+Tagliaferro & LoPresti, LLP
+
+New York Office:
+45 Broadway, Suite 2200
+New York, New York 10006
+(212) 732-4029
+(212) 232-2398 (fax)
+
+Los Angeles Office:
+12400 Wilshire Boulevard, Suite 820
+Los Angeles, California 90025
+(310) 312-1860
+(310) 445-1866
+
+CONFIDENTIALITY NOTICE:
+
+The information contained in this electronic mail message is private and
+confidential and may contain Attorney-Client privileged information. It is
+intended only for the use of the individual or entity to whom it is
+addressed. The information may be privileged, proprietary and exempt from
+disclosure under applicable federal, state or other law. Any recipient of
+this electronic mail message other than the intended recipient is hereby
+notified not to disclose, distribute or copy this electronic mail message,
+or take or refrain from taking any action in response to this message.
+
+
+------=_NextPart_000_0000_01CAA401.4261F900
+Content-Transfer-Encoding: BASE64
+Content-Disposition: ATTACHMENT;
+	filename="TL.SEC.Ltr.Deficiency.Response.Update(2.2.10).pdf"
+Content-Type: APPLICATION/PDF;
+	name="TL.SEC.Ltr.Deficiency.Response.Update(2.2.10).pdf"
+X-Apple-Content-Length: 422318
+
+
+------=_NextPart_000_0000_01CAA401.4261F900--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114657</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1265130896</integer>
+	<key>flags</key>
+	<integer>17213621249</integer>
+	<key>remote-id</key>
+	<string>4261</string>
+</dict>
+</plist>

@@ -1,0 +1,620 @@
+43374     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs15566wey; Wed, 13 Jan 2010 18:10:04
+ -0800 (PST)
+Received: by 10.91.32.1 with SMTP id k1mr324572agj.8.1263435001714; Wed, 13
+ Jan 2010 18:10:01 -0800 (PST)
+Return-Path: <bkennedy2@yahoo.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 8si437294gxk.10.2010.01.13.18.10.01; Wed, 13
+ Jan 2010 18:10:01 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.69 is neither permitted nor
+ denied by domain of bkennedy2@yahoo.com) client-ip=72.32.253.69;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.69
+ is neither permitted nor denied by domain of bkennedy2@yahoo.com)
+ smtp.mail=bkennedy2@yahoo.com; dkim=neutral (body hash did not verify)
+ header.i=@yahoo.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: bkennedy2@yahoo.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-140/SG:5 1/13/2010 8:09:49 PM
+X-GBUdb-Analysis: 0, 72.32.253.153, Ugly c=1 p=-0.774468 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->LOCAL->UNITED STATES->UNITED STATES->UNITED
+ STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.153
+X-Note-Reverse-DNS: fe04.exg4.exghost.com
+X-Note-WHTLIST: bkennedy2@yahoo.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.153] (HELO fe04.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 85132698
+ for hbiden@rosemontseneca.com; Wed, 13 Jan 2010 20:10:00 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe04.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 13 Jan 2010 20:10:00 -0600
+Received: from [10.242.229.31] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 271635188
+ for hbiden@senecaga.com; Wed, 13 Jan 2010 20:10:00 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-140/SG:5 1/13/2010 8:08:50 PM
+X-GBUdb-Analysis: 0, 76.13.13.69, Ugly c=0.385168 p=-0.285714 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->LOCAL->UNITED STATES->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 76.13.13.69
+X-Note-Reverse-DNS: n6a.bullet.mail.ac4.yahoo.com
+X-Note-WHTLIST: bkennedy2@yahoo.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from n6a.bullet.mail.ac4.yahoo.com ([76.13.13.69] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with SMTP id 20319543 for
+ hbiden@senecaga.com; Wed, 13 Jan 2010 20:09:59 -0600
+Received: from [76.13.13.26] by n6.bullet.mail.ac4.yahoo.com with NNFMP; 14
+ Jan 2010 02:09:59 -0000
+Received: from [76.13.10.172] by t3.bullet.mail.ac4.yahoo.com with NNFMP; 14
+ Jan 2010 02:09:59 -0000
+Received: from [127.0.0.1] by omp113.mail.ac4.yahoo.com with NNFMP; 14 Jan
+ 2010 02:09:59 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 823901.76482.bm@omp113.mail.ac4.yahoo.com
+Received: (qmail 84186 invoked by uid 60001); 14 Jan 2010 02:09:59 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024;
+ t=1263434999; bh=hoHkV4WRJe/vslyIIAF5Kf1zj5PbcIoX2f57+AAP1Yw=;
+ h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:MIME-Version:Content-Type;
+ b=P61d4a61GyVzQPv60DJ8P+9O8sYq0bjqg5754MGinkfby5zs7HEc97ZNxEsOF1K3ExzDXHwVL0GLKfGXeUdks/Ogs76fn0mBoN8sQRnIYgQ5h8xEuoTVQrHVxjJZPzu+Th2KTjZWaHx9IeeXWPG2GGmiOQkKdZUkSHxaGg++eio=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+ h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:MIME-Version:Content-Type;
+ b=k97+eE4ZzILm1EzeDk4VBvDh0BppbeFFP83oIOPirVMrzk8vwdVyqoOyAIYG8d8i7ejcXxh2Iy1U8r9LH38wOBn8V5ql8FyGIDqx7bylMcJdSYYUUoOVFFQYG3Mx12qlIO6Ku3KkNZlsLCwo/yYgVs/sZbPDXdT7MZro9NfDsus=;
+Message-ID: <530946.84103.qm@web65407.mail.ac4.yahoo.com>
+X-YMail-OSG: Hl0p3o8VM1nF9F3ipq6UinT8ahYqT2HEm_qHIVyfNqBwd.63SYo1cosZF5Rpk.3yEszkPkp39TjaJQ2hEgHXxKRSlpCCGv7yI.Z744isv5PZVlbbo2MSBO3ESRfFzDviLUEngdSaqSLsaH0odVgzemUH_bacAOvdc8lXKAHNMyCY39ewPIDYErV0MwGtD7lJFmbx.vZBP4d6qL11fMuxsEdrTuImVaOd4ZQsvZDD1_Xr4fnrSYgrWXw4peshIzEwCxQFn3o1nEF8YGl4K7o.wTGPj1gHgUyJMp8hGioXj2ID78VcDcBvNteyZtQkKwz.qWzOjyJk7ox6A06Gjxxg18xkyXw5Rw--
+Received: from [76.114.214.242] by web65407.mail.ac4.yahoo.com via HTTP; Wed,
+ 13 Jan 2010 18:09:59 PST
+X-Mailer: YahooMailRC/272.7 YahooMailWebService/0.8.100.260964
+Date: Wed, 13 Jan 2010 18:09:59 -0800 (PST)
+From: Brooke Kennedy <bkennedy2@yahoo.com>
+Subject: Important information for all rowers and parents
+To: kingtoney@hotmail.com, auerswald@gmu.edu, ireeves2@aol.com,
+ fli@linsang.com, kate.laguarda@gmail.com, kaminator126@aol.com,
+ kli@linsang.com, carolinespringer@aol.com, sspringer@mlaglobal.com,
+ fernando.laguarda@post.harvard.edu, janetwhitmore@verizon.net,
+ alan.rosenfeld@capitallighting.com, mrradr@aol.com, mhplank@earthlink.net,
+ calliopevision@aol.com, siglover@gibsondunn.com, haroldw@milesrealty.com,
+ ltoney11@sidwell.edu, katherine.auerswald@med.va.gov,
+ arosenfeld12@sidwell.edu, xlaguarda13@sidwell.edu, efisher13@sidwell.edu,
+ mglover13@sidwell.edu, areeves11@sidwell.edu, kmerckens13@sidwell.edu,
+ cfong12@sidwell.edu, claguarda13@sidwell.edu, jspringer13@sidwell.edu,
+ ksouders11@sidwell.edu, lrosenfeld12@sidwell.edu, r.krieger@verizon.net,
+ pchone@cabinetchone.com, mickalakai@yahoo.com, mchone12@sidwell.edu,
+ kkerr@cgsh.com, agrant12@sidwell.edu, lkrieger13@sidwell.edu,
+ stfong@mindspring.com, hbiden@senecaga.com, ayim@locus.co.th,
+ cbomstein12@sidwell.edu, afriedland12@sidwell.edu, ngaylor10@sidwell.edu,
+ idorval11@sidwell.edu, bfeldmann11@sidwell.edu, RGray11@sidwell.edu,
+ MBryan10@sidwell.edu, ebryan12@sidwell.edu, nbiden12@sidwell.edu,
+ mcohenfuentes10@sidwell.edu, acerf11@sidwell.edu, mchimes10@sidwell.edu,
+ cyim12@sidwell.edu, mwills12@sidwell.edu, nbristol@mac.com,
+ kathleenbiden@mac.com, hbristol10@sidwell.edu, ntwjmb@aol.com,
+ kkolodziej11@sidwell.edu, MWagner11@sidwell.edu, PSolleveld11@sidwell.edu,
+ aseder12@sidwell.edu, Elizabeth Britton <ebrit@prodigy.net>,
+ cdorval@prodigy.net, jfeldmann810@comcast.net, cmichaelosborne@mac.com,
+ mchimes@gmail.com, lisafuentes@gmail.com, cohent@cua.edu,
+ jbryan@beankinney.com, cedunbar@erols.com, ccerf@starpower.net,
+ psbomstein@comcast.net, terriekolodziej@hotmail.com, Burrgray@aol.com,
+ cunninghamr@sidwell.edu, BIFriedland@verizon.net, egray@willkie.com,
+ pjgaylor2nd@verizon.net, alakazam123@gmail.com, Feldmann_Jeff@emc.com,
+ Bruce.i.friedland@irs.gov, jbryant@phrma.org, mcyim@cox.net,
+ juliephennicie@gmail.com, jwills@howard.edu, otrl2001@aol.com,
+ clewisphd@aol.com, mwagner@icfi.com, rseder@mail.nih.gov, SollWatt@aol.com,
+ dpongrace@akingump.com, debbie.harmon@harmonco.com, atabah@ngs.org,
+ olwen.pongrace@gmail.com, Agnes Tabah <agnestabah@gmail.com>
+Cc: Sara McGanity <sara.mcganity@gmail.com>, Ted Bristol
+ <Ted.Bristol@bakerd.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-958487101-1263434999=:84103"
+Return-Path: bkennedy2@yahoo.com
+X-OriginalArrivalTime: 14 Jan 2010 02:10:00.0874 (UTC)
+ FILETIME=[AD7BA8A0:01CA94BE]
+
+
+--0-958487101-1263434999=:84103
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=utf-8
+
+Dear Sidwell Crew,=0A =0AHappy New Year!  I=0Ahope you all had a relaxing w=
+inter break and that you are finding success=0Aduring the exam week.  In ju=
+st a few=0Aweeks, the official start of the crew season will be upon us.  I=
+ am writing to update you on some administrative=0Aand organizational matte=
+rs that will be important over the next few weeks.  =0A =0APlease read this=
+=0Aentire message and pay close attention to the points in bold-face type.=
+=0A =0APersonnel/coaching=0AFirst, I would like to take this opportunity to=
+ introduce=0Aand welcome Sara McGanity to the Sidwell Crew team.  Sara will=
+ be joining the coaching staff this=0Aseason to support me and Ted with dai=
+ly practices, weekend races and various=0Aorganizational matters.  Please j=
+oin me=0Ain extending a warm welcome to Sara.  You=0Awill all have the oppo=
+rtunity to meet her face-to-face over the coming weeks.=0A =0APre-season tr=
+aining=0AWith only a few weeks before we enter the competitive=0Aseason, it=
+ is critical that we begin focusing on our fitness and training=0Aregimens.=
+  I trust that each one of you=0Ahas been utilizing the training journals t=
+hat were distributed in November.  The coaches are looking forward to seein=
+g the=0Aprogress that you have made over the last several weeks.=0A =0ATo h=
+elp you get in shape for the season, the coaches will=0Aoffer a pre-season =
+training program beginning Wednesday, January 20.  The objective of the pre=
+-season training is=0Ato help you attain a proper fitness level before the =
+season starts and to teach=0Asome rowing basics to the novice group.  Remem=
+ber that we will be conducting team selection fitness test on the=0Afirst w=
+eek of the spring season (February 26-27).=0A =0AThe first pre-season sessi=
+on will be held next Wednesday, January 20 from 6:30-7:30am.  We will meet =
+outside of Ms. Zug=E2=80=99s=0Aoffice.  Regular sessions will then take=0Ap=
+lace as follows:=0A=C2=B7         Monday and Wednesday mornings, 6:30-7:30a=
+m=0A =0AIt is expected that all=0Arowers who are not on a winter sports tea=
+m will commit to these two pre-season=0Atraining sessions each week.  We ha=
+ve=0Aintentionally scheduled the training sessions in the mornings so that =
+you will=0Anot have to sacrifice any academic and/or extracurricular activi=
+ties after=0Aschool.  =0A =0APlease note that if you do not attend the pre-=
+season=0Atraining, you will have points automatically deducted from your te=
+am selection=0Afitness test in February.  The coaches=0Awill be taking atte=
+ndance at each of the pre-season sessions.  Note=0Athat winter sports athle=
+tes are not expected to commit to pre-season training=0Afor crew but are we=
+lcome to participate if they have the time.=0A =0AOrganizational meeting =
+=0AThe parent-rower=0Aorganizational meeting will be held in the US dining =
+room on February 22 at=0A6:30pm.  It is critical that all=0Arowers and at l=
+east one of their parents attend this meeting.  It will offer a prelude to =
+the season ahead=0Aand provide you with all of the administrative, logistic=
+al and organizational=0Ainformation that you will need in the spring.  Plea=
+se put this meeting on your calendars now.=0A =0ASpring break schedule=0A A=
+s a reminder, varsity rowers are expected to return from=0Aspring break by =
+Wednesday, March 24.  The team will practice that afternoon at 4:00pm and w=
+ill then have=0Adouble practices (roughly 7am and 4pm) on Thursday and Frid=
+ay, March 25-26.  The varsity boats will participate in a=0Atri-meet agains=
+t Ireton and O=E2=80=99Connell on Saturday, March 27 on the Anacostia.=0A =
+=0ANovice rowers are=0Aexempt from the spring break schedule and will not p=
+ractice from Friday,=0AMarch 19-Monday, March 29.  Any varsity rower who wi=
+ll be absent from=0Aspring break practices must inform me, in writing, as s=
+oon as possible.=0A =0AFinally, if wish to be removed from the crew distrib=
+ution=0Alist, kindly email Nancy White and/or Liz Britton with your request=
+..=0A =0ATed, Sara and I look forward to seeing most of you next=0Aweek.  If=
+ you have any questions or=0Aconcerns, you can contact me via email.=0A =0A=
+Best wishes,=0ABrooke=0A=0A=0A      
+--0-958487101-1263434999=:84103
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=utf-8
+
+<html><head><style type=3D"text/css"><!-- DIV {margin:0px;} --></style></he=
+ad><body><div style=3D"font-family:tahoma,new york,times,serif;font-size:10=
+pt;color:#000000;"><div><meta http-equiv=3D"Content-Type" content=3D"text/h=
+tml; charset=3Dutf-8"><meta name=3D"ProgId" content=3D"Word.Document"><meta=
+ name=3D"Generator" content=3D"Microsoft Word 12"><meta name=3D"Originator"=
+ content=3D"Microsoft Word 12"><link rel=3D"File-List" href=3D"file:///C:%5=
+CDOCUME%7E1%5CMamaLoo%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_fileli=
+st.xml"><link rel=3D"themeData" href=3D"file:///C:%5CDOCUME%7E1%5CMamaLoo%5=
+CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx"><link rel=3D"=
+colorSchemeMapping" href=3D"file:///C:%5CDOCUME%7E1%5CMamaLoo%5CLOCALS%7E1%=
+5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml"><!--[if gte mso 9=
+]><xml>=0A <w:WordDocument>=0A  <w:View>Normal</w:View>=0A  <w:Zoom>0</w:Zo=
+om>=0A  <w:TrackMoves/>=0A  <w:TrackFormatting/>=0A  <w:PunctuationKerning/=
+>=0A  <w:ValidateAgainstSchemas/>=0A  <w:SaveIfXMLInvalid>false</w:SaveIfXM=
+LInvalid>=0A  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>=0A  <w:Alw=
+aysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>=0A  <w:DoNotProm=
+oteQF/>=0A  <w:LidThemeOther>EN-US</w:LidThemeOther>=0A  <w:LidThemeAsian>Z=
+H-CN</w:LidThemeAsian>=0A  <w:LidThemeComplexScript>X-NONE</w:LidThemeCompl=
+exScript>=0A  <w:Compatibility>=0A   <w:BreakWrappedTables/>=0A   <w:SnapTo=
+GridInCell/>=0A   <w:WrapTextWithPunct/>=0A   <w:UseAsianBreakRules/>=0A   =
+<w:DontGrowAutofit/>=0A   <w:SplitPgBreakAndParaMark/>=0A   <w:DontVertAlig=
+nCellWithSp/>=0A   <w:DontBreakConstrainedForcedTables/>=0A   <w:DontVertAl=
+ignInTxbx/>=0A   <w:Word11KerningPairs/>=0A   <w:CachedColBalance/>=0A  </w=
+:Compatibility>=0A  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLe=
+vel>=0A  <m:mathPr>=0A   <m:mathFont m:val=3D"Cambria Math"/>=0A   <m:brkBi=
+n m:val=3D"before"/>=0A   <m:brkBinSub m:val=3D"--"/>=0A   <m:smallFrac m:v=
+al=3D"off"/>=0A   <m:dispDef/>=0A   <m:lMargin m:val=3D"0"/>=0A   <m:rMargi=
+n m:val=3D"0"/>=0A   <m:defJc m:val=3D"centerGroup"/>=0A   <m:wrapIndent m:=
+val=3D"1440"/>=0A   <m:intLim m:val=3D"subSup"/>=0A   <m:naryLim m:val=3D"u=
+ndOvr"/>=0A  </m:mathPr></w:WordDocument>=0A</xml><![endif]--><!--[if gte m=
+so 9]><xml>=0A <w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=
+=3D"true"=0A  DefSemiHidden=3D"true" DefQFormat=3D"false" DefPriority=3D"99=
+"=0A  LatentStyleCount=3D"267">=0A  <w:LsdException Locked=3D"false" Priori=
+ty=3D"0" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true=
+" Name=3D"Normal"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"9" Sem=
+iHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"he=
+ading 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"t=
+rue" Name=3D"heading 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"=
+9" QFormat=3D"true" Name=3D"heading 3"/>=0A  <w:LsdException Locked=3D"fals=
+e" Priority=3D"9" QFormat=3D"true" Name=3D"heading 4"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"heading 5"/>=0A  =
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"t=
+rue" Name=3D"heading 7"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"=
+9" QFormat=3D"true" Name=3D"heading 8"/>=0A  <w:LsdException Locked=3D"fals=
+e" Priority=3D"9" QFormat=3D"true" Name=3D"heading 9"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"39" Name=3D"toc 1"/>=0A  <w:LsdException Lock=
+ed=3D"false" Priority=3D"39" Name=3D"toc 2"/>=0A  <w:LsdException Locked=3D=
+"false" Priority=3D"39" Name=3D"toc 3"/>=0A  <w:LsdException Locked=3D"fals=
+e" Priority=3D"39" Name=3D"toc 4"/>=0A  <w:LsdException Locked=3D"false" Pr=
+iority=3D"39" Name=3D"toc 5"/>=0A  <w:LsdException Locked=3D"false" Priorit=
+y=3D"39" Name=3D"toc 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"=
+39" Name=3D"toc 7"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"39" N=
+ame=3D"toc 8"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"39" Name=
+=3D"toc 9"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"35" QFormat=
+=3D"true" Name=3D"caption"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"10" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true"=
+ Name=3D"Title"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"1" Name=
+=3D"Default Paragraph Font"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"11" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true"=
+ Name=3D"Subtitle"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"22" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"=
+Strong"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"20" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Emphasis"=
+/>=0A  <w:LsdException Locked=3D"false" Priority=3D"59" SemiHidden=3D"false=
+"=0A   UnhideWhenUsed=3D"false" Name=3D"Table Grid"/>=0A  <w:LsdException L=
+ocked=3D"false" UnhideWhenUsed=3D"false" Name=3D"Placeholder Text"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"false"=0A   Unh=
+ideWhenUsed=3D"false" QFormat=3D"true" Name=3D"No Spacing"/>=0A  <w:LsdExce=
+ption Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A   UnhideWhen=
+Used=3D"false" Name=3D"Light Shading"/>=0A  <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Light List"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"62" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Grid"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A   Un=
+hideWhenUsed=3D"false" Name=3D"Medium Shading 1"/>=0A  <w:LsdException Lock=
+ed=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fa=
+lse" Name=3D"Medium Shading 2"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"65" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Mediu=
+m List 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 2"/>=0A  <w:Ls=
+dException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A   Unhid=
+eWhenUsed=3D"false" Name=3D"Medium Grid 1"/>=0A  <w:LsdException Locked=3D"=
+false" Priority=3D"68" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" N=
+ame=3D"Medium Grid 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"69=
+" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3"=
+/>=0A  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false=
+"=0A   UnhideWhenUsed=3D"false" Name=3D"Dark List"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Colorful Shading"/>=0A  <w:LsdException Locked=3D"false" Pri=
+ority=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Col=
+orful List"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidd=
+en=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid"/>=0A  <w:=
+LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A   Unh=
+ideWhenUsed=3D"false" Name=3D"Light Shading Accent 1"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Light List Accent 1"/>=0A  <w:LsdException Locked=3D"fal=
+se" Priority=3D"62" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D=
+"63" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shad=
+ing 1 Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"64" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Acc=
+ent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D=
+"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 1"/>=0A =
+ <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" Name=3D"Revision=
+"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"34" SemiHidden=3D"fals=
+e"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"List Paragraph"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"29" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Quote"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"30" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Quote"/>=0A  <w:LsdExce=
+ption Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A   UnhideWhen=
+Used=3D"false" Name=3D"Medium List 2 Accent 1"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Medium Grid 1 Accent 1"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"68" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"M=
+edium Grid 2 Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"6=
+9" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3=
+ Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidde=
+n=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 1"/>=0A =
+ <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A  =
+ UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 1"/>=0A  <w:LsdEx=
+ception Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A   UnhideWh=
+enUsed=3D"false" Name=3D"Colorful List Accent 1"/>=0A  <w:LsdException Lock=
+ed=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fa=
+lse" Name=3D"Colorful Grid Accent 1"/>=0A  <w:LsdException Locked=3D"false"=
+ Priority=3D"60" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D=
+"Light Shading Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D=
+"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light List =
+Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 2"/>=0A =
+ <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A  =
+ UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 2"/>=0A  <w:LsdEx=
+ception Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A   UnhideWh=
+enUsed=3D"false" Name=3D"Medium Shading 2 Accent 2"/>=0A  <w:LsdException L=
+ocked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D=
+"false" Name=3D"Medium List 1 Accent 2"/>=0A  <w:LsdException Locked=3D"fal=
+se" Priority=3D"66" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium G=
+rid 1 Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"68" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent=
+ 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 2"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A   Un=
+hideWhenUsed=3D"false" Name=3D"Dark List Accent 2"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Colorful Shading Accent 2"/>=0A  <w:LsdException Locked=3D"f=
+alse" Priority=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Na=
+me=3D"Colorful List Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priori=
+ty=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorf=
+ul Grid Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"60" Se=
+miHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Shading Acce=
+nt 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"=
+false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 3"/>=0A  <w:=
+LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A   Unh=
+ideWhenUsed=3D"false" Name=3D"Light Grid Accent 3"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Medium Shading 1 Accent 3"/>=0A  <w:LsdException Locked=3D"f=
+alse" Priority=3D"64" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Na=
+me=3D"Medium Shading 2 Accent 3"/>=0A  <w:LsdException Locked=3D"false" Pri=
+ority=3D"65" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Med=
+ium List 1 Accent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"66"=
+ SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 A=
+ccent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 3"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 3"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 3"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Dark List Accent 3"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"71" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"C=
+olorful Shading Accent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful=
+ List Accent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"73" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent=
+ 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 4"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A   Un=
+hideWhenUsed=3D"false" Name=3D"Light List Accent 4"/>=0A  <w:LsdException L=
+ocked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D=
+"false" Name=3D"Light Grid Accent 4"/>=0A  <w:LsdException Locked=3D"false"=
+ Priority=3D"63" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D=
+"Medium Shading 1 Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"64" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium S=
+hading 2 Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"65" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Acc=
+ent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D=
+"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 4"/>=0A =
+ <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A  =
+ UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 4"/>=0A  <w:LsdExcep=
+tion Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A   UnhideWhenU=
+sed=3D"false" Name=3D"Medium Grid 2 Accent 4"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Medium Grid 3 Accent 4"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"70" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"D=
+ark List Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"71" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading =
+Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 4"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 4"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" Name=3D"Light Shading Accent 5"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Light List Accent 5"/>=0A  <w:LsdException Locked=3D"false" =
+Priority=3D"62" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"=
+Light Grid Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"63"=
+ SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading =
+1 Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidd=
+en=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent =
+5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"fal=
+se"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 5"/>=0A  <w:=
+LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A   Unh=
+ideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 5"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Medium Grid 1 Accent 5"/>=0A  <w:LsdException Locked=3D"=
+false" Priority=3D"68" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" N=
+ame=3D"Medium Grid 2 Accent 5"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"69" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Mediu=
+m Grid 3 Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"70" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent =
+5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"fal=
+se"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 5"/>=0A  =
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A   =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 5"/>=0A  <w:LsdExcept=
+ion Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUs=
+ed=3D"false" Name=3D"Colorful Grid Accent 5"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Light Shading Accent 6"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"L=
+ight List Accent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"62" =
+SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accen=
+t 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"f=
+alse"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A =
+  UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 6"/>=0A  <w:LsdE=
+xception Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A   UnhideW=
+henUsed=3D"false" Name=3D"Medium List 1 Accent 6"/>=0A  <w:LsdException Loc=
+ked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"f=
+alse" Name=3D"Medium List 2 Accent 6"/>=0A  <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"68" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium G=
+rid 2 Accent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"69" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent=
+ 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 6"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" Name=3D"Colorful Shading Accent 6"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Colorful List Accent 6"/>=0A  <w:LsdException Locked=3D"=
+false" Priority=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" N=
+ame=3D"Colorful Grid Accent 6"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"19" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"tr=
+ue" Name=3D"Subtle Emphasis"/>=0A  <w:LsdException Locked=3D"false" Priorit=
+y=3D"21" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true=
+" Name=3D"Intense Emphasis"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"31" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true"=
+ Name=3D"Subtle Reference"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"32" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true"=
+ Name=3D"Intense Reference"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"33" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true"=
+ Name=3D"Book Title"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"37"=
+ Name=3D"Bibliography"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"3=
+9" QFormat=3D"true" Name=3D"TOC Heading"/>=0A </w:LatentStyles>=0A</xml><![=
+endif]--><style>=0A<!--=0A /* Font Definitions */=0A @font-face=0A=09{font-=
+family:Wingdings;=0A=09panose-1:5 0 0 0 0 0 0 0 0 0;=0A=09mso-font-charset:=
+2;=0A=09mso-generic-font-family:auto;=0A=09mso-font-pitch:variable;=0A=09ms=
+o-font-signature:0 268435456 0 0 -2147483648 0;}=0A@font-face=0A=09{font-fa=
+mily:"Cambria Math";=0A=09panose-1:2 4 5 3 5 4 6 3 2 4;=0A=09mso-font-chars=
+et:0;=0A=09mso-generic-font-family:roman;=0A=09mso-font-pitch:variable;=0A=
+=09mso-font-signature:-1610611985 1107304683 0 0 159 0;}=0A@font-face=0A=09=
+{font-family:Calibri;=0A=09panose-1:2 15 5 2 2 2 4 3 2 4;=0A=09mso-font-cha=
+rset:0;=0A=09mso-generic-font-family:swiss;=0A=09mso-font-pitch:variable;=
+=0A=09mso-font-signature:-1610611985 1073750139 0 0 159 0;}=0A /* Style Def=
+initions */=0A p.MsoNormal, li.MsoNormal, div.MsoNormal=0A=09{mso-style-unh=
+ide:no;=0A=09mso-style-qformat:yes;=0A=09mso-style-parent:"";=0A=09margin-t=
+op:0in;=0A=09margin-right:0in;=0A=09margin-bottom:10.0pt;=0A=09margin-left:=
+0in;=0A=09line-height:115%;=0A=09mso-pagination:widow-orphan;=0A=09font-siz=
+e:11.0pt;=0A=09font-family:"Calibri","sans-serif";=0A=09mso-fareast-font-fa=
+mily:Calibri;=0A=09mso-bidi-font-family:"Times New Roman";=0A=09mso-fareast=
+-language:EN-US;}=0Aa:link, span.MsoHyperlink=0A=09{mso-style-priority:99;=
+=0A=09color:blue;=0A=09mso-themecolor:hyperlink;=0A=09text-decoration:under=
+line;=0A=09text-underline:single;}=0Aa:visited, span.MsoHyperlinkFollowed=
+=0A=09{mso-style-noshow:yes;=0A=09mso-style-priority:99;=0A=09color:purple;=
+=0A=09mso-themecolor:followedhyperlink;=0A=09text-decoration:underline;=0A=
+=09text-underline:single;}=0Ap.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpac=
+ing=0A=09{mso-style-priority:1;=0A=09mso-style-unhide:no;=0A=09mso-style-qf=
+ormat:yes;=0A=09mso-style-parent:"";=0A=09margin:0in;=0A=09margin-bottom:.0=
+001pt;=0A=09mso-pagination:widow-orphan;=0A=09font-size:11.0pt;=0A=09font-f=
+amily:"Calibri","sans-serif";=0A=09mso-fareast-font-family:Calibri;=0A=09ms=
+o-bidi-font-family:"Times New Roman";=0A=09mso-fareast-language:EN-US;}=0A.=
+MsoChpDefault=0A=09{mso-style-type:export-only;=0A=09mso-default-props:yes;=
+=0A=09font-size:10.0pt;=0A=09mso-ansi-font-size:10.0pt;=0A=09mso-bidi-font-=
+size:10.0pt;=0A=09mso-ascii-font-family:Calibri;=0A=09mso-fareast-font-fami=
+ly:Calibri;=0A=09mso-hansi-font-family:Calibri;}=0A@page Section1=0A=09{siz=
+e:8.5in 11.0in;=0A=09margin:1.0in 1.0in 1.0in 1.0in;=0A=09mso-header-margin=
+:.5in;=0A=09mso-footer-margin:.5in;=0A=09mso-paper-source:0;}=0Adiv.Section=
+1=0A=09{page:Section1;}=0A /* List Definitions */=0A @list l0=0A=09{mso-lis=
+t-id:1430808865;=0A=09mso-list-type:hybrid;=0A=09mso-list-template-ids:-126=
+7055438 67698689 67698691 67698693 67698689 67698691 67698693 67698689 6769=
+8691 67698693;}=0A@list l0:level1=0A=09{mso-level-number-format:bullet;=0A=
+=09mso-level-text:=EF=82=B7;=0A=09mso-level-tab-stop:none;=0A=09mso-level-n=
+umber-position:left;=0A=09text-indent:-.25in;=0A=09font-family:Symbol;}=0Ao=
+l=0A=09{margin-bottom:0in;}=0Aul=0A=09{margin-bottom:0in;}=0A-->=0A</style>=
+<!--[if gte mso 10]>=0A<style>=0A /* Style Definitions */=0A table.MsoNorma=
+lTable=0A=09{mso-style-name:"Table Normal";=0A=09mso-tstyle-rowband-size:0;=
+=0A=09mso-tstyle-colband-size:0;=0A=09mso-style-noshow:yes;=0A=09mso-style-=
+priority:99;=0A=09mso-style-qformat:yes;=0A=09mso-style-parent:"";=0A=09mso=
+-padding-alt:0in 5.4pt 0in 5.4pt;=0A=09mso-para-margin:0in;=0A=09mso-para-m=
+argin-bottom:.0001pt;=0A=09mso-pagination:widow-orphan;=0A=09font-size:10.0=
+pt;=0A=09font-family:"Calibri","sans-serif";}=0A</style>=0A<![endif]-->=0A=
+=0A<p class=3D"MsoNoSpacing">Dear Sidwell Crew,</p>=0A=0A<p class=3D"MsoNoS=
+pacing"><o:p>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing">Happy New Year=
+!<span style=3D"">&nbsp; </span>I=0Ahope you all had a relaxing winter brea=
+k and that you are finding success=0Aduring the exam week.<span style=3D"">=
+&nbsp; </span>In just a few=0Aweeks, the official start of the crew season =
+will be upon us.<span style=3D"">&nbsp; </span>I am writing to update you o=
+n some administrative=0Aand organizational matters that will be important o=
+ver the next few weeks.<span style=3D"">&nbsp; </span></p>=0A=0A<p class=3D=
+"MsoNoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing"><b styl=
+e=3D"">Please read this=0Aentire message and pay close attention to the poi=
+nts in bold-face type.<o:p></o:p></b></p>=0A=0A<p class=3D"MsoNoSpacing"><o=
+:p>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing"><u>Personnel/coaching<o:=
+p></o:p></u></p>=0A=0A<p class=3D"MsoNoSpacing">First, I would like to take=
+ this opportunity to introduce=0Aand welcome Sara McGanity to the Sidwell C=
+rew team.<span style=3D"">&nbsp; </span>Sara will be joining the coaching s=
+taff this=0Aseason to support me and Ted with daily practices, weekend race=
+s and various=0Aorganizational matters.<span style=3D"">&nbsp; </span>Pleas=
+e join me=0Ain extending a warm welcome to Sara.<span style=3D"">&nbsp; </s=
+pan>You=0Awill all have the opportunity to meet her face-to-face over the c=
+oming weeks.</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A=
+<p class=3D"MsoNoSpacing"><u>Pre-season training<o:p></o:p></u></p>=0A=0A<p=
+ class=3D"MsoNoSpacing">With only a few weeks before we enter the competiti=
+ve=0Aseason, it is critical that we begin focusing on our fitness and train=
+ing=0Aregimens.<span style=3D"">&nbsp; </span>I trust that each one of you=
+=0Ahas been utilizing the training journals that were distributed in Novemb=
+er.<span style=3D"">&nbsp; </span>The coaches are looking forward to seeing=
+ the=0Aprogress that you have made over the last several weeks.</p>=0A=0A<p=
+ class=3D"MsoNoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing=
+">To help you get in shape for the season, the coaches will=0Aoffer a pre-s=
+eason training program beginning Wednesday, January 20.<span style=3D"">&nb=
+sp; </span>The objective of the pre-season training is=0Ato help you attain=
+ a proper fitness level before the season starts and to teach=0Asome rowing=
+ basics to the novice group.<span style=3D"">&nbsp;=0A</span>Remember that =
+we will be conducting team selection fitness test on the=0Afirst week of th=
+e spring season (February 26-27).</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p>&=
+nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing">The first pre-season session=
+ will be held next <b style=3D"">Wednesday, January 20 from 6:30-7:30am</b>=
+..<span style=3D"">&nbsp; </span>We will meet outside of Ms. Zug=E2=80=99s=
+=0Aoffice.<span style=3D"">&nbsp; </span>Regular sessions will then take=0A=
+place as follows:</p>=0A=0A<p class=3D"MsoNoSpacing" style=3D"margin-left: =
+0.5in; text-indent: -0.25in;"><!--[if !supportLists]--><span style=3D"font-=
+family: Symbol;"><span style=3D"">=C2=B7<span style=3D"font-family: &quot;T=
+imes New Roman&quot;; font-style: normal; font-variant: normal; font-weight=
+: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font=
+-stretch: normal; -x-system-font: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;=0A</span></span></span><!--[endif]-->Monday and Wednesday mo=
+rnings, 6:30-7:30am</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p>&nbsp;</o:p></p=
+>=0A=0A<p class=3D"MsoNoSpacing">It is expected that <b style=3D"">all=0Aro=
+wers who are not on a winter sports team will commit to these two pre-seaso=
+n=0Atraining sessions each week</b>.<span style=3D"">&nbsp; </span>We have=
+=0Aintentionally scheduled the training sessions in the mornings so that yo=
+u will=0Anot have to sacrifice any academic and/or extracurricular activiti=
+es after=0Aschool.<span style=3D"">&nbsp; </span></p>=0A=0A<p class=3D"MsoN=
+oSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing">Please note =
+that if you do not attend the pre-season=0Atraining, you will have points a=
+utomatically deducted from your team selection=0Afitness test in February.<=
+span style=3D"">&nbsp; </span>The coaches=0Awill be taking attendance at ea=
+ch of the pre-season sessions.<span style=3D"">&nbsp; </span><b style=3D"">=
+Note=0Athat winter sports athletes are not expected to commit to pre-season=
+ training=0Afor crew</b> but are welcome to participate if they have the ti=
+me.</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p class=
+=3D"MsoNoSpacing"><u>Organizational meeting</u> </p>=0A=0A<p class=3D"MsoNo=
+Spacing">The <b style=3D"">parent-rower=0Aorganizational meeting will be he=
+ld in the US dining room on February 22 at=0A6:30pm</b>.<span style=3D"">&n=
+bsp; </span>It is critical that all=0Arowers and at least one of their pare=
+nts attend this meeting.<span style=3D"">&nbsp; </span>It will offer a prel=
+ude to the season ahead=0Aand provide you with all of the administrative, l=
+ogistical and organizational=0Ainformation that you will need in the spring=
+..<span style=3D"">&nbsp;=0A</span>Please put this meeting on your calendars=
+ now.</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p clas=
+s=3D"MsoNoSpacing"><u>Spring break schedule<o:p></o:p></u></p>=0A=0A<p clas=
+s=3D"MsoNoSpacing"><span style=3D"">&nbsp;</span>As a reminder, <b style=3D=
+"">varsity rowers are expected to return from=0Aspring break by Wednesday, =
+March 24</b>.<span style=3D"">&nbsp;=0A</span>The team will practice that a=
+fternoon at 4:00pm and will then have=0Adouble practices (roughly 7am and 4=
+pm) on Thursday and Friday, March 25-26.<span style=3D"">&nbsp; </span>The =
+varsity boats will participate in a=0Atri-meet against Ireton and O=E2=80=
+=99Connell on Saturday, March 27 on the Anacostia.</p>=0A=0A<p class=3D"Mso=
+NoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing"><b style=3D=
+"">Novice rowers are=0Aexempt from the spring break schedule</b> and will n=
+ot practice from Friday,=0AMarch 19-Monday, March 29.<span style=3D"">&nbsp=
+; </span><b style=3D"">Any varsity rower who will be absent from=0Aspring b=
+reak practices must inform me, in writing, as soon as possible.</b></p>=0A=
+=0A<p class=3D"MsoNoSpacing"><b style=3D""><o:p>&nbsp;</o:p></b></p>=0A=0A<=
+p class=3D"MsoNoSpacing">Finally, if wish to be removed from the crew distr=
+ibution=0Alist, kindly email <a href=3D"mailto:ntwjmb@aol.com">Nancy White<=
+/a> and/or <a href=3D"mailto:ebrit@prodigy.net">Liz Britton</a> with your r=
+equest.</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p>&nbsp;</o:p></p>=0A=0A<p cl=
+ass=3D"MsoNoSpacing">Ted, Sara and I look forward to seeing most of you nex=
+t=0Aweek.<span style=3D"">&nbsp; </span>If you have any questions or=0Aconc=
+erns, you can contact me via email.</p>=0A=0A<p class=3D"MsoNoSpacing"><o:p=
+>&nbsp;</o:p></p>=0A=0A<p class=3D"MsoNoSpacing">Best wishes,</p>=0A=0A<p c=
+lass=3D"MsoNoSpacing">Brooke</p>=0A=0A</div>=0A<!-- cg2.c902.mail.ac4.yahoo=
+..com compressed/chunked Mon Jan 11 19:18:52 PST 2010 -->=0A</div><br>=0A=0A=
+      </body></html>
+--0-958487101-1263434999=:84103--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114908</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263435001</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>2801</string>
+</dict>
+</plist>

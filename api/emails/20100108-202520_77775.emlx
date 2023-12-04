@@ -1,0 +1,692 @@
+27361     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs220456wev; Fri, 8 Jan 2010
+ 15:25:37 -0800 (PST)
+Received: by 10.91.203.14 with SMTP id f14mr1240457agq.31.1262993136265; Fri,
+ 08 Jan 2010 15:25:36 -0800 (PST)
+Return-Path: <Your.GM.Team@emails.generalmotors.com>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 3si22129745gxk.21.2010.01.08.15.25.24; Fri, 08
+ Jan 2010 15:25:25 -0800 (PST)
+Received-SPF: error (google.com: error in processing during lookup of
+ Your.GM.Team@emails.generalmotors.com: DNS timeout) client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=temperror (google.com: error in
+ processing during lookup of Your.GM.Team@emails.generalmotors.com: DNS
+ timeout) smtp.mail=Your.GM.Team@emails.generalmotors.com; dkim=pass
+ header.i=@emails.generalmotors.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: your.gm.team@emails.generalmotors.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-35/SG:5 1/8/2010 5:25:11 PM
+X-GBUdb-Analysis: 0, 72.32.253.140, Ugly c=1 p=-0.617122 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.140
+X-Note-Reverse-DNS: fe01.exg4.exghost.com
+X-Note-WHTLIST: Your.GM.Team@emails.GeneralMotors.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.140] (HELO FE01.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 84459751
+ for hbiden@rosemontseneca.com; Fri, 08 Jan 2010 17:25:31 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE01.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Fri, 8 Jan 2010 17:25:23 -0600
+Received: from [10.242.229.36] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 269079696
+ for HBIDEN@senecaga.com; Fri, 08 Jan 2010 17:25:28 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-35/SG:5 1/8/2010 5:24:37 PM
+X-GBUdb-Analysis: 0, 209.11.164.27, Ugly c=0.385168 p=-0.47619 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 209.11.164.27
+X-Note-Reverse-DNS: client-1-27.delivery.net
+X-Note-WHTLIST: Your.GM.Team@emails.GeneralMotors.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from client-1-27.delivery.net ([209.11.164.27] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 18779567 for
+ HBIDEN@SENECAGA.COM; Fri, 08 Jan 2010 17:25:20 -0600
+Return-Path: <Your.GM.Team@emails.generalmotors.com>
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws; s=v1;
+ d=emails.generalmotors.com;
+ h=DKIM-Signature:Received:Date:From:Reply-to:To:Message-ID:Subject:Errors-to:MIME-Version:Content-Type:X-eid:X-pid;
+ b=XlU3LruU+pCrKJtcGsCiVBoDywuULi/rd9Q3DJx/GrZyisNmzIpXIbMRlllkpFD8
+ aOymdyTf9uYCMDI5/HPhxOncWEfj0QIbQqpFKowVVUrtV/SIwxVRWRYfRkTH8kCF
+DKIM-Signature: v=1; a=rsa-sha1; d=emails.generalmotors.com; s=v1;
+ c=simple/simple; q=dns/txt; i=@emails.generalmotors.com; t=1262993028;
+ h=From; bh=B8u+FGrPrKP5L5unG2hl8L+4I1g=;
+ b=u4mtc2Yvu82j8rKAmJ1dCttA5pZAusAWr4ez2zdG2h+utpLT5idnqrwPzYJuoJco
+ lhqcHfxxK4mIkLc9P3miQpCdjMHsgeo8CLtgIiZWbAPYjzilci2hRRqriBXqIyQZ;
+Received: from [192.168.138.93] ([192.168.138.93:41194] helo=fc9a4.dc1.prod)
+ by oms4.dc1.prod (envelope-from <Your.GM.Team@emails.generalmotors.com>)
+ (ecelerity 2.2.2.36 r(26875/27517M)) with ESMTP id 67/40-09066-48EB74B4; Fri,
+ 08 Jan 2010 15:23:48 -0800
+Date: Fri, 8 Jan 2010 15:25:20 -0800 (PST)
+From: Your GM Team <Your.GM.Team@emails.GeneralMotors.com>
+Reply-to: Your.GM.Team@emails.GeneralMotors.com
+To: HBIDEN@SENECAGA.COM
+Message-ID: <13030481164.1262993120152@delivery.net>
+Subject: Exclusive GM Owner Loyalty Offer
+Errors-to: Your.GM.Team@emails.GeneralMotors.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="---=_NEXT_12610419b83"
+X-eid: 2.5.3Lq.2lI.13AFuY.C8hLqC..N..BVu.CNbWEQG0
+X-pid: 47096
+X-OriginalArrivalTime: 08 Jan 2010 23:25:23.0990 (UTC)
+ FILETIME=[DA560360:01CA90B9]
+
+
+-----=_NEXT_12610419b83
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=ISO-8859-1
+
+It pays to be loyal...more than you think!=20
+Check your mail for $1,000 toward your next an eligible GM vehicle.
+
+Dear GM Enthusiast,
+
+With so many vehicle options available to you, we're grateful
+you're driving one of ours. To show our appreciation, we recently=20
+sent an exclusive offer in the mail to our special customers like=20
+you... $1,000(1) toward your next eligible GM vehicle.
+
+-  Use your Owner Loyalty Certificate to save on the eligible 2009
+or 2010 Chevy, Buick, GMC or Cadillac of your choice -- as well as=20
+remaining Saturn, Pontiac, Saab or HUMMER vehicles=20
+-  Combine this offer with most current incentives for even
+greater savings
+http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fe.BVu=
+.bW89MQ%5f%5fCcBOFPV0
+
+It's an exciting time to be a part of our family. Here's why:=20
+-  More Choices. For 2010, find cars, trucks, crossovers and=20
+SUVs for every lifestyle, including 12 2010 models with an=20
+EPA estimated 30 MPG highway or better=20
+-  The Best Coverage. Our 100,000-Mile/5-Year(2) Transferable
+Powertrain Limited Warranty plus Roadside Assistance and Courtesy
+Transportation Programs is available on most vehicles=20
+-  Peace of Mind. With OnStar(R),(3) whether you need help in
+an emergency, you're lost or stranded, the assistance you need is
+a button push away
+
+Print out this entire email and take it, or the certificate=20
+you received in the mail, to your dealer to save.=20
+For more information, call 866.465.1005 or go to
+gm.com/loyalty.
+http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fg.BVu=
+.bW89MQ%5f%5fCcHeFPX0
+
+First  Last
+1010 Wisconsin Ave Nw  Ste 705
+Washington, Dc 200073694
+
+Use your Owner Loyalty Certificate from January 5, 2010, through
+February 1, 2010, and start the new year in a new GM.
+
+Thank you for driving with us.
+
+Learn More
+http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fi.BVu=
+.bW89MQ%5f%5fCcOOFPZ0
+
+1) Eligible owners must own/lease a 1999 or newer model year
+Chevy, Buick, GMC, Cadillac, Pontiac, Saturn, Saab, HUMMER or
+Oldsmobile. Owner Loyalty Cash excludes 2010: Chevy Camaro,
+Corvette ZR1, Equinox; Buick LaCrosse; GMC Terrain; Cadillac  =20
+SRX Crossover; HUMMER H1, H2; and 2009: Chevy Corvette ZR1, Kodiak=20
+(except Chevy Kodiak C4500); GMC TopKick (except GMC TopKick C4500);=20
+and all HUMMER vehicles. Offer good from from 1/5/10 through 2/1/10.=20
+Take delivery from 1/5/10 through 2/1/10. Not available with some
+offers. See dealer for details.=20
+2) Whichever comes first. See dealer for details.=20
+3) For details and system limitations, call 1-888-4ONSTAR
+(1-888-466-7827) or visit onstar.com.
+
+Vehicle must be purchased or leased by the person whose name
+appears on the front of this certificate. This offer may be
+transferred only to individuals residing in the same household
+(same address) as the eligible recipient noted on this
+certificate. Transferee must provide proof of address, including
+valid driver's license or state picture identification.
+Certificate is nonnegotiable and not redeemable for cash. Not
+available with some other offers. Offer may not be combined with
+other private offers. On GMAC SmartLease contracts, this
+allowance must be utilized to reduce the capitalized cost of the
+amount to finance through the GMAC SmartLease contract. On GMAC
+SmartLease contracts, this offer may not be offered as cash to
+the customer. Other restrictions may apply. See your dealer for
+details.
+
+Dealer Instructions: Please refer to the Corporate Program Number
+10-40CN for program guidelines.
+
+This is an email advertisement. If you prefer not to receive any
+unsolicited marketing emails regarding GM vehicles, click below.
+http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fk.BVu=
+.bW89MQ%5f%5fCcUeFPb0
+
+To review the GM Privacy Statement, click below.
+http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fm.BVu=
+.bW89MQ%5f%5fCcbOFPd0
+
+For copyright and trademark information, click below.
+http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fo.BVu=
+.bW89MQ%5f%5fCdBeFPf0
+
+Copyright 2010 OnStar. All rights reserved.
+
+The marks of General Motors, its divisions, slogans, emblems,
+vehicle model names, vehicle body designs and other marks
+appearing in this email are the trademarks and/or service marks
+of General Motors, its subsidiaries, affiliates or licensors.
+Copyright 2010 General Motors. Buckle up, America!
+
+General Motors
+100 Renaissance Center
+482.A00.MAR
+Detroit, MI 48265
+
+
+
+
+-----=_NEXT_12610419b83
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=ISO-8859-1
+
+<HTML>
+
+<head>
+<meta content=3D"text/html; charset=3Diso-8859-1" http-equiv=3D"Content-Typ=
+e"></meta>
+</head>
+<BODY bgcolor=3D"#FFFFFF" leftmargin=3D"0" marginheight=3D"0" marginwidth=
+=3D"0" topmargin=3D"0">
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: 1p=
+x solid #e0e0e0;" width=3D"602">
+<tr>
+<td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"68" i=
+d=3D"Table_01" width=3D"602">
+<tr>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%5fq.BVu.bW89MQ%5f%5fCdIOFQB0" STYLE=3D"text-decoration: none;"><img alt=
+=3D"Owner Loyalty logo" border=3D"0" height=3D"77" src=3D"http://img.delive=
+ry.net/cm50content/19632/14639/X-DIV_Owner_Loyalty_Blue_R1_1.gif" style=3D"=
+display:block;" width=3D"105">=20
+</A>=20
+ </td>
+<td>
+<img alt=3D"" height=3D"68" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/Owner_Loyalty_Blue_R1_02.gif" style=3D"display:block;" width=3D"45"=
+></td>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%5fs.BVu.bW89MQ%5f%5fCdOeFQD0">
+<font color=3D"#005dab" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D"font-weight:bold; font-size:12px;">
+ A special offer for owners like you</font></A><BR>
+
+ <font color=3D"#666666" face=3D"verdana, Helvetica, sans-serif" originalta=
+g=3D"yes" style=3D" font-size:9px;">
+  If you are unable to view the images in this email, <A HREF=3D"http://ema=
+ils.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%5fu.BVu.cnNfa3k9M=
+TNBRnVZJnJzX2VlPVNFSkpSRVZPUUZORlRrVkRRVWRCTGtOUFRRX18mbW89MSZyc19vYz1OJnJz=
+X212PVQmcnNfYnY9SA%5f%5fCGHANRJ0"><font face=3D'verdana, Helvetica, sans-se=
+rif' style=3D'color:#005dab; font-size:9px;' color=3D'#005dab'>view it in y=
+our Web browser</font></A>.=20
+<BR>
+ To ensure you receive your GM emails, please add=20
+<a description=3D"B_ADDRESSBOOK" href=3D"MailTo:YourPontiacTeam@emails.genr=
+ealmotors.com" style=3D"color:#005dab">
+  Your GM Team@emails.GeneralMotors.com</a>=20
+  to your address book.=20
+</font>=20
+ </td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"110" id=
+=3D"Table_02" width=3D"600">
+<tr>
+<td>
+<img alt=3D"2010 Chevy Malibu, 2010 Buick Enclave, GMC Sierra Hybrid&#174; =
+and GMC Sierra, and 2010 Cadillac CTS" height=3D"110" src=3D"http://img.del=
+ivery.net/cm50content/19632/14639/X-DIV_Owner_Loyalty_Blue_R1_slices1_02.jp=
+g" style=3D"display:block;" width=3D"600"></td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"23" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"600"></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"110" id=
+=3D"Table_02" width=3D"600"><tr>
+<td>
+<img alt=3D"" height=3D"97" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"17"></td>
+<td>
+<img alt=3D"Loyalty Has Its Rewards" height=3D"97" src=3D"http://img.delive=
+ry.net/cm50content/19632/14639/X-DIV_Owner_Loyalty_Blue_R1_slices2_03_v1.gi=
+f" style=3D"display:block;" width=3D"583"></td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"50" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"17"></td>
+<td>
+<font color=3D"#000000" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:12px; font-weight:bold;">
+ Dear GM Enthusiast,=20
+</font>=20
+ </td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"15" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"17"></td>
+<td>
+<font color=3D"#000000" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D"line-height:16px; font-size:10px;">
+ With so many vehicle options available to you, we're grateful you're drivi=
+ng one of ours.<BR>
+
+ To show our appreciation, we recently sent an exclusive offer in the mail =
+to our special <BR>
+customers like you...=20
+ <font color=3D"#000000" face=3D"verdana, Helvetica, sans-serif" originalta=
+g=3D"yes" style=3D"font-weight:bold;">$1,000</font><sup style=3D"line-heigh=
+t:6px; font-size:9px; text-align:middle; vertical-align:text-top;">1</sup><=
+font color=3D"#000000" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D"font-weight:bold;"> toward your next eligible GM vehicle.=
+ </font><BR>
+
+ &#160;&#160;&#160;&#160;&#160;&#160;&bull;&#160;&#160;Use your Owner Loyal=
+ty Certificate to save on the eligible 2009 or 2010 Chevy, Buick, GMC <BR>
+
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;or Cadillac of your =
+choice &mdash; as well as remaining Saturn, Pontiac, Saab or HUMMER vehicle=
+s<BR>
+
+ &#160;&#160;&#160;&#160;&#160;&#160;&bull;&#160;&#160;Combine this offer w=
+ith most <A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.=
+C8hLqC..N.Fc%5fw.BVu.bW89MQ%5f%5fCdbeFQH0">
+<font color=3D"#005dab" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:10px;">current incentives</font></A> for even =
+greater savings<BR>
+
+<BR>
+
+ <font color=3D"#000000" face=3D"verdana, Helvetica, sans-serif" originalta=
+g=3D"yes" style=3D"font-weight:bold;">It's an exciting time to be a part of=
+ our family. Here's why:</font><BR>
+
+&#160;&#160;&#160;&#160;&#160;&#160;&bull;&#160;&#160;<font color=3D"#00000=
+0" face=3D"verdana, Helvetica, sans-serif" originaltag=3D"yes" style=3D"fon=
+t-weight:bold;">More Choices.</font> For 2010, find cars, trucks, crossover=
+s and SUVs for every lifestyle, including 12 <BR>
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2010 models with an E=
+PA estimated 30 MPG highway or better<BR>
+=20
+&#160;&#160;&#160;&#160;&#160;&#160;&bull;&#160;&#160;<font color=3D"#00000=
+0" face=3D"verdana, Helvetica, sans-serif" originaltag=3D"yes" style=3D"fon=
+t-weight:bold;">The Best Coverage.</font> Our 100,000-Mile/5-Year<sup style=
+=3D"line-height:6px; font-size:9px; text-align:middle; vertical-align:text-=
+top;">2</sup> Transferable Powertrain Limited Warranty plus<BR>
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Roadside Assistance a=
+nd Courtesy Transportation Programs is available on most vehicles <BR>
+
+&#160;&#160;&#160;&#160;&#160;&#160;&bull;&#160;&#160;<font color=3D"#00000=
+0" face=3D"verdana, Helvetica, sans-serif" originaltag=3D"yes" style=3D"fon=
+t-weight:bold;">Peace of Mind.</font> With OnStar<sup style=3D"line-height:=
+6px; font-size:9px; text-align:middle; vertical-align:text-top;">&#174;</su=
+p>,<sup style=3D"line-height:6px; font-size:9px; text-align:middle; vertica=
+l-align:text-top;">3</sup> whether you need help in an emergency, you're lo=
+st or stranded,<BR>
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;the assistance you ne=
+ed is a button push away<BR>
+
+<BR>
+
+Scroll down to view the full list of eligible 2009 and 2010 models, then pr=
+int out this entire email and take it, or the certificate you received in t=
+he mail,=20
+to your dealer to save. For more information, call 866.465.1005 or go to=20
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%5fy.BVu.bW89MQ%5f%5fCeCOFQJ0">
+<font color=3D"#005dab" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:10px;">gm.com/loyalty.</font></A>=20
+<BR>
+
+<BR>
+
+Use your Owner Loyalty Certificate from January 5, 2010, through February 1=
+, 2010, and start the <BR>
+new year in a new GM.=20
+<BR>
+
+<BR>
+
+Thank you for driving with us.=20
+</font>=20
+ </td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"115" id=
+=3D"Table_04" width=3D"600">
+<tr>
+</tr><tr>
+<td>
+<img alt=3D"" height=3D"30" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"18"></td>
+<td>
+<img alt=3D"" height=3D"30" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"177"></td>
+<td>
+<img alt=3D"" height=3D"30" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"405"></td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"39" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"18"></td>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%5f%5f.BVu.bW89MQ%5f%5fCbNeFPP0" STYLE=3D"text-decoration: none;"><img a=
+lt=3D"LEARN MORE" border=3D"0" height=3D"39" src=3D"http://img.delivery.net=
+/cm50content/19632/14639/X-DIV_Owner_Loyalty_Blue_R1_slices3_06.gif" style=
+=3D"display:block;" width=3D"177"></A></td>
+<td>
+<img alt=3D"" height=3D"39" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"405"></td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"46" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"18"></td>
+<td>
+<img alt=3D"" height=3D"46" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"177"></td>
+<td>
+<img alt=3D"" height=3D"46" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"405"></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"220" id=
+=3D"Table_04" width=3D"600">
+<tr>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"74" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_02.gif" style=3D"display:block;" width=
+=3D"397"></td>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"74" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_03.gif" style=3D"display:block;" width=
+=3D"186"></td>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"74" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_04.gif" style=3D"display:block;" width=
+=3D"17"></td>
+</tr>
+<tr>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"84" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_05.gif" style=3D"display:block;" width=
+=3D"397"></td>
+<td bgcolor=3D"#eceef1" style=3D"text-align:right; " valign=3D"top">
+<font color=3D"#52555c" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:9px;">
+ Especially for:<BR>
+
+ First  Last<BR>
+
+ 1010 Wisconsin Ave Nw  Ste 705<BR>
+
+ Washington, Dc 200073694<BR>
+
+</font> </td>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"84" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_07.gif" style=3D"display:block;" width=
+=3D"17"></td>
+</tr>
+<tr>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"62" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_08.gif" style=3D"display:block;" width=
+=3D"397"></td>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"62" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_09.gif" style=3D"display:block;" width=
+=3D"186"></td>
+<td>
+<img alt=3D"" height=3D"62" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/XDIV_Owner_Loyalty_Blue_R1_1_10.gif" style=3D"display:block;" width=
+=3D"17"></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"388" id=
+=3D"Table_05" width=3D"600">
+<tr>
+<td>
+<img alt=3D"" height=3D"2" src=3D"http://img.delivery.net/cm50content/19632=
+/14639/spacer.gif" style=3D"display:block;" width=3D"600"></td>
+</tr>
+<tr>
+<td style=3D"line-height:0px; font-size:0px">
+<img alt=3D"" height=3D"30" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/X-DIV_Owner_Loyalty_Blue_R1_slices5_02.gif" style=3D"display:block;=
+" width=3D"600"></td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"320" src=3D"http://img.delivery.net/cm50content/196=
+32/14639/Owner_Loyalty_Blue_R1.gif" style=3D"display:block;" width=3D"600">=
+</td>
+</tr>
+<tr>
+<td>
+<img alt=3D"" height=3D"3" src=3D"http://img.delivery.net/cm50content/19632=
+/14639/X-DIV_Owner_Loyalty_Blue_R1_slices5_04.jpg" style=3D"display:block;"=
+ width=3D"600"></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"77" id=3D=
+"Table_06" width=3D"600">
+<tr>
+<td>
+<img alt=3D"" height=3D"77" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"129"></td>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%2a0.BVu.bW89MQ%5f%5fCRFUFML0"><img alt=3D"Chevrolet Logo" border=3D"0" =
+height=3D"77" src=3D"http://img.delivery.net/cm50content/19632/14639/Owner_=
+Loyalty_Blue_R1_03.gif" style=3D"display:block;" width=3D"101"></A></td>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%2a2.BVu.bW89MQ%5f%5fCRMEFMN0"><img alt=3D"Buick Logo" border=3D"0" heig=
+ht=3D"77" src=3D"http://img.delivery.net/cm50content/19632/14639/Owner_Loya=
+lty_Blue_R1_04.gif" style=3D"display:block;" width=3D"70"></A></td>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%2a4.BVu.bW89MQ%5f%5fCRSUFMP0"><img alt=3D"GMC Logo" border=3D"0" height=
+=3D"77" src=3D"http://img.delivery.net/cm50content/19632/14639/Owner_Loyalt=
+y_Blue_R1_05.gif" style=3D"display:block;" width=3D"102"></A></td>
+<td>
+<A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N=
+.Fc%2a6.BVu.bW89MQ%5f%5fCRZEFMR0"><img alt=3D"Cadillac Logo" border=3D"0" h=
+eight=3D"77" src=3D"http://img.delivery.net/cm50content/19632/14639/Owner_L=
+oyalty_Blue_R1_06.gif" style=3D"display:block;" width=3D"67"></A></td>
+<td>
+<img alt=3D"" height=3D"77" src=3D"http://img.delivery.net/cm50content/1963=
+2/14639/spacer.gif" style=3D"display:block;" width=3D"131"></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"398" id=
+=3D"Table_07" width=3D"602">
+<tr>
+<td>
+<img alt=3D"" height=3D"398" src=3D"http://img.delivery.net/cm50content/196=
+32/14639/spacer.gif" style=3D"display:block;" width=3D"15"></td>
+<td>
+<font color=3D"#999999" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:9px;">
+ 1&#160; Eligible owners must own/lease a 1999 or newer model year Chevy, B=
+uick, GMC, Cadillac, Pontiac, Saturn,  <BR>
+=20
+&#160;&#160;&#160;&#160;Saab, HUMMER or Oldsmobile. Owner Loyalty Cash excl=
+udes 2010: Chevy Camaro, Corvette ZR1, Equinox; <BR>
+
+&#160;&#160;&#160;&#160;Buick LaCrosse; GMC Terrain; Cadillac SRX Crossover=
+; HUMMER H1, H2; and 2009: Chevy Corvette ZR1,  <BR>
+
+&#160;&#160;&#160;&#160;Kodiak (except Chevy Kodiak C4500); GMC TopKick (ex=
+cept GMC TopKick C4500) and all HUMMER  <BR>
+
+&#160;&#160;&#160;&#160;vehicles. Offer good from 1/5/10 through 2/1/10. Ta=
+ke delivery from 1/5/10 through 2/1/10. Not available  <BR>
+
+&#160;&#160;&#160;&#160;with some offers. See dealer for details.<BR>
+
+2&#160; Whichever comes first. See dealer for details<BR>
+
+3&#160; Visit onstar.com or call 1-888-4ONSTAR (1-888-466-7827) for details=
+ and system limitations.<BR>
+
+<BR>
+
+Vehicle must be purchased or leased by the person whose name appears on the=
+ front of this certificate. This<BR>
+ offer may be transferred only to individuals residing in the same househol=
+d (same address) as the eligible <BR>
+=20
+recipient noted on this certificate. Transferee must provide proof of addre=
+ss, including valid driver's license or<BR>
+
+state picture identification. Certificate is nonnegotiable and not redeemab=
+le for cash. Not available with some<BR>
+
+other offers. Offer may not be combined with other private offers. On GMAC =
+SmartLease contracts, this<BR>
+
+allowance must be utilized to reduce the capitalized cost of the amount to =
+finance through the GMAC<BR>
+
+SmartLease contract. On GMAC SmartLease contracts, this offer may not be of=
+fered as cash to the customer.<BR>
+
+Other restrictions may apply. See your dealer for details.=20
+<BR>
+
+<BR>
+
+Dealer Instructions: Please refer to the Corporate Program Number 10-40CN f=
+or program guidelines.=20
+<BR>
+
+<BR>
+
+This is an email advertisement. If you prefer not to receive any unsolicite=
+d marketing emails regarding GM<BR>
+ vehicles, <A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFu=
+Y.C8hLqC..N.Fc%2a8.BVu.bW89MQ%5f%5fCRfUFMT0">
+<font color=3D"#005dab" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D"font-size:9px;">click here.</font></A>=20
+<font color=3D"#999999" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:9px;">
+To review the GM Privacy Statement, <A HREF=3D"http://emails.generalmotors.=
+com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..N.Fc%2aA.BVu.bW89MQ%5f%5fCSccFMc0">
+<font color=3D"#005dab" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D"font-size:9px;">click here.</font></A>=20
+ For copyright and trademark information,<BR>
+
+ <A HREF=3D"http://emails.generalmotors.com/r/r?2.1.3Lq.2lI.13AFuY.C8hLqC..=
+N.Fc%2aC.BVu.bW89MQ%5f%5fCTDMFMe0">
+<font color=3D"#005dab" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D"font-size:9px;">click here.</font></A>=20
+<BR>
+
+<BR>
+
+<font color=3D"#999999" face=3D"verdana, Helvetica, sans-serif" originaltag=
+=3D"yes" style=3D" font-size:9px;">
+&#169;2010 OnStar. All rights reserved.=20
+<BR>
+
+<BR>
+
+The marks of General Motors, its divisions, slogans, emblems, vehicle model=
+ names, vehicle body designs<BR>
+
+and other marks appearing in this email are the trademarks and/or service m=
+arks of General Motors, its<BR>
+
+subsidiaries, affiliates or licensors.=20
+&#169;2010 General Motors. Buckle up, America!=20
+<BR>
+
+<BR>
+
+General Motors | 100 Renaissance Center | 482.A00.MAR | Detroit, MI 48265=
+=20
+<BR>
+
+<BR>
+
+<BR>
+
+<BR>
+
+</font>=20
+</font></font></td>
+</tr>
+</table></td>
+</tr>
+</table>
+
+<BR>
+<BR>
+<BR>
+<font color=3D"#666666" face=3D"Verdana,Helvetica" originaltag=3D"yes" size=
+=3D"1"></font><BR>
+<img width=3D"1" height=3D"1" src=3D"http://open.delivery.net/o?2.2.3Lq.2lI=
+.13AFuY.C8hLqC..N..BVu.ZD0wJm1vPTE%5fCaOKFPO0" alt=3D" ">
+</BODY>
+</HTML>
+
+-----=_NEXT_12610419b83--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114613</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1262993125</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>2538</string>
+</dict>
+</plist>

@@ -1,0 +1,3782 @@
+118438    
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs114823wey; Mon, 25 Jan 2010 20:47:34
+ -0800 (PST)
+Received: by 10.101.137.10 with SMTP id p10mr9316722ann.33.1264481253729; Mon,
+ 25 Jan 2010 20:47:33 -0800 (PST)
+Return-Path: <tuesday@listserv.sidwell.edu>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 28si12570755gxk.42.2010.01.25.20.47.31; Mon,
+ 25 Jan 2010 20:47:33 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.73 is neither permitted nor
+ denied by best guess record for domain of tuesday@listserv.sidwell.edu)
+ client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.73
+ is neither permitted nor denied by best guess record for domain of
+ tuesday@listserv.sidwell.edu) smtp.mail=tuesday@listserv.sidwell.edu
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: tuesday@listserv.sidwell.edu
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-72/SG:6 1/25/2010 10:46:36 PM
+X-GBUdb-Analysis: 0, 72.32.253.140, Ugly c=1 p=-0.799141 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.140
+X-Note-Reverse-DNS: fe01.exg4.exghost.com
+X-Note-WHTLIST: tuesday@listserv.sidwell.edu
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G157 G158 G159 G160 G164 G165 G263
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.140] (HELO FE01.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 86805507
+ for hbiden@rosemontseneca.com; Mon, 25 Jan 2010 22:47:33 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE01.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Mon, 25 Jan 2010 22:47:31 -0600
+Received: from [10.242.229.31] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 277898731
+ for hbiden@senecaga.com; Mon, 25 Jan 2010 22:47:33 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-72/SG:6 1/25/2010 10:46:33 PM
+X-GBUdb-Analysis: 0, 208.211.94.8, Ugly c=0.113212 p=-1 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Warn: REVDNS No Reverse DNS record for 208.211.94.8
+X-Warn: HELOBOGUS HELO command domain listserv.sidwell.edu has no A or MX
+ records.
+X-Warn: RETURNPATH Domain listserv.sidwell.edu has no A or MX records.
+X-Warn: WEIGHT10
+X-Warn: WEIGHT15
+X-Note: Spam Tests Failed: REVDNS, HELOBOGUS, RETURNPATH, WEIGHT10, WEIGHT15
+X-Country-Path: PRIVATE->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 208.211.94.8
+X-Note-Reverse-DNS: 
+X-Note-WHTLIST: tuesday@listserv.sidwell.edu
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G157 G158 G159 G160 G164 G165 G229 G248 G249 G258
+ G259 G263
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [208.211.94.8] (HELO listserv.sidwell.edu) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with SMTP id 23945680 for
+ hbiden@senecaga.com; Mon, 25 Jan 2010 22:46:34 -0600
+TO: <hbiden@senecaga.com>
+Message-ID: <3999D289AC1091E6D411423C@sfs-vpn-01a.sfsnet.org>
+From: tuesday@listserv.sidwell.edu
+Reply-To: tuesday@listserv.sidwell.edu
+Received: From mail.silverpoint.net [66.246.152.154] by sfs-vpn-01a.sfsnet.org
+ [172.16.1.180] with MsgCore/NT [(C) 1998,2001 Nosque Workshop] BD0230
+ id3999D27B9A988A4BDA1B423B; Mon, 25 Jan 2010 23:30:03 -0500
+Received: from 10.2.1.118 [10.2.1.118] by silverpoint.net (SMTPD-11.0) id
+ 1412000098ee1ce5; Mon, 25 Jan 2010 23:30:00 -0500
+X-MimeOLE: Produced Microsoft MimeOLE V6.00.3790.181
+Sender: Sidwell@silverpoint.net
+Subject: SFS Tuesday Letter
+Date: Mon, 25 Jan 2010 23:30:00 -0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=MailPart0000_0010_7C117ECD"
+Return-Path: tuesday@listserv.sidwell.edu
+X-OriginalArrivalTime: 26 Jan 2010 04:47:31.0284 (UTC)
+ FILETIME=[AB52C940:01CA9E42]
+
+
+------=MailPart0000_0010_7C117ECD
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=iso-8859-1
+
+
+
+=09
+		Tuesday - January 26, 2010
+=09
+=09
+	=09
+=09
+=09
+	=09
+=09
+	=20
+		=20
+		=09
+			=09
+				=09
+					=09
+						=09
+								From the School
+                               =20
+                                This Week's Query
+Last week we heard about the history of the Civil Rights Movement from our =
+Martin Luther King Jr. speaker, and we heard at Friday's assembly about =
+how words can hurt. Using these experiences as a place to start, what will =
+we do to make this a stronger community?Notes from Sally
+bullying.pdfThe assembly on Friday will be presented by Upper School =
+students Wynne Graham and Rachel Brown and will be about the Seeds of =
+Peace program that they have participated in=2E
+As part of No Name-calling Week (January 25-29, 2010), we wanted to share =
+with you information for parents and families about bullying. Please read =
+the attached article to find warning signs about bullying, as well as tips =
+on what to do if you suspect or are certain your child is being bullied=2E
+Please join us on Friday evening for a performance by our Vertical Voices =
+Theater Troupe! This creative group of 8th graders will demonstrate the =
+techniques of Playback Theater, which all 7th graders learn as part of =
+their Quakerism and the Arts class, and you will enjoy the evening as they =
+act out stories provided by the audience. More information is available on =
+the front page of the SFS website. We hope to see you there!
+There is one correction in the Minimester booklet that was circulated a =
+couple of weeks ago. The Minimester described as &ldquo;Courts and =
+Criminals&rdquo; will instead be the following program:
+Behind the Scenes of the Legal Process
+A mix of activities and trips exploring the various court systems and many =
+aspects of law enforcement. Trips may include:
+&bull; A tour of the District Superior Court conducted by a U.S. Marshall
+- civil matters
+- criminal matters
+- misdemeanors
+&bull; The Senate and House of Representatives (possible visit to =
+Congressman Chris Van Hollen&rsquo;s office)
+&bull; The Supreme Court
+&bull; Meeting lawyers who represent both sides of a case
+&bull; Visiting a moot court presentation at American University Law School
+&bull; Tour conducted by a staffer of Homeland Security=20
+=20
+Attention parents of 6th through 8th graders: The second math meet of the =
+year will be held at St. Patrick&rsquo;s next Tuesday, February 2nd, after =
+school. We will be leaving school around 2:15 and returning around 4:15. =
+Students will enjoy delicious snacks and solve some challenging math =
+problems with students from other area independent schools. If your child =
+is interested in attending, he or she should contact his or her math =
+teacher as soon as possible, as space is limited on our bus=2E
+There is a dance for all 7/8 students next Friday in the Upper School =
+Dining Room from 7:30 &ndash; 10:00 PM. Just a reminder that all school =
+rules apply for the dance. 7/8 Parent Peer Groups will be held during the =
+dance hours=2E
+Parent Peer Groups for 5th and 6th graders will be held next Tuesday =
+evening, February 2nd at 7:30 in Middle School=2E
+All 8th grade parents: please plan to attend the Upper School Curriculum =
+Night on Monday, February 8th in the Middle School Drama Studio at 7:30 =
+PM. This is the first step toward transition to 9th grade. Also a reminder =
+for 8th grade parents: Upper School sports begin in mid-August, so please =
+make your vacation plans with that in mind=2E
+As a replacement for the all-school Meeting for Worship last week, parents =
+are invited to join us for the Meeting on Thursday, February 18th. This =
+will be followed by a coffee sponsored by the PA Quaker Life Committee. =
+Thank you for your patience with the change, and my apologies to those who =
+did not receive the late message=2E
+An official welcome to AB Carneal and Patricia Savage who are here for the =
+second semester for Sandy Dennin and Mary Milroy while they take their =
+sabbatical leave. We are very fortunate to have such experienced pros =
+standing in!
+5th graders have now completed their semester of choral music, and 8th =
+graders have rotated to their second semester arts classes. Reports for =
+these classes will be posted on Educator by the second week in February=2E
+Congratulations are in order to some Middle School students! First of all, =
+Raphael Cohen-Fuentes will represent the Middle School in the Shakespeare =
+Monologue Festival at Imagination Stage in Bethesda. He will present his =
+Caliban monologue from THE TEMPEST=2E
+And, last week was the Middle School Geography Bee! The following =
+grade-level winners competed in the school bee on Friday: 5th grade winner =
+Cole Migas, 6th grade winner Max Graham, 7th grade winner Jack Hannah, and =
+8th grade winner Riley Woodwell. After a tough competition, Riley emerged =
+as the Middle School champion. He will move forward to the qualifying =
+round of the state competition=2E
+In case you are thinking about your spring plans, Grandparents Day will be =
+held in Lower School this year. (As most of you know, we alternate years =
+for this event.)
+Please check around your house to be sure that all of your child&rsquo;s =
+belongings have come home &ndash; the Lost and Found box is full. Also be =
+sure that your child has not &ldquo;adopted&rdquo; jackets that do not =
+belong to him or her! Read MoreInstrumental Music Notes
+Wednesday January 27th 12:55-1:50 ~ 7/8 Full Orchestra ~ Room 101
+Wednesday January 27th 2:40-3:15 ~ 5/6 Full Orchestra ~ Room 101
+Wednesday January 27th 3:30-4:30 ~ Pit Band ~ Room 101
+Thursday January 28th 3:45-5:30 ~ Jazz/Rock Band ~ Room 101
+ Drive One Day Less Follow-up Survey--Please help us today!
+The Sidwell Movers and Quakers are completing their research project (one =
+of the requirements for the Maryland State Robotics Tournament) which we =
+will attend this Saturday. Many of you helped by responding to our initial =
+survey. Whether you answered the first survey or not, we need your help =
+now!
+Please complete this brief (8 question) survey to inform us about your =
+plans regarding the Drive One Day Less campaign. Even if it is not =
+possible for you to travel to and from school without a car, we need your =
+feedback.  The survey must be completed by  4:00 p.m. Thursday, January =
+28. So please do it right away! Friends don&rsquo;t let friends drive =
+alone!  Thanks for the support...The Sidwell Movers and QuakersBuy Your =
+Tickets Now -- The Variety Show is this Saturday!!
+Support our scholars, support our alums, and get rid of the January blahs =
+by relaxing and enjoying a delightful evening of music, comedy, dance, and =
+theater at the 8th Annual Variety Show, this Saturday, January 30th, at 8 =
+pm in the Arts Center.  This gala showcase of talented SFS alumni who have =
+become professional performing artists is always a fun-filled evening of =
+fabulous entertainment. Read MoreLAST WEEK TO DONATE!  Events for Student =
+Scholarships Annual Auction
+We need your help to continue supporting the 23% of students receiving =
+financial aid! Every gift is important! Consider donating a bottle of =
+wine, a gift certificate to your favorite restaurant or store, or =
+underwriting money. All donations are tax-deductible!. Read MoreYearly =
+Physical Exams for Students--schedule soon!
+Please remember to get a medical appointment for your child&rsquo;s yearly =
+physical as soon as possible. The pediatric offices get very busy in the =
+springtime so make the appointment for the yearly physical NOW! All SFS =
+students must have a (2010) physical exam and updated immunizations before =
+returning to school next fall. You can download the necessary forms from =
+the SFS website. Log-in to the Parent Portal and click on Health and =
+Emergency forms.  Maryland forms will not be accepted for the D.C. campus. =
+Sidwell Friends Summer Camps Open House, Feb 6, 11 AM - 1 PM
+On February 6, 2010 from 11 AM to 1 PM in the Middle School, join Explorer =
+Programs and Friends for an Open House where you can participate in =
+workshops to get a &ldquo;taste of camp&rdquo;!  Register &ldquo;on the =
+spot&rdquo; at the EXPO and receive a discount for Explorer Program. =
+Participating Programs: Sidwell Summer&rsquo;s Explorer Programs, =
+MathTree, DC Soccer Pros, Imagination Stage, Handwork Studios.  Email =
+Justine at KhadduriJ@Sidwell.edu to sign up for FREE 30-minute workshops =
+to give you a taste of summer 2010! (Workshop Times, 11:15 &ndash; 11:45 =
+and 12:00 &ndash; 12:30).Mobile version of www.sidwell.edu is here!
+Get SFS info on the go! Check out the mobile version of www.sidwell.edu, =
+made specifically for your iPhone, Blackberry, or other smartphone.  Enjoy =
+quick access to athletics schedules, calendars, directories, news, contact =
+information, and even this newsletter!
+If you have any questions, contact webmaster@sidwell.edu. Read More
+						=09
+						=09
+								PA Announcements
+                               =20
+                                7th Grade Wine and Cheese Social -- 6-7:30 =
+PM tonight!
+The 7th grade parents fabulous Wine and Cheese Social is tonight (Jan 26) =
+from 6- 7.30 pm at the Zartman House. We've paired some lovely wines with =
+some very tasty cheeses; all that is left is the company! Come join your =
+friends and fellow parents for a relaxing hour or so, or drop in on your =
+way home from work -- we look forward to seenig you all!Please note the =
+upcoming CHI Parent Peer Group Meetings:
+5th Grade Parents - Tuesday, February 2nd, at 7:30pm, MS Drama Studio
+6th Grade Parents - Tuesday, February 2nd, at 7:30 pm, location to be =
+announced
+7th Grade Parents - Friday February 5th at 8pm, MS Drama Studio
+8th Grade Parents - Friday, February 5th at 8pm, Zartman House6th grade =
+Hangout, Fri Jan 29, 3:30-5 PM
+The second 6th Grade hangout will take place on Friday January 29th from =
+3:30pm to 5:00 pm in the US dining room. There will be snacks along with =
+ping-pong and hula-hoops. The kids are also invited to take part in a book =
+exchange. If they bring a couple books they&rsquo;ve read, they&rsquo;ll =
+get a couple books to take home. We&rsquo;ll donate left-over books to the =
+upcoming MS used book fair. We&rsquo;re looking for a few parent =
+volunteers for the hangout. To volunteer, please email the 6th grade reps =
+at 6thgradereps@gmail.com.Seventh Grade Parents wine and cheese =
+receiption, Jan 26, 6-7:30 PM
+On January 26th seventh grade parents are invited to come to Zartman House =
+for a wine and cheese. An opportunity to say hello and mingle for an hour =
+or so in this very chilly weather! From 6 - 7:30 pm.Get Sm(art) at =
+ArtRageous!  Sunday Jan 31 1-4 PM
+ArtRageous &ndash; the all-school, all arts, extravaganza Sunday January =
+31 1-4pm in the US Gym and Kogod lobby. You won&rsquo;t want to miss this! =
+Experience it all! Films, art, music, dance, a LS musical! Come help =
+construct the amazing i-gloo, build a bot, tinker at the Make Lab, =
+illustrate Alphabets for Africa, view the Student Art Show, listen to =
+beautiful music, eat delicious food and much, much more! Celebrate the =
+arts and artists at Sidwell!  We&rsquo;re still looking for volunteers to =
+help (contact Sarah Blake sblakie@aol.com), visual art for the student art =
+show (artists please contact Lucinda Leach (juseno@aol.com), and we still =
+need your 1 Gallon and 1/2 gallon PLASTIC water and milk containers =
+(rinsed out, please and not flattened!) please contact Sara Jones =
+(sarajo4420@gmail.com).7th/8th grade dance, Fri Feb 5, 7-10 PM
+The DJ is booked for the 7th/8th grade dance coming up on Friday February =
+5 from 7pm-10pm.  The theme is &ldquo;Candy Carnival&rdquo;.  We will need =
+volunteers to help set up (from 2pm in the cafeteria), help inside, and =
+with cleanup afterwards.  Please contact Liz (LBronder@ifc.org) or Debra =
+(DebraBolog@aol.com) if you can help.  Please also have each student bring =
+a canned, bottled or boxed good for donation.Kenworthy Gym Farewell, 4:15 =
+PM, Feb 19
+Join us at 4:15pm on February 19, 2010, when the entire SFS community will =
+bid farewell to Kenworthy Gym during the final home game!  Read More
+						=09
+						=09
+								Other News=20
+                               =20
+                                Green Tip of the Week
+The FDA recently announced they had &ldquo;some concern&rdquo; about =
+Bisphenol A (BPA)&rsquo;s effect on the brain and behavior of fetuses, =
+infants and children.  Until the FDA completely bans BPA in all products, =
+though, or decide it&rsquo;s not dangerous, how are concerned consumers to =
+avoid this potentially toxic chemical? Following are 4 options: Read =
+MoreNewsletter Information
+How to Subscribe=20
+To receive the Tuesday Letter via e-mail, send an e-mail to =
+Tuesday@listserv.sidwell.edu with only the word &quot;SUBSCRIBE&quot; in =
+the subject line=2E
+How to Unsubscribe=20
+If you have wish to have your name removed from the subscription list, =
+send an e-mail to Tuesday@listserv.sidwell.edu with only the word =
+&quot;UNSUBSCRIBE&quot; in the subject line=2E
+How to Submit an Article=20
+Send submissions to PA.MSNewsletter@sidwell.edu by 2 p.m. Tuesday. Please =
+reference &quot;Newsletter Submission&quot; and the publish date(s) in the =
+subject line. Items should be submitted as text in the body of the e-mail. =
+PLEASE do not include any formatting such as indents, bullets, boldface or =
+all-caps. Please keep submissions succinct. If you have a form or flyer to =
+include with your submission, please send it as a PDF attachment to your =
+email. Receipt of your submissions will be confirmed as soon as possible=2E
+Note concerning the School Calendar: the calendar entries that appear in =
+the right column of each Newsletter are automatically generated by the =
+official school calendar and are not subject to editing by the Newsletter =
+Editors. All changes or additions to the school calendar must be made =
+through the school scheduling office, reachable at: =
+scheduling@sidwell.edu=2E
+						=09
+						 The Parents Association newsletters are a forum for communication =
+among parents and provide announcements concerning School or PA events or =
+information related to a School or PA event.=20
+						MS newsletter submissions should be sent to =
+PA.MSnewsletter@sidwell.edu=2E
+					=09
+					=09
+				=09
+				=09
+					=09
+						=09
+							=09
+									 Calendar
+							=09
+							=09
+								=09
+									=09
+										=09
+											=09
+											=09
+	Tue, Jan 26th=20
+	=09
+				US Last Day to add a new second semester class=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				 7th Grade Parent Social (PA) =20
+			=09
+				Zartman Drawing Room=20
+				6:00pm - 7:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Wed, Jan 27th=20
+	=09
+				All School PA Nominating Committee Meeting=20
+			=09
+				US Library Board Room
+				8:00am - 9:30am
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Thu, Jan 28th=20
+	=09
+				6th Grade Parent Coffee=20
+			=09
+				Zartman Drawing Room=20
+				8:00am - 10:00am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				PA Arts Committee Meeting=20
+			=09
+				Off Campus
+				7:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Fri, Jan 29th=20
+	=09
+				6th Grade Hangout=20
+			=09
+				US Dining Room=20
+				3:30pm - 5:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sat, Jan 30th=20
+	=09
+				Alumni Variety Show =20
+			=09
+				AC Theater
+				8:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sun, Jan 31st=20
+	=09
+				Artrageous=20
+			=09
+				AC Foyer, Kenworthy Gym
+				8:00am - 5:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				ArtRageous=20
+			=09
+				Arts Center, Kenworthy Gym
+				1:00pm - 4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Tue, Feb 2nd=20
+	=09
+				5th Grade Parent Peer Group Meeting=20
+			=09
+				MS Drama Studio
+				7:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Wed, Feb 3rd=20
+	=09
+				MS Teacher Appreciation Luncheon=20
+			=09
+				TBA
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Thu, Feb 4th=20
+	=09
+				9th Grade Parents Breakfast with Counselor=20
+			=09
+				US Dining Room
+				7:30am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				PA Executive Meeting=20
+			=09
+				US Crane Room
+				8:00am - 9:00am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				MS Meeting for Worship=20
+			=09
+				AC Meeting Room=20
+				8:10am - 8:40am
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Fri, Feb 5th=20
+	=09
+				Middle=20
+			=09
+				AC Theater
+				2:30pm - 3:20pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				A Capella Event AC in DC=20
+			=09
+				AC Theater
+				6:00pm - 9:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				7/8th Grade Dance =20
+			=09
+				US Dining Room
+				7:30pm - 10:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				7th Grade Parent Peer Group Meeting=20
+			=09
+				MS Drama Studio
+				8:00pm - 10:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				8th Grade Parent Peer Group Meeting=20
+			=09
+				Zartman Drawing Room=20
+				8:00pm - 10:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sat, Feb 6th=20
+	=09
+				DC CAMPUS CAMPS EXPO=20
+			=09
+				Middle School
+				11:00am - 1:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				5th Grade Parent Reception=20
+			=09
+				Home of the Eldridge/Marron Family
+				6:00pm - 8:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Mon, Feb 8th=20
+	=09
+				PA MS Steering Committee Meeting=20
+			=09
+				MS Library=20
+				8:00am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Middle School CTP Testing=20
+			=09
+			=09
+				8:00am - 3:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				8th Grade Curriculum Night=20
+			=09
+				MS Drama Studio
+				7:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Tue, Feb 9th=20
+	=09
+				All School Quaker Life Committee Meeting=20
+			=09
+				Zartman Drawing Room=20
+				5:00pm - 6:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Wed, Feb 10th=20
+	=09
+				Conversation with Sally- 7th Grade Parents=20
+			=09
+				US Dining Room=20
+				7:45am
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Thu, Feb 11th=20
+	=09
+				10th Grade Parents Breakfast with Counselor=20
+			=09
+				US Dining Room
+				7:30am
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sat, Feb 13th=20
+	=09
+				DC Diversity Career Fair=20
+			=09
+				US Dining Room=20
+				8:00am - 4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Mon, Feb 15th=20
+	=09
+				Possible Snow Make-Up Day=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				President's Day=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				President's Day--No School=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+
+											More
+										=09
+									=09
+								=09
+							=09
+                               =20
+									Athletics
+							=09
+							=09
+								=09
+									=09
+										=09
+                                               =20
+											=09
+	Mon, Jan 25th=20
+	=09
+				Swimming - Boys 7/8 - St. Albans (I.S.)=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming - Girls 7/8 - St. Albans (I.S.)=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Tue, Jan 26th=20
+	=09
+				Basketball - Boys Freshman vs. Washington Latin=20
+			=09
+			=09
+				4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity at Potomac School=20
+			=09
+			=09
+				4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Junior Varsity at Flint Hill=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity at Potomac School=20
+			=09
+			=09
+				5:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Varsity at Flint Hill=20
+			=09
+			=09
+				6:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Wed, Jan 27th=20
+	=09
+				Basketball - Boys 7/8 A at Maret School=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys 7/8 B vs. Maret School=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Wrestling - 7/8 vs. Maret School=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Thu, Jan 28th=20
+	=09
+				Winter Soccer - Girls 7/8 at Georgetown Day=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys 7/8 A vs. St. Andrew's School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 A vs. National Cathedral School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 B at National Cathedral School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming & Diving - Girls Varsity vs. ISL Championships (500 meters)=20
+			=09
+			=09
+				5:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming & Diving - Girls Varsity vs. ISL Diving Championships=20
+			=09
+			=09
+				5:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Fri, Jan 29th=20
+	=09
+				Basketball - Boys Junior Varsity vs. Maret School=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity vs. Maret School=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Freshman at St. James School=20
+			=09
+			=09
+				4:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Wrestling - Varsity vs. Landon, St. Anselms & Georgetown Prep=20
+			=09
+			=09
+				5:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming & Diving - Girls Varsity vs. ISL Championships=20
+			=09
+			=09
+				5:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Varsity vs. Maret School=20
+			=09
+			=09
+				5:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity vs. Maret School=20
+			=09
+			=09
+				5:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sat, Jan 30th=20
+	=09
+				Swimming - Boys 7/8 vs. MS Championships=20
+			=09
+			=09
+				9:00am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming - Girls 7/8 vs. MS Championships=20
+			=09
+			=09
+				9:00am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity at St. James School=20
+			=09
+			=09
+				12:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Mon, Feb 1st=20
+	=09
+				Basketball - Boys 7/8 A vs. The Heights=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity at Georgetown Day=20
+			=09
+			=09
+				4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity at Georgetown Day=20
+			=09
+			=09
+				5:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Wed, Feb 3rd=20
+	=09
+				Basketball - Girls 7/8 A vs. Flint Hill=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 B at Flint Hill=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Freshman at St. Stephen's & St. Agnes=20
+			=09
+			=09
+				4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Thu, Feb 4th=20
+	=09
+				Winter Soccer - Girls 7/8 vs. Georgetown Day=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys 7/8 A vs. Potomac School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 A vs. St. Andrew's School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 B at Stone Ridge School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Wrestling - 7/8 vs. Potomac School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity vs. St. Andrew's School=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Junior Varsity at St. Andrew's School=20
+			=09
+			=09
+				4:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Varsity at St. Andrew's School=20
+			=09
+			=09
+				6:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity vs. St. Andrew's School=20
+			=09
+			=09
+				6:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Fri, Feb 5th=20
+	=09
+				Basketball - Boys Freshman at Woodberry Forest=20
+			=09
+			=09
+				4:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sat, Feb 6th=20
+	=09
+				Swimming & Diving - Boys Varsity vs. WMPSSDL Championships=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming & Diving - Girls Varsity vs. WMPSSDL Championships=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity at St. Stephen's & St. Agnes=20
+			=09
+			=09
+				11:00am
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity at St. Stephen's & St. Agnes=20
+			=09
+			=09
+				1:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Mon, Feb 8th=20
+	=09
+				Basketball - Boys 7/8 B at Landon=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Tue, Feb 9th=20
+	=09
+				Basketball - Boys Junior Varsity vs. Potomac School=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity vs. Madeira=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Freshman at Flint Hill=20
+			=09
+			=09
+				4:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Varsity vs. Potomac School=20
+			=09
+			=09
+				6:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity vs. Madeira=20
+			=09
+			=09
+				6:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming & Diving - Boys Varsity vs. Flint Hill=20
+			=09
+			=09
+				7:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming & Diving - Girls Varsity vs. Flint Hill=20
+			=09
+			=09
+				7:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Wed, Feb 10th=20
+	=09
+				Basketball - Boys 7/8 A vs. St. Stephen's & St. Agnes=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys 7/8 B at St. Stephen's & St. Agnes=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 A at St. Stephen's & St. Agnes=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 B vs. St. Stephen's & St. Agnes=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Wrestling - Varsity vs. St. Stephen's & St. Agnes=20
+			=09
+			=09
+				5:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Thu, Feb 11th=20
+	=09
+				Basketball - Boys 7/8 A vs. Georgetown Day=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls 7/8 B vs. Georgetown Day=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming - Boys 7/8 - St. Albans (water polo)=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Swimming - Girls 7/8 - St. Albans (water polo)=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Wrestling - 7/8 vs. St. Andrew's School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys 7/8 B at St. Andrew's School=20
+			=09
+			=09
+				2:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Junior Varsity at Georgetown Day=20
+			=09
+			=09
+				4:15pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Varsity at Georgetown Day=20
+			=09
+			=09
+				5:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Fri, Feb 12th=20
+	=09
+				Wrestling - Varsity vs. St. Albans Invitational=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Junior Varsity at Holy Child=20
+			=09
+			=09
+				4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Girls Varsity at Holy Child=20
+			=09
+			=09
+				5:45pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+=09
+Sat, Feb 13th=20
+	=09
+				Wrestling - Varsity vs. St. Albans Invitational=20
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Freshman vs. St. Albans=20
+			=09
+			=09
+				2:30pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Junior Varsity vs. St. Albans=20
+			=09
+			=09
+				4:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+	=09
+				Basketball - Boys Varsity vs. St. Albans=20
+			=09
+			=09
+				6:00pm
+			=09
+			=09
+			=09
+			=09
+			=09
+
+                                            More
+										=09
+									=09
+								=09
+							=09
+
+						=09
+					=09
+				=09
+			=09
+		=09
+
+	=09
+=09
+	=20
+	=09
+=09
+	=20
+	=09
+			3825 Wisconsin Avenue NW   Washington, DC  20016   Tel: (202) 537 8100  =
+ Fax: (202) 537 8499
+		
+	
+
+
+
+
+
+------=MailPart0000_0010_7C117ECD
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=iso-8859-1
+
+
+
+<html>
+<head><title>
+	Sidwell Friends - Broadcast
+</title><meta http-equiv=3D"PRAGMA" content=3D"NO-CACHE" /><meta =
+http-equiv=3D"CACHE-CONTROL" content=3D"NO-CACHE" /><meta =
+http-equiv=3D"EXPIRES" content=3D"&lt;%=3DNow()%>" /><meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-1" =
+/><link href=3D"../../App_Themes/Classic/Classic.css" type=3D"text/css" =
+rel=3D"stylesheet" /></head>
+<style type=3D"text/css" media=3D"screen">
+#dates dl { /*border: 1px solid red;*/ margin: 0; padding: 0;}
+#dates dt { /*border: 1px solid green;*/ margin: 0; padding: 0; }
+#dates dd { /*border: 1px solid blue;*/ margin: 0; padding: 0;}
+</style>
+</head>
+<body id=3D"broadcast" bgcolor=3D"#FFFFFF" style=3D"background: =
+url(images/bg.gif) top left repeat-x; margin: 0;" link=3D"#990000" =
+alink=3D"#990000" vlink=3D"#990000">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" =
+height=3D"100%" align=3D"center" style=3D"margin-bottom: 0; padding: 0;">
+	<tr>
+		<td style=3D"height: 29px; padding: 7px 0 8px 23px;" =
+bgcolor=3D"#720000"><p style=3D"font-family: Arial, Helvetica, sans-serif; =
+color: #FFFFFF; font-weight: bold; font-size: 11px; ">Tuesday - January =
+26, 2010</p></td>
+	</tr>
+	<tr>
+		<td style=3D"height: 92px"><img =
+src=3D"http://www.sidwell.edu/broadcast/templates/images/masthead.jpg" =
+width=3D"600" height=3D"92"></td>
+	</tr>
+	<tr>
+		<td style=3D"height: 50px"><img =
+src=3D"http://www.sidwell.edu/broadcast/templates/images/pams_title.gif" =
+width=3D"600" height=3D"50"></td>
+	</tr>
+	<tr>=20
+		<td id=3D"main" valign=3D"top" style=3D"margin: 0; padding: 20px 0 0 =
+0;">=20
+			<table width=3D"600" height=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0">
+				<tr valign=3D"top" width=3D"417">
+					<td valign=3D"top" style=3D"padding: 0; margin: 0;">
+						<div style=3D"padding: 0 20px; margin: 0;">
+							<span style=3D"font-size: 12px; font-family:Arial, Helvetica, =
+sans-serif; color: #333333; line-height: 20px;">
+								<h1 style=3D"font: bold 16px/18px Arial, Helvetica, sans-serif; =
+color: #900; margin: 0; padding: 10px 0;">From the School</h1>
+                               =20
+                                <h2 h2 style=3D"border-top: 1px solid =
+rgb(204, 204, 204); margin: 0pt; padding: 10px 0pt; font-family: =
+Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; =
+font-weight: bold; font-size: 14px; line-height: 16px; font-size-adjust: =
+none; font-stretch: normal; -x-system-font: none; color: rgb(153, 0, =
+0);">This Week's Query</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><em>Last week we =
+heard about the history of the Civil Rights Movement from our Martin =
+Luther King Jr. speaker, and we heard at Friday's assembly about how words =
+can hurt. Using these experiences as a place to start, what will we do to =
+make this a stronger community?</em></p></p><h2 h2 style=3D"border-top: =
+1px solid rgb(204, 204, 204); margin: 0pt; padding: 10px 0pt; font-family: =
+Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; =
+font-weight: bold; font-size: 14px; line-height: 16px; font-size-adjust: =
+none; font-stretch: normal; -x-system-font: none; color: rgb(153, 0, =
+0);">Notes from Sally</h2>
+<img src=3D"http://www.sidwell.edu/images/common/icon_default.gif" =
+hspace=3D"4" vspace=3D"4" style=3D"float: left"><span style=3D"font: =
+normal 11px Arial, Helvetica, sans-serif; margin: 0; padding: 4px 0; =
+line-height: 1.5em; display: block"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5787" >bullying.pdf</a></span><p  style=3D"margin: 0 0 =
+10px 0; padding: 0 0 3px 0; font: 11px/15px Verdana, Arial, Helvetica, =
+sans-serif; color: #333;">The assembly on Friday will be presented by =
+Upper School students Wynne Graham and Rachel Brown and will be about the =
+Seeds of Peace program that they have participated in.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">As part of No =
+Name-calling Week (January 25-29, 2010), we wanted to share with you =
+information for parents and families about bullying. Please read the =
+attached article to find warning signs about bullying, as well as tips on =
+what to do if you suspect or are certain your child is being bullied.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Please join us on =
+Friday evening for a performance by our Vertical Voices Theater Troupe! =
+This creative group of 8th graders will demonstrate the techniques of =
+Playback Theater, which all 7th graders learn as part of their Quakerism =
+and the Arts class, and you will enjoy the evening as they act out stories =
+provided by the audience. More information is available on the front page =
+of the SFS website. We hope to see you there!</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">There is one =
+correction in the Minimester booklet that was circulated a couple of weeks =
+ago. The Minimester described as &ldquo;Courts and Criminals&rdquo; will =
+instead be the following program:</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><strong>Behind the =
+Scenes of the Legal Process</strong><br />
+A mix of activities and trips exploring the various court systems and many =
+aspects of law enforcement. Trips may include:<br />
+&bull; A tour of the District Superior Court conducted by a U.S. =
+Marshall<br />
+- civil matters<br />
+- criminal matters<br />
+- misdemeanors<br />
+&bull; The Senate and House of Representatives (possible visit to =
+Congressman Chris Van Hollen&rsquo;s office)<br />
+&bull; The Supreme Court<br />
+&bull; Meeting lawyers who represent both sides of a case<br />
+&bull; Visiting a moot court presentation at American University Law =
+School<br />
+&bull; Tour conducted by a staffer of Homeland Security <br />
+ </p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Attention parents of =
+6th through 8th graders: The second math meet of the year will be held at =
+St. Patrick&rsquo;s next Tuesday, February 2nd, after school. We will be =
+leaving school around 2:15 and returning around 4:15. Students will enjoy =
+delicious snacks and solve some challenging math problems with students =
+from other area independent schools. If your child is interested in =
+attending, he or she should contact his or her math teacher as soon as =
+possible, as space is limited on our bus.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">There is a dance for =
+all 7/8 students next Friday in the Upper School Dining Room from 7:30 =
+&ndash; 10:00 PM. Just a reminder that all school rules apply for the =
+dance. 7/8 Parent Peer Groups will be held during the dance hours.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Parent Peer Groups =
+for 5th and 6th graders will be held next Tuesday evening, February 2nd at =
+7:30 in Middle School.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">All 8th grade =
+parents: please plan to attend the Upper School Curriculum Night on =
+Monday, February 8th in the Middle School Drama Studio at 7:30 PM. This is =
+the first step toward transition to 9th grade. Also a reminder for 8th =
+grade parents: Upper School sports begin in mid-August, so please make =
+your vacation plans with that in mind.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">As a replacement for =
+the all-school Meeting for Worship last week, parents are invited to join =
+us for the Meeting on Thursday, February 18th. This will be followed by a =
+coffee sponsored by the PA Quaker Life Committee. Thank you for your =
+patience with the change, and my apologies to those who did not receive =
+the late message.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">An official welcome =
+to AB Carneal and Patricia Savage who are here for the second semester for =
+Sandy Dennin and Mary Milroy while they take their sabbatical leave. We =
+are very fortunate to have such experienced pros standing in!</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">5th graders have now =
+completed their semester of choral music, and 8th graders have rotated to =
+their second semester arts classes. Reports for these classes will be =
+posted on Educator by the second week in February.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Congratulations are =
+in order to some Middle School students! First of all, Raphael =
+Cohen-Fuentes will represent the Middle School in the Shakespeare =
+Monologue Festival at Imagination Stage in Bethesda. He will present his =
+Caliban monologue from THE TEMPEST.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">And, last week was =
+the Middle School Geography Bee! The following grade-level winners =
+competed in the school bee on Friday: 5th grade winner Cole Migas, 6th =
+grade winner Max Graham, 7th grade winner Jack Hannah, and 8th grade =
+winner Riley Woodwell. After a tough competition, Riley emerged as the =
+Middle School champion. He will move forward to the qualifying round of =
+the state competition.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">In case you are =
+thinking about your spring plans, Grandparents Day will be held in Lower =
+School this year. (As most of you know, we alternate years for this =
+event.)</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Please check around =
+your house to be sure that all of your child&rsquo;s belongings have come =
+home &ndash; the Lost and Found box is full. Also be sure that your child =
+has not &ldquo;adopted&rdquo; jackets that do not belong to him or =
+her!</p> <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5788"  style=3D"font: normal 11px/13px =
+Verdana,Arial,Helvetica,sans-serif;">Read More</a></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">Instrumental Music Notes</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Wednesday January =
+27th 12:55-1:50 ~ <strong>7/8 Full Orchestra </strong>~ Room 101<br />
+Wednesday January 27th 2:40-3:15 ~ <strong>5/6 Full Orchestra </strong>~ =
+Room 101<br />
+Wednesday January 27th 3:30-4:30 ~ <strong>Pit Band </strong>~ Room 101<br =
+/>
+Thursday January 28th 3:45-5:30 ~ <strong>Jazz/Rock Band </strong>~ Room =
+101<br />
+ </p></p><h2 h2 style=3D"border-top: 1px solid rgb(204, 204, 204); margin: =
+0pt; padding: 10px 0pt; font-family: Arial,Helvetica,sans-serif; =
+font-style: normal; font-variant: normal; font-weight: bold; font-size: =
+14px; line-height: 16px; font-size-adjust: none; font-stretch: normal; =
+-x-system-font: none; color: rgb(153, 0, 0);">Drive One Day Less Follow-up =
+Survey--Please help us today!</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">The Sidwell Movers =
+and Quakers are completing their research project (one of the requirements =
+for the Maryland State Robotics Tournament) which we will attend this =
+Saturday. Many of you helped by responding to our initial survey. Whether =
+you answered the first survey or not, we need your help now!</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Please complete this =
+brief (8 question) <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5789">survey</a> to inform us about your plans regarding =
+the Drive One Day Less campaign. Even if it is not possible for you to =
+travel to and from school without a car, we need your feedback.  The =
+survey must be completed by  <strong>4:00 p.m. Thursday, January =
+28</strong>. So please do it right away! Friends don&rsquo;t let friends =
+drive alone!  Thanks for the support...The Sidwell Movers and =
+Quakers</p></p><h2 h2 style=3D"border-top: 1px solid rgb(204, 204, 204); =
+margin: 0pt; padding: 10px 0pt; font-family: Arial,Helvetica,sans-serif; =
+font-style: normal; font-variant: normal; font-weight: bold; font-size: =
+14px; line-height: 16px; font-size-adjust: none; font-stretch: normal; =
+-x-system-font: none; color: rgb(153, 0, 0);">Buy Your Tickets Now -- The =
+Variety Show is this Saturday!!</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Support our scholars, =
+support our alums, and get rid of the January blahs by relaxing and =
+enjoying a delightful evening of music, comedy, dance, and theater at the =
+8th Annual Variety Show, this Saturday, January 30th, at 8 pm in the Arts =
+Center.  This gala showcase of talented SFS alumni who have become =
+professional performing artists is always a fun-filled evening of fabulous =
+entertainment.</p> <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5790"  style=3D"font: normal 11px/13px =
+Verdana,Arial,Helvetica,sans-serif;">Read More</a></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">LAST WEEK TO DONATE!  Events for Student =
+Scholarships Annual Auction</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">We need your help to =
+continue supporting the 23% of students receiving financial aid! Every =
+gift is important! Consider donating a bottle of wine, a gift certificate =
+to your favorite restaurant or store, or underwriting money. All donations =
+are tax-deductible!.</p> <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5791"  style=3D"font: normal 11px/13px =
+Verdana,Arial,Helvetica,sans-serif;">Read More</a></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">Yearly Physical Exams for Students--schedule =
+soon!</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Please remember to =
+get a medical appointment for your child&rsquo;s yearly physical as soon =
+as possible. The pediatric offices get very busy in the springtime so make =
+the appointment for the yearly physical NOW! All SFS students must have a =
+(2010) physical exam and updated immunizations before returning to school =
+next fall. You can download the necessary forms from the SFS website. =
+Log-in to the Parent Portal and click on Health and Emergency forms.  =
+Maryland forms will not be accepted for the D.C. campus. </p></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">Sidwell Friends Summer Camps Open House, Feb 6, 11 =
+AM - 1 PM</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">On February 6, 2010 =
+from 11 AM to 1 PM in the Middle School, join Explorer Programs and =
+Friends for an Open House where you can participate in workshops to get a =
+&ldquo;taste of camp&rdquo;!  Register &ldquo;on the spot&rdquo; at the =
+EXPO and receive a discount for Explorer Program. Participating Programs: =
+Sidwell Summer&rsquo;s Explorer Programs, MathTree, DC Soccer Pros, =
+Imagination Stage, Handwork Studios.  Email Justine at <a =
+href=3D"mailto:KhadduriJ@Sidwell.edu">KhadduriJ@Sidwell.edu</a> to sign up =
+for FREE 30-minute workshops to give you a taste of summer 2010! (Workshop =
+Times, 11:15 &ndash; 11:45 and 12:00 &ndash; 12:30).</p></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">Mobile version of www.sidwell.edu is here!</h2>
+<img =
+src=3D"http://www.sidwell.edu/data/files/news/MSNewsletterFromtheSchoolNews=
+/thumb/sm-mobile.gif" alt=3D"" style=3D"background-color: #FFF; border: =
+10px solid #577D8F; padding: 3px; margin: 10px 16px 12px 0px;"><p  =
+style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px Verdana, =
+Arial, Helvetica, sans-serif; color: #333;">Get SFS info on the go! Check =
+out the mobile version of <a =
+href=3D"http://www.sidwell.edu">www.sidwell.edu</a>, made specifically for =
+your iPhone, Blackberry, or other smartphone.  Enjoy quick access to =
+athletics schedules, calendars, directories, news, contact information, =
+and even this newsletter!</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">If you have any =
+questions, contact <a =
+href=3D"mailto:webmaster@sidwell.edu">webmaster@sidwell.edu</a>.</p> <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5792"  style=3D"font: normal 11px/13px =
+Verdana,Arial,Helvetica,sans-serif;">Read More</a></p>
+							</span>
+							<span style=3D"font-size: 12px; font-family:Arial, Helvetica, =
+sans-serif; color: #333333; line-height: 20px;">
+								<h1 style=3D"font: bold 16px/18px Arial, Helvetica, sans-serif; =
+color: #900; margin: 0; padding: 10px 0;">PA Announcements</h1>
+                               =20
+                                <h2 h2 style=3D"border-top: 1px solid =
+rgb(204, 204, 204); margin: 0pt; padding: 10px 0pt; font-family: =
+Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; =
+font-weight: bold; font-size: 14px; line-height: 16px; font-size-adjust: =
+none; font-stretch: normal; -x-system-font: none; color: rgb(153, 0, =
+0);">7th Grade Wine and Cheese Social -- 6-7:30 PM tonight!</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">The 7th grade parents =
+fabulous Wine and Cheese Social is tonight (Jan 26) from 6- 7.30 pm at the =
+Zartman House. We've paired some lovely wines with some very tasty =
+cheeses; all that is left is the company! Come join your friends and =
+fellow parents for a relaxing hour or so, or drop in on your way home from =
+work -- we look forward to seenig you all!</p></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">Please note the upcoming CHI Parent Peer Group =
+Meetings:</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">5th Grade Parents - =
+Tuesday, February 2nd, at 7:30pm, MS Drama Studio<br />
+6th Grade Parents - Tuesday, February 2nd, at 7:30 pm, location to be =
+announced<br />
+7th Grade Parents - Friday February 5th at 8pm, MS Drama Studio<br />
+8th Grade Parents - Friday, February 5th at 8pm, Zartman House</p></p><h2 =
+h2 style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; =
+padding: 10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: =
+normal; font-variant: normal; font-weight: bold; font-size: 14px; =
+line-height: 16px; font-size-adjust: none; font-stretch: normal; =
+-x-system-font: none; color: rgb(153, 0, 0);">6th grade Hangout, Fri Jan =
+29, 3:30-5 PM</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">The second 6th Grade =
+hangout will take place on Friday January 29th from 3:30pm to 5:00 pm in =
+the US dining room. There will be snacks along with ping-pong and =
+hula-hoops. The kids are also invited to take part in a book exchange. If =
+they bring a couple books they&rsquo;ve read, they&rsquo;ll get a couple =
+books to take home. We&rsquo;ll donate left-over books to the upcoming MS =
+used book fair. We&rsquo;re looking for a few parent volunteers for the =
+hangout. To volunteer, please email the 6th grade reps at <a =
+href=3D"mailto:6thgradereps@gmail.com">6thgradereps@gmail.com</a>.</p></p><=
+h2 h2 style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; =
+padding: 10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: =
+normal; font-variant: normal; font-weight: bold; font-size: 14px; =
+line-height: 16px; font-size-adjust: none; font-stretch: normal; =
+-x-system-font: none; color: rgb(153, 0, 0);">Seventh Grade Parents wine =
+and cheese receiption, Jan 26, 6-7:30 PM</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">On January 26th =
+seventh grade parents are invited to come to Zartman House for a wine and =
+cheese. An opportunity to say hello and mingle for an hour or so in this =
+very chilly weather! From 6 - 7:30 pm.</p></p><h2 h2 style=3D"border-top: =
+1px solid rgb(204, 204, 204); margin: 0pt; padding: 10px 0pt; font-family: =
+Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; =
+font-weight: bold; font-size: 14px; line-height: 16px; font-size-adjust: =
+none; font-stretch: normal; -x-system-font: none; color: rgb(153, 0, =
+0);">Get Sm(art) at ArtRageous!  Sunday Jan 31 1-4 PM</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: =
+#333;"><strong>ArtRageous</strong> &ndash; the all-school, all arts, =
+extravaganza <strong>Sunday January 31 1-4pm in the US Gym and Kogod =
+lobby</strong>. You won&rsquo;t want to miss this! Experience it all! =
+Films, art, music, dance, a LS musical! Come help construct the amazing =
+i-gloo, build a bot, tinker at the Make Lab, illustrate Alphabets for =
+Africa, view the Student Art Show, listen to beautiful music, eat =
+delicious food and much, much more! Celebrate the arts and artists at =
+Sidwell!  We&rsquo;re still looking for volunteers to help (contact Sarah =
+Blake <a href=3D"mailto:sblakie@aol.com">sblakie@aol.com</a>), visual art =
+for the student art show (artists please contact Lucinda Leach (<a =
+href=3D"mailto:juseno@aol.com">juseno@aol.com</a>), and we still need your =
+1 Gallon and 1/2 gallon PLASTIC water and milk containers (rinsed out, =
+please and not flattened!) please contact Sara Jones (<a =
+href=3D"mailto:sarajo4420@gmail.com">sarajo4420@gmail.com</a>).</p></p><h2 =
+h2 style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; =
+padding: 10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: =
+normal; font-variant: normal; font-weight: bold; font-size: 14px; =
+line-height: 16px; font-size-adjust: none; font-stretch: normal; =
+-x-system-font: none; color: rgb(153, 0, 0);">7th/8th grade dance, Fri Feb =
+5, 7-10 PM</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">The DJ is booked for =
+the 7th/8th grade dance coming up on Friday February 5 from 7pm-10pm.  The =
+theme is &ldquo;Candy Carnival&rdquo;.  We will need volunteers to help =
+set up (from 2pm in the cafeteria), help inside, and with cleanup =
+afterwards.  Please contact Liz (<a =
+href=3D"mailto:LBronder@ifc.org">LBronder@ifc.org</a>) or Debra (<a =
+href=3D"mailto:DebraBolog@aol.com">DebraBolog@aol.com</a>) if you can =
+help.  Please also have each student bring a canned, bottled or boxed good =
+for donation.</p></p><h2 h2 style=3D"border-top: 1px solid rgb(204, 204, =
+204); margin: 0pt; padding: 10px 0pt; font-family: =
+Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; =
+font-weight: bold; font-size: 14px; line-height: 16px; font-size-adjust: =
+none; font-stretch: normal; -x-system-font: none; color: rgb(153, 0, =
+0);">Kenworthy Gym Farewell, 4:15 PM, Feb 19</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Join us at 4:15pm on =
+February 19, 2010, when the entire SFS community will bid farewell to =
+Kenworthy Gym during the final home game! </p> <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5793"  style=3D"font: normal 11px/13px =
+Verdana,Arial,Helvetica,sans-serif;">Read More</a></p>
+							</span>
+							<span style=3D"font-size: 12px; font-family:Arial, Helvetica, =
+sans-serif; color: #333333; line-height: 20px;">
+								<h1 style=3D"font: bold 16px/18px Arial, Helvetica, sans-serif; =
+color: #900; margin: 0; padding: 10px 0;">Other News </h1>
+                               =20
+                                <h2 h2 style=3D"border-top: 1px solid =
+rgb(204, 204, 204); margin: 0pt; padding: 10px 0pt; font-family: =
+Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; =
+font-weight: bold; font-size: 14px; line-height: 16px; font-size-adjust: =
+none; font-stretch: normal; -x-system-font: none; color: rgb(153, 0, =
+0);">Green Tip of the Week</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">The FDA recently =
+announced they had &ldquo;some concern&rdquo; about Bisphenol A =
+(BPA)&rsquo;s effect on the brain and behavior of fetuses, infants and =
+children.  Until the FDA completely bans BPA in all products, though, or =
+decide it&rsquo;s not dangerous, how are concerned consumers to avoid this =
+potentially toxic chemical? Following are 4 options:</p> <a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5794"  style=3D"font: normal 11px/13px =
+Verdana,Arial,Helvetica,sans-serif;">Read More</a></p><h2 h2 =
+style=3D"border-top: 1px solid rgb(204, 204, 204); margin: 0pt; padding: =
+10px 0pt; font-family: Arial,Helvetica,sans-serif; font-style: normal; =
+font-variant: normal; font-weight: bold; font-size: 14px; line-height: =
+16px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; =
+color: rgb(153, 0, 0);">Newsletter Information</h2>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><strong>How to =
+Subscribe </strong><br />
+To receive the Tuesday Letter via e-mail, send an e-mail to <a =
+href=3D"mailto:Tuesday@listserv.sidwell.edu">Tuesday@listserv.sidwell.edu</=
+a> with only the word &quot;SUBSCRIBE&quot; in the subject line.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><strong>How to =
+Unsubscribe </strong><br />
+If you have wish to have your name removed from the subscription list, =
+send an e-mail to <a =
+href=3D"mailto:Tuesday@listserv.sidwell.edu">Tuesday@listserv.sidwell.edu</=
+a> with only the word &quot;UNSUBSCRIBE&quot; in the subject line.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><strong>How to Submit =
+an Article </strong><br />
+Send submissions to <a =
+href=3D"mailto:PA.MSNewsletter@sidwell.edu">PA.MSNewsletter@sidwell.edu</a>=
+ by 2 p.m. Tuesday. Please reference &quot;Newsletter Submission&quot; and =
+the publish date(s) in the subject line. Items should be submitted as text =
+in the body of the e-mail. PLEASE do not include any formatting such as =
+indents, bullets, boldface or all-caps. Please keep submissions succinct. =
+If you have a form or flyer to include with your submission, please send =
+it as a PDF attachment to your email. Receipt of your submissions will be =
+confirmed as soon as possible.</p>
+<p  style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;">Note concerning the =
+School Calendar: the calendar entries that appear in the right column of =
+each Newsletter are automatically generated by the official school =
+calendar and are not subject to editing by the Newsletter Editors. All =
+changes or additions to the school calendar must be made through the =
+school scheduling office, reachable at: <a =
+href=3D"mailto:scheduling@sidwell.edu">scheduling@sidwell.edu</a>.</p></p>
+							</span>
+						<p style=3D"border-bottom: 1px solid #CCCCCC">&nbsp;</p><p =
+style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px Verdana, =
+Arial, Helvetica, sans-serif; color: #333;">The Parents Association =
+newsletters are a forum for communication among parents and provide =
+announcements concerning School or PA events or information related to a =
+School or PA event.=20
+						MS newsletter submissions should be sent to <a =
+href=3D"mailto:PA.MSnewsletter@sidwell.edu">PA.MSnewsletter@sidwell.edu</a>=
+=2E</p>
+					=09
+						</div>
+					</td>
+					<td width=3D"214" valign=3D"top" bgcolor=3D"#EDEDED" style=3D"border: =
+1px solid #CCC;">
+						<div style=3D"padding: 17px 0 0 0; margin: 0 7px 0 7px;">
+							<table width=3D"200" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0">
+								<tr>
+									 <td bgcolor=3D"#720000"><h2 style=3D"font: bold 13px/13px Arial, =
+Helvetica, sans-serif; color: #FFF; margin: 0; padding: =
+5px">Calendar</h2></td>
+								</tr>
+								<tr>
+									<td style=3D"padding: 0; margin: 0;">
+										<div id=3D"dates" style=3D"padding: 7px 5px; margin: 0;">
+											<span style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: =
+11px/15px Verdana, Arial, Helvetica, sans-serif; color: #333;">
+											=09
+											=09
+	<dl class=3D"calendar-day first-child"><dt><span style=3D"margin:0; =
+padding:0; font:bold 12px Verdana, Arial, Helvetica, sans-serif; =
+color:#003d7e; line-height:1.2em;">Tue, Jan 26th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">US Last Day to add a new second semester class =
+</span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5795"> 7th Grade Parent Social (PA) </a> </span>
+			=09
+				<span style=3D"display: block;">Zartman Drawing Room </span>
+				<span style=3D"display: block;">6:00pm - 7:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Wed, Jan =
+27th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5784">All School PA Nominating Committee Meeting</a> =
+</span>
+			=09
+				<span style=3D"display: block;">US Library Board Room</span>
+				<span style=3D"display: block;">8:00am - 9:30am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Thu, Jan =
+28th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">6th Grade Parent Coffee </span>
+			=09
+				<span style=3D"display: block;">Zartman Drawing Room </span>
+				<span style=3D"display: block;">8:00am - 10:00am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5736">PA Arts Committee Meeting</a> </span>
+			=09
+				<span style=3D"display: block;">Off Campus</span>
+				<span style=3D"display: block;">7:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Fri, Jan =
+29th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">6th Grade Hangout </span>
+			=09
+				<span style=3D"display: block;">US Dining Room </span>
+				<span style=3D"display: block;">3:30pm - 5:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sat, Jan =
+30th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5684">Alumni Variety Show </a> </span>
+			=09
+				<span style=3D"display: block;">AC Theater</span>
+				<span style=3D"display: block;">8:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sun, Jan =
+31st</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">Artrageous </span>
+			=09
+				<span style=3D"display: block;">AC Foyer, Kenworthy Gym</span>
+				<span style=3D"display: block;">8:00am - 5:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">ArtRageous </span>
+			=09
+				<span style=3D"display: block;">Arts Center, Kenworthy Gym</span>
+				<span style=3D"display: block;">1:00pm - 4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Tue, Feb =
+2nd</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">5th Grade Parent Peer Group Meeting </span>
+			=09
+				<span style=3D"display: block;">MS Drama Studio</span>
+				<span style=3D"display: block;">7:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Wed, Feb =
+3rd</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">MS Teacher Appreciation Luncheon </span>
+			=09
+				<span style=3D"display: block;">TBA</span>
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Thu, Feb =
+4th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">9th Grade Parents Breakfast with Counselor =
+</span>
+			=09
+				<span style=3D"display: block;">US Dining Room</span>
+				<span style=3D"display: block;">7:30am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5737">PA Executive Meeting</a> </span>
+			=09
+				<span style=3D"display: block;">US Crane Room</span>
+				<span style=3D"display: block;">8:00am - 9:00am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">MS Meeting for Worship </span>
+			=09
+				<span style=3D"display: block;">AC Meeting Room </span>
+				<span style=3D"display: block;">8:10am - 8:40am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Fri, Feb =
+5th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">Middle </span>
+			=09
+				<span style=3D"display: block;">AC Theater</span>
+				<span style=3D"display: block;">2:30pm - 3:20pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">A Capella Event AC in DC </span>
+			=09
+				<span style=3D"display: block;">AC Theater</span>
+				<span style=3D"display: block;">6:00pm - 9:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd>
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5796">7/8th Grade Dance </a> </span>
+			=09
+				<span style=3D"display: block;">US Dining Room</span>
+				<span style=3D"display: block;">7:30pm - 10:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">7th Grade Parent Peer Group Meeting </span>
+			=09
+				<span style=3D"display: block;">MS Drama Studio</span>
+				<span style=3D"display: block;">8:00pm - 10:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">8th Grade Parent Peer Group Meeting </span>
+			=09
+				<span style=3D"display: block;">Zartman Drawing Room </span>
+				<span style=3D"display: block;">8:00pm - 10:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sat, Feb =
+6th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">DC CAMPUS CAMPS EXPO </span>
+			=09
+				<span style=3D"display: block;">Middle School</span>
+				<span style=3D"display: block;">11:00am - 1:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5797">5th Grade Parent Reception</a> </span>
+			=09
+				<span style=3D"display: block;">Home of the Eldridge/Marron =
+Family</span>
+				<span style=3D"display: block;">6:00pm - 8:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Mon, Feb =
+8th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">PA MS Steering Committee Meeting </span>
+			=09
+				<span style=3D"display: block;">MS Library </span>
+				<span style=3D"display: block;">8:00am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">Middle School CTP Testing </span>
+			=09
+			=09
+				<span style=3D"display: block;">8:00am - 3:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">8th Grade Curriculum Night </span>
+			=09
+				<span style=3D"display: block;">MS Drama Studio</span>
+				<span style=3D"display: block;">7:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Tue, Feb =
+9th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">All School Quaker Life Committee Meeting </span>
+			=09
+				<span style=3D"display: block;">Zartman Drawing Room </span>
+				<span style=3D"display: block;">5:00pm - 6:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Wed, Feb =
+10th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">Conversation with Sally- 7th Grade Parents =
+</span>
+			=09
+				<span style=3D"display: block;">US Dining Room </span>
+				<span style=3D"display: block;">7:45am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Thu, Feb =
+11th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">10th Grade Parents Breakfast with Counselor =
+</span>
+			=09
+				<span style=3D"display: block;">US Dining Room</span>
+				<span style=3D"display: block;">7:30am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sat, Feb =
+13th</span></dt>=20
+		<dd class=3D"only-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">DC Diversity Career Fair </span>
+			=09
+				<span style=3D"display: block;">US Dining Room </span>
+				<span style=3D"display: block;">8:00am - 4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Mon, Feb =
+15th</span></dt>=20
+		<dd class=3D"first-child">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">Possible Snow Make-Up Day </span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">President's Day </span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd>
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;">President's Day--No School </span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+											<p><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5798">More</a></p>
+											</span>
+										</div>
+									</td>
+								</tr>
+                                <tr>
+									<td bgcolor=3D"#720000"><h2 style=3D"font: bold 13px/13px Arial, =
+Helvetica, sans-serif; color: #FFF; margin: 0; padding: =
+5px">Athletics</h2></td>
+								</tr>
+								<tr>
+									<td style=3D"padding: 0; margin: 0;">
+										<div id=3D"dates" style=3D"padding: 7px 5px; margin: 0;">
+											<span style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: =
+11px/15px Verdana, Arial, Helvetica, sans-serif; color: #333;">
+                                               =20
+											=09
+	<dl class=3D"calendar-day first-child"><dt><span style=3D"margin:0; =
+padding:0; font:bold 12px Verdana, Arial, Helvetica, sans-serif; =
+color:#003d7e; line-height:1.2em;">Mon, Jan 25th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5658">Swimming - Boys 7/8 - St. Albans (I.S.)</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5659">Swimming - Girls 7/8 - St. Albans (I.S.)</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Tue, Jan =
+26th</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5660">Basketball - Boys Freshman vs. Washington Latin</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5661">Basketball - Girls Junior Varsity at Potomac =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5662">Basketball - Boys Junior Varsity at Flint Hill</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5663">Basketball - Girls Varsity at Potomac School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">5:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5664">Basketball - Boys Varsity at Flint Hill</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">6:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Wed, Jan =
+27th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5688">Basketball - Boys 7/8 A at Maret School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5689">Basketball - Boys 7/8 B vs. Maret School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5690">Wrestling - 7/8 vs. Maret School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Thu, Jan =
+28th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5691">Winter Soccer - Girls 7/8 at Georgetown Day</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5692">Basketball - Boys 7/8 A vs. St. Andrew's School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5693">Basketball - Girls 7/8 A vs. National Cathedral =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5694">Basketball - Girls 7/8 B at National Cathedral =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5695">Swimming & Diving - Girls Varsity vs. ISL =
+Championships (500 meters)</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5696">Swimming & Diving - Girls Varsity vs. ISL Diving =
+Championships</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Fri, Jan =
+29th</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5697">Basketball - Boys Junior Varsity vs. Maret =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5698">Basketball - Girls Varsity vs. Maret School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5699">Basketball - Boys Freshman at St. James School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5700">Wrestling - Varsity vs. Landon, St. Anselms & =
+Georgetown Prep</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5701">Swimming & Diving - Girls Varsity vs. ISL =
+Championships</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5702">Basketball - Boys Varsity vs. Maret School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">5:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5703">Basketball - Girls Junior Varsity vs. Maret =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sat, Jan =
+30th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5704">Swimming - Boys 7/8 vs. MS Championships</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">9:00am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5705">Swimming - Girls 7/8 vs. MS Championships</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">9:00am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5706">Basketball - Girls Varsity at St. James School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">12:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Mon, Feb =
+1st</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5724">Basketball - Boys 7/8 A vs. The Heights</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5725">Basketball - Girls Junior Varsity at Georgetown =
+Day</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5726">Basketball - Girls Varsity at Georgetown Day</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">5:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Wed, Feb =
+3rd</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5741">Basketball - Girls 7/8 A vs. Flint Hill</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5742">Basketball - Girls 7/8 B at Flint Hill</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5743">Basketball - Boys Freshman at St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Thu, Feb =
+4th</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5745">Winter Soccer - Girls 7/8 vs. Georgetown Day</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5746">Basketball - Boys 7/8 A vs. Potomac School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5747">Basketball - Girls 7/8 A vs. St. Andrew's School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5748">Basketball - Girls 7/8 B at Stone Ridge School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5749">Wrestling - 7/8 vs. Potomac School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5750">Basketball - Girls Junior Varsity vs. St. Andrew's =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5751">Basketball - Boys Junior Varsity at St. Andrew's =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5752">Basketball - Boys Varsity at St. Andrew's School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">6:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5753">Basketball - Girls Varsity vs. St. Andrew's =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">6:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Fri, Feb =
+5th</span></dt>=20
+		<dd class=3D"only-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5754">Basketball - Boys Freshman at Woodberry Forest</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sat, Feb =
+6th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5755">Swimming & Diving - Boys Varsity vs. WMPSSDL =
+Championships</a> </span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5756">Swimming & Diving - Girls Varsity vs. WMPSSDL =
+Championships</a> </span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5757">Basketball - Girls Junior Varsity at St. Stephen's & =
+St. Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">11:00am</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5758">Basketball - Girls Varsity at St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">1:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Mon, Feb =
+8th</span></dt>=20
+		<dd class=3D"only-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5767">Basketball - Boys 7/8 B at Landon</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Tue, Feb =
+9th</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5768">Basketball - Boys Junior Varsity vs. Potomac =
+School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5769">Basketball - Girls Varsity vs. Madeira</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5770">Basketball - Boys Freshman at Flint Hill</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5771">Basketball - Boys Varsity vs. Potomac School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">6:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5772">Basketball - Girls Junior Varsity vs. Madeira</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">6:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5773">Swimming & Diving - Boys Varsity vs. Flint Hill</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">7:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5774">Swimming & Diving - Girls Varsity vs. Flint Hill</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">7:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Wed, Feb =
+10th</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5799">Basketball - Boys 7/8 A vs. St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5800">Basketball - Boys 7/8 B at St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5801">Basketball - Girls 7/8 A at St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5802">Basketball - Girls 7/8 B vs. St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5803">Wrestling - Varsity vs. St. Stephen's & St. =
+Agnes</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Thu, Feb =
+11th</span></dt>=20
+		<dd class=3D"first-child home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5804">Basketball - Boys 7/8 A vs. Georgetown Day</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5805">Basketball - Girls 7/8 B vs. Georgetown Day</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5806">Swimming - Boys 7/8 - St. Albans (water polo)</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5807">Swimming - Girls 7/8 - St. Albans (water polo)</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5808">Wrestling - 7/8 vs. St. Andrew's School</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5809">Basketball - Boys 7/8 B at St. Andrew's School</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">2:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5810">Basketball - Boys Junior Varsity at Georgetown =
+Day</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">4:15pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5811">Basketball - Boys Varsity at Georgetown Day</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">5:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Fri, Feb =
+12th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5812">Wrestling - Varsity vs. St. Albans Invitational</a> =
+</span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5813">Basketball - Girls Junior Varsity at Holy Child</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"last-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5814">Basketball - Girls Varsity at Holy Child</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">5:45pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+	<dl class=3D"calendar-day">
+<dt><span style=3D"margin:0; padding:0; font:bold 12px Verdana, Arial, =
+Helvetica, sans-serif; color:#003d7e; line-height:1.2em;">Sat, Feb =
+13th</span></dt>=20
+		<dd class=3D"first-child away">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5815">Wrestling - Varsity vs. St. Albans Invitational</a> =
+</span>
+			=09
+			=09
+			=09
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5816">Basketball - Boys Freshman vs. St. Albans</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">2:30pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5817">Basketball - Boys Junior Varsity vs. St. Albans</a> =
+</span>
+			=09
+			=09
+				<span style=3D"display: block;">4:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+		<dd class=3D"alt home">
+				<p style=3D"margin: 0 0 10px 0; padding: 0 0 3px 0; font: 11px/15px =
+Verdana, Arial, Helvetica, sans-serif; color: #333;"><span =
+style=3D"display: block;"><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5818">Basketball - Boys Varsity vs. St. Albans</a> </span>
+			=09
+			=09
+				<span style=3D"display: block;">6:00pm</span>
+			=09
+				</p>
+			=09
+			=09
+				</dd>
+</dl>
+                                            <p><a =
+href=3D"http://www.sidwell.edu/broadcast/action/clickthru.aspx?id=3D366.955=
+=2E457994.55593.5798">More</a></p>
+											</span>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+	<tr>=20
+		<td style=3D"height: 20px; padding-top: 25px;"><img =
+src=3D"http://www.sidwell.edu/broadcast/templates/images/footer.gif" =
+width=3D"600" height=3D"20"></td>
+	</tr>
+	<tr>=20
+		<td style=3D"height: 20px; padding: 8px 22px 25px 22px;">
+			<p style=3D"color: #333333; font: 12px Arial, Helvetica, =
+sans-serif;">3825 Wisconsin Avenue NW&nbsp;&nbsp;&nbsp;Washington, DC  =
+20016&nbsp;&nbsp;&nbsp;Tel: (202) 537 8100&nbsp;&nbsp;&nbsp;Fax: (202) 537 =
+8499</p>
+		</td>
+	</tr>
+</table>
+<img =
+src=3D"http://www.sidwell.edu/broadcast/action/html.aspx?ID=3D366.955.45799=
+4.55593" border=3D"0" height=3D"1" width=3D"0">
+</body>
+</html>
+
+
+
+------=MailPart0000_0010_7C117ECD--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114645</integer>
+	<key>date-last-viewed</key>
+	<integer>1633993407</integer>
+	<key>date-received</key>
+	<integer>1264481253</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3731</string>
+</dict>
+</plist>

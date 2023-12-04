@@ -1,0 +1,113 @@
+4982      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs259697wev; Sat, 9 Jan 2010
+ 10:16:12 -0800 (PST)
+Received: by 10.101.7.8 with SMTP id k8mr1266919ani.23.1263060971656; Sat, 09
+ Jan 2010 10:16:11 -0800 (PST)
+Return-Path: <valerie@jswco.com>
+Received: from server514.appriver.com (server514c.exghost.com [72.32.253.76])
+ by mx.google.com with ESMTP id 6si55702632gxk.31.2010.01.09.10.16.10; Sat, 09
+ Jan 2010 10:16:10 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.76 is neither permitted nor
+ denied by best guess record for domain of valerie@jswco.com)
+ client-ip=72.32.253.76;
+DomainKey-Status: no key
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.76
+ is neither permitted nor denied by best guess record for domain of
+ valerie@jswco.com) smtp.mail=valerie@jswco.com; domainkeys=neutral (no key)
+ header.From=valerie@jswco.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: valerie@jswco.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-54/SG:2 1/9/2010 12:15:35 PM
+X-GBUdb-Analysis: 0, 72.32.253.150, Ugly c=0.956466 p=-0.966102 Source White
+X-Signature-Violations: 0-0-0-3899-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->->UNITED STATES->PRIVATE->UNITED
+ STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.150
+X-Note-Reverse-DNS: fe03.exg4.exghost.com
+X-Note-WHTLIST: valerie@jswco.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.150] (HELO FE03.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 93463180
+ for hbiden@rosemontseneca.com; Sat, 09 Jan 2010 12:16:15 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE03.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Sat, 9 Jan 2010 12:16:09 -0600
+Received: from [10.242.228.214] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 269280001
+ for hbiden@senecaga.com; Sat, 09 Jan 2010 12:16:15 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-44/SG:2 1/9/2010 12:15:03 PM
+X-GBUdb-Analysis: 0, 67.222.38.28, Ugly c=0.313739 p=-0.333333 Source Normal
+X-Signature-Violations: 0-0-0-2473-c
+X-Note: SCH-CT/SI:0-1271/SG:1 1/9/2010 12:15:43 PM
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 67.222.38.28
+X-Note-Reverse-DNS: outbound-mail-128.bluehost.com
+X-Note-WHTLIST: valerie@jswco.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from outbound-mail-128.bluehost.com ([67.222.38.28] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with SMTP id 19016190 for
+ hbiden@senecaga.com; Sat, 09 Jan 2010 12:16:15 -0600
+Received: (qmail 18134 invoked by uid 0); 9 Jan 2010 18:16:08 -0000
+Received: from unknown (HELO host303.hostmonster.com) (74.220.215.103) by
+ outboundproxy4.bluehost.com with SMTP; 9 Jan 2010 18:16:08 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=jswco.com;
+ h=Received:Message-Id:From:To:Content-Type:Content-Transfer-Encoding:Mime-Version:Subject:Date:Cc:X-Mailer:X-Identified-User;
+ b=I380OroEUHBDrF/rSmcOChX70M6e7cVvLkL/7m61y+Op58nXFJqXtpBsTpNXZVmjz2ZGFBiAN9OoMotsuy65sUoqfO4sIIEaIry8Xv41kzDGZGz+zegeq2dFGba3p/TZ;
+Received: from pool-74-103-166-151.phlapa.fios.verizon.net ([74.103.166.151]
+ helo=[192.168.0.136]) by host303.hostmonster.com with esmtpsa
+ (TLSv1:AES128-SHA:128) (Exim 4.69) (envelope-from <valerie@jswco.com>) id
+ 1NTfr6-0008ST-Nc; Sat, 09 Jan 2010 11:16:08 -0700
+Message-Id: <5C1444AE-9663-4056-8950-339B80D803B4@jswco.com>
+From: Valerie Biden Owens <valerie@jswco.com>
+To: Michele Smith <Michele_Smith@ovp.eop.gov>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: priests @ mass
+Date: Sat, 9 Jan 2010 13:16:06 -0500
+Cc: Beau Biden <bbiden@comcast.net>, Hunter Biden <hbiden@senecaga.com>, Missy
+ Owens <missy.owens@gmail.com>
+X-Mailer: Apple Mail (2.936)
+X-Identified-User: {29015:host303.hostmonster.com:jswcocom:jswco.com}
+ {sentby:smtp auth 74.103.166.151 authed with valerie+jswco.com}
+Return-Path: valerie@jswco.com
+X-OriginalArrivalTime: 09 Jan 2010 18:16:09.0854 (UTC)
+ FILETIME=[D19F49E0:01CA9157]
+
+Joe mentioned last nite that beau or hunt might want Fr Collins on the  
+altar. If they do , or anyone else they want , they should have that  
+priest call Fr Cini. to speak to him for coordination.  Fr Cini has  
+already been in contact w/ Brother Ronald and Fr Szupper - so let him  
+know if there are to be more. He said 5/6 on the altar is about max. VBO
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114615</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263060970</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>2573</string>
+</dict>
+</plist>

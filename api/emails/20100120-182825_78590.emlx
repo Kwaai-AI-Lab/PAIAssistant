@@ -1,0 +1,218 @@
+8139      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs164020wey; Wed, 20 Jan 2010 13:29:24
+ -0800 (PST)
+Received: by 10.91.148.18 with SMTP id a18mr670968ago.29.1264022963084; Wed,
+ 20 Jan 2010 13:29:23 -0800 (PST)
+Return-Path: <GMarcou@kslaw.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 6si706801gxk.11.2010.01.20.13.29.22; Wed, 20
+ Jan 2010 13:29:23 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.69 is neither permitted nor
+ denied by best guess record for domain of GMarcou@kslaw.com)
+ client-ip=72.32.253.69;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.69
+ is neither permitted nor denied by best guess record for domain of
+ GMarcou@kslaw.com) smtp.mail=GMarcou@kslaw.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: gmarcou@kslaw.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-100/SG:5 1/20/2010 3:28:40 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=1 p=-0.761649 Source Normal
+X-Signature-Violations: 0-0-0-9430-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: GMarcou@KSLAW.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 86099169
+ for hbiden@rosemontseneca.com; Wed, 20 Jan 2010 15:29:22 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 20 Jan 2010 15:28:27 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 275228241
+ for hbiden@senecaga.com; Wed, 20 Jan 2010 15:28:27 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-100/SG:5 1/20/2010 3:27:53 PM
+X-GBUdb-Analysis: 0, 64.88.165.121, Ugly c=0.279065 p=-0.2 Source Normal
+X-Signature-Violations: 0-0-0-7971-c
+X-Note: SCH-CT/SI:1-1272/SG:1 1/20/2010 3:27:53 PM
+X-Warn: BADHEADERS This email has no Message ID.
+X-Note: Spam Tests Failed: BADHEADERS
+X-Country-Path: UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 64.88.165.121
+X-Note-Reverse-DNS: am1smtpgw02.kslaw.com
+X-Note-WHTLIST: GMarcou@KSLAW.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G164 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from am1smtpgw02.kslaw.com ([64.88.165.121] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 22421768
+ for hbiden@senecaga.com; Wed, 20 Jan 2010 15:28:27 -0600
+Authentication-Results: am1smtpgw02.kslaw.com; dkim=neutral (message not
+ signed) header.i=none
+Received-SPF: None identity=pra; client-ip=10.101.150.233;
+ receiver=am1smtpgw02.kslaw.com; envelope-from="GMarcou@KSLAW.com";
+ x-sender="GMarcou@KSLAW.com"; x-conformance=sidf_compatible
+Received-SPF: None identity=mailfrom; client-ip=10.101.150.233;
+ receiver=am1smtpgw02.kslaw.com; envelope-from="GMarcou@KSLAW.com";
+ x-sender="GMarcou@KSLAW.com"; x-conformance=sidf_compatible
+Received-SPF: None identity=helo; client-ip=10.101.150.233;
+ receiver=am1smtpgw02.kslaw.com; envelope-from="GMarcou@KSLAW.com";
+ x-sender="postmaster@atlhub01.usa.kslaw.net"; x-conformance=sidf_compatible
+X-IronPort-AV: E=Sophos;i="4.49,312,1262581200";
+ d="scan'208,217";a="108108917"
+From: "Marcou, George" <GMarcou@KSLAW.com>
+To: "Hunter Biden (hbiden@senecaga.com)" <hbiden@senecaga.com>, "Kathleen
+ Biden (kathleenbiden@mac.com)" <kathleenbiden@mac.com>
+CC: "KBarker145@aol.com" <KBarker145@aol.com>, "Marcou, George"
+ <GMarcou@KSLAW.com>
+Date: Wed, 20 Jan 2010 16:28:25 -0500
+Subject: Contact Info
+Thread-Topic: Contact Info
+Thread-Index: AcqaF3+5DNBZj9TyRa6Wot+mhwVwvw==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative;
+ boundary="_000_A240E0A354172F4885B41238F7786F44301A1A856CAM1EXCH02usak_"
+MIME-Version: 1.0
+Message-ID: <auto-000022421768@inbound.appriver.com>
+Return-Path: GMarcou@KSLAW.com
+X-OriginalArrivalTime: 20 Jan 2010 21:28:27.0884 (UTC)
+ FILETIME=[815E32C0:01CA9A17]
+
+
+--_000_A240E0A354172F4885B41238F7786F44301A1A856CAM1EXCH02usak_
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Dear Hunter and Kathleen,  Two different people have asked me for your cont=
+act info and I wanted to get your okay before I respond.
+
+The first is Jon Mudd (Dan's Mudd brother) who wants your home address to s=
+end you a sympathy card.
+
+The second is John Mott--our neighbor who is a DC Superior Court judge and =
+is on the list at the White House for a DC federal court judgeship.  He wou=
+ld like Hunter's email.
+
+Okay to provide?  Thanks.  George
+
+George T. Marcou
+King & Spalding, LLP
+1700 Pennsylvania Ave. NW
+Washington, DC 20006
+202-626-8976
+gmarcou@kslaw.com
+
+
+
+  ________________________________
+
+King & Spalding Confidentiality Notice:
+
+This message is being sent by or on behalf of a lawyer. It is intended excl=
+usively for the individual or entity to which it is addressed. This communi=
+cation may contain information that is proprietary, privileged or confident=
+ial or otherwise legally exempt from disclosure. If you are not the named a=
+ddressee, you are not authorized to read, print, retain, copy or disseminat=
+e this message or any part of it. If you have received this message in erro=
+r, please notify the sender immediately by e-mail and delete all copies of =
+the message.
+
+--_000_A240E0A354172F4885B41238F7786F44301A1A856CAM1EXCH02usak_
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from rtf -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style>
+</head>
+<body>
+<font face=3D"Times New Roman, serif" size=3D"3">
+<div>Dear Hunter and Kathleen,&nbsp; Two different people have asked me for=
+ your contact info and I wanted to get your okay before I respond.</div>
+<div>&nbsp;</div>
+<div>The first is Jon Mudd (Dan's Mudd brother) who wants your home address=
+ to send you a sympathy card.</div>
+<div>&nbsp;</div>
+<div>The second is John Mott--our neighbor who is a DC Superior Court judge=
+ and is on the list at the White House for a DC federal court judgeship.&nb=
+sp; He would like Hunter's email.</div>
+<div>&nbsp;</div>
+<div>Okay to provide?&nbsp; Thanks.&nbsp; George </div>
+<div>&nbsp;</div>
+<div>George T. Marcou</div>
+<div>King &amp; Spalding, LLP</div>
+<div>1700 Pennsylvania Ave. NW</div>
+<div>Washington, DC 20006</div>
+<div>202-626-8976</div>
+<div>gmarcou@kslaw.com</div>
+<div>&nbsp;</div>
+<div><br>
+
+</div>
+<div><font color=3D"#C0C0C0"><u>&nbsp; ________________________________ &nb=
+sp;</u></font></div>
+<div><br>
+
+<font face=3D"Arial, sans-serif" size=3D"1">King &amp; Spalding Confidentia=
+lity Notice:<br>
+
+<br>
+
+</font><font face=3D"Arial, sans-serif" size=3D"1">This message is being se=
+nt by or on behalf of a lawyer. It is intended exclusively for the individu=
+al or entity to which it is addressed. This communication may contain infor=
+mation that is proprietary, privileged
+or confidential or otherwise legally exempt from disclosure. If you are not=
+ the named addressee, you are not authorized to read, print, retain, copy o=
+r disseminate this message or any part of it. If you have received this mes=
+sage in error, please notify the
+sender immediately by e-mail and delete all copies of the message.<br>
+
+</font></div>
+</font>
+</body>
+</html>
+
+--_000_A240E0A354172F4885B41238F7786F44301A1A856CAM1EXCH02usak_--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114640</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1264022963</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3391</string>
+</dict>
+</plist>

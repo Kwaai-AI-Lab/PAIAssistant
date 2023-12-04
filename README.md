@@ -74,7 +74,8 @@ If you already have access to ubuntu instance, you can skip this section.
 <a href="https://www.kaggle.com/datasets/konradb/hunter-biden-emails">Kaggle</a>
 2. Copy these emails to emails folder and run createindex.py to create the vector index for query.
 ```bash     
-    cd api        
+    cd api    
+    export OPENAI_API_KEY=<YOUR OPENAI API KEY>    
     python createindex.py
 ```
 

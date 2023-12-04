@@ -1,0 +1,337 @@
+11147     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs155576wey; Tue, 26 Jan 2010 10:10:12
+ -0800 (PST)
+Received: by 10.231.159.129 with SMTP id j1mr1194510ibx.81.1264529409276; Tue,
+ 26 Jan 2010 10:10:09 -0800 (PST)
+Return-Path: <vjohnson@friendsofwfp.org>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 7si10376355iwn.75.2010.01.26.10.10.07; Tue, 26
+ Jan 2010 10:10:09 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by best guess record for domain of vjohnson@friendsofwfp.org)
+ client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by best guess record for domain of
+ vjohnson@friendsofwfp.org) smtp.mail=vjohnson@friendsofwfp.org
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: vjohnson@friendsofwfp.org
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: ICH-CT/SI:0-563/SG:1 1/26/2010 12:10:06 PM
+X-Note: TCH-CT/SI:0-480/SG:8 1/26/2010 12:09:06 PM
+X-GBUdb-Analysis: 0, 72.32.253.161, Ugly c=0.888565 p=-0.960763 Source White
+X-Signature-Violations: 0-0-0-20780-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->UNITED STATES->->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.161
+X-Note-Reverse-DNS: fe06.exg4.exghost.com
+X-Note-WHTLIST: vjohnson@friendsofwfp.org
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G163 G164 G165 G166 G170 G171 G269 G281
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.161] (HELO FE06.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 96270292
+ for hbiden@rosemontseneca.com; Tue, 26 Jan 2010 12:10:08 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE06.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Tue, 26 Jan 2010 12:10:07 -0600
+Received: from [10.242.229.31] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 278268699
+ for hbiden@senecaga.com; Tue, 26 Jan 2010 12:10:08 -0600
+Received: by inbound.appriver.com (CommuniGate Pro PIPE 5.2.16) with PIPE id
+ 24174859; Tue, 26 Jan 2010 12:10:08 -0600
+Received: from fwpmail.friendsofwfp.org ([66.92.150.216] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 24174815
+ for hbiden@senecaga.com; Tue, 26 Jan 2010 12:09:59 -0600
+Received: from EX01.friendsofwfp.org ([172.20.20.4]) by ex01 ([172.20.20.4])
+ with mapi; Tue, 26 Jan 2010 13:10:06 -0500
+From: Valerie Johnson <vjohnson@friendsofwfp.org>
+To: "hbiden@senecaga.com" <hbiden@senecaga.com>
+CC: "amperson@rosemontseneca.com" <amperson@rosemontseneca.com>
+Date: Tue, 26 Jan 2010 13:09:54 -0500
+Subject: Friends Board Meeting
+Thread-Topic: Friends Board Meeting
+Thread-Index: AcqessLhK3rbdoY4TLyJD4iLAIsrAQ==
+Message-ID: <51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1@ex01>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/related;
+ boundary="_004_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_";
+ type="multipart/alternative"
+MIME-Version: 1.0
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note: VCH-CT/SI:0-863/SG:1 1/26/2010 12:09:21 PM
+X-Virus-Scan: V-X0M0
+X-Note: ICH-CT/SI:0-563/SG:1 1/26/2010 12:09:21 PM
+X-Note: TCH-CT/SI:0-520/SG:8 1/26/2010 12:09:20 PM
+X-GBUdb-Analysis: 0, 66.92.150.216, Ugly c=0 p=0 Source New
+X-Signature-Violations: 0-0-0-19115-c
+X-Note: SCH-CT/SI:0-1272/SG:1 1/26/2010 12:09:40 PM
+X-Warn: OPTOUT
+X-Note: Spam Tests Failed: OPTOUT
+X-Country-Path: PRIVATE->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 66.92.150.216
+X-Note-Reverse-DNS: fwpmail.friendsofwfp.org
+X-Note-WHTLIST: vjohnson@friendsofwfp.org
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G163 G164 G165 G166 G170 G171 G248 G269 G281
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+Return-Path: vjohnson@friendsofwfp.org
+X-OriginalArrivalTime: 26 Jan 2010 18:10:07.0361 (UTC)
+ FILETIME=[CA94FF10:01CA9EB2]
+
+
+--_004_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_
+Content-Type: multipart/ALTERNATIVE;
+	boundary=_000_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_
+
+
+--_000_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Hello Mr. Biden:
+
+As we move closer to our Board of Directors Meeting on March 16 here in Was=
+hington, DC, I just wanted to confirm that you indicated that you will be a=
+ttending as well as our scheduled meetings on July 27 and November 16.  If =
+there has been any change to your status for these meetings, please let me =
+know at your earliest convenience.
+
+Also, as we prepare for the upcoming meeting, would you kindly take a momen=
+t to review your biography that is currently posted on the Friends website =
+and advise if there are any changes you would like to make?  Please click h=
+ere to view your Friends biography:
+http://www.friendsofwfp.org/site/c.hrKJIXPFIqE/b.5041285/k.BEE2/Board_of_Di=
+rectors.htm
+
+Thank you!
+
+Best regards,
+Valerie
+
+[cid:image003.jpg@01CA9E88.DA0BD5B0]
+Valerie Johnson
+Executive Assistant to the President and CEO
+Friends of the World Food Program
+1819 L Street NW, Suite 900
+Washington, DC 20036
+T: 202-530-1694 Ext. 123; F: 202-530-1698
+vjohnson@friendsofwfp.org
+www.friendsofwfp.org
+
+
+
+--_000_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"2050" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal>Hello Mr. Biden:<o:p></o:p></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>As we move closer to our Board of Directors Meeting on=
+ March
+16 here in Washington, DC, I just wanted to confirm that you indicated that=
+ you
+will be attending as well as our scheduled meetings on July 27 and November=
+ 16.&nbsp;
+If there has been any change to your status for these meetings, please let =
+me
+know at your earliest convenience.<o:p></o:p></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Also, as we prepare for the upcoming meeting, would yo=
+u
+kindly take a moment to review your biography that is currently posted on t=
+he
+Friends website and advise if there are any changes you would like to
+make?&nbsp; Please click here to view your Friends biography:<o:p></o:p></p=
+>
+
+<p class=3DMsoNormal><a
+href=3D"http://www.friendsofwfp.org/site/c.hrKJIXPFIqE/b.5041285/k.BEE2/Boa=
+rd_of_Directors.htm">http://www.friendsofwfp.org/site/c.hrKJIXPFIqE/b.50412=
+85/k.BEE2/Board_of_Directors.htm</a><o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Thank you!<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Best regards,<o:p></o:p></p>
+
+<p class=3DMsoNormal>Valerie<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'><img border=3D0 width=3D219 height=3D109 id=3D"Picture_x0020_1=
+"
+src=3D"cid:image003.jpg@01CA9E88.DA0BD5B0" alt=3D"EmailSigLogo New Tagline =
+(2)"><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>Valer=
+ie
+Johnson<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>Execu=
+tive
+Assistant to the President and CEO<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>Frien=
+ds of
+the World Food Program<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>1819 =
+L Street
+NW, Suite 900<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>Washi=
+ngton,
+DC 20036<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>T:
+202-530-1694 Ext. 123; F: 202-530-1698<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:8.0pt;color:#1F497D'>vjohn=
+son@friendsofwfp.org<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><u><span style=3D'font-size:8.0pt;color:#1F497D'><a
+href=3D"www.friendsofwfp.org">www.friendsofwfp.org</a></span></u></b><b><u>=
+<span
+style=3D'font-size:8.0pt;color:#548DD4'><o:p></o:p></span></u></b></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+--_000_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_--
+
+--_004_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_
+Content-Transfer-Encoding: BASE64
+Content-Disposition: INLINE;
+	modification-date="Tue, 26 Jan 2010 13:10:05 GMT";
+	size=5242;
+	filename=image003.jpg;
+	creation-date="Tue, 26 Jan 2010 13:10:05 GMT"
+Content-Type: IMAGE/JPEG;
+	name=image003.jpg
+X-Apple-Content-Length: 7176
+Content-Description: image003.jpg
+Content-Id: <image003.jpg@01CA9E88.DA0BD5B0>
+
+
+--_004_51F27E09F68B8D46B3EAA37D0B272B6A279181FDB1ex01_--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114647</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1264529409</integer>
+	<key>flags</key>
+	<integer>17213621249</integer>
+	<key>remote-id</key>
+	<string>3756</string>
+</dict>
+</plist>

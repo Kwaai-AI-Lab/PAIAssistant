@@ -1,0 +1,109 @@
+4215      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.10.143 with SMTP id p15cs54576ebp; Wed, 3 Feb 2010
+ 12:55:45 -0800 (PST)
+Received: by 10.101.155.13 with SMTP id h13mr119746ano.220.1265230544774; Wed,
+ 03 Feb 2010 12:55:44 -0800 (PST)
+Return-Path: <cdamato@parkstrategies.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 24si18964040gxk.41.2010.02.03.12.55.44; Wed,
+ 03 Feb 2010 12:55:44 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.69 is neither permitted nor
+ denied by best guess record for domain of cdamato@parkstrategies.com)
+ client-ip=72.32.253.69;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.69
+ is neither permitted nor denied by best guess record for domain of
+ cdamato@parkstrategies.com) smtp.mail=cdamato@parkstrategies.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: cdamato@parkstrategies.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-76/SG:2 2/3/2010 2:55:24 PM
+X-GBUdb-Analysis: 0, 72.32.253.161, Ugly c=1 p=-0.593417 Source Normal
+X-Signature-Violations: 0-0-0-2525-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.161
+X-Note-Reverse-DNS: fe06.exg4.exghost.com
+X-Note-WHTLIST: cdamato@parkstrategies.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.161] (HELO FE06.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 88474468
+ for hbiden@rosemontseneca.com; Wed, 03 Feb 2010 14:55:34 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE06.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 3 Feb 2010 14:55:44 -0600
+Received: from [10.242.229.36] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 283653281
+ for hbiden@senecaga.com; Wed, 03 Feb 2010 14:55:34 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-76/SG:2 2/3/2010 2:55:18 PM
+X-GBUdb-Analysis: 0, 69.193.168.155, Ugly c=0.271956 p=-0.714286 Source Normal
+X-Signature-Violations: 0-0-0-1019-c
+X-Note: SCH-CT/SI:0-1272/SG:1 2/3/2010 2:55:38 PM
+X-Warn: BASE64TEXT This message has base64 encoded text.
+X-Warn: FROMISP Message has 69-193-168-155 in reverse dns.
+X-Warn: WEIGHT10
+X-Note: Spam Tests Failed: BASE64TEXT, FROMISP, WEIGHT10
+X-Country-Path: PRIVATE->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 69.193.168.155
+X-Note-Reverse-DNS: rrcs-69-193-168-155.nyc.biz.rr.com
+X-Note-WHTLIST: cdamato@parkstrategies.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G225 G239 G274 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mail.parkstrategies.com ([69.193.168.155] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 27396871
+ for hbiden@senecaga.com; Wed, 03 Feb 2010 14:55:44 -0600
+Received: from EXCH01.park.local ([10.0.0.249]) by exch01 ([10.0.0.249]) with
+ mapi; Wed, 3 Feb 2010 16:01:54 -0500
+From: Chris D'Amato <cdamato@parkstrategies.com>
+To: "'hbiden@senecaga.com'" <hbiden@senecaga.com>
+Date: Wed, 3 Feb 2010 16:01:53 -0500
+Subject: Alan Hoffman
+Thread-Topic: Alan Hoffman
+Thread-Index: AcqlFBzQPooEsXXnSJuBP6z0gBE1rQ==
+Message-ID: <FF31B855A432384C990A42576D95CD1C246AB204F8@exch01>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+Return-Path: cdamato@parkstrategies.com
+X-OriginalArrivalTime: 03 Feb 2010 20:55:44.0062 (UTC)
+ FILETIME=[409F3DE0:01CAA513]
+
+SHVudCwNCldoYXQncyB0aGUgYmVzdCBudW1iZXIgZm9yIG1lIHRvIHJlYWNoIEFsYW4gb24/ICBJ
+IG5lZWQgdG8gdGFsayB3aXRoIGhpbSBhYm91dCBhIE5ZIGhvc3BpdGFsL0NNUyBpc3N1ZSBhbmQg
+c2VlIGlmIGhlIGNhbiBwb2ludCBtZSBpbiB0aGUgcmlnaHQgZGlyZWN0aW9uLiANCkNocmlzLiAg
+IA==
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114663</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1265230544</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>4329</string>
+</dict>
+</plist>

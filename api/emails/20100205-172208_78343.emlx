@@ -1,0 +1,59 @@
+1770      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.10.143 with SMTP id p15cs90520ebp; Fri, 5 Feb 2010
+ 12:08:07 -0800 (PST)
+Received: by 10.220.127.66 with SMTP id f2mr2136693vcs.82.1265400479329; Fri,
+ 05 Feb 2010 12:07:59 -0800 (PST)
+Return-Path: <2022852473@mms.att.net>
+Received: from schemailmta08.cingularme.com (schemailmta08.cingularme.com
+ [209.183.37.70]) by mx.google.com with ESMTP id
+ 36si3972151vws.15.2010.02.05.12.07.57; Fri, 05 Feb 2010 12:07:59 -0800 (PST)
+Received-SPF: neutral (google.com: 209.183.37.70 is neither permitted nor
+ denied by domain of 2022852473@mms.att.net) client-ip=209.183.37.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 209.183.37.70
+ is neither permitted nor denied by domain of 2022852473@mms.att.net)
+ smtp.mail=2022852473@mms.att.net
+X-Mms-MMS-Version: 18
+Date: Fri, 5 Feb 2010 14:22:08 -0600
+X-Nokia-Ag-Internal: ; smiltype=true; internaldate=1265401328225
+Content-Type: multipart/mixed; 
+ boundary="----=_Part_117396065_29980226.1265401328232"
+Received: from schagw02 ([172.16.130.170]) by schemailmta08.cingularme.com
+ (InterMail vM.6.01.04.00 201-2131-118-20041027) with ESMTP id
+ <20100205200756.CGXH9679.schemailmta08.cingularme.com@schagw02> for
+ <hbiden@rosemontseneca.com>; Fri, 5 Feb 2010 14:07:56 -0600
+X-Mms-Transaction-ID: 1265400443-0
+From: <2022852473@mms.att.net>
+To: hbiden@rosemontseneca.com
+Mime-Version: 1.0
+Message-ID: <24323986.1265401328233.JavaMail.wluser@schagw02>
+X-Mms-Message-Type: 0
+Subject: Multimedia message
+X-Nokia-Ag-Version: 2.0
+
+
+------=_Part_117396065_29980226.1265401328232
+Content-Transfer-Encoding: BASE64
+Content-Disposition: INLINE
+Content-Type: IMAGE/JPEG
+X-Apple-Content-Length: 330296
+Content-Id: 1
+
+
+------=_Part_117396065_29980226.1265401328232--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114669</integer>
+	<key>date-last-viewed</key>
+	<integer>1630788255</integer>
+	<key>date-received</key>
+	<integer>1265400479</integer>
+	<key>flags</key>
+	<integer>25803555841</integer>
+	<key>remote-id</key>
+	<string>4505</string>
+</dict>
+</plist>

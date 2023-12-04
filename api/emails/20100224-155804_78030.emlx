@@ -1,0 +1,105 @@
+4012      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs228887weh; Wed, 24 Feb 2010
+ 10:57:47 -0800 (PST)
+Received: by 10.91.27.2 with SMTP id e2mr450765agj.32.1267037866471; Wed, 24
+ Feb 2010 10:57:46 -0800 (PST)
+Return-Path: <jcooper@eudoraglobal.com>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 3si6714014gxk.62.2010.02.24.10.57.45; Wed, 24
+ Feb 2010 10:57:46 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.73 is neither permitted nor
+ denied by best guess record for domain of jcooper@eudoraglobal.com)
+ client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.73
+ is neither permitted nor denied by best guess record for domain of
+ jcooper@eudoraglobal.com) smtp.mail=jcooper@eudoraglobal.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: jcooper@eudoraglobal.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-114/SG:2 2/24/2010 12:57:34 PM
+X-GBUdb-Analysis: 0, 72.32.253.140, Ugly c=1 p=-0.578355 Source Normal
+X-Signature-Violations: 0-0-0-2633-c
+X-Warn: CYRILLIC
+X-Note: Spam Tests Failed: CYRILLIC
+X-Country-Path: UNITED STATES->->->UNITED STATES->PRIVATE->UNITED
+ STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.140
+X-Note-Reverse-DNS: fe01.exg4.exghost.com
+X-Note-WHTLIST: jcooper@eudoraglobal.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.140] (HELO FE01.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 92207628
+ for hbiden@rosemontseneca.com; Wed, 24 Feb 2010 12:57:45 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE01.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 24 Feb 2010 12:57:45 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 296346313
+ for hbiden@senecaga.com; Wed, 24 Feb 2010 12:57:45 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-114/SG:2 2/24/2010 12:56:37 PM
+X-GBUdb-Analysis: 0, 74.125.83.172, Ugly c=0.285716 p=-0.75 Source Normal
+X-Signature-Violations: 0-0-0-1218-c
+X-Note: SCH-CT/SI:0-1271/SG:1 2/24/2010 12:57:38 PM
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 74.125.83.172
+X-Note-Reverse-DNS: mail-pv0-f172.google.com
+X-Note-WHTLIST: jcooper@eudoraglobal.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mail-pv0-f172.google.com ([74.125.83.172] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 35072556 for
+ hbiden@senecaga.com; Wed, 24 Feb 2010 12:57:44 -0600
+Received: by pvg2 with SMTP id 2so836352pvg.17 for <hbiden@senecaga.com>; Wed,
+ 24 Feb 2010 10:57:44 -0800 (PST)
+Received: by 10.114.49.7 with SMTP id w7mr127732waw.34.1267037864336; Wed, 24
+ Feb 2010 10:57:44 -0800 (PST)
+Return-Path: <jcooper@eudoraglobal.com>
+Received: from ?10.43.68.60? ([166.205.136.203]) by mx.google.com with ESMTPS
+ id 23sm1086623pzk.14.2010.02.24.10.57.42 (version=TLSv1/SSLv3
+ cipher=RC4-MD5); Wed, 24 Feb 2010 10:57:43 -0800 (PST)
+Message-Id: <E52C2929-817A-4BD3-8B64-4C733E376D69@eudoraglobal.com>
+From: Jeff Cooper <jcooper@eudoraglobal.com>
+To: Biden Hunter <hbiden@senecaga.com>
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Mailer: iPhone Mail (7E18)
+Mime-Version: 1.0 (iPhone Mail 7E18)
+Subject: Time to talk asap?
+Date: Wed, 24 Feb 2010 12:58:04 -0600
+X-OriginalArrivalTime: 24 Feb 2010 18:57:45.0628 (UTC)
+ FILETIME=[4038ADC0:01CAB583]
+
+Need some help
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114732</integer>
+	<key>date-last-viewed</key>
+	<integer>1638509780</integer>
+	<key>date-received</key>
+	<integer>1267037866</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>5382</string>
+</dict>
+</plist>

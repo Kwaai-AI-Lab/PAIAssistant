@@ -1,0 +1,714 @@
+31912     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs83836weh; Thu, 18 Feb 2010 17:04:59
+ -0800 (PST)
+Received: by 10.90.251.14 with SMTP id y14mr306443agh.10.1266541488900; Thu,
+ 18 Feb 2010 17:04:48 -0800 (PST)
+Return-Path: <virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 2si8178902gxk.14.2010.02.18.17.04.47; Thu, 18
+ Feb 2010 17:04:47 -0800 (PST)
+Received-SPF: fail (google.com: domain of
+ virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com
+ does not designate 72.32.253.73 as permitted sender) client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of
+ virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com
+ does not designate 72.32.253.73 as permitted sender)
+ smtp.mail=virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com;
+ dkim=pass header.i=info@fly.virginamerica.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: virginamerica_eac1607db688af8d869faabc5a8daccc@guestcare.virginamerica.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-110/SG:5 2/18/2010 7:04:00 PM
+X-GBUdb-Analysis: 0, 72.32.253.140, Ugly c=1 p=-0.785513 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.140
+X-Note-Reverse-DNS: fe01.exg4.exghost.com
+X-Note-WHTLIST: EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.140] (HELO FE01.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 91216632
+ for hbiden@rosemontseneca.com; Thu, 18 Feb 2010 19:04:55 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE01.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Thu, 18 Feb 2010 19:04:46 -0600
+Received: from [10.242.228.214] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 292981686
+ for hbiden@senecaga.com; Thu, 18 Feb 2010 19:04:55 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-115/SG:5 2/18/2010 7:02:47 PM
+X-GBUdb-Analysis: 0, 74.203.57.71, Ugly c=0.113212 p=-1 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Warn: OPTOUT
+X-Note: Spam Tests Failed: OPTOUT
+X-Country-Path: ->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 74.203.57.71
+X-Note-Reverse-DNS: va03.wc09.net
+X-Note-WHTLIST: EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G258 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from va03.wc09.net ([74.203.57.71] verified) by inbound.appriver.com
+ (CommuniGate Pro SMTP 5.2.16) with ESMTP id 33113968 for hbiden@senecaga.com;
+ Thu, 18 Feb 2010 19:04:45 -0600
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1;
+ d=fly.virginamerica.com;
+ h=From:To:Subject:Date:Reply-To:Message-ID:MIME-version:Content-type;
+ i=info@fly.virginamerica.com; bh=hnLJ9ss+YQyjLbWQ8jKcbMdIrTc=;
+ b=FCjFv+u+fdq02hvb0M8dDvRHTqyI+ECvgIXD3a/Wb7FMEFkdcdmKY7gsC3rONFyecJOlxiTkQWXn
+ /juqpSchNw==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1;
+ d=fly.virginamerica.com;
+ b=jNyfnhZ28pBIblbMKs6lrk6YDJLD48Yp9/5CVhNCAayyfD14rGF+2sSqq7S/IupKkq8lvNB+9ee/
+ RRnbCrH/FQ==;
+Received: from fly.virginamerica.com (172.16.5.23) by va03.wc09.net
+ (PowerMTA(TM) v3.5r11) id hfnhlk0kuugt for <hbiden@senecaga.com>; Thu, 18 Feb
+ 2010 17:03:08 -0800 (envelope-from
+ <virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com>)
+From: "Virgin America" <info@fly.virginamerica.com>
+To: hbiden@senecaga.com
+Subject: Now, you can earn more elevate points.
+Date: 18 Feb 2010 17:04:32 -0800
+Reply-To: "Virgin America"
+ <virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com>
+ENVID: WC-1266541472720-210
+Message-ID: <EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com>
+X-TokenInfo-NoToken: 
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="======1266541466081======"
+X-Mailer: WhatCounts
+Return-Path: virginamerica_EAC1607DB688AF8D869FAABC5A8DACCC@guestcare.virginamerica.com
+X-OriginalArrivalTime: 19 Feb 2010 01:04:46.0930 (UTC)
+ FILETIME=[87763320:01CAB0FF]
+
+
+--======1266541466081======
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=iso-8859-1
+
+Having trouble viewing this message? No problem, just click here http://fly=
+.virginamerica.com/dm?id=3DEAC1607DB688AF8D869FAABC5A8DACCC
+
+
+EARN MORE ELEVATE POINTS.
+
+
+EARN ELEVATE POINTS FOR ONLINE SHOPPING
+
+Robert,
+
+Looking for more ways to earn points? We're pleased to announce the launch =
+of the Red store. Visit the Red store at http://fly.virginamerica.com/t?ctl=
+=3D31CA:EAC1607DB688AF8D869FAABC5A8DACCC& and shop your favorite brands fro=
+m over 150 popular retailers including Apple Online Store, BarnesandNoble.c=
+om, BestBuy.com, homedepot.com, macys.com, Target.com and many more. Whethe=
+r you are shopping for everyday items or a gift for that special someone, i=
+t's right at the Red store. Shop now and start earning points towards rewar=
+d travel.
+
+Visit the Red store at http://fly.virginamerica.com/t?ctl=3D31CA:EAC1607DB6=
+88AF8D869FAABC5A8DACCC&
+
+
+FARES TO FLY BY. FLY FROM AS LITTLE AS $59*.
+
+Grab a seat at http://fly.virginamerica.com/t?ctl=3D31CB:EAC1607DB688AF8D86=
+9FAABC5A8DACCC&
+
+
+FLY HIGH WITH DOUBLE ELEVATE POINTS
+
+Stay with the Hilton Worldwide portfolio of brands and watch your Elevate p=
+oints soar. In addition to your Hilton HHonors(TM)  base points, you'll get=
+ double Elevate points for all your stays at participating hotels between n=
+ow and April 20, 2010, after you register below.+
+
+Go to http://fly.virginamerica.com/t?ctl=3D31CC:EAC1607DB688AF8D869FAABC5A8=
+DACCC& to search for participating hotels and register.
+
+Earn Double Points at http://fly.virginamerica.com/t?ctl=3D31CC:EAC1607DB68=
+8AF8D869FAABC5A8DACCC&
+
+
+NFL SWEEPSTAKES GRAND PRIZE WINNERS
+
+Congratulations to the winners who got their game face on and watched the S=
+uper Bowl XLIV in style with a brand new Samsung 55=E2=80=9D HDTV Sweepstak=
+es, courtesy of Visa(R).
+
+Thank you to all of the Virgin America Visa Cardholders that participated i=
+n the sweepstakes. Here are the lucky ones:
+
+Blake, Kathleen, Ellen and David from San Francisco, CA, Patrick from Nonan=
+tum, MA, Eric from Framingham, MA, Suzanne from Los Gatos, CA, Thomas from =
+Woodland Hills, CA, Stuart from Los Angeles, CA and Kenneth from Seattle, W=
+A.
+
+Congrats!
+
+
+STAY CONNECTED
+
+Explore our Community at http://fly.virginamerica.com/t?ctl=3D31CD:EAC1607D=
+B688AF8D869FAABC5A8DACCC&
+Find Us at Facebook at http://fly.virginamerica.com/t?ctl=3D31CE:EAC1607DB6=
+88AF8D869FAABC5A8DACCC&
+Find Us at Twitter at http://fly.virginamerica.com/t?ctl=3D31CF:EAC1607DB68=
+8AF8D869FAABC5A8DACCC&
+Find Us at YouTube at http://fly.virginamerica.com/t?ctl=3D31D0:EAC1607DB68=
+8AF8D869FAABC5A8DACCC&
+
+
+FLY FREE FASTER
+
+To learn more about the Absurdly Simple Airline Rewards Card, please visit =
+http://fly.virginamerica.com/t?ctl=3D31D1:EAC1607DB688AF8D869FAABC5A8DACCC&
+
+The fly way to buy (TM).
+
+
+Book Flights at http://fly.virginamerica.com/t?ctl=3D31D2:EAC1607DB688AF8D8=
+69FAABC5A8DACCC&
+Use our Travel Tools at http://fly.virginamerica.com/t?ctl=3D31D3:EAC1607DB=
+688AF8D869FAABC5A8DACCC&
+Visit the Information Desk at http://fly.virginamerica.com/t?ctl=3D31D4:EAC=
+1607DB688AF8D869FAABC5A8DACCC&
+Go out our Elevate program at http://fly.virginamerica.com/t?ctl=3D31D5:EAC=
+1607DB688AF8D869FAABC5A8DACCC&
+
+
+TERMS AND CONDITIONS:
+* All Main Cabin fares are one-way and require 14-day advance purchase. Tic=
+kets are non-refundable and non-transferable. Tickets must be purchased by =
+11:59pm 02.23.10. Travel must occur between 03.02.10 and 06.20.10 and is no=
+t valid on Fridays and Sundays. Blackout dates are 05.28.10 and 05.31.10. S=
+eats are limited, subject to availability, and may not be available on all =
+flights. Flight may not operate daily during off-peak periods. Changes or c=
+ancellations can be made for a $75 fee if changes are made on Virgin Americ=
+a's website (www.virginamerica.com) or a $100 fee through all other channel=
+s, including the call center and at the airport, plus any increase in fare,=
+ if applicable. Guests who no-show without a change or cancel prior to the =
+scheduled departure time will forfeit the amount of this fare. In addition,=
+ any future flights booked in the same reservation will also be canceled an=
+d the fare will be forfeited. Tickets purchased from Virgin America through=
+ our reservation call center will cost an additional $15 per guest per itin=
+erary. Any added cost associated with purchasing tickets from Virgin Americ=
+a through our reservation call center will be non-refundable. Fares do not =
+include Passenger Facility Charges of up to $9 each way, September 11th Sec=
+urity Fees of up to $5 each way and a Federal Segment Tax of $3.70 per dome=
+stic segment. A segment is a takeoff and landing. Fares will not be honored=
+ retroactively or in exchange for any wholly or partially used ticket. Fare=
+s, routes, fees and schedules are subject to change without notice. Virgin =
+America will accept one (1) piece of checked baggage up to 70 pounds for $2=
+5 for each ticketed guest. The fee per guest for each additional checked ba=
+g up to 50 pounds from the second (2) to the tenth (10) is $25. Additional =
+fees apply to baggage exceeding these weight limitations, and other baggage=
+ restrictions may apply.
+
++ Offer valid for stays completed at participating Hilton Worldwide hotels =
+between January 20 and April 20, 2010. Offer is subject to availability and=
+ may not be combined with other select promotional rates, bonus points and/=
+or miles offers. Airline miles accrued and awards issued are subject to the=
+ terms and conditions of each participating airline's reward program, as ap=
+plicable.
+
+This message is from:
+Virgin America Inc. 555 Airport Blvd, Suite #450, Burlingame, CA 94010
+
+This is an automated message from Virgin America; please do not reply to th=
+is message.
+
+Unsubscribe at http://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elev=
+ate1479&email=3Dhbiden@senecaga.com.=20
+So many e-mails, so little time. If you'd like to stop receiving Elevate em=
+ail updates and promotions from Virgin America, please follow this link: ht=
+tp://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1480&email=3Dh=
+biden@senecaga.com and simply enter and confirm your email address, or cont=
+act us via post at Attn: Guest Care Virgin America P.O.Box 4271, Burlingame=
+, CA 94010.=20
+
+Your Privacy is important to us. You can read more about Virgin America's U=
+nsubscribe & Privacy Policies at http://fly.virginamerica.com/t?ctl=3D31D6:=
+EAC1607DB688AF8D869FAABC5A8DACCC&
+
+(C) 2010 Virgin America
+
+--======1266541466081======
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=iso-8859-1
+
+<font style=3D"font-family:Verdana, Arial, Helvetica, sans-serif; font-size=
+:12px; color:#666666">Having trouble viewing this message? No problem, just=
+ <a href=3D"http://fly.virginamerica.com/dm?id=3DEAC1607DB688AF8D869FAABC5A=
+8DACCC"><font color=3D"#d10103">click here</font></a></font>
+<table width=3D"594" cellpadding=3D"15" cellspacing=3D"0" border=3D"0" styl=
+e=3D"background-color:#c6c7c8;">
+<tr>
+<td>
+<table width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td colspan=3D"2" style=3D"font-size:1px; color:#c6c7c8"><a href=3D"http://=
+fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31D7:EAC1607DB688AF8=
+D869FAABC5A8DACCC&" target=3D"_blank"><font color=3D"#c6c7c8">Earn More Poi=
+nts</font></a>.</td>
+</tr>
+<!--header-->
+<tr>
+<td colspan=3D"2"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D52=
+8&l=3D354&ctl=3D31D8:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><=
+img src=3D"http://static.virginamerica.com/images/email/20100216_elevate_up=
+date/20100217-elevate-update-email-header.jpg" alt=3D"Elevate Update: Earn =
+More Elevate Points." title=3D"Elevate Update: Earn More Elevate Points." w=
+idth=3D"564" height=3D"140" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td width=3D"564" colspan=3D"2">
+<table width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#c6c7c8">
+<tr>
+<td colspan=3D"2"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D52=
+8&l=3D354&ctl=3D31D9:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><=
+img src=3D"http://static.virginamerica.com/images/email/20100216_elevate_up=
+date/box-top-red-online-shopping.jpg" alt=3D"Earn Elevate Points for Online=
+ Shopping" width=3D"564" height=3D"38" border=3D"0" title=3D"Earn Elevate P=
+oints for Online Shopping" /></a></td>
+</tr>
+<tr>
+<td>
+<table width=3D"564" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff=
+">
+<tr>
+<td style=3D"padding:20px 20px 0 20px; font-family:Verdana, Arial, Helvetic=
+a, sans-serif; font-size:12px; color:#666666" valign=3D"top">
+<table width=3D"524" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td style=3D"padding-right:20px; font-family:Verdana, Arial, Helvetica, san=
+s-serif; font-size:12px; color:#666666" valign=3D"bottom" width=3D"341">Rob=
+ert,</td>
+<td valign=3D"top" align=3D"right"><a href=3D"http://fly.virginamerica.com/=
+t?r=3D2025&c=3D528&l=3D354&ctl=3D31D9:EAC1607DB688AF8D869FAABC5A8DACCC&" ta=
+rget=3D"_blank"><img src=3D"http://static.virginamerica.com/images/email/20=
+100216_elevate_update/red-store-logo-223.gif" alt=3D"The Red Store" title=
+=3D"The Red Store" width=3D"223" height=3D"24" border=3D"0" /></a></td>
+</tr>
+=09<td style=3D"padding-top:12px; font-family:Verdana, Arial, Helvetica, sa=
+ns-serif; font-size:12px; color:#666666" valign=3D"top" colspan=3D"2">Looki=
+ng for more ways to earn points? We&rsquo;re pleased to announce the launch=
+ of the Red store. Visit <a href=3D"http://fly.virginamerica.com/t?r=3D2025=
+&c=3D528&l=3D354&ctl=3D31D9:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_b=
+lank"><font color=3D"#D10103">The Red store</font></a> and shop your favori=
+te brands from over 150 popular retailers including Apple Online Store, Bar=
+nesandNoble.com, BestBuy.com, homedepot.com, macys.com, Target.com and many=
+ more. Whether you are shopping for everyday items or a gift for that speci=
+al someone, it&rsquo;s right at the Red store. Shop now and start earning p=
+oints towards reward travel.</td></table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:20px 20px 0 14px; font-family:Verdana, Arial, Helvetic=
+a, sans-serif; font-size:12px; color:#666666" valign=3D"top"><a href=3D"htt=
+p://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31D9:EAC1607DB68=
+8AF8D869FAABC5A8DACCC&" target=3D"_blank"><img src=3D"http://static.virgina=
+merica.com/images/email/20100216_elevate_update/btn-the-red-store.gif" alt=
+=3D"The Red Store" title=3D"The Red Store" width=3D"130" height=3D"30" bord=
+er=3D"0" /></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/022808/box_bot=
+tom.gif" alt=3D"" width=3D"564" height=3D"9" /></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td width=3D"564" colspan=3D"2">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=
+=3D31DA:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><img src=3D"ht=
+tp://static.virginamerica.com/images/email/20100216_elevate_update/fares-to=
+-fly-by-email-banner-v3.gif" alt=3D"Fares to Fly By. Fly For As Little As $=
+59*. Grab A Seat." title=3D"Fares to Fly By. Fly For As Little As $59*. Gra=
+b A Seat." width=3D"564" height=3D"103" border=3D"0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td width=3D"564" colspan=3D"2">
+<table width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#c6c7c8">
+<tr>
+<td colspan=3D"2"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D52=
+8&l=3D354&ctl=3D31CC:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><=
+img src=3D"http://static.virginamerica.com/images/email/20100216_elevate_up=
+date/box-top-red-double-elevate-points.jpg" alt=3D"Fly High With Double Ele=
+vate Points" width=3D"564" height=3D"38" border=3D"0" title=3D"Fly High Wit=
+h Double Elevate Points" /></a></td>
+</tr>
+<tr>
+<td>
+<table width=3D"564" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff=
+">
+<tr>
+<td style=3D"padding:20px 20px 0 20px; font-family:Verdana, Arial, Helvetic=
+a, sans-serif; font-size:12px; color:#666666" valign=3D"top">Stay with the =
+Hilton Worldwide portfolio of brands and watch your Elevate points soar. In=
+ addition to your Hilton HHonors&#8482; base points, you&rsquo;ll get doubl=
+e Elevate points for all your stays at participating hotels between now and=
+ April 20, 2010, after you register below.+<br />
+<br />
+<a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31=
+CC:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><font color=3D"#D10=
+103">Click here</font></a> to search for participating hotels and register.
+</td>
+</tr>
+<tr>
+<td style=3D"padding:20px 0 36px 0;" valign=3D"top" align=3D"right"><table =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td style=3D"padding-left:14px"><a href=3D"http://fly.virginamerica.com/t?r=
+=3D2025&c=3D528&l=3D354&ctl=3D31CC:EAC1607DB688AF8D869FAABC5A8DACCC&" targe=
+t=3D"_blank"><img src=3D"http://static.virginamerica.com/images/email/20100=
+216_elevate_update/btn-earn-double-points-v1.gif" alt=3D"Earn Double Points=
+" title=3D"Earn Double Points" width=3D"166" height=3D"30" border=3D"0" /><=
+/a></td>
+<td valign=3D"top" align=3D"right" style=3D"padding-right:6px"><a href=3D"h=
+ttp://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31CC:EAC1607DB=
+688AF8D869FAABC5A8DACCC&" target=3D"_blank"><img src=3D"http://static.virgi=
+namerica.com/images/email/20100216_elevate_update/HHonors-right-564.gif" wi=
+dth=3D"131" height=3D"34" border=3D"0" alt=3D"Hilton" title=3D"Hilton" /></=
+a></td>
+</tr>
+</table>
+</tr>
+<tr>
+<td style=3D"padding-bottom:11px;" valign=3D"top"><a href=3D"http://fly.vir=
+ginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31CC:EAC1607DB688AF8D869FAA=
+BC5A8DACCC&" target=3D"_blank"><img src=3D"http://static.virginamerica.com/=
+images/email/20100216_elevate_update/HHonors-bottom-564.gif" alt=3D"Hilton"=
+ width=3D"564" height=3D"42" border=3D"0" title=3D"Hilton" />
+</a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/022808/box_bot=
+tom.gif" alt=3D"" width=3D"564" height=3D"9" /></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td width=3D"564" colspan=3D"2">
+<table width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#c6c7c8">
+<tr>
+<td colspan=3D"2"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D52=
+8&l=3D354&ctl=3D31DB:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><=
+img src=3D"http://static.virginamerica.com/images/email/20100216_elevate_up=
+date/box-top-red-nfl.jpg" alt=3D"NFL Sweepstakes Grand Prize Winners" width=
+=3D"564" height=3D"38" border=3D"0" title=3D"NFL Sweepstakes Grand Prize Wi=
+nners" /></a></td>
+</tr>
+<tr>
+<td>
+<table width=3D"564" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff=
+">
+<tr>
+<td style=3D"padding:20px 20px 11px 20px; font-family:Verdana, Arial, Helve=
+tica, sans-serif; font-size:12px; color:#666666" valign=3D"top">Congratulat=
+ions to the winners who got their game face on and watched the Super Bowl X=
+LIV in style with a brand new Samsung 55&rdquo; HDTV Sweepstakes, courtesy =
+of Visa&reg;.<br />
+<br />
+Thank you to all of the Virgin America Visa Cardholders that participated i=
+n the sweepstakes. Here are the lucky ones:<br />
+<br />
+Blake, Kathleen, Ellen and David from San Francisco, CA, Patrick from Nonan=
+tum, MA, Eric from Framingham, MA, Suzanne from Los Gatos, CA, Thomas from =
+Woodland Hills, CA, Stuart from Los Angeles, CA and Kenneth from Seattle, W=
+A.<br />
+<br />
+Congrats!</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/022808/box_bot=
+tom.gif" alt=3D"" width=3D"564" height=3D"9" /></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td width=3D"380" valign=3D"top"><table width=3D"380" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" bgcolor=3D"#c6c7c8">
+<tr>
+<td width=3D"380"><img src=3D"http://static.virginamerica.com/images/email/=
+20090908_last_minute_fliers/box_top_red_stay_connected.jpg" alt=3D"Stay Con=
+nected" title=3D"Stay Connected" /></td>
+</tr>
+<tr>
+<td width=3D"380"><table width=3D"380" cellspacing=3D"0" cellpadding=3D"0" =
+bgcolor=3D"#ffffff">
+<tr>
+<td width=3D"380" style=3D"padding-top:23px; padding-bottom:3px"><table wid=
+th=3D"380">
+<tr>
+<td style=3D"padding:15px 10px 10px 10px;" bgcolor=3D"#ffffff" width=3D"33%=
+" align=3D"center"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D5=
+28&l=3D354&ctl=3D31CD:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank">=
+<img src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSa=
+le/Thisishowtofly_logo.jpg" alt=3D"Explore our Community" title=3D"Explore =
+our Community" width=3D"179" height=3D"30" border=3D"0" /></a></td>
+<td style=3D"padding:15px 10px 10px 10px;" bgcolor=3D"#ffffff" width=3D"33%=
+" align=3D"center"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D5=
+28&l=3D354&ctl=3D31DC:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank">=
+<img src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSa=
+le/facebook_88x27.jpg" alt=3D"Find Us at Facebook" title=3D"Find Us at Face=
+book" width=3D"88" height=3D"27" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td style=3D"padding:15px 10px 10px 10px;" bgcolor=3D"#ffffff" width=3D"33%=
+" align=3D"center"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D5=
+28&l=3D354&ctl=3D31DD:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank">=
+<img src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSa=
+le/twitter_129x27.jpg" alt=3D"Find Us at Twitter" title=3D"Find Us at Twitt=
+er" width=3D"129" height=3D"27" border=3D"0" /></a></td>
+<td style=3D"padding:15px 10px 10px 10px;" bgcolor=3D"#ffffff" width=3D"33%=
+" align=3D"center"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D5=
+28&l=3D354&ctl=3D31DE:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank">=
+<img src=3D"http://static.virginamerica.com/images/email/20081201_NewYearSa=
+le/youtube-logo_74x27.jpg" alt=3D"Find Us at YouTube" title=3D"Find Us at Y=
+ouTube" width=3D"74" height=3D"27" border=3D"0" /></a></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/20090120/box_b=
+ottom_white_380.gif" width=3D"380" height=3D"8" /></td>
+</tr>
+</table></td>
+<td width=3D"184" align=3D"right" valign=3D"top" bgcolor=3D"#C6C7C8">
+<table width=3D"175" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/20091026_stay_=
+golden/box_top_red_175_fly_free_faster.jpg" alt=3D"Fly Free Faster" title=
+=3D"Fly Free Faster" width=3D"175" height=3D"38" /></td>
+</tr>
+<tr>
+<td style=3D"padding-top:10px" bgcolor=3D"#ffffff" valign=3D"middle" align=
+=3D"center"><a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D=
+354&ctl=3D31DF:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><img sr=
+c=3D"http://static.virginamerica.com/images/email/20090120/credit_card.jpg"=
+ alt=3D"Absurdly Simple Airline Rewards Card. The fly way to buy (TM)." tit=
+le=3D"Absurdly Simple Airline Rewards Card. The fly way to buy (TM)." width=
+=3D"145" height=3D"130" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/20090120/box_b=
+ottom_white_175.gif" width=3D"175" height=3D"8" /></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<table width=3D"564" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#ffffff">
+<tr>
+<td colspan=3D"4"><img src=3D"http://static.virginamerica.com/images/email/=
+022808/box_top.gif" alt=3D""></td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" cellpadding=3D"10" cellspacing=3D"0" bgcolor=3D"#ffff=
+ff">
+<tr>
+<td width=3D"564" bgcolor=3D"#f8f8f8" align=3D"center" valign=3D"top" style=
+=3D"padding:0">
+<font style=3D"font: 11px Verdana, Arial; color:#666666;"><a href=3D"http:/=
+/fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31E0:EAC1607DB688AF=
+8D869FAABC5A8DACCC&" style=3D"color:#666666; text-decoration:none;" target=
+=3D"_blank"><b>Book Flights</b></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nb=
+sp;&nbsp;<a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354=
+&ctl=3D31E1:EAC1607DB688AF8D869FAABC5A8DACCC&" style=3D"color:#666666; text=
+-decoration:none;" target=3D"_blank"><b>Travel Tools</b></a>&nbsp;&nbsp;&nb=
+sp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://fly.virginamerica.com/t=
+?r=3D2025&c=3D528&l=3D354&ctl=3D31E2:EAC1607DB688AF8D869FAABC5A8DACCC&" sty=
+le=3D"color:#666666; text-decoration:none;" target=3D"_blank"><b>Informatio=
+n Desk</b></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"h=
+ttp://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31E3:EAC1607DB=
+688AF8D869FAABC5A8DACCC&" style=3D"color:#666666; text-decoration:none;" ta=
+rget=3D"_blank"><b>Elevate</b></a>
+</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"4"><img src=3D"http://static.virginamerica.com/images/email/=
+022808/box_bottom.gif" alt=3D""></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/spacer=
+.gif" height=3D"8" width=3D"0" alt=3D"" /></td>
+</tr>
+<tr>
+<td colspan=3D"2"><table width=3D"564" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" bgcolor=3D"#c6c7c8">
+<tr>
+<td><img src=3D"http://static.virginamerica.com/images/email/022808/box_top=
+.gif" alt=3D"" /></td>
+</tr>
+<tr>
+<td><table width=3D"100%" cellspacing=3D"0" bgcolor=3D"#ffffff">
+<tr>
+<td colspan=3D"2" bgcolor=3D"#ffffff" style=3D"padding:20px 20px 11px 20px;=
+ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#=
+666666" valign=3D"top"><strong>Terms and Conditions:</strong><br>
+* All Main Cabin fares are one-way and require 14-day advance purchase. Tic=
+kets are non-refundable and non-transferable. Tickets must be purchased by =
+11:59pm 02.23.10. Travel must occur between 03.02.10 and 06.20.10 and is no=
+t valid on Fridays and Sundays. Blackout dates are 05.28.10 and 05.31.10. S=
+eats are limited, subject to availability, and may not be available on all =
+flights. Flight may not operate daily during off-peak periods. Changes or c=
+ancellations can be made for a $75 fee if changes are made on Virgin Americ=
+a&rsquo;s website (<a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D5=
+28&l=3D354&ctl=3D31E4:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank">=
+<font color=3D"#D10103">www.virginamerica.com</font></a>) or a $100 fee thr=
+ough all other channels, including the call center and at the airport, plus=
+ any increase in fare, if applicable. Guests who no-show without a change o=
+r cancel prior to the scheduled departure time will forfeit the amount of t=
+his fare. In addition, any future flights booked in the same reservation wi=
+ll also be canceled and the fare will be forfeited. Tickets purchased from =
+Virgin America through our reservation call center will cost an additional =
+$15 per guest per itinerary. Any added cost associated with purchasing tick=
+ets from Virgin America through our reservation call center will be non-ref=
+undable. Fares do not include Passenger Facility Charges of up to $9 each w=
+ay, September 11th Security Fees of up to $5 each way and a Federal Segment=
+ Tax of $3.70 per domestic segment. A segment is a takeoff and landing. Far=
+es will not be honored retroactively or in exchange for any wholly or parti=
+ally used ticket. Fares, routes, fees and schedules are subject to change w=
+ithout notice. Virgin America will accept one (1) piece of checked baggage =
+up to 70 pounds for $25 for each ticketed guest. The fee per guest for each=
+ additional checked bag up to 50 pounds from the second (2) to the tenth (1=
+0) is $25. Additional fees apply to baggage exceeding these weight limitati=
+ons, and other baggage restrictions may apply.<br />
+<br />
++ Offer valid for stays completed at participating Hilton Worldwide hotels =
+between January 20 and April 20, 2010. Offer is subject to availability and=
+ may not be combined with other select promotional rates, bonus points and/=
+or miles offers. Airline miles accrued and awards issued are subject to the=
+ terms and conditions of each participating airline's reward program, as ap=
+plicable.<br />
+<br />
+<strong>This message is from:</strong><br />
+Virgin America Inc. 555 Airport Blvd, Suite #450, Burlingame, CA 94010<br /=
+>
+<br />
+This is an automated message from Virgin America; please do not reply to th=
+is message.<br />
+<br />
+<a href=3D"http://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1=
+472&email=3Dhbiden@senecaga.com" target=3D"_blank"><font color=3D"#D10103">=
+<strong>Unsubscribe</strong></font></a><br />
+So many e-mails, so little time. If you&rsquo;d like to stop receiving Elev=
+ate email updates and promotions from Virgin America, you can <a href=3D"ht=
+tp://www.virginamerica.com/va/unsubscribe.do?cid=3DEM_elevate1473&email=3Dh=
+biden@senecaga.com" target=3D"_blank"><font color=3D"#D10103">unsubscribe</=
+font></a> by simply entering and confirming your email address, or contacti=
+ng us via post at Attn: Guest Care Virgin America P.O.Box 4271, Burlingame,=
+ CA 94010.<br />
+<br />
+<a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=3D31=
+E5:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><font color=3D"#D10=
+103"><strong>Privacy &amp; Unsubscribe Policy</strong></font></a><br />
+Your privacy is important to us. You can read more about Virgin America&rsq=
+uo;s <a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D354&ctl=
+=3D31E6:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><font color=3D=
+"#D10103">Unsubscribe and Privacy Policies</font></a> on the Virgin America=
+ website.<br />
+<br />
+&copy; 2010 <a href=3D"http://fly.virginamerica.com/t?r=3D2025&c=3D528&l=3D=
+354&ctl=3D31E7:EAC1607DB688AF8D869FAABC5A8DACCC&" target=3D"_blank"><font c=
+olor=3D"#D10103">Virgin America</font></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img src=3D"http://static.virginamerica.com/images/email/=
+022808/box_bottom.gif" alt=3D"" /></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<img src=3D"http://fly.virginamerica.com/t?c=3D528&r=3D2025&l=3D354&t=3D10&=
+e=3DEAC1607DB688AF8D869FAABC5A8DACCC" width=3D1 height=3D1 border=3D0>
+
+
+--======1266541466081======--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114692</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266541487</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>5088</string>
+</dict>
+</plist>

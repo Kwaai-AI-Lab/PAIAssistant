@@ -1,0 +1,90 @@
+3479      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.10.143 with SMTP id p15cs157720ebp;
+        Sat, 30 Jan 2010 12:00:33 -0800 (PST)
+Received: by 10.224.57.77 with SMTP id b13mr1079075qah.272.1264881632610;
+        Sat, 30 Jan 2010 12:00:32 -0800 (PST)
+Return-Path: <wayne@etfventurefunds.com>
+Received: from server107.appriver.com (server107p.exghost.com [69.20.117.147])
+        by mx.google.com with ESMTP id 14si5726242qyk.113.2010.01.30.12.00.32;
+        Sat, 30 Jan 2010 12:00:32 -0800 (PST)
+Received-SPF: neutral (google.com: 69.20.117.147 is neither permitted nor denied by best guess record for domain of wayne@etfventurefunds.com) client-ip=69.20.117.147;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 69.20.117.147 is neither permitted nor denied by best guess record for domain of wayne@etfventurefunds.com) smtp.mail=wayne@etfventurefunds.com
+X-Policy: GLOBAL - etfventurefunds.com
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: wayne@etfventurefunds.com ALLOWED
+X-Virus-Scan: V-
+X-Note: Spam Tests Failed: 
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits: 
+X-Note: Global Rule Hits: G169 G170 G171 G172 G176 G177 G188 G275 
+X-Note: Encrypt Rule Hits: 
+X-Note: Mail Class: ALLOWEDSENDER
+X-Note: Headers Injected
+Received: from [207.97.230.162] (HELO FE02.exg3.exghost.com)
+  by server107.appriver.com (CommuniGate Pro SMTP 5.3.0)
+  with ESMTP id 204477255 for hbiden@rosemontseneca.com; Sat, 30 Jan 2010 15:00:27 -0500
+Received: from be40.exg3.exghost.com ([207.97.230.210]) by FE02.exg3.exghost.com with Microsoft SMTPSVC(6.0.3790.3959);
+	 Sat, 30 Jan 2010 15:00:32 -0500
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01CAA1E6.E0E7BFEF"
+Subject: Nice seats!
+Date: Sat, 30 Jan 2010 15:00:32 -0500
+Message-ID: <9E447E3E3D92B6469AB833CE319530CF01F2785E@be40.exg3.exghost.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Nice seats!
+Thread-Index: Acqh5uDnchX2D5oGTc295WZLTTcGiQ==
+From: "Wayne D. Kimmel" <wayne@etfventurefunds.com>
+To: <hbiden@rosemontseneca.com>
+Return-Path: wayne@etfventurefunds.com
+X-OriginalArrivalTime: 30 Jan 2010 20:00:32.0001 (UTC) FILETIME=[E0D3D710:01CAA1E6]
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CAA1E6.E0E7BFEF
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+SGFwcHkgdG8gZ28gdG8gYW55IGdhbWUgd2l0aCB5b3VyIERhZCwgdGhlIFByZXMgYW5kIHlvdSEg
+IDopDQoNCldheW5lDQo=
+
+------_=_NextPart_001_01CAA1E6.E0E7BFEF
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDMuMi8vRU4iPg0KPEhUTUw+
+DQo8SEVBRD4NCjxNRVRBIEhUVFAtRVFVSVY9IkNvbnRlbnQtVHlwZSIgQ09OVEVOVD0idGV4dC9o
+dG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjxNRVRBIE5BTUU9IkdlbmVyYXRvciIgQ09OVEVOVD0iTVMg
+RXhjaGFuZ2UgU2VydmVyIHZlcnNpb24gNi41Ljc2NTQuMTIiPg0KPFRJVExFPk5pY2Ugc2VhdHMh
+PC9USVRMRT4NCjwvSEVBRD4NCjxCT0RZPg0KPCEtLSBDb252ZXJ0ZWQgZnJvbSB0ZXh0L3BsYWlu
+IGZvcm1hdCAtLT4NCg0KPFA+PEZPTlQgU0laRT0yPkhhcHB5IHRvIGdvIHRvIGFueSBnYW1lIHdp
+dGggeW91ciBEYWQsIHRoZSBQcmVzIGFuZCB5b3UhJm5ic3A7IDopPEJSPg0KPEJSPg0KV2F5bmU8
+L0ZPTlQ+DQo8L1A+DQoNCjwvQk9EWT4NCjwvSFRNTD4=
+
+------_=_NextPart_001_01CAA1E6.E0E7BFEF--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114652</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1264881632</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>4074</string>
+</dict>
+</plist>

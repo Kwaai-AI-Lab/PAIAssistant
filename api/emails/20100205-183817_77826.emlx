@@ -1,0 +1,138 @@
+6694      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.10.143 with SMTP id p15cs95917ebp; Fri, 5 Feb 2010
+ 13:40:01 -0800 (PST)
+Received: by 10.101.211.37 with SMTP id n37mr2431494anq.82.1265406000515; Fri,
+ 05 Feb 2010 13:40:00 -0800 (PST)
+Return-Path: <nchunter18@yahoo.com>
+Received: from server514.appriver.com (server514c.exghost.com [72.32.253.76])
+ by mx.google.com with ESMTP id 27si5173136gxk.49.2010.02.05.13.39.58; Fri, 05
+ Feb 2010 13:39:59 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.76 is neither permitted nor
+ denied by domain of nchunter18@yahoo.com) client-ip=72.32.253.76;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.76
+ is neither permitted nor denied by domain of nchunter18@yahoo.com)
+ smtp.mail=nchunter18@yahoo.com; dkim=pass (test mode) header.i=@yahoo.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: nchunter18@yahoo.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-130/SG:5 2/5/2010 3:39:35 PM
+X-GBUdb-Analysis: 0, 72.32.253.164, Ugly c=1 p=-0.985765 Source White
+X-Signature-Violations: 0-0-0-5757-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.164
+X-Note-Reverse-DNS: fe10.exg4.exghost.com
+X-Note-WHTLIST: nchunter18@yahoo.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.164] (HELO fe10.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 98669264
+ for hbiden@rosemontseneca.com; Fri, 05 Feb 2010 15:40:08 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe10.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Fri, 5 Feb 2010 15:39:57 -0600
+Received: from [10.242.228.214] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 285236062
+ for hbiden@senecaga.com; Fri, 05 Feb 2010 15:40:08 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-125/SG:5 2/5/2010 3:39:11 PM
+X-GBUdb-Analysis: 0, 206.190.49.34, Ugly c=0.313739 p=-0.333333 Source Normal
+X-Signature-Violations: 0-0-0-4316-c
+X-Note: SCH-CT/SI:0-1272/SG:1 2/5/2010 3:39:31 PM
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 206.190.49.34
+X-Note-Reverse-DNS: web53004.mail.re2.yahoo.com
+X-Note-WHTLIST: nchunter18@yahoo.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from web53004.mail.re2.yahoo.com ([206.190.49.34] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with SMTP id 28455991 for
+ hbiden@senecaga.com; Fri, 05 Feb 2010 15:39:56 -0600
+Received: (qmail 3982 invoked by uid 60001); 5 Feb 2010 21:38:17 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024;
+ t=1265405897; bh=mAwkFtSdFYkwK6UDOehP3fan7GqWwBEIezcWRB0XDz8=;
+ h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+ b=g9V4lOpBDAsMcjmxQ3b0xE01jt1THNvSarNop1o0lJ2i8QVn3JZKW4cmGIGM/+T+Vy/9CwsvtWEISUN7R/V/FVJYxHtpL6eHuV2MzJyjs5nC482UTtsudlKyVcocT6D14QhmIZ+sdL2RutPeLKd23dRpc5HU3Pc48jMInkC9cz8=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+ h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+ b=NSFuPxfeC1ZCrWYTs31mVfcCbc4MrUvHVAfL7jzixp/lys95RFXDv2LBmJKGD8rHqEGMfPw/nbfOzOB4tV2Rh/l2PECtEmrKzZn3Nq1/hJOrZttnkmeEgA6FkRd3sC8n2Gd+OTLVml8/68A9r86b06z8yYrqHcCWEnTxwpQlyeQ=;
+Message-ID: <650620.2977.qm@web53004.mail.re2.yahoo.com>
+X-YMail-OSG: YRTBngEVM1ki_dvPoxaE5KKHQuEa4HlChjnsWGcepst_7zXUrOr8.K_7n_7QpxjPjUad0iPI6D58rINtcIfGeUWMzd9FCq50y.XuXSIrkKcm3Svu8E1KcOUasXgA21mVqYepKzKhxcQTP5wLulNL_VSCADMDsZTYIDH.jGTeChAdMq5QB_.qpfbbDoCodvn7XzA_re9AL78b.yZIIxqn2cr0Mm8hHWuzn9DnZoSVNlRm8pUY0roNPATQn3pDGIe9ED1QRVHl3c9cUAZYirFrTI0lgnQIdvI-
+Received: from [74.71.167.97] by web53004.mail.re2.yahoo.com via HTTP; Fri, 05
+ Feb 2010 13:38:17 PST
+X-Mailer: YahooMailRC/272.7 YahooMailWebService/0.8.100.260964
+Date: Fri, 5 Feb 2010 13:38:17 -0800 (PST)
+From: Nancy Hunter <nchunter18@yahoo.com>
+Subject: HAPPY BELATED BIRHTDAY!!
+To: hunter biden <hbiden@senecaga.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-392075180-1265405897=:2977"
+Return-Path: nchunter18@yahoo.com
+X-OriginalArrivalTime: 05 Feb 2010 21:39:57.0517 (UTC)
+ FILETIME=[C307D7D0:01CAA6AB]
+
+
+--0-392075180-1265405897=:2977
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=iso-8859-1
+
+Hunt,=0A=0A=0A=A0=A0=A0=A0=A0 Sorry this is a day late. Didn't get to the c=
+omputer yesterday.=A0=A0 Hope you had a great birthday!!! Did you hit the B=
+IG one this year?=0A=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0 Love,=0A=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0 Uncle John and Aunt Nancy=0A=0A=0A      
+--0-392075180-1265405897=:2977
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=iso-8859-1
+
+<html><head><style type=3D"text/css"><!-- DIV {margin:0px;} --></style></he=
+ad><body><div style=3D"font-family:times new roman, new york, times, serif;=
+font-size:12pt"><DIV>Hunt,</DIV>=0A<DIV>&nbsp;</DIV>=0A<DIV>&nbsp;</DIV>=0A=
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sorry this is a day late. Didn't get to=
+ the computer yesterday.&nbsp;&nbsp; Hope you had a great birthday!!! Did y=
+ou hit the BIG one this year?</DIV>=0A<DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp; Love,</DIV>=0A<DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; Uncle John and Aunt Nancy</DIV><!-- cg2.c2.mail.re1.yahoo.com com=
+pressed/chunked Fri Feb  5 13:22:25 PST 2010 --></div><br>=0A=0A=0A=0A     =
+ </body></html>
+--0-392075180-1265405897=:2977--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114671</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1265405999</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>4513</string>
+</dict>
+</plist>

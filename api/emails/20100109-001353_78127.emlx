@@ -1,0 +1,297 @@
+10674     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs228460wev; Fri, 8 Jan 2010
+ 19:14:02 -0800 (PST)
+Received: by 10.224.81.81 with SMTP id w17mr14997575qak.382.1263006841713;
+ Fri, 08 Jan 2010 19:14:01 -0800 (PST)
+Return-Path: <wayne@etfventurefunds.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 4si64197450qwe.25.2010.01.08.19.14.01; Fri, 08
+ Jan 2010 19:14:01 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by best guess record for domain of wayne@etfventurefunds.com)
+ client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by best guess record for domain of
+ wayne@etfventurefunds.com) smtp.mail=wayne@etfventurefunds.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-10/SG:5 1/8/2010 9:14:06 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=0.908243 p=-0.934275 Source White
+X-Signature-Violations: 0-0-0-10034-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES->PRIVATE->UNITED
+ STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 93438095
+ for hbiden@rosemontseneca.com; Fri, 08 Jan 2010 21:14:07 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Fri, 8 Jan 2010 21:14:00 -0600
+Received: from [10.242.229.31] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 269136160
+ for hbiden@senecaga.com; Fri, 08 Jan 2010 21:14:06 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: 207.97.230.162 ALLOWED
+X-Virus-Scan: V-
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G131 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: ALLOWEDIP
+X-Note: Headers Injected
+Received: from [207.97.204.37] (HELO server107.appriver.com) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 18820995 for
+ hbiden@senecaga.com; Fri, 08 Jan 2010 21:14:05 -0600
+X-Policy: GLOBAL - etfventurefunds.com
+X-Policy: GLOBAL - etfventurefunds.com
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: wayne@etfventurefunds.com ALLOWED
+X-Virus-Scan: V-
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G132 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: ALLOWEDSENDER
+X-Note: Headers Injected
+Received: from [207.97.230.162] (HELO FE02.exg3.exghost.com) by
+ server107.appriver.com (CommuniGate Pro SMTP 5.3.0) with ESMTP id 201182643;
+ Fri, 08 Jan 2010 22:14:05 -0500
+Received: from be40.exg3.exghost.com ([207.97.230.210]) by
+ FE02.exg3.exghost.com with Microsoft SMTPSVC(6.0.3790.3959); Fri, 8 Jan 2010
+ 22:13:58 -0500
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----_=_NextPart_001_01CA90D9.C8C132F9"
+x-cr-puzzleid: {639F9FA2-BD9D-4DE0-A436-F590915C9A49}
+x-cr-hashedpuzzle: ANW6 AN4n CCrk EE5m F/dM GEht GEwk GzBz HA7f HRQv HbUy I7Lx
+ J3cI KC7k KdM/
+ LEK/;1;YgBiAGkAZABlAG4AQABjAG8AbQBjAGEAcwB0AC4AbgBlAHQA;Sosha1_v1;7;{639F9FA2-BD9D-4DE0-A436-F590915C9A49};dwBhAHkAbgBlAEAAZQB0AGYAdgBlAG4AdAB1AHIAZQBmAHUAbgBkAHMALgBjAG8AbQA=;Sat,
+ 09 Jan 2010 03:13:53 GMT;UwBhAGQAIABuAGUAdwBzAA==
+Content-class: urn:content-classes:message
+Subject: Sad news
+Date: Fri, 8 Jan 2010 22:13:53 -0500
+Message-ID: <9E447E3E3D92B6469AB833CE319530CF01D90B8D@be40.exg3.exghost.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Sad news
+Thread-Index: AcqQ2cXejWAF0S8MRV+GfQFn1OPQEQ==
+From: "Wayne D. Kimmel" <wayne@etfventurefunds.com>
+To: "Hunter Biden" <hbiden@senecaga.com>, <bbiden@comcast.net>
+Return-Path: wayne@etfventurefunds.com
+X-OriginalArrivalTime: 09 Jan 2010 03:13:58.0399 (UTC)
+ FILETIME=[C8C2C0F0:01CA90D9]
+
+
+------_=_NextPart_001_01CA90D9.C8C132F9
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Hunter and Beau,
+
+=20
+
+I was very sorry to hear today about the passing of your grandmother.  I
+know how much she meant to both of you and the rest of your family.
+
+=20
+
+Kimby's and my prayers and thoughts are with you and your family.
+
+=20
+
+Please let us know if there is anything we can do to help you during
+this tough time.
+
+=20
+
+Wayne
+
+=20
+
+
+------_=_NextPart_001_01CA90D9.C8C132F9
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:p=3D"urn:schemas-microsoft-com:office:powerpoint" =
+xmlns:a=3D"urn:schemas-microsoft-com:office:access" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" =
+xmlns:s=3D"uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" =
+xmlns:rs=3D"urn:schemas-microsoft-com:rowset" xmlns:z=3D"#RowsetSchema" =
+xmlns:b=3D"urn:schemas-microsoft-com:office:publisher" =
+xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadsheet" =
+xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" =
+xmlns:odc=3D"urn:schemas-microsoft-com:office:odc" =
+xmlns:oa=3D"urn:schemas-microsoft-com:office:activation" =
+xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" =
+xmlns:rtc=3D"http://microsoft.com/officenet/conferencing" =
+xmlns:D=3D"DAV:" xmlns:Repl=3D"http://schemas.microsoft.com/repl/" =
+xmlns:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetings/" =
+xmlns:x2=3D"http://schemas.microsoft.com/office/excel/2003/xml" =
+xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" =
+xmlns:ois=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" =
+xmlns:dir=3D"http://schemas.microsoft.com/sharepoint/soap/directory/" =
+xmlns:ds=3D"http://www.w3.org/2000/09/xmldsig#" =
+xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" =
+xmlns:udc=3D"http://schemas.microsoft.com/data/udc" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/2002/1/alerts/"=
+ xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" =
+xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" =
+xmlns:sps=3D"http://schemas.microsoft.com/sharepoint/soap/" =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" =
+xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" =
+xmlns:udcp2p=3D"http://schemas.microsoft.com/data/udc/parttopart" =
+xmlns:wf=3D"http://schemas.microsoft.com/sharepoint/soap/workflow/" =
+xmlns:dsss=3D"http://schemas.microsoft.com/office/2006/digsig-setup" =
+xmlns:dssi=3D"http://schemas.microsoft.com/office/2006/digsig" =
+xmlns:mdssi=3D"http://schemas.openxmlformats.org/package/2006/digital-sig=
+nature" =
+xmlns:mver=3D"http://schemas.openxmlformats.org/markup-compatibility/2006=
+" xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/relationshi=
+ps" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" =
+xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/2006/types"=
+ =
+xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/2006/messag=
+es" =
+xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/=
+" =
+xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortalServer/Pub=
+lishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" =
+xmlns:st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal>Hunter and Beau,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>I was very sorry to hear today about the passing of =
+your
+grandmother.&nbsp; I know how much she meant to both of you and the rest =
+of
+your family.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Kimby&#8217;s and my prayers and thoughts are with =
+you and
+your family.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Please let us know if there is anything we can do =
+to help
+you during this tough time.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Wayne<span =
+style=3D'color:black'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01CA90D9.C8C132F9--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114614</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263006841</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>2558</string>
+</dict>
+</plist>

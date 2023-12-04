@@ -1,0 +1,387 @@
+12675     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs240750wey; Sun, 17 Jan 2010 05:56:31
+ -0800 (PST)
+Received: by 10.91.19.11 with SMTP id w11mr4228303agi.114.1263736582689; Sun,
+ 17 Jan 2010 05:56:22 -0800 (PST)
+Return-Path: <do_not_reply@apple.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 8si8011301gxk.10.2010.01.17.05.56.22; Sun, 17
+ Jan 2010 05:56:22 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning
+ do_not_reply@apple.com does not designate 72.32.253.69 as permitted sender)
+ client-ip=72.32.253.69;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of
+ transitioning do_not_reply@apple.com does not designate 72.32.253.69 as
+ permitted sender) smtp.mail=do_not_reply@apple.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: do_not_reply@apple.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-10/SG:5 1/17/2010 7:55:51 AM
+X-GBUdb-Analysis: 0, 72.32.253.161, Ugly c=0.972288 p=-0.734026 Source Normal
+X-Signature-Violations: 0-103086-1441-2179-w 0-214687-3328-3438-w
+ 0-214687-10675-10785-w 0-103086-0-14159-f
+X-Note: Spam Tests Failed:
+X-Country-Path: LOCAL->PRIVATE->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.161
+X-Note-Reverse-DNS: fe06.exg4.exghost.com
+X-Note-WHTLIST: do_not_reply@apple.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.161] (HELO FE06.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 85573225
+ for hbiden@rosemontseneca.com; Sun, 17 Jan 2010 07:56:26 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE06.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Sun, 17 Jan 2010 07:56:21 -0600
+Received: from [10.242.228.214] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 273299880
+ for hbiden@senecaga.com; Sun, 17 Jan 2010 07:56:26 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-10/SG:5 1/17/2010 7:55:56 AM
+X-GBUdb-Analysis: 0, 17.251.15.219, Ugly c=0.184641 p=-1 Source Normal
+X-Signature-Violations: 0-103086-19-779-w 0-214687-1808-1918-w
+ 0-214687-9155-9265-w 0-103086-0-12639-f
+X-Note: SCH-CT/SI:1-1269/SG:1 1/17/2010 7:55:56 AM
+X-Warn: WEBBUG
+X-Note: Spam Tests Failed: WEBBUG
+X-Country-Path: LOCAL->PRIVATE->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 17.251.15.219
+X-Note-Reverse-DNS: itmsout.apple.com
+X-Note-WHTLIST: do_not_reply@apple.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G213 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from itmsout.apple.com ([17.251.15.219] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 21375047 for
+ hbiden@senecaga.com; Sun, 17 Jan 2010 07:56:20 -0600
+Received: from mailerp1201 (unknown [10.113.8.167]) by itmsout.apple.com
+ (Postfix) with ESMTP id CB117CC65B8 for <hbiden@senecaga.com>; Sun, 17 Jan
+ 2010 05:56:20 -0800 (PST)
+Received: from mailerp0301 (localhost [127.0.0.1]) by mailerp1201 (Postfix)
+ with ESMTP id C736B4947D91 for <hbiden@senecaga.com>; Sun, 17 Jan 2010
+ 05:56:20 -0800 (PST)
+Message-ID: <10387515.1263736580724.JavaMail.worun@mailerp0301>
+Date: Sun, 17 Jan 2010 05:56:20 -0800 (PST)
+From: iTunes Store <do_not_reply@apple.com>
+Reply-To: iTunes Store <do_not_reply@apple.com>
+To: hbiden@senecaga.com
+Subject: Beau sent you an iTunes Gift
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_939282_6496086.1263736580723"
+Return-Path: do_not_reply@apple.com
+X-OriginalArrivalTime: 17 Jan 2010 13:56:21.0903 (UTC)
+ FILETIME=[D9C8B9F0:01CA977C]
+
+
+------=_Part_939282_6496086.1263736580723
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN;
+	charset=US-ASCII
+
+iTunes Gift
+
+
+
+Sender's Name Beau
+
+Recipient's Name AVBO, Hunter
+
+
+
+Redeem Now https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/com.apple.jingle.app.finance.DirectAction/freeProductCodeWizard?code=RPYLWFXK9HYN
+
+You have received an iTunes Store Gift from Beau (bbiden@comcast.net). To redeem your gift, click Redeem Now above. You will be asked to verify your account, and then your gift will begin to download to your account immediately. You must have iTunes version 6.0 or later to redeem this gift.
+
+Download iTunes at <a href="http://www.apple.com/itunes/download/"></a>
+
+iTunes for Mac and Windows
+Copyright (C) 2008 Apple Inc.
+
+
+
+Apple respects your privacy.
+Information regarding your personal information can be viewed at <a href="http://www.apple.com/legal/privacy/"></a>
+
+Copyright (C) 2008 Apple Inc. All rights reserved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------=_Part_939282_6496086.1263736580723
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/HTML;
+	charset=US-ASCII
+
+<HTML>
+
+ <HEAD>
+  <META HTTP-EQUIV="content-type" CONTENT="text/html;charset=ISO-8859-1">
+  <TITLE></TITLE>
+  <STYLE TYPE="text/css">
+
+A {
+    text-decoration: none;
+}
+
+A:link {
+    color:           #000000;
+    text-decoration: none;
+}
+
+A:visited {
+    text-decoration: none;
+}
+
+A:active {
+    color:           #696969;
+    text-decoration: underline;
+}
+
+A:Hover  {
+    text-decoration: underline;
+}
+
+BODY, TD, CENTER, P {
+    font-family: Geneva, Verdana, Arial, Helvetica;
+    font-size:   10px;
+    color:       #333333;
+}
+
+.body {
+    font-family: Geneva, Verdana, Arial, Helvetica;
+    font-size:   10px;
+    color:       #333333;
+}
+
+.body12 {
+    font-family: Geneva, Verdana, Arial, Helvetica;
+    font-size:   12px;
+    color:       #0000000;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:   11px;
+    font-weight: normal;
+    color:       #000000;
+}
+
+.title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:   14px;
+    font-weight: normal;
+    color:       #000000;
+}
+
+.disclaimer {
+    font-family: Geneva, Verdana, Arial, Helvetica;
+    font-size:   9px;
+    color:       #696969;
+}
+
+.headline {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:   20px;
+    color:       #000000;
+}
+
+.message {
+    font-family: Geneva, Verdana, Arial, Helvetica;
+    font-size:   9px;
+}
+
+.preference {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:   12px;
+    font-weight: bold;
+    color:       #000000;
+}
+
+.amount {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:   64px;
+    color:       #000000;
+}
+
+.date {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:   26px;
+    color:       #000000;
+}
+ </STYLE>
+ </HEAD>
+
+ 
+ <BODY BGCOLOR="#a4d867" LINK="#3366cc" VLINK="#3366cc" ALINK="#3366cc" LEFTMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" TOPMARGIN="0">
+  <TABLE WIDTH="634" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="center">
+   <TR><TD WIDTH="634" HEIGHT="15" NOWRAP></TD></TR>
+   <TR>
+    <TD ALIGN="center" WIDTH="634" HEIGHT="15"><img width="634" height="15" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/giftemail_top.gif"></TD>
+   </TR>
+   <TR>
+    <TD>
+     <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+      <TR>
+       <TD HEIGHT="25" WIDTH="20" BGCOLOR="#b6e085" NOWRAP><img width="1" height="1" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/spacer.gif"></TD>
+       <TD HEIGHT="25" BGCOLOR="#b6e085"><img width="450" height="135" alt="You Have Received a Gift" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/giftemail_header_received.jpg"></TD>
+      </TR>
+     </TABLE>
+    </TD>
+   </TR>
+   <TR><TD HEIGHT="15" BGCOLOR="#b6e085" NOWRAP><img width="1" height="1" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/spacer.gif"></TD></TR>
+   <TR>
+    <TD>
+     <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+      <TR>       
+       <TD WIDTH="50" BGCOLOR="#b6e085" NOWRAP><img width="1" height="1" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/spacer.gif"></TD>
+       <TD ALIGN="left" VALIGN="middle" BGCOLOR="#b6e085">
+        
+        <FONT CLASS="body" SIZE="3" FACE="Helvetica, Verdana, Arial">
+        <b>AVBO, Hunter</b><BR>
+         <BR>
+        <b></b><BR>
+        <BR>
+        <b>Beau</b>
+        </FONT>
+
+       </TD>
+      </TR>
+     </TABLE>
+    </TD>
+   </TR>
+   <TR><TD HEIGHT="30" BGCOLOR="#b6e085" NOWRAP><img width="1" height="1" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/spacer.gif"></TD></TR>
+   <TR>
+    <TD ALIGN="center" BGCOLOR="#b6e085">
+        
+        
+
+
+
+  <TABLE WIDTH="480" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+      <TD ALIGN="right" VALIGN="top">
+        <img src="http://a1.phobos.apple.com/us/r1000/036/Music/82/5d/a2/mzi.jaoeyujt.170x170-75.jpg">
+        
+      </TD>
+      <TD NOWRAP WIDTH="15"></TD>
+      <TD ALIGN="left" VALIGN="top">
+        <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+          <TR>
+            <TD>
+              <FONT CLASS="title" SIZE="3" COLOR="#333333" FACE="Geneva,Verdana,Arial,Helvetica"><B>Song:  Home</B></FONT><BR> 
+              <FONT CLASS="title" SIZE="3" COLOR="#333333" FACE="Geneva,Verdana,Arial,Helvetica">Edward Sharpe &amp; The Magnetic Zeros</FONT>
+            </TD>
+          </TR>
+          <TR><TD height="20" NOWRAP></TD></TR>
+          <TR>
+            <TD>
+              
+                
+                  <FONT CLASS="content" SIZE="2" COLOR="#333333" FACE="Geneva,Verdana,Arial,Helvetica">Release Date:  July 07, 2009</FONT>
+                
+                
+              
+            </TD>
+          </TR>
+          <TR>
+            <TD>
+              
+            </TD>
+          </TR>
+          <TR>
+            <TD>
+              <FONT CLASS="content" SIZE="2" COLOR="#333333" FACE="Geneva,Verdana,Arial,Helvetica">Genre: Alternative</FONT>
+            </TD>
+          </TR>
+          <TR>
+            <TD valign="top">
+              <FONT CLASS="content" SIZE="2" COLOR="#333333" FACE="Geneva,Verdana,Arial,Helvetica">&#8471; 2009 Community Music/Fairfax Recordings</FONT>
+              <BR>
+              <BR>
+              <a href="https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/com.apple.jingle.app.finance.DirectAction/freeProductCodeWizard?code=RPYLWFXK9HYN"><img width="200" height="27" alt="Redeem Now" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/btnmtl_redeemnow_b6e085.gif"></a>
+            </TD>
+          </TR>
+        </TABLE>
+      </TD>
+    </TR>
+  </TABLE>
+ 
+    </TD>
+   </TR>
+   <TR><TD HEIGHT="15" BGCOLOR="#b6e085" NOWRAP><img width="1" height="1" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/spacer.gif"></TD></TR>
+   <TR>
+    <TD ALIGN="center" WIDTH="634" HEIGHT="15"><img width="634" height="15" alt="" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/giftemail_bot.gif"></TD>
+   </TR>
+  </TABLE>
+  
+  <TABLE ALIGN="center" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+   <TR><TD HEIGHT="40" NOWRAP></TD></TR>
+   <TR>
+    <TD ALIGN="center" WIDTH="600"><FONT CLASS="title" SIZE="3" COLOR="#333333" FACE="Geneva,Verdana,Arial,Helvetica">
+      You have received an iTunes Store Gift from Beau (bbiden@comcast.net). To redeem your gift, click Redeem Now above. You will be asked to verify your account, and then your gift will begin to download to your account immediately. You must have iTunes version 6.0 or later to redeem this gift.</FONT><BR><BR>
+      <FONT CLASS="disclaimer" SIZE="1" COLOR="#999999" FACE="Geneva,Verdana,Arial,Helvetica"><a href="http://www.apple.com/itunes/download/"><img width="101" height="27" alt="Download iTunes" border="0" src="http://ax.phobos.apple.com.edgesuite.net/email/images_shared/btnmtl_downloaditunes_a4d867.gif"></a><BR><BR><BR><BR>
+      Apple respects your privacy.<BR>
+     	Information regarding your personal information can be viewed at <a href="http://www.apple.com/legal/privacy/">http://www.apple.com/legal/privacy/</a><BR>
+      <BR>
+     </FONT></TD>
+   </TR>
+   <TR>
+    <TD ALIGN="center" WIDTH="600"><FONT CLASS="disclaimer" SIZE="1" COLOR="#999999" FACE="Geneva,Verdana,Arial,Helvetica">Copyright &copy; 2008 Apple Inc. <a href="http://www.apple.com/legal/">All rights reserved</a></FONT></TD>
+   </TR>
+   <TR><TD HEIGHT="40" NOWRAP></TD></TR>
+  </TABLE>
+	
+ </BODY>
+
+</HTML>
+
+
+
+
+------=_Part_939282_6496086.1263736580723--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114628</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263736582</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3070</string>
+</dict>
+</plist>

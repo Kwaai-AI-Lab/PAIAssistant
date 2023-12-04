@@ -1,0 +1,60 @@
+2653      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs144069weh;
+        Tue, 23 Feb 2010 06:23:30 -0800 (PST)
+Received: by 10.224.58.6 with SMTP id e6mr6890612qah.319.1266935009115;
+        Tue, 23 Feb 2010 06:23:29 -0800 (PST)
+Return-Path: <SRS0=3q2uov=KH=romcapital.es=abel.navarro@srs.bis.eu.blackberry.com>
+Received: from smtp06.bis.eu.blackberry.com (smtp06.bis.eu.blackberry.com [206.53.150.102])
+        by mx.google.com with ESMTP id 5si7924544qwg.18.2010.02.23.06.23.28;
+        Tue, 23 Feb 2010 06:23:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of SRS0=3q2uov=KH=romcapital.es=abel.navarro@srs.bis.eu.blackberry.com designates 206.53.150.102 as permitted sender) client-ip=206.53.150.102;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of SRS0=3q2uov=KH=romcapital.es=abel.navarro@srs.bis.eu.blackberry.com designates 206.53.150.102 as permitted sender) smtp.mail=SRS0=3q2uov=KH=romcapital.es=abel.navarro@srs.bis.eu.blackberry.com
+Received: from bda2076.bisx.produk.on.blackberry (bda2076.bisx.produk.on.blackberry [172.24.204.41])
+	by srs.bis.eu.blackberry.com (8.13.7 TEAMON/8.13.7) with ESMTP id o1NENRbA030264;
+	Tue, 23 Feb 2010 14:23:27 GMT
+Received: from bda2076.bisx.produk.on.blackberry (localhost.localdomain [127.0.0.1])
+	by bda2076.bisx.produk.on.blackberry (8.13.7 TEAMON/8.13.7) with ESMTP id o1NENQAV022715;
+	Tue, 23 Feb 2010 14:23:26 GMT
+X-rim-org-msg-ref-id: 1190083538
+Return-Receipt-To: abel.navarro@romcapital.es
+Message-ID: <1190083538-1266935005-cardhu_decombobulator_blackberry.rim.net-744784401-@bda2196.bisx.produk.on.blackberry>
+Content-Transfer-Encoding: base64
+Reply-To: abel.navarro@romcapital.es
+X-Priority: Normal
+Sensitivity: Normal
+Importance: Normal
+Subject: Haiti
+To: "Eric Schwerin" <eschwerin@senecaga.com>,
+        "Devon Archer" <darcher@rosemontcapital.com>,
+        "Hunter Biden" <hbiden@rosemontseneca.com>
+From: abel.navarro@romcapital.es
+Date: Tue, 23 Feb 2010 14:23:23 +0000
+Content-Type: text/plain; charset="Windows-1252"
+MIME-Version: 1.0
+
+SGVsbG8gZ3V5cywgaG93IHdhcyB5b3VyIHRyaXAgYmFjaz8ud2hhdCBhIGJvcmluZyB0aW1lIHdl
+IGhhZCBpbiBEUiwgc28gZ2xhZCB0aGF0IEkgYW0gaW4gdGhlIG9mZmljZSBhZ2FpbiByYWluaW5n
+IGFuZCA0MCBkZWdyZWVzIG91dHNpZGUgIEkgYW0gZ29pbmcgdG8gaGF2ZSBhIGNvbnZlcnNhdGlv
+biBpbiBvbmUgYW5kIGEgaGFsZiBob3VyICB3aXRoIHRoZSBwZXJzb24gdGhhdCB3YXMgaW50ZXJl
+c3RlZCBpbiB0aGUgSGFpdGkncyByZWNvbnN0cnVjdGlvbiAoc2hhcmVob2xkZXIgb2YgcHJvaW50
+ZWMpLiBEaWQgeW91IGd1eXMgZ290IGFueSBpbmZvcm1hdGlvbiBmcm9tIHlvdXIgbWVldGluZ3Mg
+cmVnYXJkaW5nIHRoaXMgaXNzdWU/LiBQbGVhc2UgbGV0IG1lIGtub3cuIEJlc3QNCkFiZWwNCkVu
+dmlhZG8gZGVzZGUgbWkgQmxhY2tCZXJyea4gZGUgVm9kYWZvbmU=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114895</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266935009</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>5236</string>
+</dict>
+</plist>

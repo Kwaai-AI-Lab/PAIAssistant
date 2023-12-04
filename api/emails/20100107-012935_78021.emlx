@@ -1,0 +1,316 @@
+9981      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs76012wev; Wed, 6 Jan 2010 20:30:03
+ -0800 (PST)
+Received: by 10.91.161.31 with SMTP id n31mr1993331ago.96.1262838601766; Wed,
+ 06 Jan 2010 20:30:01 -0800 (PST)
+Return-Path: <wayne@etfventurefunds.com>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 9si47385362gxk.66.2010.01.06.20.29.59; Wed, 06
+ Jan 2010 20:30:00 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.73 is neither permitted nor
+ denied by best guess record for domain of wayne@etfventurefunds.com)
+ client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.73
+ is neither permitted nor denied by best guess record for domain of
+ wayne@etfventurefunds.com) smtp.mail=wayne@etfventurefunds.com
+Received: by server514.appriver.com (CommuniGate Pro PIPE 5.3c2) with PIPE id
+ 84126127; Wed, 06 Jan 2010 22:30:00 -0600
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 84126125
+ for hbiden@rosemontseneca.com; Wed, 06 Jan 2010 22:29:56 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 6 Jan 2010 22:29:55 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 267839247
+ for hbiden@senecaga.com; Wed, 06 Jan 2010 22:29:54 -0600
+Received: by inbound.appriver.com (CommuniGate Pro PIPE 5.2.16) with PIPE id
+ 18215438; Wed, 06 Jan 2010 22:29:54 -0600
+Received: from [69.20.100.22] (HELO server107.appriver.com) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 18215419 for
+ hbiden@senecaga.com; Wed, 06 Jan 2010 22:29:50 -0600
+Received: by server107.appriver.com (CommuniGate Pro PIPE 5.2.14) with PIPE id
+ 199830941; Wed, 06 Jan 2010 23:29:51 -0500
+Received: from [207.97.230.162] (HELO FE02.exg3.exghost.com) by
+ server107.appriver.com (CommuniGate Pro SMTP 5.2.14) with ESMTP id 199830940;
+ Wed, 06 Jan 2010 23:29:49 -0500
+Received: from be40.exg3.exghost.com ([207.97.230.210]) by
+ FE02.exg3.exghost.com with Microsoft SMTPSVC(6.0.3790.3959); Wed, 6 Jan 2010
+ 23:29:48 -0500
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="----_=_NextPart_001_01CA8F52.0BBB18F6"
+Subject: NVCA Board nomination
+Date: Wed, 6 Jan 2010 23:29:35 -0500
+Message-ID: <9E447E3E3D92B6469AB833CE319530CF01D903B4@be40.exg3.exghost.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: NVCA Board nomination
+Thread-Index: AcqPUgQhwvQ261pcTR2yWVkMXxvI0A==
+From: "Wayne D. Kimmel" <wayne@etfventurefunds.com>
+To: "Hunter Biden" <hbiden@senecaga.com>, "Eric Schwerin"
+ <eschwerin@rosemontseneca.com>
+Return-Path: wayne@etfventurefunds.com
+X-OriginalArrivalTime: 07 Jan 2010 04:29:48.0140 (UTC)
+ FILETIME=[0BCAA2C0:01CA8F52]
+X-Policy: GLOBAL - etfventurefunds.com
+X-Policy: GLOBAL - etfventurefunds.com
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: wayne@etfventurefunds.com ALLOWED
+X-Note: VCH-CT/SI:0-847/SG:1 1/6/2010 11:29:21 PM
+X-Virus-Scan: V-X0M0
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G132 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: ALLOWEDSENDER
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: 207.97.230.162 ALLOWED
+X-Note: VCH-CT/SI:0-847/SG:1 1/6/2010 10:28:07 PM
+X-Virus-Scan: V-X0M0
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G131 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: ALLOWEDIP
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note: VCH-CT/SI:0-847/SG:1 1/6/2010 10:29:39 PM
+X-Virus-Scan: V-X0M0
+X-Note: ICH-CT/SI:0-536/SG:1 1/6/2010 10:29:39 PM
+X-Note: TCH-CT/SI:0-136/SG:8 1/6/2010 10:29:38 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=1 p=-0.586315 Source Normal
+X-Signature-Violations: 0-0-0-32767-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->->UNITED
+ STATES->->PRIVATE->UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219 G225
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+
+
+------_=_NextPart_001_01CA8F52.0BBB18F6
+Content-Type: multipart/ALTERNATIVE;
+	boundary="----_=_NextPart_002_01CA8F52.0BBB18F6"
+
+
+------_=_NextPart_002_01CA8F52.0BBB18F6
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Hunter,
+
+=20
+
+Look forward to seeing you on Friday at 3:45pm at Union
+Station...confirmed it! =20
+
+=20
+
+Also, would you please nominate me to the Board of the National Venture
+Capital Association (NVCA).  I believe that this would be a great
+platform for ETF.
+
+=20
+
+We put together the nominating document (see attachment) that needs to
+be submitted to Mark Heesen, President of the NVCA (who we met with at
+your office last summer).  Please review it and if okay...please send to
+Mark.
+
+=20
+
+His email is mheesen@nvca.org and it needs to be submitted by January
+14, 2010.
+
+=20
+
+Thanks in advance!
+
+=20
+
+Wayne
+
+Wayne D. Kimmel
+Managing Partner
+
+ETF Venture Funds=20
+phone: 610.825.0250 | fax: 610.825.0205=20
+e-mail: wayne@etfventurefunds.com <mailto:wayne@etfventurefunds.com> |=20
+www.etfventurefunds.com <http://www.etfventurefunds.com/>=20
+
+=20
+
+
+------_=_NextPart_002_01CA8F52.0BBB18F6
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal>Hunter,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Look forward to seeing you on Friday at 3:45pm at =
+Union
+Station&#8230;confirmed it!&nbsp; <o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Also, would you please nominate me to the Board of =
+the
+National Venture Capital Association (NVCA).&nbsp; I believe that this =
+would be
+a great platform for ETF.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>We put together the nominating document (see =
+attachment)
+that needs to be submitted to Mark Heesen, President of the NVCA (who we =
+met
+with at your office last summer).&nbsp; Please review it and if =
+okay&#8230;please
+send to Mark.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>His email is <a =
+href=3D"mailto:mheesen@nvca.org">mheesen@nvca.org</a>
+and it needs to be submitted by January 14, 2010.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Thanks in advance!<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Wayne<o:p></o:p></p>
+
+<p class=3DMsoNormal><b><span style=3D'color:#002060'>Wayne D. =
+Kimmel<br>
+</span></b><span style=3D'color:#002060'>Managing Partner<br>
+<br>
+<b>ETF Venture Funds</b></span><b><span style=3D'color:#001F5F'> <br>
+</span></b><span style=3D'color:black'>phone: 610.825.0250 | fax: =
+610.825.0205 <br>
+e-mail: <a href=3D"mailto:wayne@etfventurefunds.com"><span =
+style=3D'color:blue'>wayne@etfventurefunds.com</span></a>|
+<a href=3D"http://www.etfventurefunds.com/"><span =
+style=3D'color:blue'>www.etfventurefunds.com</span></a><o:p></o:p></span>=
+</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_002_01CA8F52.0BBB18F6--
+
+------_=_NextPart_001_01CA8F52.0BBB18F6
+Content-Transfer-Encoding: BASE64
+Content-Disposition: ATTACHMENT;
+	filename="NVCA Nomination Form.pdf"
+Content-Type: APPLICATION/PDF;
+	name="NVCA Nomination Form.pdf"
+X-Apple-Content-Length: 377126
+Content-Description: NVCA Nomination Form.pdf
+
+
+------_=_NextPart_001_01CA8F52.0BBB18F6--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114604</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1262838600</integer>
+	<key>flags</key>
+	<integer>17213621249</integer>
+	<key>remote-id</key>
+	<string>2404</string>
+</dict>
+</plist>

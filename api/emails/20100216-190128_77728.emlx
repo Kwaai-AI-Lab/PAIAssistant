@@ -1,0 +1,211 @@
+7805      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.36.138 with SMTP id w10cs243741wea; Tue, 16 Feb 2010
+ 14:01:34 -0800 (PST)
+Received: by 10.100.62.14 with SMTP id k14mr5355256ana.46.1266357692209; Tue,
+ 16 Feb 2010 14:01:32 -0800 (PST)
+Return-Path: <GMarcou@kslaw.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 26si958230gxk.19.2010.02.16.14.01.31; Tue, 16
+ Feb 2010 14:01:32 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by best guess record for domain of GMarcou@kslaw.com)
+ client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by best guess record for domain of
+ GMarcou@kslaw.com) smtp.mail=GMarcou@kslaw.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: gmarcou@kslaw.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-320/SG:5 2/16/2010 4:01:11 PM
+X-GBUdb-Analysis: 0, 72.32.253.161, Ugly c=1 p=-0.983141 Source White
+X-Signature-Violations: 0-0-0-8886-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.161
+X-Note-Reverse-DNS: fe06.exg4.exghost.com
+X-Note-WHTLIST: GMarcou@KSLAW.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.161] (HELO FE06.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 100662206
+ for hbiden@rosemontseneca.com; Tue, 16 Feb 2010 16:01:32 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE06.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Tue, 16 Feb 2010 16:01:31 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 291339415
+ for hbiden@senecaga.com; Tue, 16 Feb 2010 16:01:32 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-310/SG:5 2/16/2010 4:00:11 PM
+X-GBUdb-Analysis: 0, 216.52.196.13, Ugly c=0.226425 p=-0.333333 Source Normal
+X-Signature-Violations: 0-0-0-7407-c
+X-Note: SCH-CT/SI:1-1272/SG:1 2/16/2010 4:00:52 PM
+X-Warn: BADHEADERS This email has no Message ID.
+X-Note: Spam Tests Failed: BADHEADERS
+X-Country-Path: UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 216.52.196.13
+X-Note-Reverse-DNS: am1smtpgw01.kslaw.com
+X-Note-WHTLIST: GMarcou@KSLAW.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G224 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from am1smtpgw01.kslaw.com ([216.52.196.13] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 32166208
+ for hbiden@senecaga.com; Tue, 16 Feb 2010 16:01:30 -0600
+Authentication-Results: am1smtpgw01.kslaw.com; dkim=neutral (message not
+ signed) header.i=none
+Received-SPF: None identity=pra; client-ip=216.52.196.100;
+ receiver=am1smtpgw01.kslaw.com; envelope-from="GMarcou@KSLAW.com";
+ x-sender="GMarcou@KSLAW.com"; x-conformance=sidf_compatible
+Received-SPF: None identity=mailfrom; client-ip=216.52.196.100;
+ receiver=am1smtpgw01.kslaw.com; envelope-from="GMarcou@KSLAW.com";
+ x-sender="GMarcou@KSLAW.com"; x-conformance=sidf_compatible
+Received-SPF: None identity=helo; client-ip=216.52.196.100;
+ receiver=am1smtpgw01.kslaw.com; envelope-from="GMarcou@KSLAW.com";
+ x-sender="postmaster@BCSHUB01.usa.kslaw.net"; x-conformance=sidf_compatible
+X-IronPort-AV: E=Sophos;i="4.49,486,1262581200";
+ d="scan'208,217";a="114625587"
+From: "Marcou, George" <GMarcou@KSLAW.com>
+To: "Hunter Biden (hbiden@senecaga.com)" <hbiden@senecaga.com>
+Date: Tue, 16 Feb 2010 17:01:28 -0500
+Subject: John Mott
+Thread-Topic: John Mott
+Thread-Index: AcqvU5aCR3SkbVa5T42eHsJ86C73CA==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative;
+ boundary="_000_A240E0A354172F4885B41238F7786F44301E98C880AM1EXCH02usak_"
+MIME-Version: 1.0
+Message-ID: <auto-000032166208@inbound.appriver.com>
+Return-Path: GMarcou@KSLAW.com
+X-OriginalArrivalTime: 16 Feb 2010 22:01:31.0435 (UTC)
+ FILETIME=[98CF4FB0:01CAAF53]
+
+
+--_000_A240E0A354172F4885B41238F7786F44301E98C880AM1EXCH02usak_
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Dear Hunter,  Welcome back (you brat) and I am dying to hear all about the =
+trip.  I love that Birds of Prey lift at Beaver Creek.
+
+I understand from John that you might be helping with his candidacy.  Thank=
+s for anything you can do--I think the world of John and I am sure he would=
+ make an outstanding federal judge.
+
+Thanks and regards.  George
+
+George T. Marcou
+King & Spalding, LLP
+1700 Pennsylvania Ave. NW
+Washington, DC 20006
+202-626-8976
+gmarcou@kslaw.com
+
+
+
+  ________________________________
+
+King & Spalding Confidentiality Notice:
+
+This message is being sent by or on behalf of a lawyer. It is intended excl=
+usively for the individual or entity to which it is addressed. This communi=
+cation may contain information that is proprietary, privileged or confident=
+ial or otherwise legally exempt from disclosure. If you are not the named a=
+ddressee, you are not authorized to read, print, retain, copy or disseminat=
+e this message or any part of it. If you have received this message in erro=
+r, please notify the sender immediately by e-mail and delete all copies of =
+the message.
+
+--_000_A240E0A354172F4885B41238F7786F44301E98C880AM1EXCH02usak_
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from rtf -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style>
+</head>
+<body>
+<font face=3D"Times New Roman, serif" size=3D"3">
+<div>Dear Hunter,&nbsp; Welcome back (you brat) and I am dying to hear all =
+about the trip.&nbsp; I love that Birds of Prey lift at Beaver Creek.</div>
+<div>&nbsp;</div>
+<div>I understand from John that you might be helping with his candidacy.&n=
+bsp; Thanks for anything you can do--I think the world of John and I am sur=
+e he would make an outstanding federal judge.</div>
+<div>&nbsp;</div>
+<div>Thanks and regards.&nbsp; George</div>
+<div>&nbsp;</div>
+<div>George T. Marcou</div>
+<div>King &amp; Spalding, LLP</div>
+<div>1700 Pennsylvania Ave. NW</div>
+<div>Washington, DC 20006</div>
+<div>202-626-8976</div>
+<div>gmarcou@kslaw.com</div>
+<div>&nbsp;</div>
+<div><br>
+
+</div>
+<div><font color=3D"#C0C0C0"><u>&nbsp; ________________________________ &nb=
+sp;</u></font></div>
+<div><br>
+
+<font face=3D"Arial, sans-serif" size=3D"1">King &amp; Spalding Confidentia=
+lity Notice:<br>
+
+<br>
+
+</font><font face=3D"Arial, sans-serif" size=3D"1">This message is being se=
+nt by or on behalf of a lawyer. It is intended exclusively for the individu=
+al or entity to which it is addressed. This communication may contain infor=
+mation that is proprietary, privileged
+or confidential or otherwise legally exempt from disclosure. If you are not=
+ the named addressee, you are not authorized to read, print, retain, copy o=
+r disseminate this message or any part of it. If you have received this mes=
+sage in error, please notify the
+sender immediately by e-mail and delete all copies of the message.<br>
+
+</font></div>
+</font>
+</body>
+</html>
+
+--_000_A240E0A354172F4885B41238F7786F44301E98C880AM1EXCH02usak_--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114685</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266357692</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>4960</string>
+</dict>
+</plist>

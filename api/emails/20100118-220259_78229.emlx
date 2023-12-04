@@ -1,0 +1,195 @@
+9609      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs28733wey; Mon, 18 Jan 2010 17:03:38
+ -0800 (PST)
+Received: by 10.231.157.131 with SMTP id b3mr501589ibx.19.1263863015804; Mon,
+ 18 Jan 2010 17:03:35 -0800 (PST)
+Return-Path: <wayne@etfventurefunds.com>
+Received: from server514.appriver.com (server514c.exghost.com [72.32.253.76])
+ by mx.google.com with ESMTP id 2si1998117iwn.16.2010.01.18.17.03.35; Mon, 18
+ Jan 2010 17:03:35 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.76 is neither permitted nor
+ denied by best guess record for domain of wayne@etfventurefunds.com)
+ client-ip=72.32.253.76;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.76
+ is neither permitted nor denied by best guess record for domain of
+ wayne@etfventurefunds.com) smtp.mail=wayne@etfventurefunds.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-5/SG:5 1/18/2010 7:03:23 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=0.989187 p=-0.953766 Source White
+X-Signature-Violations: 0-0-0-8969-c
+X-Warn: CYRILLIC
+X-Note: Spam Tests Failed: CYRILLIC
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES->PRIVATE->UNITED
+ STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 94903151
+ for hbiden@rosemontseneca.com; Mon, 18 Jan 2010 19:03:05 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Mon, 18 Jan 2010 19:03:03 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 273927918
+ for hbiden@senecaga.com; Mon, 18 Jan 2010 19:03:05 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: 207.97.230.162 ALLOWED
+X-Virus-Scan: V-
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G131 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: ALLOWEDIP
+X-Note: Headers Injected
+Received: from [69.20.5.102] (HELO server107.appriver.com) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 21821012 for
+ hbiden@senecaga.com; Mon, 18 Jan 2010 19:03:01 -0600
+X-Policy: GLOBAL - etfventurefunds.com
+X-Policy: GLOBAL - etfventurefunds.com
+X-Primary: wayne@etfventurefunds.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-ALLOW: wayne@etfventurefunds.com ALLOWED
+X-Virus-Scan: V-
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 207.97.230.162
+X-Note-Reverse-DNS: fe02.exg3.exghost.com
+X-Note-WHTLIST: wayne@etfventurefunds.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G132 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: ALLOWEDSENDER
+X-Note: Headers Injected
+Received: from [207.97.230.162] (HELO FE02.exg3.exghost.com) by
+ server107.appriver.com (CommuniGate Pro SMTP 5.2.14) with ESMTP id 200784422;
+ Mon, 18 Jan 2010 20:03:05 -0500
+Received: from be40.exg3.exghost.com ([207.97.230.210]) by
+ FE02.exg3.exghost.com with Microsoft SMTPSVC(6.0.3790.3959); Mon, 18 Jan 2010
+ 20:03:02 -0500
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----_=_NextPart_001_01CA98A3.24A5D11C"
+Subject: Re: Lunch on Friday?
+Date: Mon, 18 Jan 2010 20:02:59 -0500
+Message-ID: <9E447E3E3D92B6469AB833CE319530CF0160BB00@be40.exg3.exghost.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Lunch on Friday?
+Thread-Index: AcqYjHC1MFMCXltqQBq3U4q45EEsjgAFrN3A
+From: "Wayne D. Kimmel" <wayne@etfventurefunds.com>
+To: <eschwerin@rosemontseneca.com>
+Cc: "Hunter Biden" <hbiden@senecaga.com>
+Return-Path: wayne@etfventurefunds.com
+X-OriginalArrivalTime: 19 Jan 2010 01:03:02.0471 (UTC)
+ FILETIME=[2664C570:01CA98A3]
+
+
+------_=_NextPart_001_01CA98A3.24A5D11C
+Content-Transfer-Encoding: BASE64
+Content-Type: TEXT/PLAIN;
+	charset=utf-8
+
+T2YgY291cnNlLCBJIHdhbnQgc2VlIGJvdGggb2YgeW91ISA6KSANCg0KSG93IGFib3V0IDExYW0g
+dG8gMTJwbSBvciAycG0gdG8gM3BtPw0KDQpJIHdpbGwgYmUgYXQgdGhlIFJlYWdhbiBCdWlsZGlu
+ZyBmb3IgdGhlIENlbnRlciBmb3IgRmluYW5jaWFsIFBvbGljeSBicmVha2Zhc3QgZnJvbSA4YW0g
+dG8gMTBhbS4gV2UgY291bGQgYWxzbyBtZWV0IHRoZXJlIGF0IDEwYW0gaWYgdGhhdCB3b3JrcyBi
+ZXR0ZXIuDQoNCldheW5lDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCkZy
+b206IEVyaWMgU2Nod2VyaW4gPGVzY2h3ZXJpbkByb3NlbW9udHNlbmVjYS5jb20+IA0KVG86IFdh
+eW5lIEQuIEtpbW1lbCANCkNjOiBIdW50ZXIgQmlkZW4gDQpTZW50OiBNb24gSmFuIDE4IDE3OjIw
+OjI1IDIwMTANClN1YmplY3Q6IFJlOiBMdW5jaCBvbiBGcmlkYXk/IA0KDQoNCkkga25vdyBIdW50
+ZXIgaGFzIGEgbHVuY2ggdGhhdCBoYXMgYWxyZWFkeSBiZWVuIHJlc2NoZWR1bGVkIGEgY291cGxl
+IG9mIHRpbWVzIGFuZCBwcm9iYWJseSBjYW4ndCByZXNjaGVkdWxlIGFnYWluLiAgTm90IHN1cmUg
+aWYgSSBoYXZlIHRvIGdvIHdpdGggaGltIG9yIG5vdCAtIGJ1dCBpZiBub3QsIEkgY2FuIG1lZXQg
+eW91IGlmIHlvdSB3YW50Lg0KDQoNCk9uIE1vbiwgSmFuIDE4LCAyMDEwIGF0IDQ6NDggUE0sIFdh
+eW5lIEQuIEtpbW1lbCA8d2F5bmVAZXRmdmVudHVyZWZ1bmRzLmNvbT4gd3JvdGU6DQoNCg0KCUh1
+bnRlciBhbmQgRXJpYywNCg0KCSANCg0KCUkgd2lsbCBiZSBpbiBEQyBvbiBGcmlkYXkuICBXYW50
+IHRvIG1lZXQgZm9yIGx1bmNoPw0KDQoJIA0KDQoJV2F5bmUNCg0KCSANCg0KCVdheW5lIEQuIEtp
+bW1lbA0KCU1hbmFnaW5nIFBhcnRuZXINCgkNCglFVEYgVmVudHVyZSBGdW5kcyANCglwaG9uZTog
+NjEwLjgyNS4wMjUwIHwgZmF4OiA2MTAuODI1LjAyMDUgDQoJZS1tYWlsOiB3YXluZUBldGZ2ZW50
+dXJlZnVuZHMuY29tIDxtYWlsdG86d2F5bmVAZXRmdmVudHVyZWZ1bmRzLmNvbT4gfCB3d3cuZXRm
+dmVudHVyZWZ1bmRzLmNvbSA8aHR0cDovL3d3dy5ldGZ2ZW50dXJlZnVuZHMuY29tLz4gDQoNCgkg
+DQoNCg0KDQoNCi0tIA0KRXJpYyBELiBTY2h3ZXJpbg0KUm9zZW1vbnQgU2VuZWNhIFBhcnRuZXJz
+DQooMjAyKSAzMzMtMTg4MA0KZXNjaHdlcmluQHJvc2Vtb250c2VuZWNhLmNvbQ0KDQoNCg==
+
+------_=_NextPart_001_01CA98A3.24A5D11C
+Content-Transfer-Encoding: BASE64
+Content-Type: TEXT/HTML;
+	charset=utf-8
+
+PGRpdj48Zm9udCBzaXplPTIgY29sb3I9bmF2eSBmYWNlPUFyaWFsPg0KT2YgY291cnNlLCBJIHdh
+bnQgc2VlIGJvdGggb2YgeW91ISA6KSAgPGJyPjxicj5Ib3cgYWJvdXQgMTFhbSB0byAxMnBtIG9y
+IDJwbSB0byAzcG0/PGJyPjxicj5JIHdpbGwgYmUgYXQgdGhlIFJlYWdhbiBCdWlsZGluZyBmb3Ig
+dGhlIENlbnRlciBmb3IgRmluYW5jaWFsIFBvbGljeSBicmVha2Zhc3QgZnJvbSA4YW0gdG8gMTBh
+bS4gIFdlIGNvdWxkIGFsc28gbWVldCB0aGVyZSBhdCAxMGFtIGlmIHRoYXQgd29ya3MgYmV0dGVy
+Ljxicj48YnI+V2F5bmU8L2ZvbnQ+PC9kaXY+DQo8YnI+PGRpdj48aHIgc2l6ZT0yIHdpZHRoPSIx
+MDAlIiBhbGlnbj1jZW50ZXIgdGFiaW5kZXg9LTE+DQo8Zm9udCBmYWNlPVRhaG9tYSBzaXplPTI+
+DQo8Yj5Gcm9tPC9iPjogRXJpYyBTY2h3ZXJpbiAmbHQ7ZXNjaHdlcmluQHJvc2Vtb250c2VuZWNh
+LmNvbSZndDsNPGJyPjxiPlRvPC9iPjogV2F5bmUgRC4gS2ltbWVsDTxicj48Yj5DYzwvYj46IEh1
+bnRlciBCaWRlbg08YnI+PGI+U2VudDwvYj46IE1vbiBKYW4gMTggMTc6MjA6MjUgMjAxMDxicj48
+Yj5TdWJqZWN0PC9iPjogUmU6IEx1bmNoIG9uIEZyaWRheT8NPGJyPjwvZm9udD48YnI+PC9kaXY+
+DQpJIGtub3cgSHVudGVyIGhhcyBhIGx1bmNoIHRoYXQgaGFzIGFscmVhZHkgYmVlbiByZXNjaGVk
+dWxlZCBhIGNvdXBsZSBvZiB0aW1lcyBhbmQgcHJvYmFibHkgY2FuJiMzOTt0IHJlc2NoZWR1bGUg
+YWdhaW4uIMKgTm90IHN1cmUgaWYgSSBoYXZlIHRvIGdvIHdpdGggaGltIG9yIG5vdCAtIGJ1dCBp
+ZiBub3QsIEkgY2FuIG1lZXQgeW91IGlmIHlvdSB3YW50Ljxicj48YnI+PGRpdiBjbGFzcz0iZ21h
+aWxfcXVvdGUiPg0KT24gTW9uLCBKYW4gMTgsIDIwMTAgYXQgNDo0OCBQTSwgV2F5bmUgRC4gS2lt
+bWVsIDxzcGFuIGRpcj0ibHRyIj4mbHQ7PGEgaHJlZj0ibWFpbHRvOndheW5lQGV0ZnZlbnR1cmVm
+dW5kcy5jb20iPndheW5lQGV0ZnZlbnR1cmVmdW5kcy5jb208L2E+Jmd0Ozwvc3Bhbj4gd3JvdGU6
+PGJyPjxibG9ja3F1b3RlIGNsYXNzPSJnbWFpbF9xdW90ZSIgc3R5bGU9Im1hcmdpbjowIDAgMCAu
+OGV4O2JvcmRlci1sZWZ0OjFweCAjY2NjIHNvbGlkO3BhZGRpbmctbGVmdDoxZXg7Ij4NCg0KDQoN
+Cg0KDQoNCg0KDQoNCjxkaXYgbGFuZz0iRU4tVVMiIGxpbms9ImJsdWUiIHZsaW5rPSJwdXJwbGUi
+Pg0KDQo8ZGl2Pg0KDQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5IdW50ZXIgYW5kIEVyaWMsPC9wPg0K
+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj7CoDwvcD4NCg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+SSB3
+aWxsIGJlIGluIERDIG9uIEZyaWRheS7CoCBXYW50IHRvIG1lZXQgZm9yIGx1bmNoPzwvcD4NCg0K
+PHAgY2xhc3M9Ik1zb05vcm1hbCI+wqA8L3A+DQoNCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFu
+IHN0eWxlPSJjb2xvcjpibGFjayI+V2F5bmU8L3NwYW4+PC9wPg0KDQo8cCBjbGFzcz0iTXNvTm9y
+bWFsIj48Yj48c3BhbiBzdHlsZT0iY29sb3I6IzAwMjA2MCI+wqA8L3NwYW4+PC9iPjwvcD4NCg0K
+PHAgY2xhc3M9Ik1zb05vcm1hbCI+PGI+PHNwYW4gc3R5bGU9ImNvbG9yOiMwMDIwNjAiPldheW5l
+IEQuIEtpbW1lbDxicj4NCjwvc3Bhbj48L2I+PHNwYW4gc3R5bGU9ImNvbG9yOiMwMDIwNjAiPk1h
+bmFnaW5nIFBhcnRuZXI8YnI+DQo8YnI+DQo8Yj5FVEYgVmVudHVyZSBGdW5kczwvYj48L3NwYW4+
+PGI+PHNwYW4gc3R5bGU9ImNvbG9yOiMwMDFGNUYiPiA8YnI+DQo8L3NwYW4+PC9iPjxzcGFuIHN0
+eWxlPSJjb2xvcjpibGFjayI+cGhvbmU6IDYxMC44MjUuMDI1MCB8IGZheDogNjEwLjgyNS4wMjA1
+IDxicj4NCmUtbWFpbDogPGEgaHJlZj0ibWFpbHRvOndheW5lQGV0ZnZlbnR1cmVmdW5kcy5jb20i
+IHRhcmdldD0iX2JsYW5rIj48c3BhbiBzdHlsZT0iY29sb3I6Ymx1ZSI+d2F5bmVAZXRmdmVudHVy
+ZWZ1bmRzLmNvbTwvc3Bhbj48L2E+fA0KPGEgaHJlZj0iaHR0cDovL3d3dy5ldGZ2ZW50dXJlZnVu
+ZHMuY29tLyIgdGFyZ2V0PSJfYmxhbmsiPjxzcGFuIHN0eWxlPSJjb2xvcjpibHVlIj53d3cuZXRm
+dmVudHVyZWZ1bmRzLmNvbTwvc3Bhbj48L2E+PC9zcGFuPjwvcD4NCg0KPHAgY2xhc3M9Ik1zb05v
+cm1hbCI+wqA8L3A+DQoNCjwvZGl2Pg0KDQo8L2Rpdj4NCg0KDQo8L2Jsb2NrcXVvdGU+PC9kaXY+
+PGJyPjxiciBjbGVhcj0iYWxsIj48YnI+LS0gPGJyPkVyaWMgRC4gU2Nod2VyaW48YnI+Um9zZW1v
+bnQgU2VuZWNhIFBhcnRuZXJzPGJyPigyMDIpIDMzMy0xODgwPGJyPjxhIGhyZWY9Im1haWx0bzpl
+c2Nod2VyaW5Acm9zZW1vbnRzZW5lY2EuY29tIj5lc2Nod2VyaW5Acm9zZW1vbnRzZW5lY2EuY29t
+PC9hPjxicj48YnI+DQo=
+
+------_=_NextPart_001_01CA98A3.24A5D11C--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114858</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263863015</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3183</string>
+</dict>
+</plist>

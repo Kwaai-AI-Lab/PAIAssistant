@@ -1,0 +1,159 @@
+7958      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs209309wey; Sat, 16 Jan 2010 11:38:23
+ -0800 (PST)
+Received: by 10.101.27.10 with SMTP id e10mr6955391anj.54.1263670703171; Sat,
+ 16 Jan 2010 11:38:23 -0800 (PST)
+Return-Path: <261penn@gmail.com>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 9si6681221gxk.6.2010.01.16.11.38.21; Sat, 16
+ Jan 2010 11:38:22 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.73 is neither permitted nor
+ denied by domain of 261penn@gmail.com) client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.73
+ is neither permitted nor denied by domain of 261penn@gmail.com)
+ smtp.mail=261penn@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: 261penn@gmail.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-54/SG:2 1/16/2010 1:37:51 PM
+X-GBUdb-Analysis: 0, 72.32.253.164, Ugly c=1 p=-0.848088 Source White
+X-Signature-Violations: 0-0-0-7708-c
+X-Note: Spam Tests Failed:
+X-Country-Path: CANADA->->->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.164
+X-Note-Reverse-DNS: fe10.exg4.exghost.com
+X-Note-WHTLIST: 261penn@gmail.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.164] (HELO fe10.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 85541565
+ for hbiden@rosemontseneca.com; Sat, 16 Jan 2010 13:38:27 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe10.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Sat, 16 Jan 2010 13:38:21 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 273148732
+ for hbiden@senecaga.com; Sat, 16 Jan 2010 13:38:27 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-54/SG:2 1/16/2010 1:36:42 PM
+X-GBUdb-Analysis: 0, 209.85.210.199, Ugly c=0.482495 p=-0.444444 Source Normal
+X-Signature-Violations: 0-0-0-6341-c
+X-Note: SCH-CT/SI:1-1269/SG:1 1/16/2010 1:38:22 PM
+X-Warn: BASE64TEXT This message has base64 encoded text.
+X-Note: Spam Tests Failed: BASE64TEXT
+X-Country-Path: CANADA->->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 209.85.210.199
+X-Note-Reverse-DNS: mail-yx0-f199.google.com
+X-Note-WHTLIST: 261penn@gmail.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G165 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mail-yx0-f199.google.com ([209.85.210.199] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 21240775 for
+ hbiden@senecaga.com; Sat, 16 Jan 2010 13:38:25 -0600
+Received: by yxe37 with SMTP id 37so983024yxe.31 for <hbiden@senecaga.com>;
+ Sat, 16 Jan 2010 11:38:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+ h=domainkey-signature:received:received:x-rim-org-msg-ref-id
+ :message-id:content-transfer-encoding:reply-to:x-priority
+ :sensitivity:importance:subject:to:from:date:content-type :mime-version;
+ bh=c963zgRwoB4DRiARxdqrNWpXm9Cai9YwmOZG/e/FMgQ=;
+ b=T3/yeeYlu9xJhGl9niU9DULKon4PwAN4MSnZSZtGtuy9K9nCBDc7eUYQxdlMKe+AcC
+ FmZktGE4uqixuujANZgoO2Xmgcsd0iX/nW9r7trSD+4hoP1VXDr7x3Yup7HVYJ2Aa8De
+ apALyXfjuaEjJJ/hR4cTITE3HnnR8bSxy9l8Q=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+ h=x-rim-org-msg-ref-id:message-id:content-transfer-encoding:reply-to
+ :x-priority:sensitivity:importance:subject:to:from:date:content-type
+ :mime-version;
+ b=Ki4plRkPFiamYDempv5YyswhQXVYP+Xb2d2V2ITy5cmztk3gOJ0O/SBVFr/EF8fX3+
+ I1z7xpUBx4tscUmztJPcrIYQTHm2J1qPIH75Tc0gqwIaEWWSG0qUIymkvhSdZbd/pEcM
+ yQPBYhktMjmDNtXeOCA+qvylvqo8po70l8lkg=
+Received: by 10.151.58.8 with SMTP id l8mr2965488ybk.59.1263670700732; Sat, 16
+ Jan 2010 11:38:20 -0800 (PST)
+Return-Path: <261penn@gmail.com>
+Received: from bda398.bisx.prod.on.blackberry
+ (bda-67-223-87-199.bise.na.blackberry.com [67.223.87.199]) by mx.google.com
+ with ESMTPS id 23sm1050580yxe.18.2010.01.16.11.38.19 (version=SSLv3
+ cipher=RC4-MD5); Sat, 16 Jan 2010 11:38:19 -0800 (PST)
+X-rim-org-msg-ref-id: 1887825206
+Message-ID: <1887825206-1263670697-cardhu_decombobulator_blackberry.rim.net-1902307496-@bda392.bisx.prod.on.blackberry>
+Content-Transfer-Encoding: base64
+Reply-To: 261penn@gmail.com
+X-Priority: Normal
+Sensitivity: Normal
+Importance: Normal
+Subject: Fw: list
+To: "Hunter Biden" <hbiden@senecaga.com>
+From: 261penn@gmail.com
+Date: Sat, 16 Jan 2010 19:38:14 +0000
+Content-Type: text/plain; charset="Windows-1252"
+MIME-Version: 1.0
+X-OriginalArrivalTime: 16 Jan 2010 19:38:21.0475 (UTC)
+ FILETIME=[75FD2F30:01CA96E3]
+
+Ci0tLS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0tLS0KRnJvbTogTWlrZSBEb25pbG9uClRvOiBBbGV4
+IFNueWRlci1NYWNrbGVyClRvOiBiZWF1YkBjb21jYXN0Lm5ldApUbzogVGVkIEthdWZtYW4KU3Vi
+amVjdDogUmU6IGxpc3QKU2VudDogSmFuIDE2LCAyMDEwIDEwOjI5IEFNCgpCZWF1LCBBdHRhY2hl
+ZCBpcyBhIGZpcnN0IGRyYWZ0IGZvciB0aGUgYW5ub3VuY2VtZW50LiBOb3Qgc3VyZSBpZiB0aGlz
+IGlzIHdoZXJlIHlvdSB3YW50IHRvIGhlYWQsIGJ1dCBJIHRob3VnaHQgaXQgd291bGQgYmUgZ29v
+ZCB0byBoYXZlIHNvbWV0aGluZyBmb3IgeW91IHRvIHJlYWN0IHRvIHNvb25lciB0aGFuIGxhdGVy
+LqAgTG90cyBvZiB0aGluZ3MgdG8gdGhpbmsgYWJvdXQ6oCAoMSkgU2hvdWxkIHlvdSBtZW50aW9u
+IENhc3RsZT8gKDIpIFNob3VsZCB3ZSBkcm9wIGFueSByZWZlcmVuY2UgdG8gdGhlIGlzc3Vlcz8g
+KDMpIERvZXMgaXQgbmVlZCB0byBleHBsaWNpdGx5IHNheSB5b3UncmUgcnVubmluZyBmb3IgcmVl
+bGVjdGlvbj+gICg0KSBTaG91bGQgaXQgcHJpbWFyaWx5IGJlIGZvY3VzZWQgb24gdGhlIEJyYWRs
+ZXkgY2FzZT8gKDUpIElzIGFueXRoaW5nIHNhaWQgaGVyZSB0aGF0IGNvdWxkIGNhdXNlIGEgcHJv
+YmxlbSBpbiB0aGUgQnJhZGxleSBpbnZlc3RpZ2F0aW9uPyAoNikgQ2FuIHdlIGJlIGV2ZW4gdG91
+Z2hlciBvbiB0aGUgbGFuZ3VhZ2Ugb24gdGhlIEJyYWRsZXkgY2FzZT8gKDcpIFNob3VsZCB3ZSBt
+ZW50aW9uIGhvdyB5b3UncmUgZGV0ZXJtaW5lZCB0byBnZXQgdG8gdGhlIGJvdHRvbSBvZiB3aHkg
+dGhpcyBndXkgd2Fzbid0IGNhdWdodCBzb29uZXIgJiBtYWtpbmcgc3VyZSBpdCBuZXZlciBoYXBw
+ZW5zIGFnYWluPyAoOCkgU2hvdWxkL0NhbiB5b3Ugc2F5IHlvdSdyZSBkZXRlcm1pbmVkIHRvIHNl
+ZSB0aGF0IGhlIG5ldmVyIGxlYXZlcyBwcmlzb24gJiBuZXZlciBodXJ0cyBhbm90aGVyIGNoaWxk
+PyAoOSkgU2hvdWxkIGl0IG1lbnRpb24gdGhlIHBvc3NpYmlsaXR5IG9mIGEgU2VuYXRlIHJ1biBp
+biB0aGUgZnV0dXJlPyBOb3Qgc3VyZSBpZiB5b3UndmUgZGVjaWRlZCBvbiBNb25kYXkgb3IgV2Vk
+bmVzZGF5L1RodXJzZGF5IHRvIGRvIHRoaXMuIFRoYW5rcy4gTWlrZSAtLS0tLU9yaWdpbmFsIE1l
+c3NhZ2UtLS0tLSBGcm9tOiBBbGV4YW5kZXIgU255ZGVyLU1hY2tsZXIgPHNtYWNrbGVyYUBnbWFp
+bC5jb20+IFRvOiBCQiA8YmVhdWJAY29tY2FzdC5uZXQ+OyBBY2Rvbmlsb24gPGFjZG9uaWxvbkBh
+b2wuY29tPjsgdGVkIGthdWZtYW4gPHRlZGthdWZtYW5AY29tY2FzdC5uZXQ+IFNlbnQ6IEZyaSwg
+SmFuIDE1LCAyMDEwIDI6MDYgcG0gU3ViamVjdDogbGlzdCBRdWljayBsaXN0LiBNb3JlIHRvIGNv
+bWUuIEJlYXUgLS0gaWYgeW91IHdhbnQgdG8gaGF2ZSBhIGNvbmZlcmVuY2UgY2FsbCBhdCBhbnkg
+dGltZSB0b2RheS90aGlzIHdlZWtlbmQsIHdlIGNhbiB1c2UgdGhlIGZvbGxvd2luZyBpbmZvcm1h
+dGlvbiB3aGVuZXZlciB3ZSB3YW50OiBEaWFsLWluIE51bWJlcjogKDIxOCkgMzM5LTI1MDAgQWNj
+ZXNzIENvZGU6IDQ3NDY0MiBUaW1pbmcgSWYgTW9uZGF5OiBDYWxsIFNjaHVtZXIgU2F0dXJkYXkg
+liCTSSB3YW50ZWQgdG8gbGV0IHlvdSBrbm93IEmSdmUgbWFkZSBteSBkZWNpc2lvboVzb3JyeSB3
+ZSBjYW6SdCBnZXQgZGlubmVyIGJ1dCB3YW50ZWQgdG8gY2FsbCB5b3UgZmlyc3SFSSBrbm93IHlv
+dZJyZSBpbiBhIGZpZ2h0IGluIE1hc3NhY2h1c2V0dHMgliB0byB0aGUgZXh0ZW50IHlvdSB0aGlu
+ayBhbnkgYW5ub3VuY2VtZW50IG9mIG1pbmUgd2lsbCBoYXZlIGFuIGltcGFjdCwgSSBhcHByZWNp
+YXRlIHRoYXQuIEkgd291bGQgdGhvdWdoLCBhbGwgdGhpbmdzIGJlaW5nIGVxdWFsLCBsaWtlIHRv
+IGdldCB0aGlzIG92ZXIgd2l0aCBhcyBzb29uIGFzIHBvc3NpYmxlLCBsaWtlbHkgTW9uZGF5hVth
+c2sgaWYgbmVlZCB0byBjYWxsIFJlaWQvTWVuZW5kZXpdlCBQZXJzb25hbCBjYWxscyBvdmVyIHdl
+ZWtlbmQ6IFZCTywgTWlzc3ksIGFueSBvdGhlciBmYW1pbHkgQ2FsbCBsaXN0IGZvciBNb25kYXkg
+bW9ybmluZzogTWVuZW5kZXosIFJlaWQgKGlmIG5vdCBjYWxsZWQgYWxyZWFkeSBwZXIgU2NodW1l
+cikgQ2FycGVyICwgRGFuaWVsbG8sIEFsYW4gSCAoaWYgaGUgZG9lc26SdCBrbm93IGFscmVhZHkg
+cGVyIE1pa2UvUm9uIEspIFZQIHByZXNzIG9mZmljZSAodmlhIEFsYQo=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114854</integer>
+	<key>date-last-viewed</key>
+	<integer>1632051422</integer>
+	<key>date-received</key>
+	<integer>1263670702</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>3057</string>
+</dict>
+</plist>

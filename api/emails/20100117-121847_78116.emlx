@@ -1,0 +1,404 @@
+13703     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs243274wey; Sun, 17 Jan 2010 07:19:10
+ -0800 (PST)
+Received: by 10.224.125.76 with SMTP id x12mr3864042qar.208.1263741549940;
+ Sun, 17 Jan 2010 07:19:09 -0800 (PST)
+Return-Path: <Acdonilon@aol.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 8si9909561qwj.43.2010.01.17.07.19.09; Sun, 17
+ Jan 2010 07:19:09 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.69 is neither permitted nor
+ denied by domain of Acdonilon@aol.com) client-ip=72.32.253.69;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.69
+ is neither permitted nor denied by domain of Acdonilon@aol.com)
+ smtp.mail=Acdonilon@aol.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: acdonilon@aol.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-10/SG:5 1/17/2010 9:18:51 AM
+X-GBUdb-Analysis: 0, 72.32.253.164, Ugly c=1 p=-0.833401 Source White
+X-Signature-Violations: 0-0-0-19267-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->UNITED STATES->UNITED STATES->->UNITED STATES->UNITED
+ STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.164
+X-Note-Reverse-DNS: fe10.exg4.exghost.com
+X-Note-WHTLIST: Acdonilon@aol.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.164] (HELO fe10.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 85575445
+ for hbiden@rosemontseneca.com; Sun, 17 Jan 2010 09:19:12 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe10.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Sun, 17 Jan 2010 09:19:08 -0600
+Received: from [10.242.229.36] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 273312558
+ for hbiden@senecaga.com; Sun, 17 Jan 2010 09:19:12 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-10/SG:5 1/17/2010 9:18:59 AM
+X-GBUdb-Analysis: 0, 64.12.206.39, Ugly c=0 p=0 Source New
+X-Signature-Violations: 0-0-0-17879-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->UNITED STATES->UNITED STATES->->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 64.12.206.39
+X-Note-Reverse-DNS: imr-ma01.mx.aol.com
+X-Note-WHTLIST: Acdonilon@aol.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from imr-ma01.mx.aol.com ([64.12.206.39] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 21306622 for
+ hbiden@senecaga.com; Sun, 17 Jan 2010 09:19:11 -0600
+Received: from imo-da02.mx.aol.com (imo-da02.mx.aol.com [205.188.169.200]) by
+ imr-ma01.mx.aol.com (8.14.1/8.14.1) with ESMTP id o0HFItR3015946; Sun, 17 Jan
+ 2010 10:18:55 -0500
+Received: from Acdonilon@aol.com by imo-da02.mx.aol.com  (mail_out_v42.5.) id
+ o.cb3.6181be8f (43845); Sun, 17 Jan 2010 10:18:53 -0500 (EST)
+Received: from smtprly-ma03.mx.aol.com (smtprly-ma03.mx.aol.com
+ [64.12.207.142]) by cia-dc04.mx.aol.com (v127.7) with ESMTP id
+ MAILCIADC042-5c564b532a586; Sun, 17 Jan 2010 10:18:50 -0500
+Received: from webmail-m033 (webmail-m033.sim.aol.com [64.12.101.216]) by
+ smtprly-ma03.mx.aol.com (v127.7) with ESMTP id
+ MAILSMTPRLYMA034-5c564b532a586; Sun, 17 Jan 2010 10:18:48 -0500
+References: <1021741836-1263730905-cardhu_decombobulator_blackberry.rim.net-1218622086-@bda003.bisx.prod.on.blackberry>
+ <3BFC8FA5-3383-4EBE-8F7F-67F9A22DC701@gmail.com>
+ <645f33081001170549l3a21093dt85d6d23cb0181fb7@mail.gmail.com>
+ <4CB18993-8F2E-433B-82C3-5C8B7AF14336@gmail.com>
+To: 261penn@gmail.com, smacklera@gmail.com
+Subject: Re: News journal
+Date: Sun, 17 Jan 2010 10:18:47 -0500
+X-AOL-IP: 68.100.184.21
+In-Reply-To: <4CB18993-8F2E-433B-82C3-5C8B7AF14336@gmail.com>
+X-MB-Message-Source: WebUI
+Received: from 68.100.184.21 by webmail-m033.sysops.aol.com (64.12.101.216)
+ with HTTP (WebMailUI); Sun, 17 Jan 2010 10:18:47 -0500
+MIME-Version: 1.0
+From: acdonilon@aol.com
+X-MB-Message-Type: User
+Content-Type: multipart/alternative;
+ boundary="--------MB_8CC659F80058B6F_BD0_3A9F4_webmail-m033.sysops.aol.com"
+X-Mailer: AOL Webmail 30462-STANDARD
+Cc: tedkaufman@comcast.net, hbiden@senecaga.com
+Message-Id: <8CC659F7FFC05EF-BD0-1D3DA@webmail-m033.sysops.aol.com>
+X-Spam-Flag: NO
+X-AOL-SENDER: Acdonilon@aol.com
+Return-Path: Acdonilon@aol.com
+X-OriginalArrivalTime: 17 Jan 2010 15:19:08.0180 (UTC)
+ FILETIME=[69EA7540:01CA9788]
+
+
+----------MB_8CC659F80058B6F_BD0_3A9F4_webmail-m033.sysops.aol.com
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+Beau,
+
+
+I'm around all day for a call.
+
+
+Given how this story in Massachusetts has developed over the last few days=
+, I would recommend waiting until after Tuesday. Announcing your decision=
+ -- or leaking it -- before Tuesday will not stop some people from saying=
+ your decision was a political calculation. That is part of every story wr=
+itten about every Democrat who has decided not to run for the Senate this=
+ year. That is going to be true before or after Tuesday -- although less=
+ of a story if by some chance Coakley pulls it out.=20
+
+
+But, saying something at this point, I think it will hurt you. You will im=
+mediately become inserted in the stories on Mass -- "More bad news for the=
+ Democrats just hours before the polls open in Massachusetts". People will=
+ ask "Why couldn't he have waited a day or two?". I know this may not seem=
+ fair to you -- to somehow be caught up in the mess in Massachusetts -- bu=
+t I think it's a real consideration -- and one that says you should wait=
+ not because it's in Coakley's or the party's interests to do so -- but be=
+cause it's in your best interests.
+
+
+In my opinion the best push-back against this storyline is (a) the belief=
+ in the Delaware press corps that the Bradley case has made it very diffic=
+ult for you to run for the Senate and (b) what you say and how you look sa=
+ying it when you get asked the question.
+
+
+Again, around all afternoon to talk.
+
+
+Thanks.
+
+
+Mike
+
+
+
+
+
+-----Original Message-----
+From: Beau <261penn@gmail.com>
+To: Alexander Snyder-Mackler <smacklera@gmail.com>
+Cc: Kaufman Ted <tedkaufman@comcast.net>; Donilon Mike <acdonilon@aol.com>=
+; Biden Hunter <hbiden@senecaga.com>
+Sent: Sun, Jan 17, 2010 9:16 am
+Subject: Re: News journal
+
+
+A --
+Would  you please prepare draft of q and a's as well as the home base talk=
+ing points for purposes of press conf.  Would you all be avail to discuss=
+ on conf call sometime today. =20
+
+
+also, does the Coakley dynamic not speak to doing this tomorrow and/or eve=
+n by statement or posting of video on AG website.  As A points out, are we=
+ being too respectful of party, Mass, etc to out detriment, especially whe=
+n Mass has absolutley nothing to do with it. =20
+
+
+Or, might we simply begin calls tonight to Schumer etc so it is on record=
+ as a decsion pre-dating Mass outcome and if it leaks, it leaks. =20
+
+
+
+
+On Jan 17, 2010, at 8:49 AM, Alexander Snyder-Mackler wrote:
+
+
+It is a difficult storyline to avoid, but assuming you take questions, one=
+ will be "when/how did you decide?" "Hallie and I decided last week, and=
+ I began telling a few people over the weekend" if you say a name or two,=
+ they will either take your word for it or call to confirm. It's not going=
+ to kill the storyline but could help.=20
+ Still, this is my biggest concern with doing it later in the week -- the=
+ combination of "backing away from castle" and a coakley loss in the pundi=
+ts' reading into your decision.
+
+
+
+ On Sun, Jan 17, 2010 at 8:39 AM, Beau <261penn@gmail.com> wrote:
+
+ other than making announcement b/f tues, which i think would be bad form=
+ in eyes of party, I'm not sure what we can do about that story line other=
+ than what our statement says and the facts are...?
+
+=20
+=20
+ On Jan 17, 2010, at 7:25 AM, tedkaufman@comcast.net wrote:
+=20
+=20
+ In story A3 story today primarily about MA race "The public's mood could=
+ scare off establishment democrats considering entering races, such as Bea=
+u Biden for Delaware's open senate seat..."
+ Sent from my Verizon Wireless BlackBerry
+=20
+=20
+=20
+
+
+
+
+--=20
+
+Alexander Snyder-Mackler
+(302) 598-8678
+
+
+=3D
+=20
+
+
+----------MB_8CC659F80058B6F_BD0_3A9F4_webmail-m033.sysops.aol.com
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<font color=3D'black' size=3D'2' face=3D'arial'>Beau,
+<div><br>
+</div>
+
+<div>I'm around all day for a call.
+<div><br>
+</div>
+
+<div>Given how this story in Massachusetts has developed over the last few=
+ days, I would recommend waiting until after Tuesday. Announcing your deci=
+sion -- or leaking it -- before Tuesday will not stop some people from say=
+ing your decision was a political calculation. That is part of every story=
+ written about every Democrat who has decided not to run for the Senate th=
+is year. That is going to be true before or after Tuesday -- although less=
+ of a story if by some chance Coakley pulls it out.&nbsp;</div>
+
+<div><br>
+</div>
+
+<div>But, saying something at this point, I think it will hurt you. You wi=
+ll immediately become inserted in the stories on Mass -- "More bad news fo=
+r the Democrats just hours before the polls open in Massachusetts". People=
+ will ask "Why couldn't he have waited a day or two?". I know this may not=
+ seem fair to you -- to somehow be caught up in the mess in Massachusetts=
+ -- but I think it's a real consideration -- and one that says you should=
+ wait not because it's in Coakley's or the party's interests to do so --=
+ but because it's in your best interests.</div>
+
+<div><br>
+</div>
+
+<div>In my opinion the best push-back against this storyline is (a) the be=
+lief in the Delaware press corps that the Bradley case has made it very di=
+fficult for you to run for the Senate and (b) what you say and how you loo=
+k saying it when you get asked the question.</div>
+
+<div><br>
+</div>
+
+<div>Again, around all afternoon to talk.</div>
+
+<div><br>
+</div>
+
+<div>Thanks.</div>
+
+<div><br>
+</div>
+
+<div>Mike</div>
+
+<div><br>
+
+<div style=3D"clear:both"></div>
+<br>
+<br>
+
+<div style=3D"font-family:helvetica,arial; font-size: 10pt; color:black">-=
+----Original Message-----<br>
+From: Beau &lt;261penn@gmail.com&gt;<br>
+To: Alexander Snyder-Mackler &lt;smacklera@gmail.com&gt;<br>
+Cc: Kaufman Ted &lt;tedkaufman@comcast.net&gt;; Donilon Mike &lt;acdonilon=
+@aol.com&gt;; Biden Hunter &lt;hbiden@senecaga.com&gt;<br>
+Sent: Sun, Jan 17, 2010 9:16 am<br>
+Subject: Re: News journal<br>
+<br>
+
+
+
+
+
+
+
+<div id=3D"AOLMsgPart_2_9c219885-cc2c-4763-8ed6-092ac0acf990">
+
+
+<div>A --</div>
+
+<div>Would &nbsp;you please prepare draft of q and a's as well as the home=
+ base talking points for purposes of press conf. &nbsp;Would you all be av=
+ail to discuss on conf call sometime today. &nbsp;</div>
+
+<div><br>
+</div>
+
+<div>also, does the Coakley dynamic not speak to doing this tomorrow and/o=
+r even by statement or posting of video on AG website. &nbsp;As A points=
+ out, are we being too respectful of party, Mass, etc to out detriment, es=
+pecially when Mass has absolutley nothing to do with it. &nbsp;</div>
+
+<div><br>
+</div>
+
+<div>Or, might we simply begin calls tonight to Schumer etc so it is on re=
+cord as a decsion pre-dating Mass outcome and if it leaks, it leaks. &nbsp=
+;</div>
+
+<div><br>
+</div>
+<br>
+
+<div>
+<div>On Jan 17, 2010, at 8:49 AM, Alexander Snyder-Mackler wrote:</div>
+<br class=3D"Apple-interchange-newline"><blockquote type=3D"cite">It is a=
+ difficult storyline to avoid, but assuming you take questions, one will=
+ be "when/how did you decide?" "Hallie and I decided last week, and I bega=
+n telling a few people over the weekend" if you say a name or two, they wi=
+ll either take your word for it or call to confirm. It's not going to kill=
+ the storyline but could help. <br>
+ Still, this is my biggest concern with doing it later in the week -- the=
+ combination of "backing away from castle" and a coakley loss in the pundi=
+ts' reading into your decision.<br>
+<br>
+<br>
+
+<div class=3D"gmail_quote"> On Sun, Jan 17, 2010 at 8:39 AM, Beau <span di=
+r=3D"ltr">&lt;<a href=3D"mailto:261penn@gmail.com">261penn@gmail.com</a>&g=
+t;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204,=
+ 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"> other than mak=
+ing announcement b/f tues, which i think would be bad form in eyes of part=
+y, I'm not sure what we can do about that story line other than what our=
+ statement says and the facts are...?
+<div>
+<div></div>
+
+<div class=3D"h5"> <br>
+ <br>
+ On Jan 17, 2010, at 7:25 AM, <a href=3D"mailto:tedkaufman@comcast.net">te=
+dkaufman@comcast.net</a> wrote:<br>
+ <br>
+ <blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204=
+, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"> In story A3=
+ story today primarily about MA race "The public's mood could scare off es=
+tablishment democrats considering entering races, such as Beau Biden for=
+ Delaware's open senate seat..."<br>
+ Sent from my Verizon Wireless BlackBerry<br>
+ </blockquote> <br>
+ </div>
+</div>
+</blockquote></div>
+<br>
+<br clear=3D"all"><br>
+-- <br>
+<br>
+Alexander Snyder-Mackler<br>
+(302) 598-8678<br>
+</blockquote></div>
+<br>
+=3D
+
+</div>
+ <!-- end of AOLMsgPart_2_9c219885-cc2c-4763-8ed6-092ac0acf990 -->
+
+
+
+</div>
+</div>
+</div>
+</font>
+
+----------MB_8CC659F80058B6F_BD0_3A9F4_webmail-m033.sysops.aol.com--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114856</integer>
+	<key>date-last-viewed</key>
+	<integer>1632051425</integer>
+	<key>date-received</key>
+	<integer>1263741549</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3074</string>
+</dict>
+</plist>

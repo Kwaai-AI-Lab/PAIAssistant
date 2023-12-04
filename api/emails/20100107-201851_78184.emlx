@@ -1,0 +1,104 @@
+4032      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs144706wev; Thu, 7 Jan 2010
+ 15:18:56 -0800 (PST)
+Received: by 10.90.126.2 with SMTP id y2mr2620441agc.108.1262906335224; Thu,
+ 07 Jan 2010 15:18:55 -0800 (PST)
+Return-Path: <tfratto@hamiltonps.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 21si1305773gxk.45.2010.01.07.15.18.54; Thu, 07
+ Jan 2010 15:18:54 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by domain of tfratto@hamiltonps.com) client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by domain of tfratto@hamiltonps.com)
+ smtp.mail=tfratto@hamiltonps.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: tfratto@hamiltonps.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-88/SG:2 1/7/2010 5:18:34 PM
+X-GBUdb-Analysis: 0, 72.32.253.162, Ugly c=0.928275 p=-0.958619 Source White
+X-Signature-Violations: 0-0-0-2458-c
+X-Note: Spam Tests Failed:
+X-Country-Path: UNITED STATES->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.162
+X-Note-Reverse-DNS: fe07.exg4.exghost.com
+X-Note-WHTLIST: tfratto@hamiltonps.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.162] (HELO fe07.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 93223610
+ for hbiden@rosemontseneca.com; Thu, 07 Jan 2010 17:19:02 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe07.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Thu, 7 Jan 2010 17:18:54 -0600
+Received: from [10.242.228.214] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 268429234
+ for hbiden@senecaga.com; Thu, 07 Jan 2010 17:19:00 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-88/SG:2 1/7/2010 5:18:41 PM
+X-GBUdb-Analysis: 0, 206.225.164.30, Ugly c=0.44896 p=-0.25641 Source Normal
+X-Signature-Violations: 0-0-0-1069-c
+X-Note: SCH-CT/SI:0-1271/SG:1 1/7/2010 5:18:21 PM
+X-Warn: BASE64TEXT This message has base64 encoded text.
+X-Note: Spam Tests Failed: BASE64TEXT
+X-Country-Path: UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 206.225.164.30
+X-Note-Reverse-DNS: exhub020-3.exch020.serverdata.net
+X-Note-WHTLIST: tfratto@hamiltonps.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G165 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from EXHUB020-3.exch020.serverdata.net ([206.225.164.30] verified)
+ by inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 18529503
+ for hbiden@senecaga.com; Thu, 07 Jan 2010 17:19:00 -0600
+Received: from EXVMBX020-12.exch020.serverdata.net ([169.254.3.212]) by
+ EXHUB020-3.exch020.serverdata.net ([206.225.164.30]) with mapi; Thu, 7 Jan
+ 2010 15:18:51 -0800
+From: Tony Fratto <tfratto@hamiltonps.com>
+To: "hbiden@senecaga.com" <hbiden@senecaga.com>, "kathleenbiden@mac.com"
+ <kathleenbiden@mac.com>
+Date: Thu, 7 Jan 2010 15:18:51 -0800
+Subject: Hey
+Thread-Topic: Hey
+Thread-Index: AcqP78XEs3oxY/fsTdSEKVpyLID25w==
+Message-ID: <0C04C555AB06234ABF0D14A01C26B3B115197E67AA@EXVMBX020-12.exch020.serverdata.net>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+Return-Path: tfratto@hamiltonps.com
+X-OriginalArrivalTime: 07 Jan 2010 23:18:54.0209 (UTC)
+ FILETIME=[C7986710:01CA8FEF]
+
+DQpSZWFsbHkgc29ycnkgdG8gaGVhciBhYm91dCB5b3VyIG1vbS4gIEhhbmcgaW4gdGhlcmUuIE91
+ciB0aG91Z2h0cyBhbmQgcHJheWVycyBhcmUgd2l0aCB5b3UgYWxsLiAgQmVzdCwgdA0K
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114605</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1262906334</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>2463</string>
+</dict>
+</plist>

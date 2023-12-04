@@ -1,0 +1,226 @@
+10083     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs133923weh; Fri, 19 Feb 2010
+ 09:19:12 -0800 (PST)
+Received: by 10.90.37.14 with SMTP id k14mr3674851agk.53.1266599952111; Fri,
+ 19 Feb 2010 09:19:12 -0800 (PST)
+Return-Path: <ebrit@prodigy.net>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 19si1013796gxk.78.2010.02.19.09.19.10; Fri, 19
+ Feb 2010 09:19:11 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.73 is neither permitted nor
+ denied by domain of ebrit@prodigy.net) client-ip=72.32.253.73;
+DomainKey-Status: good (test mode)
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.73
+ is neither permitted nor denied by domain of ebrit@prodigy.net)
+ smtp.mail=ebrit@prodigy.net; domainkeys=pass (test mode)
+ header.From=ebrit@prodigy.net
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: ebrit@prodigy.net
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-230/SG:5 2/19/2010 11:18:18 AM
+X-GBUdb-Analysis: 0, 72.32.253.164, Ugly c=1 p=-0.765856 Source Normal
+X-Signature-Violations: 0-0-0-11232-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.164
+X-Note-Reverse-DNS: fe10.exg4.exghost.com
+X-Note-WHTLIST: ebrit@prodigy.net
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.164] (HELO fe10.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 91325986
+ for hbiden@rosemontseneca.com; Fri, 19 Feb 2010 11:19:18 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe10.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Fri, 19 Feb 2010 11:19:09 -0600
+Received: from [10.242.229.2] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 293378251
+ for hbiden@senecaga.com; Fri, 19 Feb 2010 11:19:17 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-230/SG:5 2/19/2010 11:18:57 AM
+X-GBUdb-Analysis: 0, 76.13.13.242, Ugly c=0.479592 p=-0.485714 Source Normal
+X-Signature-Violations: 0-0-0-9716-c
+X-Note: SCH-CT/SI:0-1272/SG:1 2/19/2010 11:18:37 AM
+X-Warn: SPAMDOMAINS smtp103.sbc.mail.ac4.yahoo.com not valid for Sender.
+X-Note: Spam Tests Failed: SPAMDOMAINS
+X-Country-Path: ->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 76.13.13.242
+X-Note-Reverse-DNS: smtp103.sbc.mail.ac4.yahoo.com
+X-Note-WHTLIST: ebrit@prodigy.net
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G270 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from smtp103.sbc.mail.ac4.yahoo.com ([76.13.13.242] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with SMTP id 32911181 for
+ hbiden@senecaga.com; Fri, 19 Feb 2010 11:19:16 -0600
+Received: (qmail 16672 invoked from network); 19 Feb 2010 17:19:07 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=prodigy.net;
+ h=Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Message-ID:From:To:Cc:Subject:Date:MIME-Version:Content-Type:X-Priority:X-MSMail-Priority:X-Mailer:X-MimeOLE;
+ b=FeyHdR8YwaXFQ0RvNo2vu3yGg/pgR8aRN8Ds8BGK6gXfwx1sJ/NA8a+ybb8kLvDEqjQKAcj9m8mZWuweMC8AOCn4FcNw1lNB8/1oMs7mVwLYsocWr47AAkDzQACFZhHkBWkcFYMRit7osqzJnJtavmtWbUPwhJhdrXGlCOE+zWY=
+  ;
+Received: from c-98-233-39-60.hsd1.dc.comcast.net (ebrit@98.233.39.60 with
+ login) by smtp103.sbc.mail.ac4.yahoo.com with SMTP; 19 Feb 2010 09:19:07
+ -0800 PST
+X-Yahoo-SMTP: LvrO3ASswBCUg_PCoL2kiyH.ct1jYIFW78MT.3Ac
+X-YMail-OSG: t0nzMf8VM1mcaem_PodDICiz4J2S8eRIKJcj9pA.UHyLz6OuBJP34mwWPBUi2Vz76UwGUZzJCWZxDANyryKuTdGxKdvbMPHm9_MOUvkXdHwyEocPKbf7PA7Yfh.oaBVithV6ogv2iXOSOEA_rp.wEXlHALrW7DKhR6Uablqea5Ycaek.SJisNh9FeZVDusDhu6sS_LTo7dubQUHBDmeOf2Z9tdufvLhXDwdujoMApF9EhAW3f5wkw.71jZgp3fE7h3AO13EmJ5ai26oobNUrjTidpPrjoXgi.L53WcNkZkCfDN4cga_jSa4-
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <68382C61AD2241C9A59EE45A198FE420@ownere996d83d4>
+From: "Elizabeth Britton" <ebrit@prodigy.net>
+To: <kathleenbiden@mac.com>, <hbiden@senecaga.com>, <psbomstein@comcast.net>,
+ <terriekolodziej@hotmail.com>, "Agnes Tabah" <agnestabah@gmail.com>,
+ <olwen.pongrace@gmail.com>, <dpongrace@akingump.com>,
+ <debbie.harmon@harmonco.com>, <rseder@mail.nih.gov>, <mwagner@icfi.com>,
+ <clewisphd@aol.com>, <jwills@howard.edu>, <otrl2001@aol.com>,
+ <mcyim@cox.net>, <ayime@locus.co.th>, <egray@willkie.com>, "Burr Gray"
+ <Burrgray@aol.com>, <jfeldmann810@comcast.net>, <Feldmann_Jeff@emc.com>,
+ <jbryant@phrma.org>, <biFriedland@verizon.net>, <cunninghamr@sidwell.edu>,
+ <pjgaylor2nd@verizon.net>, <cedunbar@erols.com>, <ccerf@starpower.net>,
+ <cmichaelosborne@mac.com>, <mchimes@gmail.com>, <lisafuentes@gmail.com>,
+ "Cohen-Fuentes family" <cohent@cua.edu>,
+ <fernando.laguarda@post.harvard.edu>, <kate.laguarda@gmail.com>,
+ <calliopevision@aol.com>, <carolinespringer@aol.com>,
+ <sspringer@mlaglobal.com>, <siglover@gibsondunn.com>,
+ <glover.Beata@gmail.com>, <ikfong@mindspring.com>, "Sharon Fong"
+ <stfong@mindspring.com>, <mickalakai@yahoo.com>, <Ajoshighani@worldbank.org>,
+ <pchone@cabinetchone.com>, <kkerr@cgsh.com>,
+ <alan.rosenfeld@capitallighting.com>, <mrradr@aol.com>,
+ <janetwhitmore@verizon.net>, <haroldw@milesrealty.com>, <wgkgs@aol.com>,
+ <CharmaineLescott@rcn.com>, <Philson_Lescott@fanniemae.com>,
+ <DianaWatts2@aol.com>
+Cc: "Nancy White" <ntwjmb@aol.com>, "Brooke Kennedy" <bkennedy2@yahoo.com>,
+ <ted.bristol@bakerd.com>
+Subject: Transportation permission forms
+Date: Fri, 19 Feb 2010 12:19:19 -0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_NextPart_000_0003_01CAB15D.C2CC1530"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5843
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Return-Path: ebrit@prodigy.net
+X-OriginalArrivalTime: 19 Feb 2010 17:19:09.0671 (UTC)
+ FILETIME=[A5F88770:01CAB187]
+
+
+------=_NextPart_000_0003_01CAB15D.C2CC1530
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=Windows-1252
+
+Hello all,
+
+Firstly, a correction from my previous e-mail about rowing waivers.  We =
+do need to have waivers completed before the girls can PRACTICE on the =
+water which, ice willing, may be fairly soon.  I think I may have left =
+the impression that the waivers were for racing purposes only.=20
+
+Now, yet another form to fill out.  The school requires that we submit =
+permission forms for transportation of all athletes to events and =
+practices outside of school.  You may already be familiar with this form =
+from other team sports. We will need to have this paperwork submitted =
+before the girls can make their first trip as a team, which will be to =
+the training session in Chestertown on Saturday, February 27.  The link =
+to the the form on Sidwell's website is:
+
+http://www.sidwell.edu/data/files/gallery/AthleticsFileGallery/drivingper=
+mission0910.pdf
+
+We will also use these permission forms in our carpool arrangements.
+
+At the moment,  we could use a few more parents who would be willing to =
+drive some of our rowers to Chestertown.  Please let me know if you =
+would be interested in helping out and I can begin to make a plan.
+
+Thanks again for your patience,
+Liz
+------=_NextPart_000_0003_01CAB15D.C2CC1530
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=Windows-1252
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.6000.16981" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2>Hello all,</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Firstly, a correction from my previous =
+e-mail about=20
+rowing waivers.&nbsp; We do need to have&nbsp;waivers completed before =
+the girls=20
+can PRACTICE on the water which, ice willing, may be fairly soon.&nbsp; =
+I think=20
+I may have left the impression that the waivers were for racing purposes =
+only.=20
+</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Now, yet another form to fill =
+out.&nbsp; The school=20
+requires that we submit permission forms for transportation of all =
+athletes to=20
+events and practices&nbsp;outside of school.&nbsp; You may already be =
+familiar=20
+with this form from other team sports.&nbsp;We will need to&nbsp;have=20
+this&nbsp;paperwork&nbsp;submitted before the&nbsp;girls can&nbsp;make =
+their=20
+first trip as a team, which will be to the training session&nbsp;in =
+Chestertown=20
+on&nbsp;Saturday,&nbsp;February 27.&nbsp;&nbsp;The link to the&nbsp;the =
+form on=20
+Sidwell's website is:</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><A=20
+href=3D"http://www.sidwell.edu/data/files/gallery/AthleticsFileGallery/dr=
+ivingpermission0910.pdf">http://www.sidwell.edu/data/files/gallery/Athlet=
+icsFileGallery/drivingpermission0910.pdf</A></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>We will also use these permission forms =
+in our=20
+carpool arrangements.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>At the moment,&nbsp; we could use a few =
+more=20
+parents who would be willing to drive some of our rowers to =
+Chestertown.&nbsp;=20
+Please let me know if you would be interested in helping out&nbsp;and I =
+can=20
+begin to make a plan.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Thanks again&nbsp;for your =
+patience,</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Liz</FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01CAB15D.C2CC1530--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114695</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266599951</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>5113</string>
+</dict>
+</plist>

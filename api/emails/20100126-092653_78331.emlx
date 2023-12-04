@@ -1,0 +1,149 @@
+5868      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs131027wey; Tue, 26 Jan 2010 04:27:00
+ -0800 (PST)
+Received: by 10.101.4.36 with SMTP id g36mr9675939ani.75.1264508818671; Tue,
+ 26 Jan 2010 04:26:58 -0800 (PST)
+Return-Path: <ovidal@sonnenschein.com>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 1si13045286gxk.74.2010.01.26.04.26.56; Tue, 26
+ Jan 2010 04:26:57 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning
+ ovidal@sonnenschein.com does not designate 72.32.253.73 as permitted sender)
+ client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of
+ transitioning ovidal@sonnenschein.com does not designate 72.32.253.73 as
+ permitted sender) smtp.mail=ovidal@sonnenschein.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: ovidal@sonnenschein.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-62/SG:2 1/26/2010 6:26:39 AM
+X-GBUdb-Analysis: 0, 72.32.253.153, Ugly c=1 p=-0.775388 Source Normal
+X-Signature-Violations: 0-0-0-5852-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->->PRIVATE->->UNITED STATES->PRIVATE->UNITED
+ STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.153
+X-Note-Reverse-DNS: fe04.exg4.exghost.com
+X-Note-WHTLIST: ovidal@sonnenschein.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G157 G158 G159 G160 G164 G165 G263
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.153] (HELO fe04.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 86828008
+ for hbiden@rosemontseneca.com; Tue, 26 Jan 2010 06:26:57 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe04.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Tue, 26 Jan 2010 06:26:56 -0600
+Received: from [10.242.229.36] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 278007627
+ for hbiden@senecaga.com; Tue, 26 Jan 2010 06:26:57 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-62/SG:2 1/26/2010 6:24:57 AM
+X-GBUdb-Analysis: 0, 216.223.171.43, Ugly c=0.226425 p=-0.333333 Source Normal
+X-Signature-Violations: 0-0-0-4542-c
+X-Note: SCH-CT/SI:1-1272/SG:1 1/26/2010 6:26:17 AM
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->->PRIVATE->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 216.223.171.43
+X-Note-Reverse-DNS: mx-02.sonnenschein.com
+X-Note-WHTLIST: ovidal@sonnenschein.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G157 G158 G159 G160 G164 G165 G263
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mx-02.sonnenschein.com ([216.223.171.43] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 24020747
+ for hbiden@senecaga.com; Tue, 26 Jan 2010 06:26:56 -0600
+Received: from CHI2KEXCN03.sonnenschein.com (10.217.181.62) by
+ mx-02.sonnenschein.com (192.168.204.22) with Microsoft SMTP Server id
+ 8.1.393.1; Tue, 26 Jan 2010 06:22:16 -0600
+Received: from CHIPEX07HTCA02.sonnenschein.com ([10.216.164.102]) by
+ CHI2KEXCN03.sonnenschein.com with Microsoft SMTPSVC(6.0.3790.1830); Tue, 26
+ Jan 2010 06:26:54 -0600
+Received: from GMTPEX07HTCA01.sonnenschein.com (10.217.164.101) by
+ CHIPEX07HTCA02.sonnenschein.com (10.216.164.102) with Microsoft SMTP Server
+ (TLS) id 8.1.393.1; Tue, 26 Jan 2010 06:26:54 -0600
+Received: from CHIPEX0704.sonnenschein.com ([10.217.164.22]) by
+ GMTPEX07HTCA01.sonnenschein.com ([10.217.164.101]) with mapi; Tue, 26 Jan
+ 2010 06:26:54 -0600
+From: "Vidal, Orlando E." <ovidal@sonnenschein.com>
+To: <hbiden@senecaga.com>
+Content-Class: urn:content-classes:message
+Date: Tue, 26 Jan 2010 06:26:53 -0600
+Subject: Hi!
+Thread-Topic: Hi!
+thread-index: AcqegtfauMxQJrHDQAeW4Lt5SJiEqQ==
+Message-ID: <B852B6289808D64099071D226D789A88555B13924C@CHIPEX0704.sonnenschein.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Importance: normal
+Priority: normal
+acceptlanguage: en-US
+Content-Type: text/plain; charset="utf-8"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.3168
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Return-Path: <ovidal@sonnenschein.com>
+X-OriginalArrivalTime: 26 Jan 2010 12:26:54.0684 (UTC)
+ FILETIME=[D863D9C0:01CA9E82]
+
+Have anytime for a cup of coffee this week? Need to talk to you about =
+call I received from WH personnel.
+
+
+
+Orlando E. Vidal, Esq.
+Sonnenschein Nath & Rosenthal LLP
+1301 K Street, N.W.
+Suite 600, East Tower
+Washington, DC 20005-3364
+Direct: 202.408.6406
+Fax: 202.408.6399
+ovidal@sonnenschein.com
+Assistant: Rita A. Pickens [202-408-7091]
+www.sonnenschein.com
+
+
+
+-----------------------------------------------------------------------
+CONFIDENTIALITY NOTE:
+This e-mail and any attachments are confidential and may be protected by =
+legal privilege. If you are not the intended recipient, be aware that =
+any disclosure, copying, distribution or use of this e-mail or any =
+attachment is prohibited. If you have received this e-mail in error, =
+please notify us immediately by returning it to the sender and delete =
+this copy from your system. Thank you for your cooperation.
+IRS CIRCULAR 230 NOTICE:
+To comply with requirements imposed by the IRS, we inform you that any =
+U.S. federal tax advice contained herein (including any attachments), =
+unless specifically stated otherwise, is not intended or written to be =
+used, and cannot be used, for the purpose of (i) avoiding penalties =
+under the Internal Revenue Code or (ii) promoting, marketing or =
+recommending any transaction or matter addressed herein to another =
+party.
+-----------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114870</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1264508817</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>3734</string>
+</dict>
+</plist>

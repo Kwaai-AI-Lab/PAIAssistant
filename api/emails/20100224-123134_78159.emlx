@@ -1,0 +1,182 @@
+5929      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs217280weh; Wed, 24 Feb 2010
+ 07:31:53 -0800 (PST)
+Received: by 10.100.27.37 with SMTP id a37mr3810536ana.163.1267025512057; Wed,
+ 24 Feb 2010 07:31:52 -0800 (PST)
+Return-Path: <prvs=664243add=Alan_L._Hoffman@ovp.eop.gov>
+Received: from server514.appriver.com (server514f.exghost.com [72.32.253.73])
+ by mx.google.com with ESMTP id 3si6144139gxk.22.2010.02.24.07.31.51; Wed, 24
+ Feb 2010 07:31:52 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.73 is neither permitted nor
+ denied by best guess record for domain of
+ prvs=664243add=Alan_L._Hoffman@ovp.eop.gov) client-ip=72.32.253.73;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.73
+ is neither permitted nor denied by best guess record for domain of
+ prvs=664243add=Alan_L._Hoffman@ovp.eop.gov)
+ smtp.mail=prvs=664243add=Alan_L._Hoffman@ovp.eop.gov
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: prvs=664243add=alan_l._hoffman@ovp.eop.gov
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-90/SG:5 2/24/2010 9:30:58 AM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=1 p=-0.55046 Source Normal
+X-Signature-Violations: 0-0-0-4750-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->UNITED STATES->PRIVATE->UNITED STATES->UNITED STATES->UNITED
+ STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: prvs=664243add=Alan_L._Hoffman@ovp.eop.gov
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 92146592
+ for hbiden@rosemontseneca.com; Wed, 24 Feb 2010 09:31:51 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 24 Feb 2010 09:31:51 -0600
+Received: from [10.242.229.31] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.3.2) with ESMTP id 296145940
+ for hbiden@senecaga.com; Wed, 24 Feb 2010 09:31:51 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-90/SG:5 2/24/2010 9:30:09 AM
+X-GBUdb-Analysis: 0, 198.137.240.80, Ugly c=0.385168 p=-0.380952 Source Normal
+X-Signature-Violations: 0-0-0-3376-c
+X-Note: SCH-CT/SI:0-1271/SG:1 2/24/2010 9:31:29 AM
+X-Note: Spam Tests Failed:
+X-Country-Path: ->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 198.137.240.80
+X-Note-Reverse-DNS: esgeop02.eop.gov
+X-Note-WHTLIST: prvs=664243add=Alan_L._Hoffman@ovp.eop.gov
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from esgeop02.eop.gov ([198.137.240.80] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTPS id 35001483
+ for hbiden@senecaga.com; Wed, 24 Feb 2010 09:31:50 -0600
+Received: from esgeop08.eop.gov by esgeop02.eop.gov id o1OFVZ0B019993 for
+ <hbiden@senecaga.com>; Wed, 24 Feb 2010 10:31:50 -0500 (EST)
+X-SENDER-IP: 10.11.12.4
+X-SENDER-REPUTATION: None
+content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----_=_NextPart_001_01CAB566.72BC024C"
+X-MimeOLE: Produced By Microsoft Exchange V6.0.6619.12
+Subject: called brady and waiting for him to return call
+Date: Wed, 24 Feb 2010 10:31:34 -0500
+Message-ID: <F64302C78048C14990FB1B8A0526C4EF02680EFE@SMEOP14EVS.eopds.eop.gov>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: called brady and waiting for him to return call
+Thread-Index: Acq1ZnI6JheD0mUiQDm8QzzOFWzoVg==
+From: "Hoffman, Alan L." <Alan_L._Hoffman@ovp.eop.gov>
+To: "Hunter Biden" <hbiden@senecaga.com>
+X-OriginalArrivalTime: 24 Feb 2010 15:31:35.0515 (UTC)
+ FILETIME=[730F3AB0:01CAB566]
+Return-Path: prvs=664243add=Alan_L._Hoffman@ovp.eop.gov
+
+
+------_=_NextPart_001_01CAB566.72BC024C
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii
+
+=20
+
+
+------_=_NextPart_001_01CAB566.72BC024C
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=us-ascii
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01CAB566.72BC024C--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114921</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1267025512</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>5365</string>
+</dict>
+</plist>

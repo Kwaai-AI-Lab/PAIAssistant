@@ -1,0 +1,90 @@
+2503      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.213.20.15 with SMTP id d15cs342549ebb; Mon, 11 Jan 2010
+ 10:21:48 -0800 (PST)
+Received: by 10.223.6.142 with SMTP id 14mr1439708faz.43.1263234107961; Mon,
+ 11 Jan 2010 10:21:47 -0800 (PST)
+Return-Path: <abel@transatlanticeg.com>
+Received: from smtp02.cdmon.com (smtp02.cdmon.com [212.36.74.229]) by
+ mx.google.com with ESMTP id 20si55144767fxm.35.2010.01.11.10.21.47; Mon, 11
+ Jan 2010 10:21:47 -0800 (PST)
+Received-SPF: neutral (google.com: 212.36.74.229 is neither permitted nor
+ denied by best guess record for domain of abel@transatlanticeg.com)
+ client-ip=212.36.74.229;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 212.36.74.229
+ is neither permitted nor denied by best guess record for domain of
+ abel@transatlanticeg.com) smtp.mail=abel@transatlanticeg.com
+Received: from WSANH3 (205.Red-88-21-162.staticIP.rima-tde.net
+ [88.21.162.205]) (Authenticated sender: abel1@noverificar) by
+ smtp02.cdmon.com (Postfix) with ESMTP id 72A6D45CC3 for
+ <hbiden@rosemontseneca.com>; Mon, 11 Jan 2010 19:21:46 +0100 (CET)
+From: "Abel Navarro Homet" <abel@transatlanticeg.com>
+To: "Hunter Biden" <hbiden@rosemontseneca.com>
+Subject: Condolences
+Date: Mon, 11 Jan 2010 19:20:11 +0100
+Message-ID: <1C2AA89F39CE47ECA55185D616317A53@CPDMAD.local>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="----=_NextPart_000_00B3_01CA92F3.185BFB70"
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AcqS6rWwuj+cL1GATX+I/PSmO2KR8w==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-MS-TNEF-Correlator: 000000005DEBDB2F3677D44BAF1D6AEC6CC7B054E4F42500
+
+
+------=_NextPart_000_00B3_01CA92F3.185BFB70
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/PLAIN;
+	charset=iso-8859-1
+
+Dear Hunter
+=20
+I have just received the news from your grandmother. I wish to express =
+to
+you, with the greatest of affections my condolences. Please feel free to
+contact me if you need anything=20
+=20
+Best regards
+=20
+=20
+
+=20
+Abel Navarro Homet
+=20
+Managing Partner
+=20
+
+c/ Serrano 26, 8=BA I
+28001, Madrid, Spain
+Tel=E9fono: +34 91 781 91 16  -  Fax: +34 91 431 42 01=20
+M=F3vil: +34 607 706 609
+e-mail:  <mailto:abel@transatlanticeg.com> abel@transatlanticeg.com
+
+=20
+
+------=_NextPart_000_00B3_01CA92F3.185BFB70
+Content-Transfer-Encoding: BASE64
+Content-Disposition: ATTACHMENT;
+	filename=winmail.dat
+Content-Type: APPLICATION/MS-TNEF;
+	name=winmail.dat
+X-Apple-Content-Length: 13564
+
+
+------=_NextPart_000_00B3_01CA92F3.185BFB70--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114617</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263234107</integer>
+	<key>flags</key>
+	<integer>17213621249</integer>
+	<key>remote-id</key>
+	<string>2635</string>
+</dict>
+</plist>

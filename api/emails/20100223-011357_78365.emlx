@@ -1,0 +1,87 @@
+3491      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.3.195 with SMTP id 45cs120081weh;
+        Mon, 22 Feb 2010 20:14:00 -0800 (PST)
+Received: by 10.87.67.10 with SMTP id u10mr5256435fgk.28.1266898439111;
+        Mon, 22 Feb 2010 20:13:59 -0800 (PST)
+Return-Path: <smacklera@gmail.com>
+Received: from mail-wy0-f182.google.com (mail-wy0-f182.google.com [74.125.82.182])
+        by mx.google.com with ESMTP id 20si9090569fxm.24.2010.02.22.20.13.57;
+        Mon, 22 Feb 2010 20:13:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of smacklera@gmail.com designates 74.125.82.182 as permitted sender) client-ip=74.125.82.182;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of smacklera@gmail.com designates 74.125.82.182 as permitted sender) smtp.mail=smacklera@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by wyb40 with SMTP id 40so486378wyb.13
+        for <hbiden@rosemontseneca.com>; Mon, 22 Feb 2010 20:13:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:received:date:message-id:subject
+         :from:to:cc:content-type;
+        bh=XIiUjPsm2MTok297W5cf+XDBpMvZ72rKDMhtl54T5B0=;
+        b=QezoRty1zQE+r+TX0uK09GLrm46sF68lqTQXBzUn468Vs+X6q7GD6qnPnt8nNj3jLw
+         wnUubfqQCEvCwqhDY6WA/nctetw7Ng1DC3jvAlrCud5q1oCmBgvPviZ/CxZqct438+1W
+         R9ro2/CP6e624gj3nYvvo0xkBhGcPPXR80ydk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        b=DKwqmfgy2uLJ/yWd/5NIHthwyLIt6dCmshEIfz29/G0Oo1mKxrRlBtU/LjFz6tXb2V
+         hAtKP5ZUin3j0JLD2taPbuDoM2MjXTmmYwFilfxQX9ViNPbiOUQYVje3QkhNVw0m0Ozw
+         BMg3o75anxa+c1XW+hXClKG2fCfQhqWmz1euw=
+MIME-Version: 1.0
+Received: by 10.216.88.148 with SMTP id a20mr1315060wef.124.1266898437751; 
+	Mon, 22 Feb 2010 20:13:57 -0800 (PST)
+Date: Mon, 22 Feb 2010 23:13:57 -0500
+Message-ID: <645f33081002222013j1164c20ds882cd579aba0097d@mail.gmail.com>
+Subject: full presser video
+From: Alexander Snyder-Mackler <smacklera@gmail.com>
+To: BB <beaub@comcast.net>
+Cc: Acdonilon <acdonilon@aol.com>, Hunter Biden <hbiden@rosemontseneca.com>
+Content-Type: multipart/alternative; boundary=0016e6d784215942c604803cc73d
+
+--0016e6d784215942c604803cc73d
+Content-Type: text/plain; charset=ISO-8859-1
+
+Beau,
+I just watched the full video (http://wdel.com/video/?v=bradley.wmv). Your
+delivery, and especially your composure, were excellent. Thought that the
+timeline (sought indictment, denied kept at it) and the Iraq (watching from
+afar) pieces were particularly good additions to a detail-heavy speech.
+Great work by the full team on short notice, now we'll see how the coverage
+plays.
+
+
+-- 
+
+Alexander Snyder-Mackler
+(302) 598-8678
+
+--0016e6d784215942c604803cc73d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Beau,<br>I just watched the full video (<a href=3D"http://wdel.com/video/?v=
+=3Dbradley.wmv">http://wdel.com/video/?v=3Dbradley.wmv</a>). Your delivery,=
+ and especially your composure, were excellent. Thought that the timeline (=
+sought indictment, denied kept at it) and the Iraq (watching from afar) pie=
+ces were particularly good additions to a detail-heavy speech. Great work b=
+y the full team on short notice, now we&#39;ll see how the coverage plays.<=
+br>
+<br clear=3D"all"><br>-- <br><br>Alexander Snyder-Mackler<br>(302) 598-8678=
+<br>
+
+--0016e6d784215942c604803cc73d--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114708</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266898438</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>5228</string>
+</dict>
+</plist>

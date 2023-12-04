@@ -1,0 +1,218 @@
+9120      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.12.2 with SMTP id 2cs139758wey; Wed, 20 Jan 2010 08:17:35
+ -0800 (PST)
+Received: by 10.231.154.8 with SMTP id m8mr323584ibw.2.1264004253895; Wed, 20
+ Jan 2010 08:17:33 -0800 (PST)
+Return-Path: <Acdonilon@aol.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 29si51860iwn.69.2010.01.20.08.17.33; Wed, 20
+ Jan 2010 08:17:33 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by domain of Acdonilon@aol.com) client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by domain of Acdonilon@aol.com)
+ smtp.mail=Acdonilon@aol.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: acdonilon@aol.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-200/SG:5 1/20/2010 10:17:13 AM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=0.998428 p=-0.9555 Source White
+X-Signature-Violations: 0-0-0-10755-c
+X-Warn: CYRILLIC
+X-Note: Spam Tests Failed: CYRILLIC
+X-Country-Path: PRIVATE->->UNITED STATES->UNITED STATES->PRIVATE->UNITED
+ STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: Acdonilon@aol.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 95231006
+ for hbiden@rosemontseneca.com; Wed, 20 Jan 2010 10:17:32 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Wed, 20 Jan 2010 10:17:22 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 274954339
+ for hbiden@senecaga.com; Wed, 20 Jan 2010 10:17:22 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-200/SG:5 1/20/2010 10:16:56 AM
+X-GBUdb-Analysis: 0, 205.188.169.203, Ugly c=0 p=0 Source New
+X-Signature-Violations: 0-0-0-9326-c
+X-Note: SCH-CT/SI:0-1272/SG:1 1/20/2010 10:16:57 AM
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->->UNITED STATES->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 205.188.169.203
+X-Note-Reverse-DNS: imr-da06.mx.aol.com
+X-Note-WHTLIST: Acdonilon@aol.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from imr-da06.mx.aol.com ([205.188.169.203] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 22328061 for
+ hbiden@senecaga.com; Wed, 20 Jan 2010 10:17:21 -0600
+Received: from imo-da02.mx.aol.com (imo-da02.mx.aol.com [205.188.169.200]) by
+ imr-da06.mx.aol.com (8.14.1/8.14.1) with ESMTP id o0KGH0Gb007282; Wed, 20 Jan
+ 2010 11:17:00 -0500
+Received: from Acdonilon@aol.com by imo-da02.mx.aol.com  (mail_out_v42.5.) id
+ i.c7a.6c5968fa (37110); Wed, 20 Jan 2010 11:16:59 -0500 (EST)
+Received: from [10.58.135.97] (mobile-166-137-136-215.mycingular.net
+ [166.137.136.215]) by cia-db08.mx.aol.com (v127.7) with ESMTP id
+ MAILCIADB088-90f64b572c6b36c; Wed, 20 Jan 2010 11:16:51 -0500
+References: <645f33081001200705o312eb26am6322fc46ddbe998@mail.gmail.com>
+ <850E0758-57CE-4C6E-B5C6-7688AE430A84@aol.com>
+ <C4D6E036-5749-4220-9C4A-79F8E06B5466@comcast.net>
+Message-Id: <CA9063C5-B870-496D-ABFC-118DBE23693D@aol.com>
+From: Acdonilon <acdonilon@aol.com>
+To: "beaub@comcast.net" <beaub@comcast.net>
+In-Reply-To: <C4D6E036-5749-4220-9C4A-79F8E06B5466@comcast.net>
+Content-Type: multipart/alternative; boundary=Apple-Mail-2-81674775
+Content-Transfer-Encoding: 7bit
+X-Mailer: iPhone Mail (7A341)
+Mime-Version: 1.0 (iPhone Mail 7A341)
+Subject: Re: conference call tonight?
+Date: Wed, 20 Jan 2010 11:16:37 -0500
+Cc: Alexander Snyder-Mackler <smacklera@gmail.com>, ted kaufman
+ <tedkaufman@comcast.net>, Hunter Biden <hbiden@senecaga.com>
+X-AOL-IP: 166.137.136.215
+X-Spam-Flag: NO
+X-AOL-SENDER: Acdonilon@aol.com
+Return-Path: Acdonilon@aol.com
+X-OriginalArrivalTime: 20 Jan 2010 16:17:22.0391 (UTC)
+ FILETIME=[0BDDFE70:01CA99EC]
+
+
+--Apple-Mail-2-81674775
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN;
+	charset=us-ascii;
+	delsp=yes;
+	format=flowed
+
+Agree that is the message. I think it makes sense for him to do it.
+
+Sent from my iPhone
+
+On Jan 20, 2010, at 11:08 AM, beaub@comcast.net wrote:
+
+> Charlie Oberly called re press request he hot from NBC Phila re  
+> Coakley effect on my decision.  Did you all see his comments in NJ.   
+> Told him they were ok but really the point I would like him to make  
+> is that Coakley, Castle, opponents, other elections are not a  
+> consideration for me -- it is a personal decision that Beau will  
+> make.  "Not a factor for Beau one way or other.  One thing I know he  
+> is focussed on is Bradley case."   Told him Bradley not Coakley.    
+> all that said, should he even call them back and/or do on camera  
+> interview.
+>
+> On Jan 20, 2010, at 10:12 AM, Acdonilon wrote:
+>
+>> Ok
+>>
+>> Sent from my iPhone
+>>
+>> On Jan 20, 2010, at 10:05 AM, Alexander Snyder-Mackler <smacklera@gmail.com 
+>> > wrote:
+>>
+>>> Can everyone do a conference call tonight after Beau's kids are in  
+>>> bed to go over tomorrow (especially statement/QnA) one last time?  
+>>> I would guess around 830ish?
+>>>
+>>>
+>>> On Wed, Jan 20, 2010 at 9:58 AM,  <beaub@comcast.net> wrote:
+>>> Yes
+>>> From: Alexander Snyder-Mackler <smacklera@gmail.com>
+>>> Date: Wed, 20 Jan 2010 09:52:23 -0500
+>>> To: BB<beaub@comcast.net>
+>>> Subject: conf call
+>>>
+>>> do you want to do a conference call with Mike/Ted/Hunter after the  
+>>> kids are in bed tonight?
+>>>
+>>>
+>>> -- 
+>>>
+>>> Alexander Snyder-Mackler
+>>> (302) 598-8678
+>>>
+>>>
+>>>
+>>> -- 
+>>>
+>>> Alexander Snyder-Mackler
+>>> (302) 598-8678
+>
+> =
+
+--Apple-Mail-2-81674775
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=utf-8
+
+<html><body bgcolor=3D"#FFFFFF"><div>Agree that is the message. I think it=
+ makes sense for him to do it.<br><br>Sent from my iPhone</div><div><br>On=
+ Jan 20, 2010, at 11:08 AM, <a href=3D"mailto:beaub@comcast.net">beaub@com=
+cast.net</a> wrote:<br><br></div><div></div><blockquote type=3D"cite"><div=
+>Charlie Oberly called re press request he hot from NBC Phila re Coakley=
+ effect on my decision. &nbsp;Did you all see his comments in NJ. &nbsp;To=
+ld him they were ok but really the point I would like him to make is that=
+ Coakley, Castle, opponents, other elections are not a consideration for=
+ me -- it is a personal decision that Beau will make. &nbsp;"Not a factor=
+ for Beau one way or other. &nbsp;One thing I know he is focussed on is Br=
+adley case." &nbsp; Told him Bradley not Coakley. &nbsp; all that said, sh=
+ould he even call them back and/or do on camera interview. &nbsp;<div><br>=
+<div><div>On Jan 20, 2010, at 10:12 AM, Acdonilon wrote:</div><br class=3D=
+"Apple-interchange-newline"><blockquote type=3D"cite"><div bgcolor=3D"#FFF=
+FFF"><div>Ok<br><br>Sent from my iPhone</div><div><br>On Jan 20, 2010, at=
+ 10:05 AM, Alexander Snyder-Mackler &lt;<a href=3D"mailto:smacklera@gmail.=
+com"><a href=3D"mailto:smacklera@gmail.com">smacklera@gmail.com</a></a>&gt=
+; wrote:<br><br></div><div></div><blockquote type=3D"cite"><div>Can everyo=
+ne do a conference call tonight after Beau's kids are in bed to go over to=
+morrow (especially statement/QnA) one last time? I would guess around 830i=
+sh?<br><br><br><div class=3D"gmail_quote">On Wed, Jan 20, 2010 at 9:58 AM,=
+  <span dir=3D"ltr">&lt;<a href=3D"mailto:beaub@comcast.net"></a><a href=
+=3D"mailto:beaub@comcast.net"><a href=3D"mailto:beaub@comcast.net">beaub@c=
+omcast.net</a></a>&gt;</span> wrote:<br> <blockquote class=3D"gmail_quote"=
+ style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt=
+ 0.8ex; padding-left: 1ex;">   Yes<hr><div><b>From: </b> Alexander Snyder-=
+Mackler &lt;<a href=3D"mailto:smacklera@gmail.com" target=3D"_blank"></a><=
+a href=3D"mailto:smacklera@gmail.com"><a href=3D"mailto:smacklera@gmail.co=
+m">smacklera@gmail.com</a></a>&gt; </div><div><b>Date: </b>Wed, 20 Jan 201=
+0 09:52:23 -0500</div><div><b>To: </b>BB&lt;<a href=3D"mailto:beaub@comcas=
+t.net" target=3D"_blank"></a><a href=3D"mailto:beaub@comcast.net"><a href=
+=3D"mailto:beaub@comcast.net">beaub@comcast.net</a></a>&gt;</div><div><b>S=
+ubject: </b>conf call</div><div><div></div><div class=3D"h5"> <div><br></d=
+iv>do you want to do a conference call with Mike/Ted/Hunter after the kids=
+ are in bed tonight?<br><br clear=3D"all"><br>-- <br><br>Alexander Snyder-=
+Mackler<br>(302) 598-8678<br> </div></div></blockquote></div><br><br clear=
+=3D"all"><br>-- <br><br>Alexander Snyder-Mackler<br>(302) 598-8678<br> </d=
+iv></blockquote></div></blockquote></div><br></div>=3D
+</div></blockquote></body></html>=3D
+
+--Apple-Mail-2-81674775--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114861</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1264004253</integer>
+	<key>flags</key>
+	<integer>25803619329</integer>
+	<key>remote-id</key>
+	<string>3364</string>
+</dict>
+</plist>

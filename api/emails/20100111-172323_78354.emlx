@@ -1,0 +1,177 @@
+7856      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs8486wev; Mon, 11 Jan 2010 12:23:29
+ -0800 (PST)
+Received: by 10.91.161.28 with SMTP id n28mr107917ago.84.1263241407852; Mon,
+ 11 Jan 2010 12:23:27 -0800 (PST)
+Return-Path: <lanettephillips@gmail.com>
+Received: from server514.appriver.com (server514c.exghost.com [72.32.253.76])
+ by mx.google.com with ESMTP id 2si31909621gxk.67.2010.01.11.12.23.26; Mon, 11
+ Jan 2010 12:23:26 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.76 is neither permitted nor
+ denied by domain of lanettephillips@gmail.com) client-ip=72.32.253.76;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.76
+ is neither permitted nor denied by domain of lanettephillips@gmail.com)
+ smtp.mail=lanettephillips@gmail.com; dkim=pass (test mode)
+ header.i=@gmail.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: lanettephillips@gmail.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-340/SG:5 1/11/2010 2:23:16 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=0.936434 p=-0.936433 Source White
+X-Signature-Violations: 0-0-0-7127-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: lanettephillips@gmail.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 93686347
+ for hbiden@rosemontseneca.com; Mon, 11 Jan 2010 14:23:29 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Mon, 11 Jan 2010 14:23:25 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 270022304
+ for Hbiden@senecaga.com; Mon, 11 Jan 2010 14:23:27 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-340/SG:5 1/11/2010 2:22:58 PM
+X-GBUdb-Analysis: 0, 209.85.222.173, Ugly c=0.476605 p=-0.490196 Source Normal
+X-Signature-Violations: 0-0-0-5701-c
+X-Note: SCH-CT/SI:0-1269/SG:1 1/11/2010 2:23:18 PM
+X-Note: Spam Tests Failed:
+X-Country-Path: ->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 209.85.222.173
+X-Note-Reverse-DNS: mail-pz0-f173.google.com
+X-Note-WHTLIST: lanettephillips@gmail.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G113 G114 G115 G116 G120 G121 G219
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mail-pz0-f173.google.com ([209.85.222.173] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 19571779 for
+ Hbiden@senecaga.com; Mon, 11 Jan 2010 14:23:26 -0600
+Received: by pzk3 with SMTP id 3so658233pzk.20 for <Hbiden@senecaga.com>; Mon,
+ 11 Jan 2010 12:23:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+ h=domainkey-signature:mime-version:received:date:message-id:subject
+ :from:to:content-type; bh=2Mxu+Y8ObaRvp3XaM+cx4edKkRPA2xcZX1g3TWX4704=;
+ b=urv+1tWLnE4iUtYpvAgi8KCOtOWIUL+Hv3NOgHIOHKZvFpwrloyud8xZm8HwovwF+u
+ Un6tP2GtkacOQV/ERQI4glrYfq39S+hKl0dx2EV7w8+iBHby15cVJ7NVd25VU3izOlfb
+ fGl/CeI5QcfUfTAeG2Be87hS++xmsw43rW3e4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+ h=mime-version:date:message-id:subject:from:to:content-type;
+ b=NGk2VtyW/gTP+CEpcM7ekGKDLn8m2QDGHYWJhk9qQiI6KNb3qq6p+bU/eAxsVvK7j2
+ cRoUYkiED0AJOPeWR6uIUXtu1z9Mnx8wccjqHPdNS9953EgDWHvsI5T99nyoWTOfAg84
+ BllDVaj9g3mNpHiQi6jW7/nJukVWQseVDA3nY=
+MIME-Version: 1.0
+Received: by 10.114.189.24 with SMTP id m24mr5111714waf.29.1263241403340; Mon,
+ 11 Jan 2010 12:23:23 -0800 (PST)
+Date: Mon, 11 Jan 2010 12:23:23 -0800
+Message-ID: <4d1b0c451001111223t9f9c40fs2bc7136385040053@mail.gmail.com>
+Subject: My Prayers are with you.
+From: Lanette Phillips <lanettephillips@gmail.com>
+To: Hbiden@senecaga.com
+Content-Type: multipart/alternative; boundary=0016e64cd5321c9731047ce94fa4
+Return-Path: lanettephillips@gmail.com
+X-OriginalArrivalTime: 11 Jan 2010 20:23:25.0857 (UTC)
+ FILETIME=[EDDC6110:01CA92FB]
+
+
+--0016e64cd5321c9731047ce94fa4
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN;
+	charset=ISO-8859-1
+
+Dear Hunter,
+
+I was deeply saddened to hear of your loss.
+
+My thoughts are with you and your family.
+
+Please accept my hearfelt sympathy on the passing of your amazing
+Grandmother.
+
+My  thoughts and prayers are with you.
+
+Sincerly,
+
+Lanette
+
+--
+
+--0016e64cd5321c9731047ce94fa4
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=ISO-8859-1
+
+<span class=3D"Apple-style-span" style=3D"font-family: arial, sans-serif; f=
+ont-size: 13px; border-collapse: collapse; "><span style=3D"font-family: Ar=
+ial, Helvetica, sans-serif; font-size: medium; "><p style=3D"font-family: A=
+rial, Helvetica, sans-serif; font-size: 12px; margin-top: 6px; margin-right=
+: 0px; margin-bottom: 6px; margin-left: 0px; padding-top: 0px; padding-righ=
+t: 0px; padding-bottom: 0px; padding-left: 0px; clear: both; text-align: le=
+ft; color: rgb(38, 38, 38); ">
+Dear Hunter,</p><p style=3D"font-family: Arial, Helvetica, sans-serif; font=
+-size: 12px; margin-top: 6px; margin-right: 0px; margin-bottom: 6px; margin=
+-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padd=
+ing-left: 0px; clear: both; text-align: left; color: rgb(38, 38, 38); ">
+I was deeply saddened to hear of your loss.=A0</p><p style=3D"font-family: =
+Arial, Helvetica, sans-serif; font-size: 12px; margin-top: 6px; margin-righ=
+t: 0px; margin-bottom: 6px; margin-left: 0px; padding-top: 0px; padding-rig=
+ht: 0px; padding-bottom: 0px; padding-left: 0px; clear: both; text-align: l=
+eft; color: rgb(38, 38, 38); ">
+My thoughts are with you and your family.</p><p style=3D"font-family: Arial=
+, Helvetica, sans-serif; font-size: 12px; margin-top: 6px; margin-right: 0p=
+x; margin-bottom: 6px; margin-left: 0px; padding-top: 0px; padding-right: 0=
+px; padding-bottom: 0px; padding-left: 0px; clear: both; text-align: left; =
+color: rgb(38, 38, 38); ">
+<span style=3D"color: rgb(0, 0, 0); font-size: medium; "></span></p><p styl=
+e=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-top=
+: 6px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; padding-top=
+: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; clear: b=
+oth; text-align: left; color: rgb(38, 38, 38); ">
+Please accept my hearfelt sympathy on the passing of your amazing Grandmoth=
+er.</p><p style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12=
+px; margin-top: 6px; margin-right: 0px; margin-bottom: 6px; margin-left: 0p=
+x; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left:=
+ 0px; clear: both; text-align: left; color: rgb(38, 38, 38); ">
+My =A0thoughts and prayers are with you.</p></span><p style=3D"font-family:=
+ Arial, Helvetica, sans-serif; font-size: 12px; margin-top: 6px; margin-rig=
+ht: 0px; margin-bottom: 6px; margin-left: 0px; padding-top: 0px; padding-ri=
+ght: 0px; padding-bottom: 0px; padding-left: 0px; clear: both; text-align: =
+left; color: rgb(38, 38, 38); ">
+Sincerly,</p><p style=3D"font-family: Arial, Helvetica, sans-serif; font-si=
+ze: 12px; margin-top: 6px; margin-right: 0px; margin-bottom: 6px; margin-le=
+ft: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding=
+-left: 0px; clear: both; text-align: left; color: rgb(38, 38, 38); ">
+Lanette</p><font color=3D"#888888"></font></span><font color=3D"#888888"></=
+font><font color=3D"#888888"></font><br>-- <br><br><br>
+
+--0016e64cd5321c9731047ce94fa4--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114618</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1263241406</integer>
+	<key>flags</key>
+	<integer>25786842113</integer>
+	<key>remote-id</key>
+	<string>2655</string>
+</dict>
+</plist>

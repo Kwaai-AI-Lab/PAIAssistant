@@ -1,0 +1,543 @@
+29513     
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.36.138 with SMTP id w10cs107530wea; Sun, 14 Feb 2010
+ 03:15:56 -0800 (PST)
+Received: by 10.150.238.9 with SMTP id l9mr6850265ybh.206.1266146155038; Sun,
+ 14 Feb 2010 03:15:55 -0800 (PST)
+Return-Path: <d3bounce.59778049.574127590@ongoing.demandforced3.com>
+Received: from server514.appriver.com (server514d.exghost.com [72.32.253.69])
+ by mx.google.com with ESMTP id 21si1629277gxk.5.2010.02.14.03.15.53; Sun, 14
+ Feb 2010 03:15:53 -0800 (PST)
+Received-SPF: fail (google.com: domain of
+ d3bounce.59778049.574127590@ongoing.demandforced3.com does not designate
+ 72.32.253.69 as permitted sender) client-ip=72.32.253.69;
+Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of
+ d3bounce.59778049.574127590@ongoing.demandforced3.com does not designate
+ 72.32.253.69 as permitted sender)
+ smtp.mail=d3bounce.59778049.574127590@ongoing.demandforced3.com; dkim=pass
+ header.i=@ongoing.demandforced3.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: d3bounce.59778049.574127590@ongoing.demandforced3.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-44/SG:4 2/14/2010 5:15:24 AM
+X-GBUdb-Analysis: 0, 72.32.253.140, Ugly c=1 p=-0.785612 Source Normal
+X-Signature-Violations: 0-0-0-28178-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.140
+X-Note-Reverse-DNS: fe01.exg4.exghost.com
+X-Note-WHTLIST: d3bounce.59778049.574127590@ongoing.demandforced3.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.140] (HELO FE01.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 90323919
+ for hbiden@rosemontseneca.com; Sun, 14 Feb 2010 05:15:57 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by FE01.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Sun, 14 Feb 2010 05:15:52 -0600
+Received: from [10.242.229.36] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 289975036
+ for hbiden@senecaga.com; Sun, 14 Feb 2010 05:15:57 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-44/SG:4 2/14/2010 5:14:58 AM
+X-GBUdb-Analysis: 0, 165.193.231.155, Ugly c=0.165853 p=-1 Source Normal
+X-Signature-Violations: 0-0-0-26699-c
+X-Warn: OPTOUT
+X-Note: Spam Tests Failed: OPTOUT
+X-Country-Path: PRIVATE->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 165.193.231.155
+X-Note-Reverse-DNS: ongoing.demandforced3.com
+X-Note-WHTLIST: d3bounce.59778049.574127590@ongoing.demandforced3.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G173 G174 G175 G176 G180 G181 G258 G279
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from ongoing.demandforced3.com ([165.193.231.155] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 31219107 for
+ hbiden@senecaga.com; Sun, 14 Feb 2010 05:15:52 -0600
+DKIM-Signature: v=1; d=ongoing.demandforced3.com;
+ b=gCe0SUlmtvGfqLVgrOFdvp5S/HxkD7mWFInRRgs1dYNBICsMRKeZt0JIgVkEWdtguCsgDlv9N7TaQUbuoxskVMbJI8zpnpEmy3e52bTvUsE5cWqwJE+wGETWJMHT/bC7U4I2Zl7jY/p2dhSI5Q3Yb80806OHKQ9EB5A7VRdYU1I=;
+ s=ondemand2009; a=rsa-sha256;
+ bh=o8pK20DFuBdSszSq2GM/iem+JrtqTVlBr+s521Zn6gs=;
+ h=from:sender:to:subject:content-type:date;
+Message-ID: <162140223.378681266146141958.JavaMail.root@dfcomm1>
+MIME-Version: 1.0
+Received: from 10.67.84.208 ([10.67.84.208]) by ongoing.demandforced3.com
+ (JAMES SMTP Server 2.3.1) with SMTP ID 674 for <hbiden@senecaga.com>; Sun, 14
+ Feb 2010 03:15:40 -0800 (PST)
+Date: Sun, 14 Feb 2010 03:15:40 -0800 (PST)
+From: Washington Center for Dentistry
+ <washingtoncenterfordentistry@demandforced3.com>
+Reply-To: Washington Center for Dentistry
+ <washingtoncenterfordentistry@demandforced3.com>
+To: "hbiden@senecaga.com" <hbiden@senecaga.com>
+Subject: Dental Cleaning Reminder from Washington Center for Dentistry
+Content-Type: multipart/related;
+ boundary="----=_Part_127632_15680555.1266146140280"
+X-D3-SchedulerId: 574127590
+X-D3-CustomerId: 132028034
+X-D3-CommunicationId: 0
+X-D3-BusinessId: 59778049
+Return-Path: d3bounce.59778049.574127590@ongoing.demandforced3.com
+X-OriginalArrivalTime: 14 Feb 2010 11:15:52.0908 (UTC)
+ FILETIME=[1205B0C0:01CAAD67]
+
+
+------=_Part_127632_15680555.1266146140280
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML;
+	charset=UTF-8
+
+<html>=20
+<head>=20
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />=
+=20
+<title>Demandforce D3 - Washington Center for Dentistry</title>=20
+=20
+</head>=20
+=20
+<body>=20
+<div id=3D"d3e-wrap" style=3D"overflow: hidden; margin: 5px auto 0; font-fa=
+mily: Arial,Helvetica,sans-serif; width: 580px;">=20
+=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;font-s=
+ize:8pt">Problems reading this email? Please visit=20
+=09=09=09<a href=3D"https://d35.demandforced3.com/cp/email.jsp?id=3D5741275=
+90&bid=3D59778049" class=3D"d3e-defaultLink" target=3D"_blank" style=3D"mar=
+gin: 0; font-family: Arial,Helvetica,sans-serif; color: #000;">https://d35.=
+demandforced3.com/cp/email.jsp?id=3D574127590&bid=3D59778049</a>.
+=09=09</p>=20
+=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;font-s=
+ize:8pt">This email is provided as a service by Washington Center for Denti=
+stry. To remove yourself from future mailings, you may=20
+=09=09=09<a href=3D"https://d35.demandforced3.com/actions/customerportal/op=
+tout.df?cid=3D132028034&bid=3D59778049&campid=3D60294489&commid=3D&smsmtid=
+=3D574127590" class=3D"d3e-defaultLink" target=3D"_blank" style=3D"margin: =
+0; font-family: Arial,Helvetica,sans-serif; color: #000;">unsubscribe</a>.
+=09=09</p>=20
+
+<div>
+    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:=
+ 580px;">
+    <tr>
+    <td valign=3D"top" align=3D"left" style=3D"font-size: 10pt; margin: 0; =
+background: #CDC0B0; font-family: Arial,Helvetica,sans-serif; color: #fff; =
+padding: 5px 1px 5px 3px; width:200px">
+=09=09=09<div class=3D"d3e-mainimg" align=3D"center" style=3D"margin: 0; fo=
+nt-family: Arial,Helvetica,sans-serif;"><img src=3D"https://d35.demandforce=
+d3.com/images/logos/59778049-primary.jpg" height=3D"150" alt=3D"Business" s=
+tyle=3D"margin: 0; font-family: Arial,Helvetica,sans-serif; border: 0;" wid=
+th=3D"135" /></div>=20
+=09=09=09<div class=3D"d3e-address" style=3D"margin: 0; font-family: Arial,=
+Helvetica,sans-serif; padding: 15px 10px 0 0;">=20
+=09=09=09=09<p class=3D"d3e-businessName" style=3D"font-weight: bold; font-=
+size: 12pt; margin: 0; font-family: Arial,Helvetica,sans-serif;">Washington=
+ Center for Dentistry</p>=20
+=09=09=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;=
+">1430 K Street NW, Eighth Floor<br style=3D"margin: 0; font-family: Arial,=
+Helvetica,sans-serif;" />Washington, DC 20005 <br style=3D"margin: 0; font-=
+family: Arial,Helvetica,sans-serif;" />(202) 509-9660<br style=3D"margin: 0=
+; font-family: Arial,Helvetica,sans-serif;" />=20
+=09=09=09=09=09<a href=3D"mailto:info@washdent.com" class=3D"d3e-emailLink"=
+ style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif; word-wrap: br=
+eak-word; color: #B2D0E0;">info@washdent.com</a><br style=3D"margin: 0; fon=
+t-family: Arial,Helvetica,sans-serif;" />=20
+=09=09=09=09=09<a href=3D"http://www.washdent.com" class=3D"d3e-emailLink" =
+style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif; word-wrap: bre=
+ak-word; color: #B2D0E0;">www.washdent.com</a><br style=3D"margin: 0; font-=
+family: Arial,Helvetica,sans-serif;" />=20
+=09=09=09=09=09<span class=3D"d3e-map" style=3D"margin: 0; font-family: Ari=
+al,Helvetica,sans-serif; padding: 15px 0; display: block;"> Need Directions=
+?=20
+=09=09=09=09=09=09<a href=3D"http://www.google.com/maps?f=3Dd&daddr=3D1430 =
+K Street NW, Eighth Floor,Washington,DC 20005&saddr=3D4829 Loughboro Road N=
+W,Washington,DC 20016" class=3D"d3e-emailLink" target=3D"_map" style=3D"mar=
+gin: 0; font-family: Arial,Helvetica,sans-serif; word-wrap: break-word; col=
+or: #B2D0E0;">Map It!</a></span>=20
+=09=09=09=09</p>=20
+=09=09=09</div>=20
+=09=09=09<div class=3D"d3e-affLogo" style=3D"margin: 0; font-family: Arial,=
+Helvetica,sans-serif; padding: 0 5px 15px 0; text-align: center;">&nbsp;</d=
+iv>=20
+     </td><td valign=3D"top" align=3D"left" style=3D"border-left: 3px solid=
+ #CDC0B0;border-right: 3px solid #CDC0B0;border-top: 3px solid #CDC0B0;">
+=09=09<div class=3D"d3e-emailbody" style=3D"width:323px;margin: 0; font-fam=
+ily: Arial,Helvetica,sans-serif; padding: 15px 15px 0; float: left; backgro=
+und:white;"><div><DIV>
+<DIV>
+<DIV>
+<DIV>
+<DIV>
+<DIV>
+<DIV>
+<DIV>
+<DIV style=3D"FONT-SIZE: 14px; FONT-FAMILY: Arial,Helvetica,sans-serif" ali=
+gn=3Dleft>
+<P><FONT color=3D#996633>Dear R,</FONT></P>
+<P><FONT color=3D#996633>We've missed seeing your smile. </FONT></P>
+<P><FONT color=3D#996633>We are sending&nbsp;this friendly reminder,&nbsp;b=
+ecause our records indicate you are due for your next dental appointment.</=
+FONT></P>
+<P><FONT color=3D#996633>* Regular preventive hygiene patients know that hy=
+giene is the least invasive, least expensive, most important, clinical appo=
+intment in dentistry.</FONT></P>
+<P><FONT color=3D#996633>* Regular preventive hygiene&nbsp;patients know th=
+at&nbsp;on&nbsp;the&nbsp;whole, patients with complete dentition and optima=
+l oral health should <U>expect to live 7-10&nbsp;years longer.</U></FONT></=
+P>
+<P><FONT color=3D#996633>* Regular preventive hygiene patients&nbsp;have he=
+althier, lighter&nbsp;teeth--with fewer stains on the enamel.&nbsp;&nbsp; <=
+/FONT></P>
+<P><FONT color=3D#996633>* Become a regular! </FONT></P>
+<P><FONT color=3D#996633>Click </FONT><A href=3D"https://d35.demandforced3.=
+com/actions/customerportal/request.df?bid=3D59778049&cid=3D132028034&campid=
+=3D60294489&commid=3D&refid=3D&appid=3D&vid=3D"><FONT color=3D#996633>here<=
+/FONT></A><FONT color=3D#996633> to request your&nbsp;next preventive&nbsp;=
+appointment online.</FONT></P>
+<P><FONT color=3D#996633>See you soon.</FONT></P>
+<P><FONT color=3D#996633><div align=3D'center'><table width=3D'150px' cellS=
+pacing=3D0 cellPadding=3D0 border=3D0 style=3D'height:2px;width:160px'><tr>=
+<td colspan=3D'2' class=3D'small' style=3D'width:2px;background:#FFFFFF'><i=
+mg src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /><=
+/td><td colspan=3D'1' class=3D'small' style=3D'width:1px;background:#66cc99=
+'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1'=
+ /></td><td colspan=3D'1' class=3D'small' style=3D'width:1px;background:#00=
+9933'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=
+=3D'1' /></td><td colspan=3D'1' class=3D'small' style=3D'width:152px;backgr=
+ound:#008000'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' =
+height=3D'1' /></td><td colspan=3D'1' class=3D'small' style=3D'width:1px;ba=
+ckground:#3988b0'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D=
+'1' height=3D'1' /></td><td colspan=3D'1' class=3D'small' style=3D'width:1p=
+x;background:#a5c9db'><img src=3D'http://www.demandforce.com/cx/s.gif' widt=
+h=3D'1' height=3D'1' /></td><td colspan=3D'2' class=3D'small' style=3D'widt=
+h:2px;background:#FFFFFF'><img src=3D'http://www.demandforce.com/cx/s.gif' =
+width=3D'1' height=3D'1' /></td></tr><tr><td colspan=3D'1' class=3D'small' =
+style=3D'width:1px;background:#FFFFFF'><div style=3D'font-size:1px;width:1p=
+x;height:1px'></div></td><td colspan=3D'1' class=3D'small' style=3D'width:1=
+px;background:#339933'><img src=3D'http://www.demandforce.com/cx/s.gif' wid=
+th=3D'1' height=3D'1' /></td><td colspan=3D'5' class=3D'small' style=3D'wid=
+th:156px;background:#008000'><img src=3D'http://www.demandforce.com/cx/s.gi=
+f' width=3D'1' height=3D'1' /></td><td colspan=3D'1' class=3D'small' style=
+=3D'width:1px;background:#339933'><img src=3D'http://www.demandforce.com/cx=
+/s.gif' width=3D'1' height=3D'1' /></td><td colspan=3D'1' class=3D'small' s=
+tyle=3D'width:1px;background:#FFFFFF'><img src=3D'http://www.demandforce.co=
+m/cx/s.gif' width=3D'1' height=3D'1' /></td></tr><tr><td colspan=3D'1' clas=
+s=3D'small' style=3D'width:1px;background:#66cc99'><img src=3D'http://www.d=
+emandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=3D'7' =
+class=3D'small' style=3D'width:158px;background:#008000'><img src=3D'http:/=
+/www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=
+=3D'1' class=3D'small' style=3D'width:1px;background:#66cc99'><img src=3D'h=
+ttp://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td></tr><t=
+r><td colspan=3D'1' class=3D'small' style=3D'width:1px;background:#009933'>=
+<img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /=
+></td><td colspan=3D'7' class=3D'small' style=3D'width:158px;background:#00=
+8000'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=
+=3D'1' /></td><td colspan=3D'1' class=3D'small' style=3D'width:1px;backgrou=
+nd:#009933'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' he=
+ight=3D'1' /></td></tr><tr><td colspan=3D'9' style=3D'background:#008000;' =
+align=3D'center' nowrap>        <a href=3D'https://d35.demandforced3.com/ac=
+tions/customerportal/request.df?bid=3D59778049&cid=3D132028034&campid=3D602=
+94489&commid=3D&refid=3D&appid=3D&vid=3D' style=3D'font-size:16px;color:whi=
+te;font-weight:bold;font-family:Arial;text-decoration:none' target=3D'_blan=
+k'>&nbsp;Request Appointment&nbsp;</a></td></tr><tr><td colspan=3D'1' class=
+=3D'small' style=3D'width:1px;background:#009933'><img src=3D'http://www.de=
+mandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=3D'7' c=
+lass=3D'small' style=3D'width:158px;background:#008000'><img src=3D'http://=
+www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=
+=3D'1' class=3D'small' style=3D'width:1px;background:#009933'><img src=3D'h=
+ttp://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td></tr><t=
+r><td colspan=3D'1' class=3D'small' style=3D'width:1px;background:#66cc99'>=
+<img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /=
+></td><td colspan=3D'7' class=3D'small' style=3D'width:158px;background:#00=
+8000'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=
+=3D'1' /></td><td colspan=3D'1' class=3D'small' style=3D'width:1px;backgrou=
+nd:#66cc99'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' he=
+ight=3D'1' /></td></tr><tr><td colspan=3D'1' class=3D'small' style=3D'width=
+:1px;background:#FFFFFF'><img src=3D'http://www.demandforce.com/cx/s.gif' w=
+idth=3D'1' height=3D'1' /></td><td colspan=3D'1' class=3D'small' style=3D'w=
+idth:1px;background:#339933'><img src=3D'http://www.demandforce.com/cx/s.gi=
+f' width=3D'1' height=3D'1' /></td><td colspan=3D'5' class=3D'small' style=
+=3D'width:156px;background:#008000'><img src=3D'http://www.demandforce.com/=
+cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=3D'1' class=3D'small'=
+ style=3D'width:1px;background:#339933'><img src=3D'http://www.demandforce.=
+com/cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=3D'1' class=3D'sm=
+all' style=3D'width:1px;background:#FFFFFF'><img src=3D'http://www.demandfo=
+rce.com/cx/s.gif' width=3D'1' height=3D'1' /></td></tr><tr><td colspan=3D'2=
+' class=3D'small' style=3D'width:1px;background:#FFFFFF'><img src=3D'http:/=
+/www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><td colspan=
+=3D'1' class=3D'small' style=3D'width:1px;background:#66cc99'><img src=3D'h=
+ttp://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><td col=
+span=3D'1' class=3D'small' style=3D'width:1px;background:#009933'><img src=
+=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /></td><t=
+d colspan=3D'1' class=3D'small' style=3D'width:154px;background:#008000'><i=
+mg src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1' /><=
+/td><td colspan=3D'1' class=3D'small' style=3D'width:1px;background:#3988b0=
+'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=3D'1'=
+ /></td><td colspan=3D'1' class=3D'small' style=3D'width:1px;background:#a5=
+c9db'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' height=
+=3D'1' /></td><td colspan=3D'2' class=3D'small' style=3D'width:1px;backgrou=
+nd:#FFFFFF'><img src=3D'http://www.demandforce.com/cx/s.gif' width=3D'1' he=
+ight=3D'1' /></td></tr></table></div> </FONT></P>
+<P><FONT color=3D#996633>Please contact us with any questions:(202) 509-966=
+0 <BR></FONT><A href=3D"mailto:info@washdent.com">info@washdent.com</A><BR>=
+<A href=3D"http://www.washdent.com">www.washdent.com</A> </P>
+<P><FONT color=3D#996633>As a courtesy to our other patients, kindly provid=
+e<STRONG> two business days</STRONG> notice when rescheduling appointments<=
+/FONT>.<BR><BR></P></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></=
+div>=09=09
+=09=09</div>=20
+=09</td>       =20
+    </tr>=09
+    <tr>
+    <td valign=3D"top" align=3D"center" style=3D"width:200px;border-left:3p=
+x solid #CDC0B0;" rowspan=3D"2">
+   =20
+   =20
+
+    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:=
+ 100%; height:100%">   =20
+    <tr>
+    =09<td style=3D"padding:10px;height:100%;" align=3D"center">
+
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/actions/customerportal=
+/refer.df?cid=3D132028034&bid=3D59778049&campid=3D60294489&commid=3D&smsmti=
+d=3D574127590" class=3D"img" style=3D"font-size: 10pt; font-weight: bold; m=
+argin: 0; font-family: Arial,Helvetica,sans-serif; color: #069; display: bl=
+ock;"><img src=3D"http://www.demandforce.com/cx/referralYellow.png" alt=3D"=
+Refer a Friend" style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif=
+; border: 0; height: 72px; width: 72px;" /></a> <br/>
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/actions/customerportal=
+/refer.df?cid=3D132028034&bid=3D59778049&campid=3D60294489&commid=3D&smsmti=
+d=3D574127590" style=3D"font-size: 10pt; font-weight: bold; margin: 0; font=
+-family: Arial,Helvetica,sans-serif; color: #069; display: block;">Refer a =
+Friend</a>=20
+        </td>
+=09</tr>       =20
+=09</table>
+
+=09</td>
+    <td style=3D"border-left: 3px solid #CDC0B0;margin:0px;padding:0px;bord=
+er-right: 3px solid #CDC0B0;">
+   =20
+    <br/>
+    <br/>
+=09=09<div class=3D"d3e-cornerWrap d3e-bottomCorner" style=3D"clear: both; =
+margin: 0; font-family: Arial,Helvetica,sans-serif; ;">=20
+=09=09=09<var class=3D"color1" style=3D"overflow: hidden; border-color: #CD=
+C0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-serif;=
+ border-right: 1px solid #CDC0B0; display: block; height: 1px; border-left:=
+ 1px solid #CDC0B0;"></var>=20
+=09=09=09<var class=3D"color2" style=3D"overflow: hidden; border-color: #CD=
+C0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-serif;=
+ border-right: 1px solid #CDC0B0; display: block; height: 1px; border-left:=
+ 1px solid #CDC0B0;"></var>=20
+=09=09=09<var class=3D"colormain" style=3D"overflow: hidden; border-color: =
+#CDC0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-ser=
+if; border-right: 1px solid #CDC0B0; display: block; height: 1px; border-le=
+ft: 1px solid #CDC0B0;"><var class=3D"color1" style=3D"overflow: hidden; bo=
+rder-color: #CDC0B0; margin: 0; background: #fff; font-family: Arial,Helvet=
+ica,sans-serif; border-right: 1px solid #CDC0B0; display: block; height: 1p=
+x; border-left: 1px solid #CDC0B0;"></var></var>=20
+=09=09=09<var class=3D"colormain2" style=3D"overflow: hidden; margin: 0; ba=
+ckground: #fff; font-family: Arial,Helvetica,sans-serif; border-right: 2px =
+solid #CDC0B0; display: block; height: 1px; border-left: 2px solid #CDC0B0;=
+"><var class=3D"color2" style=3D"overflow: hidden; border-color: #CDC0B0; m=
+argin: 0; background: #fff; font-family: Arial,Helvetica,sans-serif; border=
+-right: 1px solid #CDC0B0; display: block; height: 1px; border-left: 1px so=
+lid #CDC0B0;"><var class=3D"color1" style=3D"overflow: hidden; border-color=
+: #CDC0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-s=
+erif; border-right: 1px solid #CDC0B0; display: block; height: 1px; border-=
+left: 1px solid #CDC0B0;"></var></var></var>=20
+=09=09</div>=20
+   =20
+    </td>
+    </tr>
+=09<tr>
+    <td valign=3D"top" align=3D"center" style=3D"margin:0px;padding:0px;bor=
+der-top: 3px solid #CDC0B0;border-right: 3px solid #CDC0B0;" nowrap=3D"true=
+">
+
+=09<table style=3D"width:100%">
+    =09<tr>
+        <td valign=3D"top" align=3D"center" style=3D"width:33%">
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/actions/customerportal=
+/request.df?bid=3D59778049&cid=3D132028034&campid=3D60294489&commid=3D&refi=
+d=3D0&appid=3D&vid=3D&smsmtid=3D574127590" style=3D"font-size: 10pt; font-w=
+eight: bold; margin: 0; font-family: Arial,Helvetica,sans-serif; color: #06=
+9; display: block;"><img src=3D"http://www.demandforce.com/cx/requestYellow=
+.png" alt=3D"Request Appointment" style=3D"margin: 0; font-family: Arial,He=
+lvetica,sans-serif; border: 0; height: 50px; width: 50px;" /></a>=20
+         </td>
+        <td valign=3D"top" align=3D"center" style=3D"width:33%">
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/customerportal/survey/=
+surveywithonlyreview.jsp?bid=3D59778049&cid=3D132028034 " class=3D"img" sty=
+le=3D"font-size: 10pt; font-weight: bold; margin: 0; font-family: Arial,Hel=
+vetica,sans-serif; color: #069; display: block;"><img src=3D"http://www.dem=
+andforce.com/cx/googleYellow.png" alt=3D"Write a Review" style=3D"margin: 0=
+; font-family: Arial,Helvetica,sans-serif; border: 0; height: 50px; width: =
+50px;" /></a>=20
+=09=09</td>               =20
+        <td valign=3D"top" align=3D"center" style=3D"width:33%">
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/customerportal/prefere=
+nce/preferencesEdit.jsp?bid=3D59778049&cid=3D132028034" class=3D"img" style=
+=3D"font-size: 10pt; font-weight: bold; margin: 0; font-family: Arial,Helve=
+tica,sans-serif; color: #069; display: block;"><img src=3D"http://www.deman=
+dforce.com/cx/preferencesYellow.png" alt=3D"Update Preferences" style=3D"ma=
+rgin: 0; font-family: Arial,Helvetica,sans-serif; border: 0; height: 50px; =
+width: 50px;" /></a>=20
+=09=09</td>=20
+        </tr>      =20
+        <tr>
+        <td valign=3D"top" align=3D"center" style=3D"width:33%">
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/actions/customerportal=
+/request.df?bid=3D59778049&cid=3D132028034&campid=3D60294489&commid=3D&refi=
+d=3D0&appid=3D&vid=3D&smsmtid=3D574127590" style=3D"font-size: 10pt; font-w=
+eight: bold; margin: 0; font-family: Arial,Helvetica,sans-serif; color: #06=
+9; display: block;">Request<BR/>Appointment</a>=09
+         </td>
+        <td valign=3D"top" align=3D"center" style=3D"width:33%">
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/customerportal/survey/=
+surveywithonlyreview.jsp?bid=3D59778049&cid=3D132028034 " style=3D"font-siz=
+e: 10pt; font-weight: bold; margin: 0; font-family: Arial,Helvetica,sans-se=
+rif; color: #069; display: block;">Write a<BR/>Review</a>=09
+=09=09</td>               =20
+        <td valign=3D"top" align=3D"center" style=3D"width:33%">
+=09=09=09=09<a href=3D"https://d35.demandforced3.com/customerportal/prefere=
+nce/preferencesEdit.jsp?bid=3D59778049&cid=3D132028034" style=3D"font-size:=
+ 10pt; font-weight: bold; margin: 0; font-family: Arial,Helvetica,sans-seri=
+f; color: #069; display: block;">Update<BR/>Preferences</a>=09
+=09=09</td>=20
+        </tr>       =20
+       =20
+        </table>       =20
+
+   =20
+=09</td>
+    </tr>  =20
+ =20
+  <tr>
+    <td colspan=3D2 style=3D"border-bottom: 3px solid #CDC0B0;border-left: =
+3px solid #CDC0B0;margin:0px;padding:0px;border-right: 3px solid #CDC0B0;">
+   =20
+   =20
+=09=09<div class=3D"d3e-cornerWrap d3e-bottomCorner" style=3D"clear: both; =
+margin: 0; font-family: Arial,Helvetica,sans-serif; ;">=20
+=09=09=09<var class=3D"color1" style=3D"overflow: hidden; border-color: #CD=
+C0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-serif;=
+ border-right: 1px solid #CDC0B0; display: block; height: 1px; border-left:=
+ 1px solid #CDC0B0;"></var>=20
+=09=09=09<var class=3D"color2" style=3D"overflow: hidden; border-color: #CD=
+C0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-serif;=
+ border-right: 1px solid #CDC0B0; display: block; height: 1px; border-left:=
+ 1px solid #CDC0B0;"></var>=20
+=09=09=09<var class=3D"colormain" style=3D"overflow: hidden; border-color: =
+#CDC0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-ser=
+if; border-right: 1px solid #CDC0B0; display: block; height: 1px; border-le=
+ft: 1px solid #CDC0B0;"><var class=3D"color1" style=3D"overflow: hidden; bo=
+rder-color: #CDC0B0; margin: 0; background: #fff; font-family: Arial,Helvet=
+ica,sans-serif; border-right: 1px solid #CDC0B0; display: block; height: 1p=
+x; border-left: 1px solid #CDC0B0;"></var></var>=20
+=09=09=09<var class=3D"colormain2" style=3D"overflow: hidden; margin: 0; ba=
+ckground: #fff; font-family: Arial,Helvetica,sans-serif; border-right: 2px =
+solid #CDC0B0; display: block; height: 1px; border-left: 2px solid #CDC0B0;=
+"><var class=3D"color2" style=3D"overflow: hidden; border-color: #CDC0B0; m=
+argin: 0; background: #fff; font-family: Arial,Helvetica,sans-serif; border=
+-right: 1px solid #CDC0B0; display: block; height: 1px; border-left: 1px so=
+lid #CDC0B0;"><var class=3D"color1" style=3D"overflow: hidden; border-color=
+: #CDC0B0; margin: 0; background: #fff; font-family: Arial,Helvetica,sans-s=
+erif; border-right: 1px solid #CDC0B0; display: block; height: 1px; border-=
+left: 1px solid #CDC0B0;"></var></var></var>=20
+=09=09</div>=20
+   =20
+    </td>
+   =20
+    </tr>
+
+    </table>
+   =20
+</div>=09
+=09<div class=3D"d3e-bottomTxt" style=3D"font-size: 8pt; margin: 0; font-fa=
+mily: Arial,Helvetica,sans-serif; color: #666; padding: 5px 0; text-align: =
+left;">=20
+=09  =09<img src=3D"https://d35.demandforced3.com/cp/read.jsp?id=3D57412759=
+0&bid=3D59778049" height=3D"35" alt=3D"Powered by Demandforce" style=3D"mar=
+gin: 0; font-family: Arial,Helvetica,sans-serif; border: 0; float: right;" =
+width=3D"141" />=20
+=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;">To r=
+emove yourself from future mailings, please click <a href=3D"https://d35.de=
+mandforced3.com/actions/customerportal/optout.df?cid=3D132028034&bid=3D5977=
+8049&campid=3D60294489&commid=3D&smsmtid=3D574127590" target=3D"_blank" sty=
+le=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;">here</a>.<br sty=
+le=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;" />     =20
+=09=09&copy; 2003 - 2009 Demandforce, Inc. All rights reserved. </p>=20
+=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif; paddi=
+ng: 25px 0;"></p>=20
+=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;">This=
+ message contains information which may be confidential and/or privileged. =
+Unless you are the intended recipient (or authorized to receive for the int=
+ended recipient), you may not read, use, copy or disclose to anyone the mes=
+sage or any information contained in the message. If you have received the =
+message in error, please advise the sender by reply e-mail and delete the m=
+essage and any attachment(s) thereto without retaining any copies. </p>=20
+=09=09<table style=3D"margin: 10px 0; font-family: Arial,Helvetica,sans-ser=
+if; text-align: center; width: 100%;">=20
+=09=09=09<tr style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;">=
+=20
+=09=09=09=09<td align=3D"center" style=3D"margin: 0; font-family: Arial,Hel=
+vetica,sans-serif;"><a href=3D"http://www.demandforce.com/compliant/canspam=
+.shtml?id=3D59778049" style=3D"margin: 0; font-family: Arial,Helvetica,sans=
+-serif;"><img title=3D"CAN-SPAM Compliant" src=3D"https://d35.demandforced3=
+.com/compliance.jsp?f=3Dcanspam" height=3D"65" alt=3D"CAN-SPAM Compliant" s=
+tyle=3D"margin: 0; font-family: Arial,Helvetica,sans-serif; border: 0;" wid=
+th=3D"133" /></a></td>=20
+=09=09=09=09<td align=3D"center" style=3D"margin: 0; font-family: Arial,Hel=
+vetica,sans-serif;"><a href=3D"http://www.demandforce.com/compliant/hipaa.s=
+html?id=3D59778049" style=3D"margin: 0; font-family: Arial,Helvetica,sans-s=
+erif;"><img title=3D"HIPAA Compliant" src=3D"https://d35.demandforced3.com/=
+compliance.jsp?f=3Dhipaa" height=3D"65" alt=3D"HIPAA Compliant" style=3D"ma=
+rgin: 0; font-family: Arial,Helvetica,sans-serif; border: 0;" width=3D"133"=
+ /></a></td>=20
+=09=09=09=09<td align=3D"center" style=3D"margin: 0; font-family: Arial,Hel=
+vetica,sans-serif;"><a href=3D"http://www.demandforce.com/compliant/email.s=
+html?id=3D59778049" style=3D"margin: 0; font-family: Arial,Helvetica,sans-s=
+erif;"><img title=3D"EMAIL Compliant" src=3D"https://d35.demandforced3.com/=
+compliance.jsp?f=3Demail" height=3D"65" alt=3D"EMAIL Compliant" style=3D"ma=
+rgin: 0; font-family: Arial,Helvetica,sans-serif; border: 0;" width=3D"133"=
+ /></a></td>=20
+=09=09=09</tr>=20
+=09=09</table>=20
+=09=09<p style=3D"margin: 0; font-family: Arial,Helvetica,sans-serif;">Deli=
+vered by Demandforce, 425 Second Street, Suite 600, San Francisco, CA 94107=
+ on behalf of Washington Center for Dentistry, 1430 K Street NW, Eighth Flo=
+or, Washington, DC, 20005.</p>=20
+=09</div>=20
+=20
+ </div>
+</body>=20
+</html>
+------=_Part_127632_15680555.1266146140280--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114681</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1266146153</integer>
+	<key>flags</key>
+	<integer>25786842113</integer>
+	<key>remote-id</key>
+	<string>4855</string>
+</dict>
+</plist>

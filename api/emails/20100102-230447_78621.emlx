@@ -1,0 +1,112 @@
+4466      
+Delivered-To: hbiden@rosemontseneca.com
+Received: by 10.216.10.196 with SMTP id 46cs260965wev; Sat, 2 Jan 2010
+ 18:04:50 -0800 (PST)
+Received: by 10.151.89.41 with SMTP id r41mr31430164ybl.205.1262484289661;
+ Sat, 02 Jan 2010 18:04:49 -0800 (PST)
+Return-Path: <jmar1979@gmail.com>
+Received: from server514.appriver.com (server514a.exghost.com [72.32.253.68])
+ by mx.google.com with ESMTP id 10si24855455iwn.90.2010.01.02.18.04.48; Sat,
+ 02 Jan 2010 18:04:48 -0800 (PST)
+Received-SPF: neutral (google.com: 72.32.253.68 is neither permitted nor
+ denied by domain of jmar1979@gmail.com) client-ip=72.32.253.68;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 72.32.253.68
+ is neither permitted nor denied by domain of jmar1979@gmail.com)
+ smtp.mail=jmar1979@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+X-Policy: GLOBAL - UNKNOWN
+X-Primary: jmar1979@gmail.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-4/SG:2 1/2/2010 8:04:45 PM
+X-GBUdb-Analysis: 0, 72.32.253.159, Ugly c=0.677131 p=-0.753501 Source Normal
+X-Signature-Violations: 0-0-0-3507-c
+X-Note: Spam Tests Failed:
+X-Country-Path: ->->UNITED STATES->PRIVATE->UNITED STATES->UNITED
+ STATES->UNITED STATES
+X-Note-Sending-IP: 72.32.253.159
+X-Note-Reverse-DNS: fe08.exg4.exghost.com
+X-Note-WHTLIST: jmar1979@gmail.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: 115 116 117 118 122 123 221
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [72.32.253.159] (HELO fe08.exg4.exghost.com) by
+ server514.appriver.com (CommuniGate Pro SMTP 5.3c2) with ESMTP id 92331263
+ for hbiden@rosemontseneca.com; Sat, 02 Jan 2010 20:04:54 -0600
+Received: from outbound.appriver.com ([72.32.253.11]) by fe08.exg4.exghost.com
+ with Microsoft SMTPSVC(6.0.3790.3959); Sat, 2 Jan 2010 20:04:47 -0600
+Received: from [10.242.229.32] (HELO inbound.appriver.com) by
+ outbound.appriver.com (CommuniGate Pro SMTP 5.2.3) with ESMTP id 265622680
+ for hbiden@senecaga.com; Sat, 02 Jan 2010 20:04:54 -0600
+X-Policy: senecaga.com
+X-Primary: hbiden@senecaga.com
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Virus-Scan: V-
+X-Note: TCH-CT/SI:0-4/SG:2 1/2/2010 8:03:01 PM
+X-GBUdb-Analysis: 0, 209.85.216.177, Ugly c=0.360316 p=-0.212121 Source Normal
+X-Signature-Violations: 0-0-0-2134-c
+X-Note: SCH-CT/SI:0-1269/SG:1 1/2/2010 8:04:21 PM
+X-Note: Spam Tests Failed:
+X-Country-Path: ->->UNITED STATES->UNITED STATES
+X-Note-Sending-IP: 209.85.216.177
+X-Note-Reverse-DNS: mail-px0-f177.google.com
+X-Note-WHTLIST: jmar1979@gmail.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: 180 181 182 183 187 188 286
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from mail-px0-f177.google.com ([209.85.216.177] verified) by
+ inbound.appriver.com (CommuniGate Pro SMTP 5.2.16) with ESMTP id 16709818 for
+ hbiden@senecaga.com; Sat, 02 Jan 2010 20:04:50 -0600
+Received: by pxi7 with SMTP id 7so10349123pxi.31 for <hbiden@senecaga.com>;
+ Sat, 02 Jan 2010 18:04:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+ h=domainkey-signature:mime-version:received:date:message-id:subject
+ :from:to:content-type; bh=yIm50PMi9XNQo+gZ+xHDMblvAPUz15j6Nm2SM4utaKk=;
+ b=rDsAi+YLOk9qLfn4hE7ifciw5xXzQYL65aJ1ZIopUCj8wz9kvOOBQmlCSJqesFBfw4
+ mbJLTJDzv4d1byIOUKOkEok6RKkITS7Zzoa+Vs8AcOVtE2FdFlRpGIHMkhpkSWdgvhqI
+ 4SHVQuqGsIQsugXln67S2hs2d7ic+h9xavwbM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+ h=mime-version:date:message-id:subject:from:to:content-type;
+ b=XPM24mMUF8JMRqFrJR1s/I+SvJmCrqDR08/DgJUXEbiRc/cvkW2EAMi7w8sN3qKGNH
+ Wwdi0Rz3rjpjkhJMoUocG+rcPYbXENxy3xr4XJcL/M/m3QG2QGyEtOn4AR22WWP/LteW
+ 19cap/i3nEWeNIr6GhZr5pvftdPnVvHC/VdsU=
+MIME-Version: 1.0
+Received: by 10.143.153.42 with SMTP id f42mr13703770wfo.162.1262484287147;
+ Sat, 02 Jan 2010 18:04:47 -0800 (PST)
+Date: Sat, 2 Jan 2010 21:04:47 -0500
+Message-ID: <16a2962f1001021804i2eca7bcak4f774313adc365d2@mail.gmail.com>
+Subject: Update
+From: Josh Martin <jmar1979@gmail.com>
+To: Hunter Biden <hbiden@senecaga.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Return-Path: jmar1979@gmail.com
+X-OriginalArrivalTime: 03 Jan 2010 02:04:47.0975 (UTC)
+ FILETIME=[206FCF70:01CA8C19]
+
+Hey man,
+
+Not sure if I used the right number for my voicemail on NY's Eve. Anna
+and I are engaged! Are you going to be in full election mode this
+October?
+
+-- 
+Sent from my mobile device
+
+Josh Martin | C: 703-939-0859 | http://www.linkedin.com/in/joshuanathanmartin
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conversation-id</key>
+	<integer>114595</integer>
+	<key>date-last-viewed</key>
+	<integer>0</integer>
+	<key>date-received</key>
+	<integer>1262484288</integer>
+	<key>flags</key>
+	<integer>8623750145</integer>
+	<key>remote-id</key>
+	<string>2128</string>
+</dict>
+</plist>
