@@ -95,6 +95,11 @@ Choose which version of index to query by updating the config.ini in api folder 
 1. https://[ipaddress]:4000 in chrome browser to use the demo.
 2. https://[ipaddress]:7860 gradio text input/response interface.
 
+### TODO
+- [ ] Create a jupyter notebook
+- [ ] Create google colab notebook
+- [ ] Create Docker image
+- [ ] Create git workflow to post to hosting platform to visualize it.
 
 ## 📝 License
 
