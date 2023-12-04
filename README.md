@@ -69,6 +69,11 @@ If you already have access to ubuntu instance, you can skip this section.
 2. Change directory to web/public. Update the completion.apiendpoint to the ip address of your instance.
 3. Change directory to api. Update config.ini to update host/port parameters if needed.
 
+### Data set and index
+1. The data set used in this example is a random sample of about 2000 emails (emlx) from
+<a href="https://www.kaggle.com/datasets/konradb/hunter-biden-emails">Kaggle</a>
+2. Copy these emails to emails folder and run createindex.py to create the vector index for query.
+
 #### Bring up the website and api service
 ```bash
     cd web
