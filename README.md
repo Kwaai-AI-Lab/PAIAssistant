@@ -24,14 +24,9 @@ The best way to support TruLens is to give us a ⭐ on [GitHub](https://github.c
 ### Installation and Setup
 The steps below can be used to setup the enviroment for this demo to run on Ubuntu 20.04.6 LTS.
 
-If you already have access to ubuntu instance, you can skip this section.
-
-1. Download <a href="https://releases.ubuntu.com/focal/" target="_blank">
-    Ubuntu 20.04.6 LTS server ISO image.
-  </a>
-2. Download <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">
-    Oracle VirtualBox.
-  </a> 
+#### Optional: If you already have access to ubuntu instance, you can skip this section.
+1. Download <a href="https://releases.ubuntu.com/focal/" target="_blank">Ubuntu 20.04.6 LTS server ISO image.</a>
+2. Download <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Oracle VirtualBox.</a> 
 3. Create a new virtual machine with the ubuntu image downloaded above. Sample configuration is 4gb ram, 2 vcpu, bridged network settting, 25 gb disk.
 4. Signup for platform.openai.com and <a href="https://platform.openai.com/api-keys">generate OpenAI api key</a>
 
