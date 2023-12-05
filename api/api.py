@@ -1,6 +1,6 @@
 
 from llama_index import StorageContext, load_index_from_storage, ServiceContext
-from langchain import OpenAI
+from langchain.chat_models import ChatOpenAI
 import gradio as gr
 import sys
 import os
@@ -47,7 +47,7 @@ iface = gr.Interface(fn=chatbot,
 
  
 
-llm = OpenAI(model=modelname, temperature=0.1)
+llm =ChatOpenAI(temperature=0.1, model_name=modelname)
 service_context = ServiceContext.from_defaults(
     llm=llm, embed_model=embed_modelname
 )

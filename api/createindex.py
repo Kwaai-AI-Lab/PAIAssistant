@@ -1,6 +1,6 @@
 from llama_index import SimpleDirectoryReader 
 from llama_index import ServiceContext
-from langchain import OpenAI
+from langchain.chat_models import ChatOpenAI
 from llama_index import VectorStoreIndex
 from utils import build_sentence_window_index
 from utils import build_automerging_index
@@ -34,7 +34,7 @@ def check_and_create_directory(directory_path):
         
 def construct_basic_index(src_directory_path,index_directory):        
     check_and_create_directory(index_directory)     
-    llm = OpenAI(model=modelname, temperature=0.1)
+    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
     service_context = ServiceContext.from_defaults(
         llm=llm, embed_model=embed_modelname
     )
@@ -48,7 +48,7 @@ def construct_basic_index(src_directory_path,index_directory):
 
 def construct_sentencewindow_index(src_directory_path,index_directory):    
     
-    llm = OpenAI(model=modelname, temperature=0.1)
+    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
     documents = SimpleDirectoryReader(src_directory_path).load_data()
     index = build_sentence_window_index(
     documents,
@@ -59,7 +59,7 @@ def construct_sentencewindow_index(src_directory_path,index_directory):
     return index
 
 def construct_automerge_index(src_directory_path,index_directory):    
-    llm = OpenAI(model=modelname, temperature=0.1)
+    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
     documents = SimpleDirectoryReader(src_directory_path).load_data()
     index = build_automerging_index(
     documents,
