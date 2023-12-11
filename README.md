@@ -95,8 +95,20 @@ Choose which version of index to query by updating the config.ini in api folder 
 1. https://[ipaddress]:4000 in chrome browser to use the demo.
 2. https://[ipaddress]:7860 gradio text input/response interface.
 
+### Create a jupyter notebook
+Using the Command-line Interface (CLI), navigate to cmd (command prompt).
+
+#### Install Jupyter
+Copy and paste the following code
+``` pip install jupyter ```
+#### Navigate to the directory
+Use the `cd` command to navigate to the directory where you want to create your Notebook 
+``` cd path\to\desired\directory ```
+#### Launch Jupyter Notebook Server
+Copy and paste the following code to the server
+``` Jupyter notebook ```
+
 ### TODO
-- [ ] Create a jupyter notebook
 - [ ] Create google colab notebook
 - [ ] Create Docker image
 - [ ] Create git workflow to post to hosting platform to visualize it.
