@@ -91,6 +91,12 @@ Choose which version of index to query by updating the config.ini in api folder 
     python api.py
 ```
 
+#### Running locally vs using openai 
+To use openai set the following attribute in api/config.ini.
+By default it is set to false.
+
+useopenai=true
+
 #### Visit in chrome browser
 1. https://[ipaddress]:4000 in chrome browser to use the demo.
 2. https://[ipaddress]:7860 gradio text input/response interface.
