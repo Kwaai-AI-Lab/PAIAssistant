@@ -199,6 +199,20 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     background-color: rgba(255,255,255,0.9); /* semi-transparent white */
 }
 
+#text-input-area {
+    z-index:20;
+    position: absolute;   
+    padding: 10px; 
+    bottom: 0;
+    width: 95%;
+    height: 16%;    
+    justify-content: center;
+    align-items: center;    
+    background-color: rgba(255,255,255,0.9); /* semi-transparent white */
+    display: flex; /* Added to align child elements */
+    justify-content: space-between; /* Space out child elements */
+}
+
  
 #microphone-button {
     background-color: transparent;
@@ -211,4 +225,40 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     width: 50px;
     height: 50px;
     border-radius: 50%; /* Makes the image circular */
+}
+
+#sendButton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Some padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    display: flex; /* To align SVG and text */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+#sendButton svg {
+    margin-right: 5px; /* Space between SVG icon and text */
+    fill: white; /* SVG color */
+}
+
+#sendButton:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+.input-container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Aligns children vertically in the center */
+    width: 100%; /* Take full width of parent */
+    gap: 10px; /* Adds space between the textarea and the button */
+}
+
+#inputText {
+    flex-grow: 1; /* Allows the textarea to grow and fill available space */
+    resize: horizontal; /* Allows the textarea to be resizable horizontally */
+    padding: 5px; /* Optional: Adds some padding inside the textarea */
+    border: 1px solid #ccc; /* Optional: Adds a border to the textarea */
 }

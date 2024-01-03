@@ -11,24 +11,96 @@
           <div id="chatbox">
             <!-- Messages will be displayed here -->
           </div>
-          <div id="input-area">
+          <div id="input-area" style="display:none">
             <div class="participant">           
               <video id="maxvideoidle"   style="z-index: 2; opacity: 1; position: absolute; transition: opacity 0.5s; border-radius:100%" src="https://ugc-idle.s3-us-west-2.amazonaws.com/521cb66a4630d7806a4e047dacfda47f.mp4" playsinline loop preload="yes">	
               </video>
               <video id="maxvideo"    style="z-index: 1; opacity: 0;position: absolute; ; transition: opacity 0.5s; border-radius:100%" playsinline preload="yes">	
               </video>
-            </div>
-            <button id="microphone-button"><img src="img/mic.png" alt="Microphone"></button>            
+            </div>             
+            <button id="microphone-button"><img src="img/mic.png" alt="Microphone"></button>  
             <div id="loading" class="loading"><span>.</span><span>.</span><span>.</span></div>
-          </div>
-          
-    
+          </div>    
+          <div id="text-input-area">
+            <!-- Container for the new elements to control layout -->
+            <div class="input-container">
+              <textarea id="inputText" rows="2"></textarea>
+              <button id="sendButton">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- SVG Path for an icon (example: paper plane) -->
+                    <path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="currentColor"/>
+                </svg>
+                Send
+            </button>
+            </div>
+          </div>          
           <textarea readonly id="transcript" cols="50" rows="1" style="display:none;resize:none; border:none; outline:none"></textarea>
         </div>
         
       </div>
       <script>
         var config;
+        
+        function SetTextInputArea() {
+            var textInputArea = document.getElementById('text-input-area');
+            var InputArea = document.getElementById('input-area');
+            
+            if (!config.exh.enabled) {
+                // Element is hidden, show it
+                textInputArea.style.display = 'flex'; // Use 'flex' or 'block', depending on your layout
+                InputArea.style.display = 'none'; 
+            } else {
+                // Element is visible, hide it
+                textInputArea.style.display = 'none';
+                InputArea.style.display = 'flex'; 
+            }
+        }
+
+        function DisplayMessage(message, IsAPIMessage=false)
+        {
+          if(IsAPIMessage)
+          {
+            if (message) {
+              var messageElement = document.createElement('div');
+              messageElement.className = 'sysmessage';
+
+              var avatarElement = document.createElement('img');
+              avatarElement.src = 'img/max.png'; // replace with your avatar URL
+
+              var textElement = document.createElement('div');
+              textElement.textContent = message;
+
+              messageElement.appendChild(avatarElement);
+              messageElement.appendChild(textElement);
+
+              document.getElementById('chatbox').appendChild(messageElement);
+              
+              // Scroll to bottom
+              document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
+            }
+          }
+          else
+          {
+            if (message) {
+              var messageElement = document.createElement('div');
+              messageElement.className = 'message';
+
+              var avatarElement = document.createElement('img');
+              avatarElement.src = 'img/user.png'; // replace with your avatar URL
+
+              var textElement = document.createElement('div');
+              textElement.textContent = message;
+
+              messageElement.appendChild(avatarElement);
+              messageElement.appendChild(textElement);
+
+              document.getElementById('chatbox').appendChild(messageElement);
+              
+              // Scroll to bottom
+              document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
+            }
+          }
+        }
         function showLoading() {
             document.getElementById('loading').style.display = 'inline';
         }
@@ -52,74 +124,116 @@
         function trimAtFirstPeriod(text) {
             return text.split('.', 1)[0];
         }
+        async function callPredictAPI(data,config) {
+          const url = config.completion.apiendpoint;
+          let promptval = `
+          Your name is Maggie. You are a personal assistant for Arlo. 
+          You help Arlo with answering questions about his emails and 
+          drafting a suitable email in his style. If Arlo asks about 
+          other things, politely bring them back to email-related topics. 
+          Arlo is also called Hunter, but he doesn't like using that name. 
+          When drafting emails, draft it as Arlo. Politely decline to 
+          answer any other topic.
+
+          Arlo: ${data} 
+
+          Maggie:
+          `;
+
+          const requestBody = {
+            fn_index: 0,
+            data: [promptval],
+            event_data: null,
+            session_hash: 'dpe0pbhc8x'
+          };
+
+          try {
+            const response = await fetch(url, {              
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(requestBody) 
+            });
+
+            const responseData = await response.json();
+            
+            return responseData;
+          } catch (error) {
+            console.error('Error:', error);
+            // Handle error accordingly
+          }
+        }
 
         async function animate(completion, character, video)
         {
         // call the Ex-Human API with the transcript text
-                    const options = {
-                      method: 'POST',
-                      headers: {
-                        accept: 'application/json',
-                        'content-type': 'application/json',
-                        authorization: 'Bearer '+ config.exh.auth
-                      },
-                      body: JSON.stringify({
-                        animation_pipeline: 'high_speed',
-                        text: trimLength(completion,190),
-                        idle_url: character.url,
-                        voice_name: character.name
-                      })
-                    };
+          const options = {
+            method: 'POST',
+            headers: {
+              accept: 'application/json',
+              'content-type': 'application/json',
+              authorization: 'Bearer '+ config.exh.auth
+            },
+            body: JSON.stringify({
+              animation_pipeline: 'high_speed',
+              text: trimLength(completion,190),
+              idle_url: character.url,
+              voice_name: character.name
+            })
+          };
 
-                    fetch(config.exh.apiendpoint, options)
-                      .then(response => {                           
-                        return response.blob();
-                })
-                      .then(blob => {
-                        // create a URL for the blob and set it as the source for the video element
-                        const url = URL.createObjectURL(blob);
-                        video.src = url;
-                        video.loop=false;
-                        video.play();                
-                        hideLoading();
-                        stopBlinking()
-
-                        let message=completion;
-                      if (message) {
-                          var messageElement = document.createElement('div');
-                          messageElement.className = 'sysmessage';
-
-                          var avatarElement = document.createElement('img');
-                          avatarElement.src = 'img/max.png'; // replace with your avatar URL
-
-                          var textElement = document.createElement('div');
-                          textElement.textContent = message;
-
-                          messageElement.appendChild(avatarElement);
-                          messageElement.appendChild(textElement);
-
-                          document.getElementById('chatbox').appendChild(messageElement);
-                          
-                          // Scroll to bottom
-                          document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
-                      }
-
-                      })
-                      .catch(err => {
-                        
-                        hideLoading();
-                        stopBlinking()
-                        
-                        console.error(err)
-                      });
+          fetch(config.exh.apiendpoint, options)
+            .then(response => {                           
+              return response.blob();
+            })
+            .then(blob => {
+              // create a URL for the blob and set it as the source for the video element
+              const url = URL.createObjectURL(blob);
+              video.src = url;
+              video.loop=false;
+              video.play();                
+              hideLoading();
+              stopBlinking()
+            })
+            .catch(err => {
+              
+              hideLoading();
+              stopBlinking()
+              
+              console.error(err)
+            });
                 
-                while (!video.ended) {
-                await new Promise(resolve => setTimeout(resolve, 100));
-                }
+            while (!video.ended) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+            }
         }	  
+
+
+        function ProcessInputTextPrompt() {
+          const currentTranscript = document.getElementById("inputText").value;          
+          var message = currentTranscript;
+          document.getElementById("inputText").value = '';
+
+          DisplayMessage(message);
+                                
+          callPredictAPI(currentTranscript,config)
+          .then(response=>{
+            let message=response.data[0];              
+            DisplayMessage(message,true)
+          })
+              
+          transcript.value = "Topic: " +currentTranscript;
+          gcompletion= transcript.value;
+        }
+
         
         function main()
         {
+            SetTextInputArea();
+
+            if( config.exh.enabled)
+            {}
             document.getElementById('microphone-button').addEventListener('click', function() {
                 // Handle microphone input here
               startPAI();
@@ -137,7 +251,7 @@
             
             
             function startPAI() {
-              console.log('Engine started');      
+              console.log('PAI Engine started');      
               maxvideoidle.play();
               maxvideoidle.style.opacity=1;
               maxvideoidle.loop=true;
@@ -146,134 +260,82 @@
               loop=false;
               
             }
-            async function callPredictAPI(data,config) {
-              const url = config.completion.apiendpoint;
-              let promptval = `
-        Your name is Maggie. You are a personal assistant for Arlo. 
-        You help Arlo with answering questions about his emails and 
-        drafting a suitable email in his style. If Arlo asks about 
-        other things, politely bring them back to email-related topics. 
-        Arlo is also called Hunter, but he doesn't like using that name. 
-        When drafting emails, draft it as Arlo. Politely decline to 
-        answer any other topic. 
-
-        Arlo: ${data} 
-
-        Maggie:
-        `;
-
-              const requestBody = {
-                fn_index: 0,
-                data: [promptval],
-                event_data: null,
-                session_hash: 'dpe0pbhc8x'
-              };
-
-              try {
-                const response = await fetch(url, {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json'
-                  },
-                  body: JSON.stringify(requestBody)
-                });
-
-                const responseData = await response.json();
-                let message=responseData.data[0];
-                hideLoading()
-                stopBlinking()
-                if (message) {
-                    
-                    animate(message,max,maxvideo);	
-                }
-                return responseData;
-              } catch (error) {
-                console.error('Error:', error);
-                // Handle error accordingly
-              }
-            }
+            
             
             let gcompletion="";
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-          // check if the browser supports the Web Speech API
-          if (SpeechRecognition) {
-            // create a new SpeechRecognition object
-            recognition=new SpeechRecognition();
+            // check if the browser supports the Web Speech API
+            if (SpeechRecognition) {
+              // create a new SpeechRecognition object
+              recognition=new SpeechRecognition();
 
-            // set the recognition properties
-            recognition.continuous = true;
-            recognition.interimResults = false;
-            recognition.maxAlternatives = 1;
-            recognition.lang = 'en-US'; // specify the language
+              // set the recognition properties
+              recognition.continuous = true;
+              recognition.interimResults = false;
+              recognition.maxAlternatives = 1;
+              recognition.lang = 'en-US'; // specify the language
 
-            // get the HTML elements
-            const startBtn = document.getElementById('startBtn');
-            const stopBtn = document.getElementById('stopBtn');
-            const transcript = document.getElementById('transcript');
-            const maxvideo = document.getElementById('maxvideo');
-            const maxvideoidle = document.getElementById('maxvideoidle');
-            
-            
-            
-            maxvideo.addEventListener("play", function() {
-              maxvideo.style.opacity=1;
-              maxvideoidle.style.opacity=0;
-            });
-
-            maxvideo.addEventListener("ended", function() {
-                  // play the default video when the generated video ends
-                  
-                  maxvideoidle.play();
-                  maxvideoidle.style.opacity=1;
-                  maxvideoidle.loop=true;
-                  
-                
-                  });
-                    
-            // listen for results
-            
-            recognition.onresult = function(event) {
-              recognition.stop(); 
-              hideLoading();
-              // get the current transcript
-              const currentTranscript = event.results[event.results.length - 1][0].transcript;                                         
-              let message=currentTranscript;
-              if (message) {
-                    var messageElement = document.createElement('div');
-                    messageElement.className = 'message';
-
-                    var avatarElement = document.createElement('img');
-                    avatarElement.src = 'img/user.png'; // replace with your avatar URL
-
-                    var textElement = document.createElement('div');
-                    textElement.textContent = message;
-
-                    messageElement.appendChild(avatarElement);
-                    messageElement.appendChild(textElement);
-
-                    document.getElementById('chatbox').appendChild(messageElement);
-                    
-                    // Scroll to bottom
-                    document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
-                }
-                
-                startBlinking();
-                callPredictAPI(currentTranscript,config)
+              // get the HTML elements
+              const startBtn = document.getElementById('startBtn');
+              const stopBtn = document.getElementById('stopBtn');
+              const transcript = document.getElementById('transcript');
+              const maxvideo = document.getElementById('maxvideo');
+              const maxvideoidle = document.getElementById('maxvideoidle');
               
+              
+              
+              maxvideo.addEventListener("play", function() {
+                maxvideo.style.opacity=1;
+                maxvideoidle.style.opacity=0;
+              });
+
+              maxvideo.addEventListener("ended", function() {
+                    // play the default video when the generated video ends
+                    
+                    maxvideoidle.play();
+                    maxvideoidle.style.opacity=1;
+                    maxvideoidle.loop=true;
+                    
+                  
+                    });
+                      
+              // listen for results
+              
+              recognition.onresult = function(event) {
+                recognition.stop(); 
+                hideLoading();
+                // get the current transcript
+                const currentTranscript = event.results[event.results.length - 1][0].transcript;                                         
+                let message=currentTranscript;
+                DisplayMessage(message)                  
+                startBlinking();
                 transcript.value = "Topic: " +currentTranscript;
                 gcompletion= transcript.value;
-            };
-            
-          } else {
-            alert('Speech recognition is not supported in this browser.');
-          }  
+                callPredictAPI(currentTranscript,config)
+                .then(response=>{
+                  let message=response.data[0];
+                  hideLoading()
+                  stopBlinking()
+                  if (message) {                      
+                      DisplayMessage(message,true)                      
+                      animate(message,max,maxvideo);	
+                  }
+                })
+              };
+              
+            } else {
+              alert('Speech recognition is not supported in this browser.');
+            }  
         }
+        
+        // Adding event listener to the Send button
+        document.getElementById("sendButton").addEventListener("click", ProcessInputTextPrompt);
         fetch('/config.json')
-      .then(response => response.json())
-      .then(c => {
-        config= c;
-        main();  
-      });
+        .then(response => response.json())
+        .then(c => {
+          config= c;
+          main();  
+        });
       
       </script>
      

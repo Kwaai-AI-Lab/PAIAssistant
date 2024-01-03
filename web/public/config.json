@@ -1,12 +1,13 @@
 {
     
     "exh": {
+        "enabled": false,
         "apiendpoint":"https://api.exh.ai/animations/v2/generate_lipsync",
         "charname":"Fay",
         "charurl":"https://ugc-idle.s3-us-west-2.amazonaws.com/521cb66a4630d7806a4e047dacfda47f.mp4",
         "auth":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IndlYi1iMmIifQ.f3MfvuugFhx2yRjMB37u1Tv1BcbyNmKDWVv5RwSPXawcn3ZVU-q7unEKcjc9XOe8cTTRRxV2zS8ECf2wUXQFNw"
     },
     "completion":{
-        "apiendpoint":"https://192.168.7.72:7860/run/predict"
+        "apiendpoint":"https://localhost:7860/run/predict"
     }
 }
