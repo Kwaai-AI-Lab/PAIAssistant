@@ -23,8 +23,14 @@ The best way to support TruLens is to give us a ⭐ on [GitHub](https://github.c
 
 ### Installation and Setup
 The steps below can be used to setup the enviroment for this demo to run on Ubuntu 20.04.6 LTS.
+Alternatively you can setup the python3.10 environment on a windows machine with Nvidia gpu card with necessary drivers.
+The install will run with or without GPU. Running locally would be very slow on CPU inference. 
+Running with OpenAI support could be alternative if GPU is not available. Check flag/api key settings in documentation to use OpenAI. 
 
 #### Optional: If you already have access to ubuntu instance, you can skip this section.
+
+NOTE: This example VM setup will work for OpenAI inference. Local inference will be very slow due to lack of GPU. For local inference use a machine with GPU, windows or linux.
+
 1. Download <a href="https://releases.ubuntu.com/focal/" target="_blank">Ubuntu 20.04.6 LTS server ISO image.</a>
 2. Download <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Oracle VirtualBox.</a> 
 3. Create a new virtual machine with the ubuntu image downloaded above. Sample configuration is 4gb ram, 2 vcpu, bridged network settting, 25 gb disk.
