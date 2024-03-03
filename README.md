@@ -37,39 +37,16 @@ NOTE: This example VM setup will work for OpenAI inference. Local inference will
 4. Signup for platform.openai.com and <a href="https://platform.openai.com/api-keys">generate OpenAI api key</a>
 
 
-#### Install net-tools and update fresh linux vm.
-```bash
-    sudo apt install net-tools
-    sudo apt update && sudo apt upgrade
-```
-#### Install Python 3.10
-```bash
-    sudo apt install software-properties-common -y
-    sudo add-apt-repository ppa:deadsnakes/ppa -y
-    sudo apt update
-    sudo apt install python3.10
-    sudo apt install python-is-python3
-```
-#### Setup Python 3.10 as default
-```bash
-    sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1
-    sudo update-alternatives --config python3
-```
-#### Setup Pip
-```bash
-    curl https://bootstrap.pypa.io/get-pip.py | python
-    sudo apt install python3.10-distutils
-```
-#### Install npm & reboot 
-```bash
-    sudo apt install npm
-    sudo reboot now
-```
 ### Clone repository and update config
 1. Change directory to web. If necessary update host/port parameter in config.json
 2. Change directory to web/public. Update the completion.apiendpoint to the ip address of your instance.
 3. Change directory to api. Update config.ini to update host/port parameters if needed.
 
+#### Setup environment and required packages
+```bash
+    cd PAIAssistant
+    ./setupenv.sh
+```
 ### Data set and index
 Current version has 250 random emails in email folder ready for indexing. Basic and sentence indexes are also provided so you can start playing with demo without further indexing work. If you need to index with your own custom data follow these steps.
 
@@ -87,12 +64,10 @@ Choose which version of index to query by updating the config.ini in api folder 
 
 #### Bring up the website and api service
 ```bash
-    cd web
-    npm install
+    cd web    
     npm start
 
-    cd api
-    pip install -r requirements.txt
+    cd api    
     export OPENAI_API_KEY=<YOUR OPENAI API KEY>
     python api.py
 ```
