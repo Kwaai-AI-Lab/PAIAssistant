@@ -1,9 +1,13 @@
 **/__pycache__/
 **/node_modules/
-**/models/
-**/checkpoints/
-api/data/
-api/index/
+**/models/*
+!**/models/.gitkeep
+**/checkpoints/*
+!**/checkpoints/.gitkeep
+api/data/*
+!api/data/.gitkeep
+api/index/*
+!api/index/.gitkeep
 api/temp/result.avi
 web/public/video/output/*
 !web/public/video/output/.gitkeep
