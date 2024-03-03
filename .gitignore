@@ -5,5 +5,7 @@
 api/data/
 api/index/
 api/temp/result.avi
-web/public/video/output/
-web/public/audio/output/
+web/public/video/output/*
+!web/public/video/output/.gitkeep
+web/public/audio/output/*
+!web/public/audio/output/.gitkeep
