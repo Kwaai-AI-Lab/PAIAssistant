@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 from llama_index import VectorStoreIndex
 from utils import build_sentence_window_index
 from utils import build_automerging_index
-
+from langchain.llms import LlamaCpp
 
 import sys
 import os
@@ -23,6 +23,7 @@ sent_win_idx_dir = config['index']['sent_win_idx_dir']
 auto_mrg_idx_dir = config['index']['auto_mrg_idx_dir']
 modelname = config['index']['modelname']
 embed_modelname = config['index']['embedmodel']
+useopenai = config.getboolean('index', 'useopenai')
 
         
 def check_and_create_directory(directory_path):
@@ -34,7 +35,24 @@ def check_and_create_directory(directory_path):
         
 def construct_basic_index(src_directory_path,index_directory):        
     check_and_create_directory(index_directory)     
-    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    if useopenai:
+        from langchain.chat_models import ChatOpenAI
+        modelname = config['api']['openai_modelname']
+        llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    else:
+        modelname = config['api']['local_modelname']
+        n_gpu_layers = 40  # Change this value based on your model and your GPU VRAM pool.
+        n_batch = 4096  # Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.
+        llm = LlamaCpp(
+        model_path="./models/"+ modelname,
+        n_gpu_layers=n_gpu_layers,
+        n_batch=n_batch,
+        n_ctx=4096,
+        n_threads=8,
+        temperature=0.1,
+        f16_kv=True
+        )
+
     service_context = ServiceContext.from_defaults(
         llm=llm, embed_model=embed_modelname
     )
@@ -48,7 +66,23 @@ def construct_basic_index(src_directory_path,index_directory):
 
 def construct_sentencewindow_index(src_directory_path,index_directory):    
     
-    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    if useopenai:
+        from langchain.chat_models import ChatOpenAI
+        modelname = config['api']['openai_modelname']
+        llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    else:
+        modelname = config['api']['local_modelname']
+        n_gpu_layers = 40  # Change this value based on your model and your GPU VRAM pool.
+        n_batch = 4096  # Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.
+        llm = LlamaCpp(
+        model_path="./models/"+ modelname,
+        n_gpu_layers=n_gpu_layers,
+        n_batch=n_batch,
+        n_ctx=4096,
+        n_threads=8,
+        temperature=0.1,
+        f16_kv=True
+        )
     documents = SimpleDirectoryReader(src_directory_path).load_data()
     index = build_sentence_window_index(
     documents,
@@ -59,7 +93,23 @@ def construct_sentencewindow_index(src_directory_path,index_directory):
     return index
 
 def construct_automerge_index(src_directory_path,index_directory):    
-    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    if useopenai:
+        from langchain.chat_models import ChatOpenAI
+        modelname = config['api']['openai_modelname']
+        llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    else:
+        modelname = config['api']['local_modelname']
+        n_gpu_layers = -1  # Change this value based on your model and your GPU VRAM pool.
+        n_batch = 4096  # Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.
+        llm = LlamaCpp(
+        model_path="./models/"+ modelname,
+        n_gpu_layers=n_gpu_layers,
+        n_batch=n_batch,
+        n_ctx=4096,
+        n_threads=8,
+        temperature=0.1,
+        f16_kv=True
+        )
     documents = SimpleDirectoryReader(src_directory_path).load_data()
     index = build_automerging_index(
     documents,

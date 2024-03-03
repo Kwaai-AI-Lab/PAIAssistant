@@ -1,233 +1,38 @@
-.loading {
-    font-size: 30px;
-    color: red;
-    display: none; /* Loading is hidden by default */
-}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    font-family: Arial, sans-serif;
+  }
 
-.loading span {
-    opacity: 0;
-    animation: blink 1.4s infinite;
-}
-
-.loading span:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.loading span:nth-child(3) {
-    animation-delay: 0.4s;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes blinkv {
-    0%   {border-color: orange;}
-    50%  {border-color: transparent;}
-    100% {border-color: orange;}
-}
-
-.blinkv {
-    animation: blinkv 2s infinite;
-}
-
-.title {
-font-size: 2rem;
-font-weight: bold;
-text-align: center;
-color: #2f2f2f;
-background-color: #f6e58d;
-border-radius: 20px;
-padding: 0.5rem 2rem;
-margin-bottom: 1rem;
-text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
-}
-
-body {
-background-image: url('../img/background.png');
-background-repeat: no-repeat;        
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-height: 100vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-position: relative;
-overflow: hidden;
-}
-.pai-container {
-display: flex;
-justify-content: right;
-width: 80%;
-z-index: 10;
-margin-top: 500px;  
-margin-right:850px;
-}
-
-.participant {
-width: 128px;
-height: 128px;      
-padding-left: 1rem;        
-background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) for transparency */
-overflow:hidden;
-display:flex;
-position:absolute;
-left:0;
-}
-
-.participant video {
-width:128px;
-height: auto;       
-object-fit: cover;
-object-position: center;
-border-radius: 50%;
-margin-bottom: 20px;
-border: 5px solid transparent;
-box-sizing: border-box;
-}
-
-
-
-.button {
-background-color: #4CAF50;
-border: none;
-color: white;        
-text-align: center;
-text-decoration: none;
-display: inline-block;
-cursor: pointer;
-font-size: 1rem;
-padding: 1vw 2vw;
-border-radius: 12px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-transition: all 0.2s ease;
-}
-
-.button:hover {
-background-color: #45a049;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-#chat-container {
-    display: flex;
-    position:absolute;
-    right:0;            
-    top:0px;
-    flex-direction: column;
-    height:100%;
-    width: 100%;
-    max-width: 550px;
-    
-    border: 1px solid #ddd;
-    background-color: rgba(255,255,255,0.9); /* semi-transparent white */
-}
-
-#chatbox {            
-    flex-grow: 1;
-    position: absolute;
-    z-index:20;           
-    width: 100%;
-    height: 81%;
-    overflow-y: auto;
-    padding-top:10px;
-    opacity:1;
-    border: 1px solid #ddd;
-    background-color: rgba(255,255,255,0.9); /* semi-transparent white */
-}
-
-.message {
-    display: flex;           
-    align-items: start;
-    margin-bottom: 10px;            
-}
-
-.message img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.message div {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #efc8b8;
-}
-
-.sysmessage {
-    display: flex;           
-    align-items: start;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    font-size:medium;
-}
-
-.sysmessage img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.sysmessage div {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #fde3be;
-}
-
- 
-#input-area {
-    z-index:20;
-    position: absolute;            
+  
+  .video-container video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    object-fit: contain; /* Maintain aspect ratio and contain within dimensions */
+    transform: translate(-50%, -50%); /* Center the video */
+    z-index: -1; /* Ensure video is in the background */
+  }
+  
+  
+  
+  .controls {
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 16%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    background-color: rgba(255,255,255,0.9); /* semi-transparent white */
-}
-
-#text-input-area {
-    z-index:20;
-    position: absolute;   
-    padding: 10px; 
-    bottom: 0;
-    width: 95%;
-    height: 16%;    
-    justify-content: center;
-    align-items: center;    
-    background-color: rgba(255,255,255,0.9); /* semi-transparent white */
-    display: flex; /* Added to align child elements */
-    justify-content: space-between; /* Space out child elements */
-}
-
- 
-#microphone-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-}
-
-#microphone-button img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Makes the image circular */
-}
-
-#sendButton {
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
+  }
+  
+  #sendButton {
+    height: 50px; /* Set height to match the microphone button */
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
     padding: 10px 15px; /* Some padding */
@@ -248,17 +53,153 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 #sendButton:hover {
     background-color: #45a049; /* Darker shade of green on hover */
 }
-
-.input-container {
-    display: flex; /* Use flexbox layout */
-    align-items: center; /* Aligns children vertically in the center */
-    width: 100%; /* Take full width of parent */
-    gap: 10px; /* Adds space between the textarea and the button */
+#microphone-button {
+    width: 50px;
+    height: 50px;
+    position: relative; /* Added to ensure z-index is effective */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    z-index: 2; /* This now effectively places the button above the ::after pseudo-element */
 }
+
+#microphone-button::after {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    left: 62%;
+    width: 52px; /* Slightly larger than the button to encircle it */
+    height: 52px;
+    border: 3px solid pink; /* Adjust the border width if necessary */
+    border-radius: 50%;
+    animation: blink-animation 2s infinite;
+    display: none;
+    z-index: -1;
+    transform: translate(-50%, -50%); /* Center the circle */
+}
+
+
+
+#microphone-button.listening::after {
+    display: block; /* Show when the microphone button has 'listening' class */
+}
+
+/* Keyframes for blinking effect */
+@keyframes blink-animation {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+#microphone-button img {
+    width: 50px; /* Ensure it covers the width */
+    height: 50px; /* Ensure it covers the height */
+    object-fit: cover; /* Cover the button area, could slightly crop the image */
+    border-radius: 50%; /* Keeps the circular shape */
+  }
+
 
 #inputText {
-    flex-grow: 1; /* Allows the textarea to grow and fill available space */
-    resize: horizontal; /* Allows the textarea to be resizable horizontally */
-    padding: 5px; /* Optional: Adds some padding inside the textarea */
-    border: 1px solid #ccc; /* Optional: Adds a border to the textarea */
+    width: 200px; /* Fixed width */
+    height: 50px; /* Set height to match the microphone button and send button */
+    margin: 0 10px; /* Adds some space around the input for visual separation */
+    padding: 0 10px; /* Adjust padding to align text vertically */
+    border: 1px solid #ccc; /* Standard border */
+    border-radius: 5px; /* Rounded corners to match button styles */
+    font-size: 16px; /* Adjust font size for consistency */
+    display: flex; /* Aligns text vertically */
+    align-items: center; /* Centers text vertically */
+    background-color: white; /* Assuming a white background, adjust as needed */
+    color: black; /* Text color, adjust as needed */
+    
+  }
+  
+
+  
+#videoPlayer, #responseVideoPlayer {
+    opacity: 0.95;
+    transition: opacity 0.5s ease;
 }
+  .speech-bubbles {
+    position: fixed;
+    bottom: 100px; /* Adjust based on control height */
+    width: calc(100% - 20px);
+    max-height: 95%;
+    overflow-y: auto;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Lightly transparent background */
+    display: flex;
+    flex-direction: column-reverse; /* Newest messages at the bottom */
+    align-items: flex-end; /* Align speech bubbles to the right */
+  }
+  
+  .speech-bubble {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-right: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: inline-block; /* Allow the bubble to shrink to fit its content */
+    border-radius: .4em;
+    position: relative;
+    background: #1177a6;
+    color: #d6f0f5;
+    max-width: 100%; /* Ensure it doesn't overflow its container */
+    word-wrap: break-word; /* Ensure long words do not cause overflow */
+    border: 2px solid #d29d05;
+    font-size: 24px;
+  }
+
+  a {color:  pink}
+  
+  .speech-bubble:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 0;
+      height: 0;
+      border: 20px solid transparent;
+      border-left-color: #d29d05;
+      border-right: 0;
+      border-bottom: 0;
+      margin-top: -10px;
+      margin-right: -20px;
+  }
+  
+  #overlayv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #overlayv video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  
+  /* Media query for wider screens (e.g., desktops) */
+@media (min-width: 768px) { /* Adjust this breakpoint as needed */
+    .speech-bubble {
+      width: 25%; /* Adjusted width for wider screens */
+    }
+  }
+
+  canvas {
+  
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index:30;
+  }

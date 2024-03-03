@@ -2,120 +2,273 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Email Assistant</title>
     <link rel="stylesheet" href="style/style.css">
   </head>
-  <body>     
-      <div class="pai-container">
-        <div id="chat-container">
-          <div id="chatbox">
-            <!-- Messages will be displayed here -->
+  <canvas id="thinking"></canvas>
+  <div class="video-container">
+    <div id="overlayv" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); color:white;">
+    <video id="videoPlayer" src="video/Avatar.mp4" loop autoplay muted playsinline style="background:rgba(0,0,0,0.7); position:fixed; object-fit: contain; display:block;">
+      Your browser does not support the video tag.
+    </video>
+    <video id="responseVideoPlayer" autoplay playsinline muted style="background:rgba(0,0,0,0.7); position:fixed; object-fit: contain; display:none;">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div id="overlay" style="z-index:20;display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); color:white;">
+          <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); padding:20px; border-radius:5px; background:#333;">
+              <h2 id="overlayFilename">Filename</h2>
+              <p id="overlayText">Citation text</p>
+              <button onclick="closeOverlay()">Close</button>
           </div>
-          <div id="input-area" style="display:none">
-            <div class="participant">           
-              <video id="maxvideoidle"   style="z-index: 2; opacity: 1; position: absolute; transition: opacity 0.5s; border-radius:100%" src="https://ugc-idle.s3-us-west-2.amazonaws.com/521cb66a4630d7806a4e047dacfda47f.mp4" playsinline loop preload="yes">	
-              </video>
-              <video id="maxvideo"    style="z-index: 1; opacity: 0;position: absolute; ; transition: opacity 0.5s; border-radius:100%" playsinline preload="yes">	
-              </video>
-            </div>             
-            <button id="microphone-button"><img src="img/mic.png" alt="Microphone"></button>  
-            <div id="loading" class="loading"><span>.</span><span>.</span><span>.</span></div>
-          </div>    
-          <div id="text-input-area">
-            <!-- Container for the new elements to control layout -->
-            <div class="input-container">
-              <textarea id="inputText" rows="2"></textarea>
-              <button id="sendButton">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <!-- SVG Path for an icon (example: paper plane) -->
-                    <path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="currentColor"/>
-                </svg>
-                Send
-            </button>
-            </div>
-          </div>          
-          <textarea readonly id="transcript" cols="50" rows="1" style="display:none;resize:none; border:none; outline:none"></textarea>
         </div>
-        
-      </div>
+    <div class="controls">
+      <button id="microphone-button"><img src="img/mic.png" alt="Microphone"></button>  
+      <div id="loading" class="loading"><span>.</span><span>.</span><span>.</span></div>
+      <textarea id="inputText" rows="2"></textarea>
+      <button id="sendButton">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <!-- SVG Path for an icon (example: paper plane) -->
+                      <path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="currentColor"/>
+                  </svg>
+                  Send
+      </button>
+      <svg id="toggleSpeechBubbles" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="cursor: pointer;" fill="white">
+        <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+        <circle cx="12" cy="12" r="2.5"/>
+      </svg>
+      
+    </div>
+  </div>
+  <textarea readonly id="transcript" cols="50" rows="1" style="display:none;resize:none; border:none; outline:none"></textarea>
+  <div class="speech-bubbles" id="speechBubbles"></div>
+  <div id="spinner-container">
+    <img id="spinner" width="24px" height="24px" style="display:none" src="img/loading.svg"></img>
       <script>
         var config;
-        
+        var starttime;
+
+        document.getElementById('toggleSpeechBubbles').addEventListener('click', function() {
+        var speechBubbles = document.getElementById('speechBubbles'); // Ensure this ID matches your speech bubble container
+        if (speechBubbles.style.display === 'none') {
+          speechBubbles.style.display = 'flex';
+          this.style.fill = "#ffffff"; // Change to default color to indicate "show"
+          var inputtext = document.getElementById('inputText');
+          var sendbtn = document.getElementById('sendButton');
+          inputtext.style.display = 'flex';
+          sendbtn.style.display = 'flex';
+          
+
+        } else {
+          speechBubbles.style.display = 'none';
+          this.style.fill = "#aaaaaa"; // Change to a different color to indicate "hide"
+          var inputtext = document.getElementById('inputText');
+          var sendbtn = document.getElementById('sendButton');
+          inputtext.style.display = 'none';
+          sendbtn.style.display='none';
+        }
+      });
+
+        function calculateTimeDifference(startDate, endDate) {
+            // Calculate the difference in milliseconds
+            var difference = endDate.getTime() - startDate.getTime();
+            
+            // Calculate seconds and milliseconds
+            var seconds = Math.floor(difference / 1000); // Get whole seconds
+            var milliseconds = difference % 1000; // Get remaining milliseconds
+            
+            // Format milliseconds to always have three digits
+            var formattedMilliseconds = milliseconds.toString().padStart(3, '0');
+            
+            // Format the output as 'ss.mmm'
+            var formattedDifference = `  [${seconds}.${formattedMilliseconds} s]`;
+            
+            return formattedDifference;
+        }
+
+        // Function to show the spinner next to a specific text element
+        function showSpinnerForElement(element) {
+            var spinner = document.getElementById('spinner');
+            spinner.style.display = 'inline-block'; // Make the spinner visible
+            starttime= new Date();
+            // Move the spinner to the current element
+            element.prepend(spinner);
+            thinking.style.display="block";
+        }
+
+        // Function to hide the spinner
+        function hideSpinner() {
+
+            var spinner = document.getElementById('spinner');
+            var spinnerContainer = document.getElementById('spinner-container'); // The designated container
+            thinking.style.display="none";
+            
+            // Check if the spinner has a parent node
+            if(spinner && spinner.parentNode) {
+                // Remove the spinner from its parent node
+                
+                endtime= new Date()
+                timediff = calculateTimeDifference(starttime,endtime)
+
+                var label = document.createElement('label');
+                label.style.fontSize = 'small';
+                label.innerText = timediff; // Set the text for the label
+                spinner.parentNode.append(label);
+                spinner.parentNode.removeChild(spinner);
+            }
+            spinner.style.display = 'none'; // Hide the spinner
+            spinnerContainer.appendChild(spinner);
+            
+        }
+
+               
+        // Create an audio element (can be done once and stored for reuse)
+        let audio = new Audio();
+
+        // Function to play audio from a given URL
+        function playAudio(url) {
+            if (!audio.paused) {
+                // Stop the currently playing audio
+                audio.pause();
+                audio.currentTime = 0; // Reset the audio to the start
+            }
+
+            // Set the new source and play
+            audio.src = url;
+            audio.load(); // Load the new audio file
+            audio.play()
+                .catch(error => console.error("Error playing the audio", error));
+        }
+
+
+
         function SetTextInputArea() {
             var textInputArea = document.getElementById('text-input-area');
             var InputArea = document.getElementById('input-area');
             
             if (!config.exh.enabled) {
+              //InputArea.style.display = 'flex'; 
                 // Element is hidden, show it
                 textInputArea.style.display = 'flex'; // Use 'flex' or 'block', depending on your layout
-                InputArea.style.display = 'none'; 
+                //InputArea.style.display = 'none'; 
             } else {
                 // Element is visible, hide it
                 textInputArea.style.display = 'none';
-                InputArea.style.display = 'flex'; 
+                //InputArea.style.display = 'flex'; 
             }
         }
 
-        function DisplayMessage(message, IsAPIMessage=false)
+        // Function to show citation details in overlay
+        window.showCitation = function(filename,text,index) {
+           
+            document.getElementById('overlayFilename').textContent = decodeURIComponent(escape(atob(filename)));
+            document.getElementById('overlayText').textContent = decodeURIComponent(escape(atob(text)));
+            document.getElementById('overlay').style.display = 'block';
+        };
+
+        // Function to close overlay
+        window.closeOverlay = function() {
+            document.getElementById('overlay').style.display = 'none';
+        };
+
+        function DisplayMessage(message, respObj=null, IsAPIMessage=false)
         {
           if(IsAPIMessage)
           {
+            hideSpinner();  
             if (message) {
-              var messageElement = document.createElement('div');
-              messageElement.className = 'sysmessage';
 
+              const container = document.getElementById('speechBubbles');
+              const bubble = document.createElement('div');
+              bubble.classList.add('speech-bubble');
+              
+              container.prepend(bubble); // Adds the new bubble at the top
+              container.scrollTop = 0; // Scrolls to the top to show the newest message
+              
+              
               var avatarElement = document.createElement('img');
               avatarElement.src = 'img/max.png'; // replace with your avatar URL
 
-              var textElement = document.createElement('div');
-              textElement.textContent = message;
-
-              messageElement.appendChild(avatarElement);
-              messageElement.appendChild(textElement);
-
-              document.getElementById('chatbox').appendChild(messageElement);
               
-              // Scroll to bottom
-              document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
+              if( respObj )
+              {
+              var responseText = respObj.response;
+              respObj.citation.forEach((item, index) => {
+                  let safeFilename = btoa(unescape(encodeURIComponent(item.filename)));
+                  let safeText = btoa(unescape(encodeURIComponent(item.text)));
+
+                  responseText += ` [<a href="#" onclick="showCitation('${safeFilename}','${safeText}',${index});return false;">${index + 1}</a>]`;
+              });
+             
+               
+              bubble.innerHTML = responseText;
+              }
+              else
+              {                                
+                bubble.innerHTML = responseText;
+              }
+
+               
+
+              //playAudio("audio/output/"+respObj.audio);
+
+              // Preload and switch to the response video
+              responseVideoPlayer.src = "video/output/"+respObj.video;
+              responseVideoPlayer.muted = false;
+              responseVideoPlayer.playsInline =true;
+
+              responseVideoPlayer.load(); // Start loading the new video source
+
+              responseVideoPlayer.oncanplaythrough = () => {
+                  // Once the video can play through, play the video and switch visibility
+                  responseVideoPlayer.play().then(() => {
+                      // Hide the idle video player and show the response video player
+                      videoPlayer.style.display = 'none'; // Assuming videoPlayer is your idle video element
+                      responseVideoPlayer.style.display = 'block';
+                      
+                  }).catch(error => {
+                      console.error("Error attempting to play response video:", error);
+                      // Handle the error (e.g., by showing a play button)
+                  });
+              };
+
+              responseVideoPlayer.onerror = (error) => {
+                  console.error("Error loading video:", error);
+                  // Handle loading error
+              };
+              
+
+               
             }
           }
           else
           {
             if (message) {
-              var messageElement = document.createElement('div');
-              messageElement.className = 'message';
-
-              var avatarElement = document.createElement('img');
-              avatarElement.src = 'img/user.png'; // replace with your avatar URL
-
-              var textElement = document.createElement('div');
-              textElement.textContent = message;
-
-              messageElement.appendChild(avatarElement);
-              messageElement.appendChild(textElement);
-
-              document.getElementById('chatbox').appendChild(messageElement);
+              const container = document.getElementById('speechBubbles');
+              const bubble = document.createElement('div');
+              bubble.classList.add('speech-bubble');
               
-              // Scroll to bottom
-              document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
+              container.prepend(bubble); // Adds the new bubble at the top
+              container.scrollTop = 0; // Scrolls to the top to show the newest message
+              bubble.textContent = message;                         
+               
+              showSpinnerForElement(bubble);
+              
             }
           }
         }
         function showLoading() {
-            document.getElementById('loading').style.display = 'inline';
+          const micButton = document.getElementById('microphone-button');
+          micButton.classList.add('listening'); // Adds the class to show the blinking effect
         }
 
         function hideLoading() {
-            document.getElementById('loading').style.display = 'none';
+          const micButton = document.getElementById('microphone-button');
+          micButton.classList.remove('listening'); // Removes the class to hide the blinking effect
+        
         }
-        function startBlinking() {
-            document.getElementById('maxvideoidle').classList.add('blinkv');
-        }
-
-        function stopBlinking() {
-            document.getElementById('maxvideoidle').classList.remove('blinkv');
-        }
-
+         
         function trimLength(text,length)
         {
           return text.substring(0,length);
@@ -126,19 +279,7 @@
         }
         async function callPredictAPI(data,config) {
           const url = config.completion.apiendpoint;
-          let promptval = `
-          Your name is Maggie. You are a personal assistant for Arlo. 
-          You help Arlo with answering questions about his emails and 
-          drafting a suitable email in his style. If Arlo asks about 
-          other things, politely bring them back to email-related topics. 
-          Arlo is also called Hunter, but he doesn't like using that name. 
-          When drafting emails, draft it as Arlo. Politely decline to 
-          answer any other topic.
-
-          Arlo: ${data} 
-
-          Maggie:
-          `;
+          let promptval = `${data}`;
 
           const requestBody = {
             fn_index: 0,
@@ -194,12 +335,12 @@
               video.loop=false;
               video.play();                
               hideLoading();
-              stopBlinking()
+              
             })
             .catch(err => {
               
               hideLoading();
-              stopBlinking()
+              
               
               console.error(err)
             });
@@ -219,18 +360,32 @@
                                 
           callPredictAPI(currentTranscript,config)
           .then(response=>{
-            let message=response.data[0];              
-            DisplayMessage(message,true)
+            let respObj = JSON.parse(response.data[0])
+            let message=respObj.response;  
+                      
+            DisplayMessage(message,respObj,true)
           })
               
           transcript.value = "Topic: " +currentTranscript;
           gcompletion= transcript.value;
         }
 
+        document.addEventListener('DOMContentLoaded', () => {
+        const videoPlayer = document.getElementById('videoPlayer');
+        const responseVideoPlayer = document.getElementById('responseVideoPlayer');
+        const idleVideoUrl = 'video/Avatar.mp4'; // URL of your idle video
+
+        // Function to play the idle video
+        function playIdleVideo() {
+            videoPlayer.style.display='block';
+            responseVideoPlayer.style.display='none';                        
+            videoPlayer.play()
+                .catch(error => console.error("Error trying to play the video:", error));
+        }
         
         function main()
         {
-            SetTextInputArea();
+             
 
             if( config.exh.enabled)
             {}
@@ -252,10 +407,12 @@
             
             function startPAI() {
               console.log('PAI Engine started');      
-              maxvideoidle.play();
-              maxvideoidle.style.opacity=1;
-              maxvideoidle.loop=true;
+               
               showLoading()
+              // stop any playing response
+              const responseVideoPlayer = document.getElementById('responseVideoPlayer');
+              responseVideoPlayer.pause();
+              playIdleVideo();
               recognition.start();
               loop=false;
               
@@ -279,25 +436,11 @@
               const startBtn = document.getElementById('startBtn');
               const stopBtn = document.getElementById('stopBtn');
               const transcript = document.getElementById('transcript');
-              const maxvideo = document.getElementById('maxvideo');
-              const maxvideoidle = document.getElementById('maxvideoidle');
               
               
               
-              maxvideo.addEventListener("play", function() {
-                maxvideo.style.opacity=1;
-                maxvideoidle.style.opacity=0;
-              });
-
-              maxvideo.addEventListener("ended", function() {
-                    // play the default video when the generated video ends
-                    
-                    maxvideoidle.play();
-                    maxvideoidle.style.opacity=1;
-                    maxvideoidle.loop=true;
-                    
-                  
-                    });
+              
+               
                       
               // listen for results
               
@@ -308,17 +451,18 @@
                 const currentTranscript = event.results[event.results.length - 1][0].transcript;                                         
                 let message=currentTranscript;
                 DisplayMessage(message)                  
-                startBlinking();
+                 
                 transcript.value = "Topic: " +currentTranscript;
                 gcompletion= transcript.value;
                 callPredictAPI(currentTranscript,config)
                 .then(response=>{
-                  let message=response.data[0];
+                  let respObj = JSON.parse(response.data[0])
+                  let message=respObj.response;    
                   hideLoading()
-                  stopBlinking()
+                  
                   if (message) {                      
-                      DisplayMessage(message,true)                      
-                      animate(message,max,maxvideo);	
+                      DisplayMessage(message,respObj,true)                      
+                      //animate(message,max,maxvideo);	
                   }
                 })
               };
@@ -337,6 +481,145 @@
           main();  
         });
       
+        
+
+        // Initially play the idle video
+        playIdleVideo();
+
+        // Listen for the 'ended' event to switch back to the idle video
+        responseVideoPlayer.addEventListener('ended', () => {
+            playIdleVideo();
+        });
+
+      });
+
+
+      var w = thinking.width = window.innerWidth,
+    h = thinking.height = window.innerHeight,
+    ctx = thinking.getContext( '2d' ),
+    
+    opts = {
+      
+      len: 20,
+      count: 50,
+      baseTime: 10,
+      addedTime: 10,
+      dieChance: .05,
+      spawnChance: 1,
+      sparkChance: .1,
+      sparkDist: 10,
+      sparkSize: 2,
+      
+      color: 'hsl(hue,100%,light%)',
+      baseLight: 50,
+      addedLight: 10, // [50-10,50+10]
+      shadowToTimePropMult: 6,
+      baseLightInputMultiplier: .01,
+      addedLightInputMultiplier: .02,
+      
+      cx: w / 2,
+      cy: h / 2,
+      repaintAlpha: .04,
+      hueChange: .1
+    },
+    
+    tick = 0,
+    lines = [],
+    dieX = w / 2 / opts.len,
+    dieY = h / 2 / opts.len,
+    
+    baseRad = Math.PI * 2 / 6;
+    
+ctx.fillStyle = 'black';
+ctx.fillRect( 0, 0, w, h );
+
+function loop() {
+  
+  window.requestAnimationFrame( loop );
+  
+  ++tick;
+  
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.shadowBlur = 0;
+  ctx.fillStyle = 'rgba(0,0,0,alp)'.replace( 'alp', opts.repaintAlpha );
+  ctx.fillRect( 0, 0, w, h );
+  ctx.globalCompositeOperation = 'lighter';
+  
+  if( lines.length < opts.count && Math.random() < opts.spawnChance )
+    lines.push( new Line );
+  
+  lines.map( function( line ){ line.step(); } );
+}
+function Line(){
+  
+  this.reset();
+}
+Line.prototype.reset = function(){
+  
+  this.x = 0;
+  this.y = 0;
+  this.addedX = 0;
+  this.addedY = 0;
+  
+  this.rad = 0;
+  
+  this.lightInputMultiplier = opts.baseLightInputMultiplier + opts.addedLightInputMultiplier * Math.random();
+  
+  this.color = opts.color.replace( 'hue', tick * opts.hueChange );
+  this.cumulativeTime = 0;
+  
+  this.beginPhase();
+}
+Line.prototype.beginPhase = function(){
+  
+  this.x += this.addedX;
+  this.y += this.addedY;
+  
+  this.time = 0;
+  this.targetTime = ( opts.baseTime + opts.addedTime * Math.random() ) |0;
+  
+  this.rad += baseRad * ( Math.random() < .5 ? 1 : -1 );
+  this.addedX = Math.cos( this.rad );
+  this.addedY = Math.sin( this.rad );
+  
+  if( Math.random() < opts.dieChance || this.x > dieX || this.x < -dieX || this.y > dieY || this.y < -dieY )
+    this.reset();
+}
+Line.prototype.step = function(){
+  
+  ++this.time;
+  ++this.cumulativeTime;
+  
+  if( this.time >= this.targetTime )
+    this.beginPhase();
+  
+  var prop = this.time / this.targetTime,
+      wave = Math.sin( prop * Math.PI / 2  ),
+      x = this.addedX * wave,
+      y = this.addedY * wave;
+  
+  ctx.shadowBlur = prop * opts.shadowToTimePropMult;
+  ctx.fillStyle = ctx.shadowColor = this.color.replace( 'light', opts.baseLight + opts.addedLight * Math.sin( this.cumulativeTime * this.lightInputMultiplier ) );
+  ctx.fillRect( opts.cx + ( this.x + x ) * opts.len, opts.cy + ( this.y + y ) * opts.len, 2, 2 );
+  
+  if( Math.random() < opts.sparkChance )
+    ctx.fillRect( opts.cx + ( this.x + x ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.cy + ( this.y + y ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.sparkSize, opts.sparkSize )
+}
+loop();
+
+window.addEventListener( 'resize', function(){
+  
+  w = c.width = window.innerWidth;
+  h = c.height = window.innerHeight;
+  ctx.fillStyle = 'black';
+  ctx.fillRect( 0, 0, w, h );
+  
+  opts.cx = w / 2;
+  opts.cy = h / 2;
+  
+  dieX = w / 2 / opts.len;
+  dieY = h / 2 / opts.len;
+});
       </script>
      
       

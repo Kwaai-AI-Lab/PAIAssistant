@@ -97,7 +97,7 @@ def get_automerging_query_engine(
     automerging_index,
     service_context,
     similarity_top_k=12,
-    rerank_top_n=2,
+    rerank_top_n=3,
 ):
     base_retriever = automerging_index.as_retriever(similarity_top_k=similarity_top_k)
     retriever = AutoMergingRetriever(
