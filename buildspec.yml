@@ -25,7 +25,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - iMAGE_CONFIG_LOWERCASE=$(echo $IMAGE_CONFIG | tr '[:upper:]' '[:lower:]')
+      - IMAGE_CONFIG_LOWERCASE=$(echo $IMAGE_CONFIG | tr '[:upper:]' '[:lower:]')
       - IMAGE_REPO_NAME_LOWERCASE=$(echo $IMAGE_REPO_NAME | tr '[:upper:]' '[:lower:]')
       - IMAGE_TAG_LOWERCASE=$(echo $IMAGE_TAG | tr '[:upper:]' '[:lower:]')
       - docker build -f Dockerfile.$IMAGE_CONFIG -t $IMAGE_REPO_NAME_LOWERCASE-$IMAGE_CONFIG_LOWERCASE:$IMAGE_TAG_LOWERCASE .
