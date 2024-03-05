@@ -1,0 +1,36 @@
+version: 0.2
+
+env:
+  variables:
+    IMAGE_CONFIG: "api"
+    IMAGE_REPO_NAME: "paiassistantapi"
+    IMAGE_TAG: "experimental"
+    AWS_ACCOUNT_ID: "365024520127"
+    AWS_DEFAULT_REGION: "us-west-2"
+
+phases:
+  install:
+    commands:
+      - cat /etc/issue
+      - uname -a
+      - whoami
+      - pwd
+      - docker run hello-world
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - #$(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - IMAGE_REPO_NAME_LOWERCASE=$(echo $IMAGE_REPO_NAME | tr '[:upper:]' '[:lower:]')
+      - IMAGE_TAG_LOWERCASE=$(echo $IMAGE_TAG | tr '[:upper:]' '[:lower:]')
+      - docker build -f Dockerfile.$IMAGE_CONFIG -t $IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE .
+      - docker tag $IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker image...
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE
