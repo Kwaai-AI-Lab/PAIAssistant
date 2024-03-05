@@ -2,11 +2,11 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_CONFIG: "api"
-    IMAGE_REPO_NAME: "paiassistantapi"
-    IMAGE_TAG: "experimental"
-    AWS_ACCOUNT_ID: "365024520127"
-    AWS_DEFAULT_REGION: "us-west-2"
+    #IMAGE_CONFIG: "api"
+    #IMAGE_REPO_NAME: "paiassistant"
+    #IMAGE_TAG: "experimental"
+    #AWS_ACCOUNT_ID: "365024520127"
+    #AWS_DEFAULT_REGION: "us-west-2"
 
 phases:
   install:
@@ -25,10 +25,11 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
+      - iMAGE_CONFIG_LOWERCASE=$(echo $IMAGE_CONFIG | tr '[:upper:]' '[:lower:]')
       - IMAGE_REPO_NAME_LOWERCASE=$(echo $IMAGE_REPO_NAME | tr '[:upper:]' '[:lower:]')
       - IMAGE_TAG_LOWERCASE=$(echo $IMAGE_TAG | tr '[:upper:]' '[:lower:]')
-      - docker build -f Dockerfile.$IMAGE_CONFIG -t $IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE .
-      - docker tag $IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME_LOWERCASE:$IMAGE_TAG_LOWERCASE
+      - docker build -f Dockerfile.$IMAGE_CONFIG -t $IMAGE_REPO_NAME_LOWERCASE-$IMAGE_CONFIG_LOWERCASE:$IMAGE_TAG_LOWERCASE .
+      - docker tag $IMAGE_REPO_NAME_LOWERCASE-$IMAGE_CONFIG_LOWERCASE:$IMAGE_TAG_LOWERCASE $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME_LOWERCASE-$IMAGE_CONFIG_LOWERCASE:$IMAGE_TAG_LOWERCASE
   post_build:
     commands:
       - echo Build completed on `date`
