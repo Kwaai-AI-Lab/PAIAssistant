@@ -1,12 +1,12 @@
 version: 0.2
 
-env:
-  variables:
-    #IMAGE_CONFIG: "api"
-    #IMAGE_REPO_NAME: "paiassistant"
-    #IMAGE_TAG: "experimental"
-    #AWS_ACCOUNT_ID: "365024520127"
-    #AWS_DEFAULT_REGION: "us-west-2"
+#env:
+#  variables:
+#    #IMAGE_CONFIG: "api"
+#    #IMAGE_REPO_NAME: "paiassistant"
+#    #IMAGE_TAG: "experimental"
+#    #AWS_ACCOUNT_ID: "365024520127"
+#    #AWS_DEFAULT_REGION: "us-west-2"
 
 phases:
   install:
