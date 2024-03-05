@@ -11,10 +11,16 @@ sudo update-alternatives --config python3
 curl https://bootstrap.pypa.io/get-pip.py | python
 sudo apt install python3.10-distutils -y
 sudo apt install npm -y
-sudo apt-get install espeak-ng -y
 sudo apt-get install libsndfile1 -y 
 sudo apt install libasound2-dev -y
 sudo apt install ffmpeg -y
+git clone https://github.com/espeak-ng/espeak-ng.git
+cd espeak-ng
+./autogen.sh
+./configure --without-pulseaudio
+make
+sudo make install
+cd ..
 cd ./web
 npm install
 cd ../api
