@@ -13,7 +13,7 @@ sudo apt install python3.10-distutils -y
 sudo apt install npm -y
 sudo apt-get install espeak-ng -y
 sudo apt-get install libsndfile1 -y 
-sudo apt-get install libasound2-dev -y
+sudo apt install libasound2-dev -y
 sudo apt install ffmpeg -y
 cd ./web
 npm install
