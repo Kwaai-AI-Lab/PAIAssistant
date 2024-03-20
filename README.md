@@ -48,11 +48,8 @@ NOTE: This example VM setup will work for OpenAI inference. Local inference will
     ./setupenv.sh
 ```
 ### Data set and index
-Current version has 250 random emails in email folder ready for indexing. Basic and sentence indexes are also provided so you can start playing with demo without further indexing work. If you need to index with your own custom data follow these steps.
-
-1. You can use your own email data in plain text format or use the data set used in this example and random sample from
-<a href="https://www.kaggle.com/datasets/konradb/hunter-biden-emails">Kaggle</a>
-2. Copy these emails to emails folder and run createindex.py to create the vector index (basic/sentence/automerge) for query.
+1. Create a new folder under api/data and copy over the data in pdf/csv/doc etc
+2. Update api/config.ini to update the folder name data/<folder> and run createindex.py to create the vector index (basic/sentence/automerge) for query.
 ```bash     
     cd api    
     export OPENAI_API_KEY=<YOUR OPENAI API KEY>    
