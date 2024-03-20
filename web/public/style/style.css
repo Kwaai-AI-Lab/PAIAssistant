@@ -27,7 +27,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
   }
   
@@ -153,6 +153,22 @@ body, html {
 
   a {color:  pink}
   
+  .speech-bubble:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #d29d05; /* Color of the speech bubble tail */
+    border-left: 0; /* Remove left border */
+    border-bottom: 0; /* Remove bottom border */
+    margin-top: -10px; /* Adjust based on the size of the tail */
+    margin-left: -20px; /* Push the tail to the left of the container */
+    
+}
+
   .speech-bubble:after {
       content: '';
       position: absolute;
@@ -168,13 +184,21 @@ body, html {
       margin-right: -20px;
   }
   
+  .speech-bubble.hide-before::before {
+    display: none;
+}
+
+.speech-bubble.hide-after::after {
+    display: none;
+}
+
   #overlayv {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,14 +216,4 @@ body, html {
     .speech-bubble {
       width: 25%; /* Adjusted width for wider screens */
     }
-  }
-
-  canvas {
-  
-    display:none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.2;
-    z-index:30;
   }

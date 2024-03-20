@@ -1,4 +1,5 @@
-from llama_index import StorageContext, load_index_from_storage, ServiceContext
+from llama_index.core import StorageContext, load_index_from_storage
+from llama_index.core import Settings
 import gradio as gr
 import sys
 import os
@@ -12,24 +13,12 @@ import simpleaudio as sa
 import threading
 from datetime import datetime
 import json
-import subprocess
-from llama_index.prompts.base import PromptTemplate
-from inference import main as generateVideo
+
+from llama_index.core.prompts.base import PromptTemplate
+
 import pyttsx3
 
-def run_inference(checkpoint_path, face_video, audio_file, resize_factor, outfile):
-    
-    # Construct the command with dynamic parameters
-    command = [        
-        "--checkpoint_path", checkpoint_path,
-        "--face", face_video,
-        "--audio", audio_file,
-        "--resize_factor", str(resize_factor),
-        "--outfile", outfile
-    ]
-    print(command)    
-    generateVideo(command)
-    
+
 
 
 def play_sound_then_delete(path_to_wav):
@@ -73,9 +62,12 @@ log_level_str = config.get('api', 'loglevel', fallback='WARNING').upper()
 # Convert the log level string to a logging level
 log_level = getattr(logging, log_level_str, logging.WARNING)
 
-def chatbot(input_text):
+def chatbot(data):
     global tts
-    print("User Text:" + input_text)    
+    dataobj = json.loads(data)
+    input_text=  dataobj["prompt"]
+    isvideo= dataobj["video"]
+    print("User Text:" + input_text + " Video:"+ str(isvideo))    
     
     response =query_engine.query(input_text)        
  
@@ -87,7 +79,7 @@ def chatbot(input_text):
     
     
     if ttsengine == 'coqui':
-        tts.tts_to_file(text=response.response, file_path=output_path ) # , speaker_wav=["bruce.wav"], language="en",split_sentences=True)
+        tts.tts_to_file(text=response.response, file_path=output_path ) 
     elif ttsengine == 'gtts':
         tts = gTTS(text=response.response, lang='en')
         tts.save(output_path)
@@ -95,12 +87,13 @@ def chatbot(input_text):
         tts.save_to_file(response.response , output_path)
         tts.runAndWait()
 
-    checkpoint_path = "./checkpoints/wav2lip_gan.pth"
-    face_video = "media/Avatar.mp4"
-    audio_file = "../web/public/audio/output/"+output_audfile
-    outfile="../web/public/video/output/"+output_vidfile
-    resize_factor = 2
-    run_inference(checkpoint_path, face_video, audio_file, resize_factor, outfile)
+    if isvideo:
+        # No support for video. Use libraries like wav2lip or sadtalker etc!
+        output_vidfile="../Avatar.mp4"
+    else:
+        output_vidfile="../Avatar.mp4"
+        
+
     #play_sound_then_delete(output_path)
 
     #construct response object
@@ -133,7 +126,7 @@ iface = gr.Interface(fn=chatbot,
                      title="Email data query")
 
  
-from langchain.llms import LlamaCpp
+from langchain_community.llms import LlamaCpp
 from langchain.globals import set_llm_cache
 from langchain.cache import InMemoryCache
 
@@ -163,20 +156,16 @@ else:
     temperature=0.01,
     max_tokens=512,
     f16_kv=True,
-    repeat_penalty=1.1,
-    min_p=0.05,
+    repeat_penalty=1.1,    
     top_p=0.95,
     top_k=40,
     stop=["<|end_of_turn|>"]  
     )
 
 
-
+Settings.llm = llm
+Settings.embed_model = embed_modelname
  
-service_context = ServiceContext.from_defaults(
-    llm=llm, embed_model=embed_modelname
-)
-
 index_directory=''
 if indextype == 'basic':
     index_directory = basic_idx_dir
@@ -189,7 +178,7 @@ print(config['api']['indextype'] )
 print(index_directory)
 if ttsengine == 'coqui':
     tts = TTS(model_name="tts_models/en/ljspeech/vits--neon", progress_bar=False).to("cuda")
-    #tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2", progress_bar=False).to("cuda")
+    #tts = TTS(model_name="tts_models/en/vctk/vits", progress_bar=False).to("cuda")
 elif ttsengine == 'gtts':
     tts = gTTS(text='', lang='en')        
 else: 
@@ -202,13 +191,13 @@ else:
 
 # load index
 storage_context = StorageContext.from_defaults(persist_dir=index_directory)
-index = load_index_from_storage(storage_context=storage_context, service_context=service_context)   
+index = load_index_from_storage(storage_context=storage_context)   
 if indextype == 'basic':
     query_engine = index.as_query_engine()
 elif indextype == 'sentence' :
     query_engine =get_sentence_window_query_engine(index)
 elif indextype == 'automerge':
-    query_engine = get_automerging_query_engine(automerging_index=index, service_context=service_context)
+    query_engine = get_automerging_query_engine(automerging_index=index)
 
 #prompts_dict = query_engine.get_prompts()
 #print(list(prompts_dict.keys()))
@@ -216,12 +205,13 @@ elif indextype == 'automerge':
 # Optional: Adjust prompts to suit the llms.
 
 qa_prompt_tmpl_str = (
-    "GPT4 User: You are an assistant named Maggie. You assist with any questions regarding the organization kwaai.\n"
-    "Context information is below\n"
+    "GPT4 User: You are an assistant named Maggie. You assist with any questions regarding the organization kwaai.\n"    
+    "Today is " + datetime.now().strftime('%d %B %Y') + "\n"
+    "Use the following pieces of context to answer the question at the end. Do not answer questions outside the given context. Context information is below\n"
     "----------------------\n"
     "{context_str}\n"
     "----------------------\n"
-    "Given the context information and not prior knowledge respond to user: {query_str}\n"
+    "question: {query_str}\n"
     "<|end_of_turn|>GPT4 Assistant:"
 )
 qa_prompt_tmpl = PromptTemplate(qa_prompt_tmpl_str)

@@ -1,10 +1,9 @@
-from llama_index import SimpleDirectoryReader 
-from llama_index import ServiceContext
-from langchain.chat_models import ChatOpenAI
-from llama_index import VectorStoreIndex
+from llama_index.core import SimpleDirectoryReader 
+from llama_index.core import ServiceContext
+from llama_index.core import VectorStoreIndex
 from utils import build_sentence_window_index
 from utils import build_automerging_index
-from langchain.llms import LlamaCpp
+from langchain_community.llms import LlamaCpp
 
 import sys
 import os
@@ -13,8 +12,6 @@ import configparser
 
 config = configparser.ConfigParser()
 config.read('config.ini')
-
-
 
 # get config values
 src_data_dir = config['index']['src_data_dir']
@@ -25,7 +22,7 @@ modelname = config['index']['modelname']
 embed_modelname = config['index']['embedmodel']
 useopenai = config.getboolean('index', 'useopenai')
 
-        
+
 def check_and_create_directory(directory_path):
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
@@ -57,7 +54,7 @@ def construct_basic_index(src_directory_path,index_directory):
         llm=llm, embed_model=embed_modelname
     )
    
-    documents = SimpleDirectoryReader(src_directory_path).load_data()
+    documents = SimpleDirectoryReader(src_directory_path, recursive=True).load_data()
     index = VectorStoreIndex.from_documents(documents,
                                             service_context=service_context)
       
@@ -83,7 +80,7 @@ def construct_sentencewindow_index(src_directory_path,index_directory):
         temperature=0.1,
         f16_kv=True
         )
-    documents = SimpleDirectoryReader(src_directory_path).load_data()
+    documents = SimpleDirectoryReader(src_directory_path, recursive=True).load_data()
     index = build_sentence_window_index(
     documents,
     llm,
@@ -110,7 +107,8 @@ def construct_automerge_index(src_directory_path,index_directory):
         temperature=0.1,
         f16_kv=True
         )
-    documents = SimpleDirectoryReader(src_directory_path).load_data()
+    documents = SimpleDirectoryReader(src_directory_path, recursive=True).load_data()    
+    
     index = build_automerging_index(
     documents,
     llm,

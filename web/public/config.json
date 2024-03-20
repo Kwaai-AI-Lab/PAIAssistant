@@ -8,6 +8,6 @@
         "auth":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IndlYi1iMmIifQ.f3MfvuugFhx2yRjMB37u1Tv1BcbyNmKDWVv5RwSPXawcn3ZVU-q7unEKcjc9XOe8cTTRRxV2zS8ECf2wUXQFNw"
     },
     "completion":{
-        "apiendpoint":"https://localhost:7860/run/predict"
+        "apiendpoint":"run/predict"
     }
 }

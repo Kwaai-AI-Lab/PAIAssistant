@@ -5,12 +5,17 @@ const config = require('./config.json');
 const app = express();
 const PORT = config.server.port;
 const HOST = config.server.host;
+const allowSelfSignedSSL = config.server.allowSelfSignedSSL;
 
 
 const key = fs.readFileSync(config.certificate.key);
 const cert = fs.readFileSync(config.certificate.cert);
 
 app.use(express.static('public'));
+// For parsing application/json
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 // Handle byte range requests for MP4 files
 app.get('/video/:name', (req, res) => {
     const videoName = req.params.name;
@@ -43,10 +48,59 @@ app.get('/video/:name', (req, res) => {
     }
 });
 
+
+// Forward route for /run/predict with JSON payload
+app.post('/run/predict', (req, res) => {
+        // Check if the expected fields exist in the request body
+        //
+        // console.log('Received body: ' , req.body)
+    
+        // Attempt to parse the first item in the 'data' array as JSON
+        let postData;
+        postData= JSON.stringify(req.body);
+    
+        const options = {
+            hostname: 'localhost',
+            port: 7860,
+            path: '/run/predict',
+            method: 'POST', // Assuming POST method, modify if needed
+            headers: {
+                ...req.headers,
+                'Content-Type': 'application/json', // Ensure the content-type is set for JSON
+                'Content-Length': Buffer.byteLength(postData), // Set the content length
+            },
+            rejectUnauthorized: !allowSelfSignedSSL // This bypasses the certificate validation
+        };
+    
+        // Remove the 'host' header to avoid issues with the target server
+        delete options.headers.host;
+    
+        const apiRequest = https.request(options, (apiResponse) => {
+            let data = ''; // Initialize data variable to collect the response
+            apiResponse.on('data', (chunk) => {
+                data += chunk;
+            });
+            apiResponse.on('end', () => {
+                res.setHeader('Content-Type', 'application/json');
+                res.send(data); // Send back the data received from the internal API
+            });
+        });
+    
+        apiRequest.on('error', (error) => {
+            console.error(error);
+            res.status(500).send('Internal Server Error');
+        });
+    
+        apiRequest.write(postData); // Write the JSON payload to the API request
+        apiRequest.end(); // End the API request
+    });
+    
+    
+
 const server = https.createServer({key: key, cert: cert }, app);
 
 app.get('/', (req, res) => {
-    res.send('Hi, I am a Personal Email Assistant.');
+    res.send('Hi, I am an AI Assistant.');
 });
 
 server.listen(PORT,HOST, () => { console.log('listening on '+HOST+":"+ PORT) });

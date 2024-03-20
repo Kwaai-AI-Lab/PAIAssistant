@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Email Assistant</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.js"></script>
   </head>
   <canvas id="thinking"></canvas>
+  <canvas id="audiowaves"></canvas>
+  <audio id="ttsaudio"> </audio>    
   <div class="video-container">
-    <div id="overlayv" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); color:white;">
-    <video id="videoPlayer" src="video/Avatar.mp4" loop autoplay muted playsinline style="background:rgba(0,0,0,0.7); position:fixed; object-fit: contain; display:block;">
+         
+    <div id="overlayv" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); color:white;">
+    <video id="videoPlayer" src="video/Avatar.mp4" loop autoplay muted playsinline style="background:rgba(0,0,0,0.3); position:fixed; object-fit: contain; display:block;">
       Your browser does not support the video tag.
     </video>
-    <video id="responseVideoPlayer" autoplay playsinline muted style="background:rgba(0,0,0,0.7); position:fixed; object-fit: contain; display:none;">
+    <video id="responseVideoPlayer" autoplay playsinline muted style="background:rgba(0,0,0,0.3); position:fixed; object-fit: contain; display:none;">
       Your browser does not support the video tag.
     </video>
   </div>
-  <div id="overlay" style="z-index:20;display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); color:white;">
+  <div id="overlay" style="z-index:20;display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); color:white;">
           <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); padding:20px; border-radius:5px; background:#333;">
               <h2 id="overlayFilename">Filename</h2>
               <p id="overlayText">Citation text</p>
@@ -26,19 +30,34 @@
     <div class="controls">
       <button id="microphone-button"><img src="img/mic.png" alt="Microphone"></button>  
       <div id="loading" class="loading"><span>.</span><span>.</span><span>.</span></div>
-      <textarea id="inputText" rows="2"></textarea>
+      <textarea id="inputText" rows="2" style="resize:none;"></textarea>
       <button id="sendButton">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <!-- SVG Path for an icon (example: paper plane) -->
-                      <path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="currentColor"/>
-                  </svg>
-                  Send
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- SVG Path for an icon (example: paper plane) -->
+            <path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="currentColor"/>
+        </svg>                  
       </button>
-      <svg id="toggleSpeechBubbles" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="cursor: pointer;" fill="white">
+      <svg id="toggleSpeechBubbles" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" style="cursor: pointer;" fill="white">
         <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
         <circle cx="12" cy="12" r="2.5"/>
       </svg>
       
+      <div style="position: relative; width: 25px; height: 25px;display:none;">
+        <!-- Visible SVG -->
+        <svg id="toggleAvatarOn" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" style="position: absolute; top: 0; left: 0; cursor: pointer;">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+          <line x1="12" y1="23" x2="12" y2="23"></line>
+        </svg>
+        <!-- Hidden SVG (toggleAvataroff) -->
+        <svg id="toggleAvatarOff" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" style="position: absolute; top: 0; left: 0; cursor: pointer; display: none;">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+          <line x1="12" y1="23" x2="12" y2="23"></line>
+          <!-- Additional line for strikethrough effect -->
+          <line x1="1" y1="1" x2="23" y2="23" stroke="red"></line>
+        </svg>
+      </div>
     </div>
   </div>
   <textarea readonly id="transcript" cols="50" rows="1" style="display:none;resize:none; border:none; outline:none"></textarea>
@@ -48,6 +67,23 @@
       <script>
         var config;
         var starttime;
+        var displayvideo=false; // Disable video render by default
+
+        window.onload = function() {
+          var textarea = document.getElementById('inputText');
+          textarea.focus(); // Set focus on the textarea
+        };
+        document.getElementById('toggleAvatarOn').addEventListener('click', function() {
+          displayvideo = false
+          document.getElementById('toggleAvatarOn').style.display='none'
+          document.getElementById('toggleAvatarOff').style.display='block'
+        });
+
+        document.getElementById('toggleAvatarOff').addEventListener('click', function() {
+          displayvideo = true
+          document.getElementById('toggleAvatarOff').style.display='none'
+          document.getElementById('toggleAvatarOn').style.display='block'
+        });
 
         document.getElementById('toggleSpeechBubbles').addEventListener('click', function() {
         var speechBubbles = document.getElementById('speechBubbles'); // Ensure this ID matches your speech bubble container
@@ -65,10 +101,16 @@
           this.style.fill = "#aaaaaa"; // Change to a different color to indicate "hide"
           var inputtext = document.getElementById('inputText');
           var sendbtn = document.getElementById('sendButton');
-          inputtext.style.display = 'none';
-          sendbtn.style.display='none';
+          //inputtext.style.display = 'none';
+          //sendbtn.style.display='none';
         }
       });
+
+      function isMobile() {
+          const toCheck = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+          return toCheck.test(navigator.userAgent) || 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+      }
+
 
         function calculateTimeDifference(startDate, endDate) {
             // Calculate the difference in milliseconds
@@ -122,12 +164,11 @@
             
         }
 
-               
-        // Create an audio element (can be done once and stored for reuse)
-        let audio = new Audio();
-
         // Function to play audio from a given URL
         function playAudio(url) {
+
+            let audio = document.getElementById("ttsaudio")          
+
             if (!audio.paused) {
                 // Stop the currently playing audio
                 audio.pause();
@@ -135,13 +176,36 @@
             }
 
             // Set the new source and play
+             
+            let canvas = document.getElementById("audiowaves")
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            let wave = new Wave(audio,canvas)
             audio.src = url;
-            audio.load(); // Load the new audio file
-            audio.play()
-                .catch(error => console.error("Error playing the audio", error));
+            audio.load();
+            
+            canvas.style.display= "block";
+            
+            wave?.addAnimation(new wave.animations.Cubes({
+                  bottom: true,
+                  count: isMobile()?10:60,
+                  cubeHeight: 25,
+                  fillColor: { gradient: ["#FAD961", "#F76B1C"] },
+                  lineColor: "rgba(0,0,0,0)",
+                  radius: 10
+              }));
+            wave?.addAnimation(new wave.animations.Cubes({
+                  top: true,
+                  count: isMobile()?10:60,
+                  cubeHeight: 25,
+                  fillColor: { gradient: ["#FAD961", "#F76B1C"] },
+                  lineColor: "rgba(0,0,0,0)",
+                  radius: 10
+              }));
+
+              audio.play()
+             .catch(error => console.error("Error playing the audio", error));
         }
-
-
 
         function SetTextInputArea() {
             var textInputArea = document.getElementById('text-input-area');
@@ -182,7 +246,9 @@
               const container = document.getElementById('speechBubbles');
               const bubble = document.createElement('div');
               bubble.classList.add('speech-bubble');
+              bubble.classList.toggle('hide-after');
               
+
               container.prepend(bubble); // Adds the new bubble at the top
               container.scrollTop = 0; // Scrolls to the top to show the newest message
               
@@ -210,36 +276,35 @@
               }
 
                
+              //if(!displayvideo)
+                playAudio("audio/output/"+respObj.audio);
+              //else
+              /*{
+                // Preload and switch to the response video
+                responseVideoPlayer.src = "video/output/"+respObj.video;
+                responseVideoPlayer.muted = false;
+                responseVideoPlayer.playsInline =true;
 
-              //playAudio("audio/output/"+respObj.audio);
+                responseVideoPlayer.load(); // Start loading the new video source
 
-              // Preload and switch to the response video
-              responseVideoPlayer.src = "video/output/"+respObj.video;
-              responseVideoPlayer.muted = false;
-              responseVideoPlayer.playsInline =true;
+                responseVideoPlayer.oncanplaythrough = () => {
+                    // Once the video can play through, play the video and switch visibility
+                    responseVideoPlayer.play().then(() => {
+                        // Hide the idle video player and show the response video player
+                        videoPlayer.style.display = 'none'; // Assuming videoPlayer is your idle video element
+                        responseVideoPlayer.style.display = 'block';
+                        
+                    }).catch(error => {
+                        console.error("Error attempting to play response video:", error);
+                        // Handle the error (e.g., by showing a play button)
+                    });
+                };
 
-              responseVideoPlayer.load(); // Start loading the new video source
-
-              responseVideoPlayer.oncanplaythrough = () => {
-                  // Once the video can play through, play the video and switch visibility
-                  responseVideoPlayer.play().then(() => {
-                      // Hide the idle video player and show the response video player
-                      videoPlayer.style.display = 'none'; // Assuming videoPlayer is your idle video element
-                      responseVideoPlayer.style.display = 'block';
-                      
-                  }).catch(error => {
-                      console.error("Error attempting to play response video:", error);
-                      // Handle the error (e.g., by showing a play button)
-                  });
-              };
-
-              responseVideoPlayer.onerror = (error) => {
-                  console.error("Error loading video:", error);
-                  // Handle loading error
-              };
-              
-
-               
+                responseVideoPlayer.onerror = (error) => {
+                    console.error("Error loading video:", error);
+                    // Handle loading error
+                };
+              }*/               
             }
           }
           else
@@ -249,6 +314,8 @@
               const bubble = document.createElement('div');
               bubble.classList.add('speech-bubble');
               
+              bubble.classList.toggle('hide-before');
+
               container.prepend(bubble); // Adds the new bubble at the top
               container.scrollTop = 0; // Scrolls to the top to show the newest message
               bubble.textContent = message;                         
@@ -279,12 +346,18 @@
         }
         async function callPredictAPI(data,config) {
           const url = config.completion.apiendpoint;
-          let promptval = `${data}`;
+           
+
+          const dataval = {
+            prompt: data,
+            video: displayvideo
+          }
+          let promptval = JSON.stringify(dataval)
 
           const requestBody = {
             fn_index: 0,
             data: [promptval],
-            event_data: null,
+            event_data: null,            
             session_hash: 'dpe0pbhc8x'
           };
 
@@ -450,9 +523,11 @@
                 // get the current transcript
                 const currentTranscript = event.results[event.results.length - 1][0].transcript;                                         
                 let message=currentTranscript;
-                DisplayMessage(message)                  
+                //DisplayMessage(message)                 
+                var textarea = document.getElementById('inputText'); 
+                textarea.value = message;
                  
-                transcript.value = "Topic: " +currentTranscript;
+                /*transcript.value = "Topic: " +currentTranscript;
                 gcompletion= transcript.value;
                 callPredictAPI(currentTranscript,config)
                 .then(response=>{
@@ -464,14 +539,25 @@
                       DisplayMessage(message,respObj,true)                      
                       //animate(message,max,maxvideo);	
                   }
-                })
+                })*/
               };
               
             } else {
               alert('Speech recognition is not supported in this browser.');
             }  
         }
-        
+        var textarea = document.getElementById('inputText');
+        // Add an event listener for the 'keydown' event
+        textarea.addEventListener('keydown', function(event) {
+          // Check if the pressed key is Enter and Shift is not pressed
+          if (event.key === 'Enter' && !event.shiftKey) {
+            // Prevent the default action to avoid line break in textarea
+            event.preventDefault();
+
+            // Invoke your send function here
+            ProcessInputTextPrompt();
+          }
+        });
         // Adding event listener to the Send button
         document.getElementById("sendButton").addEventListener("click", ProcessInputTextPrompt);
         fetch('/config.json')
@@ -492,137 +578,8 @@
         });
 
       });
-
-
-      var w = thinking.width = window.innerWidth,
-    h = thinking.height = window.innerHeight,
-    ctx = thinking.getContext( '2d' ),
-    
-    opts = {
-      
-      len: 20,
-      count: 50,
-      baseTime: 10,
-      addedTime: 10,
-      dieChance: .05,
-      spawnChance: 1,
-      sparkChance: .1,
-      sparkDist: 10,
-      sparkSize: 2,
-      
-      color: 'hsl(hue,100%,light%)',
-      baseLight: 50,
-      addedLight: 10, // [50-10,50+10]
-      shadowToTimePropMult: 6,
-      baseLightInputMultiplier: .01,
-      addedLightInputMultiplier: .02,
-      
-      cx: w / 2,
-      cy: h / 2,
-      repaintAlpha: .04,
-      hueChange: .1
-    },
-    
-    tick = 0,
-    lines = [],
-    dieX = w / 2 / opts.len,
-    dieY = h / 2 / opts.len,
-    
-    baseRad = Math.PI * 2 / 6;
-    
-ctx.fillStyle = 'black';
-ctx.fillRect( 0, 0, w, h );
-
-function loop() {
+     </script>
+  </div>      
   
-  window.requestAnimationFrame( loop );
-  
-  ++tick;
-  
-  ctx.globalCompositeOperation = 'source-over';
-  ctx.shadowBlur = 0;
-  ctx.fillStyle = 'rgba(0,0,0,alp)'.replace( 'alp', opts.repaintAlpha );
-  ctx.fillRect( 0, 0, w, h );
-  ctx.globalCompositeOperation = 'lighter';
-  
-  if( lines.length < opts.count && Math.random() < opts.spawnChance )
-    lines.push( new Line );
-  
-  lines.map( function( line ){ line.step(); } );
-}
-function Line(){
-  
-  this.reset();
-}
-Line.prototype.reset = function(){
-  
-  this.x = 0;
-  this.y = 0;
-  this.addedX = 0;
-  this.addedY = 0;
-  
-  this.rad = 0;
-  
-  this.lightInputMultiplier = opts.baseLightInputMultiplier + opts.addedLightInputMultiplier * Math.random();
-  
-  this.color = opts.color.replace( 'hue', tick * opts.hueChange );
-  this.cumulativeTime = 0;
-  
-  this.beginPhase();
-}
-Line.prototype.beginPhase = function(){
-  
-  this.x += this.addedX;
-  this.y += this.addedY;
-  
-  this.time = 0;
-  this.targetTime = ( opts.baseTime + opts.addedTime * Math.random() ) |0;
-  
-  this.rad += baseRad * ( Math.random() < .5 ? 1 : -1 );
-  this.addedX = Math.cos( this.rad );
-  this.addedY = Math.sin( this.rad );
-  
-  if( Math.random() < opts.dieChance || this.x > dieX || this.x < -dieX || this.y > dieY || this.y < -dieY )
-    this.reset();
-}
-Line.prototype.step = function(){
-  
-  ++this.time;
-  ++this.cumulativeTime;
-  
-  if( this.time >= this.targetTime )
-    this.beginPhase();
-  
-  var prop = this.time / this.targetTime,
-      wave = Math.sin( prop * Math.PI / 2  ),
-      x = this.addedX * wave,
-      y = this.addedY * wave;
-  
-  ctx.shadowBlur = prop * opts.shadowToTimePropMult;
-  ctx.fillStyle = ctx.shadowColor = this.color.replace( 'light', opts.baseLight + opts.addedLight * Math.sin( this.cumulativeTime * this.lightInputMultiplier ) );
-  ctx.fillRect( opts.cx + ( this.x + x ) * opts.len, opts.cy + ( this.y + y ) * opts.len, 2, 2 );
-  
-  if( Math.random() < opts.sparkChance )
-    ctx.fillRect( opts.cx + ( this.x + x ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.cy + ( this.y + y ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.sparkSize, opts.sparkSize )
-}
-loop();
-
-window.addEventListener( 'resize', function(){
-  
-  w = c.width = window.innerWidth;
-  h = c.height = window.innerHeight;
-  ctx.fillStyle = 'black';
-  ctx.fillRect( 0, 0, w, h );
-  
-  opts.cx = w / 2;
-  opts.cy = h / 2;
-  
-  dieX = w / 2 / opts.len;
-  dieY = h / 2 / opts.len;
-});
-      </script>
-     
-      
-      
   </body>
 </html>
