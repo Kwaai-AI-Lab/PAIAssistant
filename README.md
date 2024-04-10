@@ -16,7 +16,7 @@
 
 PAIAssistant is a AI tool designed for users interact with emails via natural language queries. This demo showcases its ability to organize emails using a vector database. It features various Retrieval-Augmented Generation (RAG) methods including Basic Retrieval, Sentence Window Retrieval, and Auto-Merging Retrieval. These methods enhance the processing of user queries, which are then handled by a Large Language Model (LLM) like OpenAI's. The AI generates responses that can be either displayed on-screen or read aloud, offering a comprehensive and user-friendly email management experience.
 
-The best way to support TruLens is to give us a ⭐ on [GitHub](https://github.com/KWAAI-ai-lab/paiassistant) and join our [slack community](https://kwaaiailab.slack.com)!
+The best way to support Kwaai is to give us a ⭐ on [GitHub](https://github.com/KWAAI-ai-lab/paiassistant) and join our [slack community](https://kwaaiailab.slack.com)!
 
 ### Demo clip
 ![](doc/DemoPA.gif) 
@@ -25,7 +25,9 @@ The best way to support TruLens is to give us a ⭐ on [GitHub](https://github.c
 The steps below can be used to setup the enviroment for this demo to run on Ubuntu 20.04.6 LTS.
 Alternatively you can setup the python3.10 environment on a windows machine with Nvidia gpu card with necessary drivers.
 The install will run with or without GPU. Running locally would be very slow on CPU inference. 
-Running with OpenAI support could be alternative if GPU is not available. Check flag/api key settings in documentation to use OpenAI. 
+Running with OpenAI support could be alternative if GPU is not available. 
+
+Optional: Check flag/api key settings in documentation to use OpenAI if you dont have a computer with GPU
 
 #### Optional: If you already have access to ubuntu instance, you can skip this section.
 
@@ -34,7 +36,7 @@ NOTE: This example VM setup will work for OpenAI inference. Local inference will
 1. Download <a href="https://releases.ubuntu.com/focal/" target="_blank">Ubuntu 20.04.6 LTS server ISO image.</a>
 2. Download <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Oracle VirtualBox.</a> 
 3. Create a new virtual machine with the ubuntu image downloaded above. Sample configuration is 4gb ram, 2 vcpu, bridged network settting, 25 gb disk.
-4. Signup for platform.openai.com and <a href="https://platform.openai.com/api-keys">generate OpenAI api key</a>
+4. Optional : Signup for platform.openai.com and <a href="https://platform.openai.com/api-keys">generate OpenAI api key</a>
 
 
 ### Clone repository and update config
@@ -52,7 +54,10 @@ NOTE: This example VM setup will work for OpenAI inference. Local inference will
 2. Update api/config.ini to update the folder name data/<folder> and run createindex.py to create the vector index (basic/sentence/automerge) for query.
 ```bash     
     cd api    
-    export OPENAI_API_KEY=<YOUR OPENAI API KEY>    
+    # By default index is created using local embedding file in config.ini
+    # if you dont have gpu, use export below and set useopenai flag to true to use openai api. 
+    # adjust modelname accordingly for openai.
+    # export OPENAI_API_KEY=<YOUR OPENAI API KEY>    
     python createindex.py
 ```
 
@@ -64,8 +69,9 @@ Choose which version of index to query by updating the config.ini in api folder 
     cd web    
     npm start
 
-    cd api    
-    export OPENAI_API_KEY=<YOUR OPENAI API KEY>
+    cd api   
+    # export below is optional. Use when you dont have gpu or if you want to use openai models. 
+    #export OPENAI_API_KEY=<YOUR OPENAI API KEY>
     python api.py
 ```
 
