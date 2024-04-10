@@ -67,32 +67,35 @@ def chatbot(data):
     dataobj = json.loads(data)
     input_text=  dataobj["prompt"]
     isvideo= dataobj["video"]
-    print("User Text:" + input_text + " Video:"+ str(isvideo))    
+    isaudio= dataobj["audio"]
+
+    print("User Text:" + input_text + " Video:"+ str(isvideo) + " Audio:"+ str(isaudio))    
     
     response =query_engine.query(input_text)        
  
     # Save the output
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    output_audfile=f"output_{timestamp}.wav"
-    output_vidfile=f"output_{timestamp}.mp4"
-    output_path = "../web/public/audio/output/"+output_audfile
     
-    
-    if ttsengine == 'coqui':
-        tts.tts_to_file(text=response.response, file_path=output_path ) 
-    elif ttsengine == 'gtts':
-        tts = gTTS(text=response.response, lang='en')
-        tts.save(output_path)
+    if isaudio:
+        output_audfile=f"output_{timestamp}.wav"
+        output_path = "../web/public/audio/output/"+output_audfile
+        if ttsengine == 'coqui':
+            tts.tts_to_file(text=response.response, file_path=output_path ) 
+            #tts.tts_to_file(text=response.response, speaker="p226", file_path=output_path )             
+        elif ttsengine == 'gtts':
+            tts = gTTS(text=response.response, lang='en')
+            tts.save(output_path)
+        else:
+            tts.save_to_file(response.response , output_path)
+            tts.runAndWait()
     else:
-        tts.save_to_file(response.response , output_path)
-        tts.runAndWait()
+        output_audfile=None
 
     if isvideo:
         # No support for video. Use libraries like wav2lip or sadtalker etc!
-        output_vidfile="../Avatar.mp4"
+        output_vidfile=f"output_{timestamp}.mp4"
     else:
-        output_vidfile="../Avatar.mp4"
-        
+        output_vidfile=None
 
     #play_sound_then_delete(output_path)
 
@@ -100,7 +103,7 @@ def chatbot(data):
     # Building the citation list from source_nodes
     citation = [
         {
-            "filename": node.metadata["file_name"],
+            "filename": os.path.basename(node.metadata["file_name"]),
             "text": node.get_text()
         } for node in response.source_nodes
     ]

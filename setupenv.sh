@@ -1,3 +1,5 @@
+#!/bin/bash
+echo "Starting setupenv.sh execution..."
 sudo apt update && sudo apt upgrade
 sudo apt-get update
 sudo apt install net-tools -y
@@ -25,4 +27,7 @@ cd ./web
 npm install
 cd ../api
 pip install -r requirements.txt
+pip install TTS simpleaudio gtts
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+cd ..
+echo "Environment setup completed successfully."

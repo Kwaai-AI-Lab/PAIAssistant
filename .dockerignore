@@ -1,0 +1,16 @@
+**/__pycache__/
+**/node_modules/
+**/models/*
+!**/models/.gitkeep
+!**/models/openchat_3.5.Q4_K_M.gguf
+**/checkpoints/*
+!**/checkpoints/.gitkeep
+api/data/*
+!api/data/.gitkeep
+api/index/*
+!api/index/.gitkeep
+api/temp/result.avi
+web/public/video/output/*
+!web/public/video/output/.gitkeep
+web/public/audio/output/*
+!web/public/audio/output/.gitkeep

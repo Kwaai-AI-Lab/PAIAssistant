@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Email Assistant</title>
+    <title>Personal AI Assistant</title>
     <link rel="stylesheet" href="style/style.css">
     <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.js"></script>
   </head>
@@ -42,15 +42,15 @@
         <circle cx="12" cy="12" r="2.5"/>
       </svg>
       
-      <div style="position: relative; width: 25px; height: 25px;display:none;">
+      <div style="position: relative; width: 25px; height: 25px;">
         <!-- Visible SVG -->
-        <svg id="toggleAvatarOn" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" style="position: absolute; top: 0; left: 0; cursor: pointer;">
+        <svg id="toggleAvatarOn" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" style="position: absolute; top: 0; left: 0; cursor: pointer;display: none;">
           <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
           <circle cx="12" cy="7" r="4"></circle>
           <line x1="12" y1="23" x2="12" y2="23"></line>
         </svg>
         <!-- Hidden SVG (toggleAvataroff) -->
-        <svg id="toggleAvatarOff" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" style="position: absolute; top: 0; left: 0; cursor: pointer; display: none;">
+        <svg id="toggleAvatarOff" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" style="position: absolute; top: 0; left: 0; cursor: pointer; ">
           <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
           <circle cx="12" cy="7" r="4"></circle>
           <line x1="12" y1="23" x2="12" y2="23"></line>
@@ -68,19 +68,29 @@
         var config;
         var starttime;
         var displayvideo=false; // Disable video render by default
+        var playaudio=false; //disable audio by default
 
         window.onload = function() {
           var textarea = document.getElementById('inputText');
           textarea.focus(); // Set focus on the textarea
         };
         document.getElementById('toggleAvatarOn').addEventListener('click', function() {
-          displayvideo = false
+          displayvideo = false;
+          playaudio=false;
+          let audio = document.getElementById("ttsaudio")          
+
+          if (!audio.paused) {
+              // Stop the currently playing audio
+              audio.pause();
+              audio.currentTime = 0; // Reset the audio to the start
+          }
           document.getElementById('toggleAvatarOn').style.display='none'
           document.getElementById('toggleAvatarOff').style.display='block'
         });
 
         document.getElementById('toggleAvatarOff').addEventListener('click', function() {
-          displayvideo = true
+          displayvideo = true;
+          playaudio=true;
           document.getElementById('toggleAvatarOff').style.display='none'
           document.getElementById('toggleAvatarOn').style.display='block'
         });
@@ -277,7 +287,8 @@
 
                
               //if(!displayvideo)
-                playAudio("audio/output/"+respObj.audio);
+              if(playaudio)
+                  playAudio("audio/output/"+respObj.audio);
               //else
               /*{
                 // Preload and switch to the response video
@@ -350,7 +361,8 @@
 
           const dataval = {
             prompt: data,
-            video: displayvideo
+            video: displayvideo,
+            audio: playaudio
           }
           let promptval = JSON.stringify(dataval)
 
@@ -447,10 +459,11 @@
         const videoPlayer = document.getElementById('videoPlayer');
         const responseVideoPlayer = document.getElementById('responseVideoPlayer');
         const idleVideoUrl = 'video/Avatar.mp4'; // URL of your idle video
-
+        
         // Function to play the idle video
         function playIdleVideo() {
             videoPlayer.style.display='block';
+            videoPlayer.playbackRate =0.75;
             responseVideoPlayer.style.display='none';                        
             videoPlayer.play()
                 .catch(error => console.error("Error trying to play the video:", error));
