@@ -57,7 +57,8 @@ def construct_basic_index(src_directory_path,index_directory):
     documents = SimpleDirectoryReader(src_directory_path, recursive=True).load_data()
     index = VectorStoreIndex.from_documents(documents,
                                             service_context=service_context)
-      
+    # pickup any changes in documents and update index
+    index.refresh_ref_docs(documents)
     index.storage_context.persist(persist_dir=index_directory)     
     return index
 
@@ -123,8 +124,11 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
  
  
 #Create basic index
-index = construct_basic_index(src_data_dir,basic_idx_dir)
+if basic_idx_dir is not None and basic_idx_dir != "":
+    index = construct_basic_index(src_data_dir,basic_idx_dir)
 #create sentencewindow index
-sentindex = construct_sentencewindow_index(src_data_dir,sent_win_idx_dir)
+if sent_win_idx_dir is not None and sent_win_idx_dir != "":
+    sentindex = construct_sentencewindow_index(src_data_dir,sent_win_idx_dir)
 #create automerge index
-autoindex = construct_automerge_index(src_data_dir,auto_mrg_idx_dir)
+if auto_mrg_idx_dir is not None and auto_mrg_idx_dir != "":
+    autoindex = construct_automerge_index(src_data_dir,auto_mrg_idx_dir)
