@@ -38,7 +38,7 @@ WORKDIR /pai/web
 RUN npm install
 WORKDIR /pai/api
 RUN pip3 install -r requirements.txt
-RUN CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+RUN CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
 RUN pip3 install TTS simpleaudio gtts
 WORKDIR /pai
 
