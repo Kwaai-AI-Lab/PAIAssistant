@@ -1,0 +1,15 @@
+gradio==4.7.1
+jinja2==3.1.2
+markupsafe==2.0.1
+torch
+transformers
+langchain
+llama_index
+llama-index-readers-pdf-table
+llama-index-llms-langchain
+llama-index-embeddings-huggingface
+langchain_community
+sentence-transformers
+docx2txt
+pypdf
+pyttsx3
