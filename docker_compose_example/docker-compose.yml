@@ -1,0 +1,27 @@
+services:
+  pai:
+    image: paiassistant-pai:latest
+    container_name: faq1
+    ports:
+      - 4000:4000
+    volumes:
+      - llama_index:/tmp/llama_index
+      - tts_model:/root/.local/share/tts
+      - huggingface_model:/root/.cache/huggingface
+      - /home/ubuntu/index:/pai/api/index
+      - /home/ubuntu/data:/pai/api/data
+      - /home/ubuntu/models:/pai/api/models
+      - /home/ubuntu/config/config.ini:/pai/api/config.ini
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  llama_index:
+  tts_model:
+  huggingface_model:
