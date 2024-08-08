@@ -1,7 +1,7 @@
 services:
   pai:
     image: paiassistant-pai:latest
-    container_name: faq1
+    container_name: pai
     ports:
       - 4000:4000
     volumes:
