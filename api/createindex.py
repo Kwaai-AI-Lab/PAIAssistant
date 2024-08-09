@@ -10,6 +10,16 @@ import os
 import logging
 import configparser
 
+RUNNING_FLAG_FILE = "/pai/api/index/index.running"
+COMPLETE_FLAG_FILE = "/pai/api/index/index.complete"
+
+# Write running flag file
+try:
+    os.remove(COMPLETE_FLAG_FILE)
+except FileNotFoundError:
+    pass
+open(RUNNING_FLAG_FILE, 'a').close()
+
 config = configparser.ConfigParser()
 config.read('config.ini')
 
@@ -132,5 +142,10 @@ if sent_win_idx_dir is not None and sent_win_idx_dir != "":
 #create automerge index
 if auto_mrg_idx_dir is not None and auto_mrg_idx_dir != "":
     autoindex = construct_automerge_index(src_data_dir,auto_mrg_idx_dir)
-# Write flag file
-+open('/pai/api/index/index.complete', 'a').close()
+
+# Write completed flag file
+try:
+    os.remove(RUNNING_FLAG_FILE)
+except FileNotFoundError:
+    pass
+open(COMPLETE_FLAG_FILE, 'a').close()
