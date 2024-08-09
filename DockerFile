@@ -18,7 +18,7 @@ RUN curl https://bootstrap.pypa.io/get-pip.py | python
 RUN apt install python3-pip -y
 RUN apt install python3.10-distutils -y
 RUN apt install npm -y
-RUN apt-get install libsndfile1 -y 
+RUN apt-get install libsndfile1 -y
 RUN apt install libasound2-dev -y
 RUN apt install ffmpeg -y
 RUN apt-get install autotools-dev -y
@@ -46,4 +46,5 @@ WORKDIR /pai
 EXPOSE 4000
 
 # Correctly use the --prefix option by separating it and its argument
-CMD ["npm", "start", "--prefix", "/pai/web"]
+# CMD ["npm", "start", "--prefix", "/pai/web"]
+ENTRYPOINT ./start.sh
