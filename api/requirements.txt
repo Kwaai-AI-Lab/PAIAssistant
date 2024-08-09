@@ -4,6 +4,7 @@ markupsafe==2.0.1
 torch
 transformers
 langchain
+langchain-community
 llama_index
 llama-index-readers-pdf-table
 llama-index-llms-langchain
