@@ -28,7 +28,10 @@ The best way to support Kwaai is to give us a ⭐ on [GitHub](https://github.com
 4. Once Step 3 completes you should have paiassistant-pai:latest image in docker ( mine was about 20GB or so )
 5. Run image using "docker run -it --rm -p 4000:4000 --gpus all paiassistant-pai:latest"
 6. At this point you should be able to visit https://127.0.0.1:4000. It wont function fully until you populate it with your data.
-7. Find your container name using  "docker ps --format "{{.Names}}"
+7. Find your container name using  
+```bash
+    docker ps --format "{{.Names}}"
+```
 8. Copy pdf files to container in a folder for eg. "docker cp Mypdfdir (containername from step 7):/pai/api/data/Mypdfdir
 9. Update api/config.ini file to use the newly created folder in step 8 for indexing and querying.
 10. Download and Copy your model file to api/models folder using same step like you used the pdf copy in step 8. <a href="https://huggingface.co/TheBloke/openchat_3.5-GGUF/blob/main/openchat_3.5.Q4_K_M.gguf" target="_blank">Openchat 3.5</a>
