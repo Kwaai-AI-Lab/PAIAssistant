@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
+FROM nvidia/cuda:12.6.1-devel-ubuntu22.04
 
 # Set the working directory inside the container
 WORKDIR /pai
@@ -39,7 +39,14 @@ RUN npm install
 WORKDIR /pai/api
 RUN pip3 install -r requirements.txt
 RUN CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
-RUN pip3 install TTS simpleaudio gtts
+# RUN pip3 install TTS
+RUN git clone https://github.com/coqui-ai/TTS /TTS \
+    && cd /TTS \
+    && sed -i 's/gruut\[de,es,fr\]==2.2.3/gruut\[de,es,fr\]==2.4.0/' requirements.txt \
+    && pip install -r requirements.txt \
+    && pip install -e .
+RUN pip3 install simpleaudio
+RUN pip3 install gtts
 WORKDIR /pai
 
 # Expose port 4000 for the application
