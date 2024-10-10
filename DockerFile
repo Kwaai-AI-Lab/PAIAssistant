@@ -14,7 +14,7 @@ RUN apt install python3.10 -y
 RUN apt install python-is-python3 -y
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1
 RUN update-alternatives --config python3
-RUN curl https://bootstrap.pypa.io/get-pip.py | python
+# RUN curl https://bootstrap.pypa.io/get-pip.py | python
 RUN apt install python3-pip -y
 RUN apt install python3.10-distutils -y
 RUN apt install npm -y
@@ -38,8 +38,14 @@ WORKDIR /pai/web
 RUN npm install
 WORKDIR /pai/api
 RUN pip3 install --no-cache-dir --no-deps -r requirements.txt
-RUN CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
-RUN pip3 install TTS simpleaudio gtts
+RUN CMAKE_ARGS="-DGGML_CUDA=on" pip3 install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+# RUN pip3 install TTS simpleaudio gtts
+RUN git clone --branch v0.22.0 --single-branch https://github.com/coqui-ai/TTS /TTS \
+    && cd /TTS \
+    && sed -i 's/gruut\[de,es,fr\]==2.2.3/gruut\[de,es,fr\]==2.4.0/' requirements.txt \
+    && pip install -r requirements.txt \
+    && pip3 install .
+RUN pip3 install simpleaudio gtts
 WORKDIR /pai
 
 # Expose port 4000 for the application
