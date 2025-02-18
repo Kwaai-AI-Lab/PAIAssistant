@@ -192,6 +192,34 @@ body, html {
     display: none;
 }
 
+.toggle-icon {
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+think {
+  display: none; /* Hide think tag by default */
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-right: 5%;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: inline-block; /* Allow the bubble to shrink to fit its content */
+  border-radius: .4em;
+  position: relative;
+  background: #1177a6;
+  color: #d6f0f5;
+  max-width: 100%; /* Ensure it doesn't overflow its container */
+  word-wrap: break-word; /* Ensure long words do not cause overflow */
+  border: 2px solid #d29d05;
+  font-size: 24px;
+}
+
+.show-think think {
+  display: block; /* Show when the parent has "show-think" class */
+}
+
   #overlayv {
     position: fixed;
     top: 0;

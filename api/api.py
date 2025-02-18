@@ -56,6 +56,7 @@ serverport = config['api']['port']
 sslcert = config['api']['sslcert']
 sslkey = config['api']['sslkey']
 useopenai = config.getboolean('api', 'useopenai')
+openai_api_base= config['api']['openai_api_base']
 ttsengine = config['api']['ttsengine']
 # Get the logging level
 log_level_str = config.get('api', 'loglevel', fallback='WARNING').upper()
@@ -126,21 +127,23 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 iface = gr.Interface(fn=chatbot,
                      inputs=gr.components.Textbox(lines=7, label="Enter your text"),
                      outputs="text",
-                     title="Email data query")
+                     title="Chat with your data")
 
  
 from langchain_community.llms import LlamaCpp
 from langchain.globals import set_llm_cache
-from langchain.cache import InMemoryCache
+from langchain_community.cache import InMemoryCache
 
 #from langchain.globals import set_debug
 #set_debug(True)
-
+#os.environ["OPENAI_API_KEY"] = "dummy-key"
+# Get stop words from config and split them into a list
+stop_words = config.get("Prompt", "stop_words", fallback="").split(", ")
 
 if useopenai:
-    from langchain.chat_models import ChatOpenAI
+    from langchain_openai import ChatOpenAI
     modelname = config['api']['openai_modelname']
-    llm =ChatOpenAI(temperature=0.1, model_name=modelname)
+    llm = ChatOpenAI( model=modelname,  openai_api_base=openai_api_base, temperature=0.6, max_tokens=512,**{"streaming": False})
 else:
     modelname = config['api']['local_modelname']
     n_gpu_layers = -1  # Change this value based on your model and your GPU VRAM pool.
@@ -162,7 +165,7 @@ else:
     repeat_penalty=1.1,    
     top_p=0.95,
     top_k=40,
-    stop=["<|end_of_turn|>"]  
+    stop=stop_words
     )
 
 
@@ -183,7 +186,7 @@ if ttsengine == 'coqui':
     tts = TTS(model_name="tts_models/en/ljspeech/vits--neon", progress_bar=False).to("cuda")
     #tts = TTS(model_name="tts_models/en/vctk/vits", progress_bar=False).to("cuda")
 elif ttsengine == 'gtts':
-    tts = gTTS(text='', lang='en')        
+    tts = gTTS(text='Hello', lang='en')        
 else: 
     tts = pyttsx3.init()
     voices = tts.getProperty('voices')
@@ -206,17 +209,13 @@ elif indextype == 'automerge':
 #print(list(prompts_dict.keys()))
     
 # Optional: Adjust prompts to suit the llms.
+# Get the template from config
+qa_prompt_tmpl_str = config.get("Prompt", "qa_prompt_tmpl", fallback="").strip()
 
-qa_prompt_tmpl_str = (
-    "GPT4 User: You are an assistant named Maggie. You assist with any questions regarding the organization kwaai.\n"    
-    "Today is " + datetime.now().strftime('%d %B %Y') + "\n"
-    "Use the following pieces of context to answer the question at the end. Do not answer questions outside the given context. Context information is below\n"
-    "----------------------\n"
-    "{context_str}\n"
-    "----------------------\n"
-    "question: {query_str}\n"
-    "<|end_of_turn|>GPT4 Assistant:"
-)
+# Replace only the dynamic date without affecting other placeholders
+qa_prompt_tmpl_str = qa_prompt_tmpl_str.replace("{current_date}", datetime.now().strftime('%d %B %Y'))
+
+
 qa_prompt_tmpl = PromptTemplate(qa_prompt_tmpl_str)
 query_engine.update_prompts(
     {"response_synthesizer:text_qa_template": qa_prompt_tmpl}

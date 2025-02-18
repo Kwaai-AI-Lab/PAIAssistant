@@ -3,11 +3,13 @@ jinja2==3.1.2
 markupsafe==2.0.1
 torch
 transformers
-langchain
-langchain-community
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-openai==0.1.7
+langchain-core==0.1.53
 llama_index
 llama-index-readers-pdf-table
-llama-index-llms-langchain
+llama-index-llms-langchain==0.1.3
 llama-index-embeddings-huggingface
 sentence-transformers
 docx2txt

@@ -266,24 +266,40 @@
               var avatarElement = document.createElement('img');
               avatarElement.src = 'img/max.png'; // replace with your avatar URL
 
-              
+              let responseText = message; 
+
               if( respObj )
               {
-              var responseText = respObj.response;
-              respObj.citation.forEach((item, index) => {
-                  let safeFilename = btoa(unescape(encodeURIComponent(item.filename)));
-                  let safeText = btoa(unescape(encodeURIComponent(item.text)));
+                responseText = respObj.response;
+                responseText = responseText.replace(/<｜end▁of▁sentence｜>/g, '');
+                respObj.citation.forEach((item, index) => {
+                    let safeFilename = btoa(unescape(encodeURIComponent(item.filename)));
+                    let safeText = btoa(unescape(encodeURIComponent(item.text)));
 
-                  responseText += ` [<a href="#" onclick="showCitation('${safeFilename}','${safeText}',${index});return false;">${index + 1}</a>]`;
-              });
-             
-               
+                    responseText += ` [<a href="#" onclick="showCitation('${safeFilename}','${safeText}',${index});return false;">${index + 1}</a>]`;
+                });                            
+                
+              }
+              
               bubble.innerHTML = responseText;
+              // Handle dynamically inserted <think> tag
+              let thinkTag = bubble.querySelector("think");
+              if (thinkTag) {
+                  // Create ? icon toggle button
+                  let toggleIcon = document.createElement("span");
+                  toggleIcon.innerHTML = "&#x2753;"; // Question mark icon
+                  toggleIcon.classList.add("toggle-icon");
+                  toggleIcon.onclick = function () {
+                      thinkTag.style.display = thinkTag.style.display === "none" ? "block" : "none";
+                  };
+
+                  // Hide <think> content by default
+                  thinkTag.style.display = "none";
+
+                  // Prepend the icon before the <think> tag
+                  bubble.insertBefore(toggleIcon, thinkTag);
               }
-              else
-              {                                
-                bubble.innerHTML = responseText;
-              }
+
 
                
               //if(!displayvideo)
